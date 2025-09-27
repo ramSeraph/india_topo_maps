@@ -1,0 +1,27 @@
+# andaman problematic:
+86H/15, 87B/1, 87H/10, 87H/11
+87H/12, 88E/9, 87H/8, 88E/5, 87H/3, 87H/4, 88E/15, 88E/12, 88E/16
+# TODO: some of the andaman sheets might still be in everest datum, check if that is the case
+# also, check if the index corrections messed with the georeferencing
+
+# possible georeferencing issues around
+62B/3
+66C/2 and 66C/1
+
+# has legend data inside map
+47B/13 
+47A/16
+
+# grid not removed properly
+40M_9
+45O_2
+78J_9
+
+# bad image
+48J_10
+
+# bad file
+54N_12
+
+
+
