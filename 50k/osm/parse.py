@@ -15,6 +15,7 @@
 import os
 import json
 import shutil
+import subprocess
 from pathlib import Path
 
 from pdfminer.image import ImageWriter
@@ -202,7 +203,25 @@ class SOIProcessor(TopoMapProcessor):
                     Path(fname).unlink()
                     self.convert_pdf_to_image()
                 else:
-                    shutil.move(fname, out_filename)
+                    try:
+                        res_x_str = subprocess.check_output(
+                            f'identify -format "%x" {fname}', shell=True, text=True
+                        ).strip()
+                        res_x = int(float(res_x_str))
+                    except (subprocess.CalledProcessError, FileNotFoundError, ValueError):
+                        print("Could not determine resolution, assuming 300dpi and moving on")
+                        shutil.move(fname, out_filename)
+                    else:
+                        print(f'Image resolution: {res_x} dpi')
+
+                        if res_x == 72:
+                            Path(fname).unlink()
+                            self.convert_pdf_to_image()
+                        elif res_x == 300:
+                            shutil.move(fname, out_filename)
+                        else:
+                            Path(fname).unlink()
+                            raise Exception(f"Unsupported image resolution {res_x} dpi, only 72 and 300 are supported.")
             except PDFNotImplementedError:
                 self.convert_pdf_to_image()
             pno += 1
@@ -319,7 +338,7 @@ def handle_65A_11(processor):
         return
 
     img = processor.get_full_img()
-    corners = [[3852,2022],[3815,15088],[16225,15114],[16244,2047]]
+    corners = [[1927,1010],[1907,7545],[8113,7557],[8122,1024]]
 
     corners_contour = np.array(corners).reshape((-1,1,2)).astype(np.int32)
     bbox = cv2.boundingRect(corners_contour)

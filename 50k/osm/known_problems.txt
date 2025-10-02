@@ -19,6 +19,7 @@
 
 # bad image
 48J_10
+45H_10
 
 # bad file
 54N_12
