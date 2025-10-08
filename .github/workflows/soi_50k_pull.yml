@@ -55,7 +55,6 @@ jobs:
         with:
           path: |
             50k/osm/data/index_50k.geojson
-            50k/osm/data/raw/SOI_FONTS.zip
           key: 'SOI-scrape-basefiles-v1'
         id: base-files-cache
             
@@ -65,15 +64,13 @@ jobs:
           cd 50k/osm
           mkdir -p data/raw
           [[ -f data/index_50k.geojson ]] || wget -P data https://github.com/ramSeraph/india_topo_maps/releases/download/soi-ancillary/index_50k.geojson
-          [[ -f data/raw/SOI_FONTS.zip ]] || wget -P data https://github.com/ramSeraph/india_topo_maps/releases/download/soi-ancillary/SOI_FONTS.zip
 
       - name: Save ancillary files to cache
         if: ${{ steps.base-files-cache.outputs.cache-hit != 'true' }}
         uses: actions/cache/save@v4
         with:
           path: |
-            50k/osm/data/index.geojson
-            50k/osm/data/raw/SOI_FONTS.zip
+            50k/osm/data/index_50k.geojson
           key: 'SOI-scrape-basefiles-v1'
 
       - name: Get current date
@@ -131,16 +128,12 @@ jobs:
           ls data/raw/*.pdf > downloaded.txt || touch downloaded.txt
           cat downloaded.txt
           uvx --from gh-release-tools upload-to-release -r '50k-osm-orig' -d 'data/raw' -e '.pdf' || true
+          uvx --from gh-release-tools generate-lists -r '50k-osm-orig' -e '.pdf'
           rm -rf data/raw/*.pdf || true
           rm -rf data/raw/*.unavailable || true
           rm -rf data/cookies || true
           rm -rf data/tried_users.txt || true
           rm downloaded.txt
-
-      - name: Update lists
-        run: |
-          cd 50k/osm
-          uvx --from gh-release-tools generate-lists -r '50k-osm-orig' -e '.pdf'
 
       - name: Save prev data workspace
         if: always()

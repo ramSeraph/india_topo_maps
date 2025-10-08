@@ -32,7 +32,7 @@ from pdfminer.pdftypes import resolve_all, PDFObjRef, PDFNotImplementedError
 from pypdf import PdfReader
 
 import cv2
-from imgcat import imgcat
+#from imgcat import imgcat
 import numpy as np
 
 from topo_map_processor.processor import TopoMapProcessor, LineRemovalParams
@@ -49,10 +49,9 @@ def get_images(layout):
 
 class SOIProcessor(TopoMapProcessor):
 
-    def __init__(self, filepath, extra, index_map, new_set=False):
+    def __init__(self, filepath, extra, index_map):
         super().__init__(filepath, extra, index_map)
         self.flavor = None
-        self.new_set = new_set
         self.warp_jpeg_export_quality = extra.get('warp_jpeg_export_quality', 100)
         self.jpeg_export_quality = extra.get('jpeg_export_quality', 50)
         self.ext_thresh_ratio = extra.get('ext_thresh_ratio', 20.0 / 18000.0)
@@ -66,8 +65,10 @@ class SOIProcessor(TopoMapProcessor):
         self.poly_approx_factor = extra.get('poly_approx_factor', 0.001)
         self.cwidth = extra.get('cwidth', 1)
         self.collar_erode = extra.get('collar_erode', 0)
-        self.map_area_ratio_thresh = extra.get('map_area_ratio_thresh', 0.5 if not new_set else 0.4)
-        self.max_corner_angle_diff = extra.get('max_corner_angle_diff', 5 if not new_set else 7)
+        self.map_area_ratio_thresh = extra.get('map_area_ratio_thresh', 0.4)
+        #self.map_area_ratio_thresh = extra.get('map_area_ratio_thresh', 0.5) # old value which was used for all files not in new_set.txt
+        self.max_corner_angle_diff = extra.get('max_corner_angle_diff', 7) 
+        #self.max_corner_angle_diff = extra.get('max_corner_angle_diff', 5) # old value which was used for all files not in new_set.txt
 
         self.should_remove_grid_lines = extra.get('should_remove_grid_lines', True)
         self.grid_bounds_check_buffer_ratio = extra.get('grid_bounds_check_buffer_ratio', 40.0 / 7000.0)
@@ -400,10 +401,10 @@ def process_files():
     if special_cases_file.exists():
         special_cases = json.loads(special_cases_file.read_text())
 
-    new_set = set()
-    with open('new_set.txt', 'r') as f:
-        for line in f:
-            new_set.add(line.strip())
+    #new_set = set()
+    #with open('new_set.txt', 'r') as f:
+    #    for line in f:
+    #        new_set.add(line.strip())
 
     bad_files = set()
     with open('bad_files.txt', 'r') as f:
@@ -427,7 +428,7 @@ def process_files():
         index_box = index_map.get(id, None)
 
 
-        processor = SOIProcessor(filepath, extra, index_box, new_set=filepath.name in new_set)
+        processor = SOIProcessor(filepath, extra, index_box)
 
         try:
             if id == '65A_11':
