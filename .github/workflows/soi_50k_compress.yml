@@ -1,0 +1,166 @@
+name: SOI Weekly 50k compress run
+
+concurrency: 
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+on: 
+  workflow_run:
+    workflows:
+      - "SOI Weekly 50k pull run"
+    type:
+      - completed
+          
+  workflow_dispatch:
+
+
+jobs:
+  Check-For-Work:
+    runs-on: ubuntu-24.04
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    env:
+      GH_TOKEN: ${{ github.token }}
+    outputs: 
+      work_item_count: ${{ steps.work.outputs.num_items }}  
+    steps:
+      - uses: actions/checkout@v4.1.7
+      - uses: astral-sh/setup-uv@v5
+      - name: Check for work
+        id: work
+        run: |
+          cd 50k/osm
+          mkdir data
+          util/get_work_for_compressor.sh data/to_compress.txt
+          cat data/to_compress.txt
+          num_items=$(wc -l data/to_compress.txt | tr -s " " | cut -d" " -f1)
+          echo "num_items=$num_items"
+          echo "num_items=$num_items" >> $GITHUB_OUTPUT
+
+  Run-SOI-Compress:
+    needs: Check-For-Work
+    if: ( github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' ) && needs.Check-For-Work.outputs.work_item_count != '0'
+    timeout-minutes: 600
+    runs-on: ubuntu-22.04
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4.1.7
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install packages
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+
+      - name: Restore ancillary files from cache
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            50k/osm/data/SOI_FONTS.zip
+          key: 'SOI-compress-basefiles-v1'
+        id: base-files-cache
+
+      - name: Get SOI Fonts
+        if: ${{ steps.base-files-cache.outputs.cache-hit != 'true' }}
+        run: |
+          cd 50k/osm
+
+          [[ -f data/SOI_FONTS.zip ]] || wget -P data/ https://github.com/ramSeraph/india_topo_maps/releases/download/soi-ancillary/SOI_FONTS.zip 
+
+          cd data
+          unzip SOI_FONTS.zip
+
+      - name: Save ancillary files to cache
+        if: ${{ steps.base-files-cache.outputs.cache-hit != 'true' }}
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            50k/osm/data/SOI_FONTS.zip
+          key: 'SOI-compress-basefiles-v1'
+
+      - name: Restore parse tools from cache
+        uses: actions/cache/restore@v4
+        with:
+          path: 50k/osm/bin/
+          key:  soi-compress-tools-v1
+        id: tools-cache
+
+      - name: Install tools
+        if: ${{ steps.tools-cache.outputs.cache-hit != 'true' }}
+        run: |
+          cd 50k/osm
+          wget -P util https://raw.githubusercontent.com/ramSeraph/soi_common/refs/heads/main/utils/mupdf.patch
+          wget -P util https://raw.githubusercontent.com/ramSeraph/soi_common/refs/heads/main/utils/build_mutool.sh
+          wget -P util https://raw.githubusercontent.com/ramSeraph/soi_common/refs/heads/main/utils/build_mozjpeg.sh
+          if [[ ! -f bin/mutool ]]; then
+            sudo apt-get install -y llvm
+            CXX=clang++ AR=llvm-ar util/build_mutool.sh
+          fi
+          if [[ ! -f bin/cjpeg ]]; then
+            util/build_mozjpeg.sh
+          fi
+
+      - name: Save parse tools to cache
+        if: ${{ steps.tools-cache.outputs.cache-hit != 'true' }}
+        uses: actions/cache/save@v4
+        with:
+          path: 50k/osm/bin/
+          key:  soi-compress-tools-v1
+
+      - name: Get current date
+        run: echo "date=$(date +'%d%b%Y')" >> $GITHUB_OUTPUT
+        id: date
+
+      - name: Restore compress run data from cache
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            50k/osm/data/raw/*
+            50k/osm/data/inter/*
+            50k/osm/export/compressed/*
+          key:  soi-gcs-compress-v4-${{ steps.date.outputs.date }}-${{ github.run_number }}-${{ github.run_attempt }}
+          restore-keys: |
+            soi-gcs-compress-v4-${{ steps.date.outputs.date }}-${{ github.run_number }}-
+            soi-gcs-compress-v4-${{ steps.date.outputs.date }}-
+
+      - name: Compress SOI sheets
+        run: |
+          cd 50k/osm
+
+          util/get_work_for_compressor.sh data/to_compress.txt
+          uvx --from gh-release-tools download-from-release -r '50k-osm-orig' -d 'data/raw' -f data/to_compress.txt -e '.pdf'
+
+          uv run compress.py data/to_compress.txt
+
+          uvx --from gh-release-tools upload-to-release -r '50k-osm-jpg' -d 'export/compressed' -e '.jpg' 
+          uvx --from gh-release-tools generate-lists -r '50k-osm-jpg' -e '.jpg'
+
+          rm -rf data/raw/*.pdf || true
+          rm -rf export/compressed/* || true
+          rm -rf data/inter/* || true
+
+      - name: Save compress run data to cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            50k/osm/data/raw/*
+            50k/osm/data/inter/*
+            50k/osm/export/compressed/*
+          key:  soi-gcs-compress-v4-${{ steps.date.outputs.date }}-${{ github.run_number }}-${{ github.run_attempt }}
+
+
+  SOI-Compress-Failure-Notify:
+    needs: 
+      - Run-SOI-Compress
+      - Check-For-Work
+    if: always() && ( needs.Check-For-Work.result == 'failure' || needs.Run-SOI-Compress.result == 'failure' )
+    uses: ./.github/workflows/common-pb-alert.yml
+    secrets: inherit
+    with:
+      title: "SOI Compress Run Failed"
+      which-run: "self"
