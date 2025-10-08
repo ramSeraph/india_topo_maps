@@ -86,7 +86,7 @@ def get_file_name(sheet_no):
     global combined_file_map
     if combined_file_map is None:
         combined_file_map = {}
-        combined_files_file = data_dir + 'combined_files.json'
+        combined_files_file = data_dir + 'combined_files_50k.json'
         if Path(combined_files_file).exists():
             with open(combined_files_file, 'r') as f:
                 data = json.load(f)
@@ -239,7 +239,7 @@ def is_sheet_done(sheet_no, done):
 
 def scrape(phone_num, password, otp_from_pb):
     login_wrap(phone_num, password, otp_from_pb)
-    map_index_file = Path(data_dir).joinpath('index.geojson')
+    map_index_file = Path(data_dir).joinpath('index_50k.geojson')
     if not map_index_file.exists():
         raise Exception(f'{map_index_file} is missing')
 

@@ -1,0 +1,47 @@
+name: 'Common PushBullet Alert'
+on:
+  workflow_call:
+    inputs:
+      title: 
+        description: 'Title in alert( also the body for now )'
+        required: true
+        type: string
+      which-run:
+        description: 'workflow run event whose information needs to be sent'
+        required: true
+        type: string
+      url:
+        description: 'url to send in alert'
+        required: false
+        type: string
+
+jobs:
+  Send-Alert:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - id: get-url
+        shell: bash
+        run: |
+          if [[ "${{ inputs.which-run }}" == "self" ]]; then
+              echo "url=https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> $GITHUB_OUTPUT
+          elif [[ "${{ inputs.which-run }}" == "from-event" ]]; then
+              echo "url=${{ github.event.workflow_run.html_url }}" >> $GITHUB_OUTPUT
+          elif [[ "${{ inputs.which-run }}" == "ignore" ]]; then
+              if [[ -z "${{ inputs.url }}" ]]; then
+                  echo "'which-run' input is set to 'ignore'. 'url' input can't be empty"
+                  exit 1
+              fi
+              echo "url=${{ inputs.url }}" >> $GITHUB_OUTPUT
+          else
+              echo "Unsupported input 'which-run'; '${{ inputs.which-run }}'"
+              exit 1
+          fi
+      - shell: bash
+        run: |
+          export PB_API_URL="https://api.pushbullet.com/v2/pushes"
+          export PB_URL="${{steps.get-url.outputs.url}}"
+          export PB_TITLE="${{inputs.title}}"
+          export PB_BODY="${{inputs.body}}"
+          export REQUEST_BODY="{\"title\":\"$PB_TITLE\",\"body\":\"$PB_BODY\",\"type\":\"link\",\"url\":\"$PB_URL\"}" 
+          curl -H "Access-Token: ${{ secrets.PB_TOKEN }}" -H "Content-Type: application/json" --data-binary "$REQUEST_BODY" -X POST "$PB_API_URL" > /dev/null
