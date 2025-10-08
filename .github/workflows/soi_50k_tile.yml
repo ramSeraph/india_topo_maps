@@ -1,0 +1,73 @@
+name: SOI 50k tile run
+
+concurrency: 
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+on: 
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - "SOI Weekly 50k parse run"
+    type:
+      - completed
+
+jobs:
+
+  Run-SOI-Tiling:
+    needs: Check-For-Work
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    timeout-minutes: 600
+    runs-on: ubuntu-24.04
+    env:
+      GH_TOKEN: ${{ github.token }}
+      FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+    steps:
+      - name: Setup swap
+        uses: pierotofy/set-swap-space@v1.0
+        with:
+          swap-size-gb: 12
+
+      - uses: actions/checkout@v4.1.7
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install packages
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gdal-bin libgdal-dev
+
+      - name: Get current date
+        run: echo "date=$(date +'%d%b%Y')" >> $GITHUB_OUTPUT
+        id: date
+
+      - name: Retile
+        id: retile
+        run: |
+          mkdir -p temp
+          TMPDIR=./temp 
+          GDAL_VERSION=$(gdalinfo --version | cut -d"," -f1 | cut -d" " -f2)
+          echo "GDAL_VERSION=$GDAL_VERSION"
+          uvx --with numpy --with pillow --with gdal==$GDAL_VERSION --from topo-map-processor retile-e2e \
+              --pmtiles-release 50k-osm-pmtiles \
+              --gtiffs-release 50k-osm-georef \
+              --pmtiles-prefix SOI-OSM-50k \
+              --bounds-file-tiled "bounds.geojson"
+
+      - name: Setup fly tools
+        if: steps.retile.outcome == 'success'
+        uses: superfly/flyctl-actions/setup-flyctl@1.5
+
+  SOI-Tile-Failure-Notify:
+    needs: 
+      - Run-SOI-Tiling
+      - Check-For-Work
+    if: always() && ( needs.Check-For-Work.result == 'failure' || needs.Run-SOI-Tiling.result == 'failure' )
+    uses: ./.github/workflows/common-pb-alert.yml
+    secrets: inherit
+    with:
+      title: "SOI Tile Run Failed"
+      which-run: "self"
