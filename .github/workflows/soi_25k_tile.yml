@@ -1,4 +1,4 @@
-name: SOI 50k tile run
+name: SOI 25k tile run
 
 concurrency: 
   group: ${{ github.workflow }}
@@ -6,16 +6,11 @@ concurrency:
 
 on: 
   workflow_dispatch:
-  workflow_run:
-    workflows:
-      - "SOI Weekly 50k parse run"
-    type:
-      - completed
 
 jobs:
 
   Run-SOI-Tiling:
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    needs: Check-For-Work
     timeout-minutes: 600
     runs-on: ubuntu-24.04
     env:
@@ -50,17 +45,7 @@ jobs:
           GDAL_VERSION=$(gdalinfo --version | cut -d"," -f1 | cut -d" " -f2)
           echo "GDAL_VERSION=$GDAL_VERSION"
           uvx --with numpy --with pillow --with gdal==$GDAL_VERSION --from topo-map-processor retile-e2e \
-              --pmtiles-release 50k-osm-pmtiles \
-              --gtiffs-release 50k-osm-georef \
-              --pmtiles-prefix SOI-OSM-50k \
+              --pmtiles-release 25k-nhp-pmtiles \
+              --gtiffs-release 25k-nhp-georef \
+              --pmtiles-prefix SOI-NHP-25k \
               --bounds-file-tiled "bounds.geojson"
-
-  SOI-Tile-Failure-Notify:
-    needs: 
-      - Run-SOI-Tiling
-    if: always() && needs.Run-SOI-Tiling.result == 'failure'
-    uses: ./.github/workflows/common-pb-alert.yml
-    secrets: inherit
-    with:
-      title: "SOI Tile Run Failed"
-      which-run: "self"
