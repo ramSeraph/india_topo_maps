@@ -30,6 +30,7 @@ jobs:
 
       - name: Install packages
         run: |
+          df -h .
           sudo apt-get update
           sudo apt-get install -y gdal-bin libgdal-dev
 
@@ -41,11 +42,11 @@ jobs:
         id: retile
         run: |
           mkdir -p temp
-          TMPDIR=./temp 
-          GDAL_VERSION=$(gdalinfo --version | cut -d"," -f1 | cut -d" " -f2)
-          echo "GDAL_VERSION=$GDAL_VERSION"
-          uvx --with numpy --with pillow --with gdal==$GDAL_VERSION --from topo-map-processor retile-e2e \
-              --pmtiles-release 25k-nhp-pmtiles \
-              --gtiffs-release 25k-nhp-georef \
-              --pmtiles-prefix SOI-NHP-25k \
-              --bounds-file-tiled "bounds.geojson"
+          #TMPDIR=./temp 
+          #GDAL_VERSION=$(gdalinfo --version | cut -d"," -f1 | cut -d" " -f2)
+          #echo "GDAL_VERSION=$GDAL_VERSION"
+          #uvx --with numpy --with pillow --with gdal==$GDAL_VERSION --from topo-map-processor retile-e2e \
+          #    --pmtiles-release 25k-nhp-pmtiles \
+          #    --gtiffs-release 25k-nhp-georef \
+          #    --pmtiles-prefix SOI-NHP-25k \
+          #    --bounds-file-tiled "bounds.geojson"
