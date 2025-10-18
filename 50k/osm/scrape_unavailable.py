@@ -12,7 +12,7 @@ import json
 import logging
 import shutil
 
-from pprint import pformat
+from pprint import pformat, pprint
 from pathlib import Path
 
 from bs4 import BeautifulSoup
@@ -65,7 +65,7 @@ def get_download_tile_form_data(soup, sheet_no, first_pass=True):
     form_data = {}
     form_data['ctl00$ContentPlaceHolder1$ddlstate'] = '0'
     form_data['ctl00$ContentPlaceHolder1$ddldist'] = '0'
-    form_data['ctl00$ContentPlaceHolder1$txtSheetNumber'] = sheet_no
+    form_data['ctl00$ContentPlaceHolder1$txtSheetNumber'] = sheet_no.replace('_', '/')
     form_data['__EVENTTARGET'] = 'ctl00$ContentPlaceHolder1$lbtnDownloadMap'
 
     if not first_pass:
@@ -112,26 +112,31 @@ def download_tile(sheet_no):
         logger.info(f'{out_file} exists.. skipping')
         return
 
+    
     url = base_url + 'FreeMapSpecification.aspx'
     resp = session.get(url)
     if not resp.ok:
         raise Exception('unable to get FreeMapSpec page')
     soup = BeautifulSoup(resp.text, 'html.parser')
 
-
     form_data = get_form_data(soup)
     form_data.update(get_download_tile_form_data(soup, sheet_no, first_pass=True))
     logger.debug(f'spec page form data first pass:\n{pformat(form_data)}')
     headers = {
-        'Content-Type': 'application/x-www-form-urlencoded'
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'Referer': base_url + 'FreeMapSpecification.aspx',
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36',
+        'Origin': base_url[:-1],
+        'Host': base_url[8:-1],
     }
+
+    url = base_url + 'FreeMapSpecification.aspx'
     resp = session.post(url, data=form_data, headers=headers)
     logger.debug(f'status_code = {resp.status_code} headers:\n{pformat(dict(resp.headers))}')
     if not resp.ok:
-        raise Exception('unable to lookup {sheet_no} in FreeMapSpec page')
+        raise Exception(f'unable to lookup {sheet_no} in FreeMapSpec page')
+
     soup = BeautifulSoup(resp.text, 'html.parser')
-
-
     form_data = get_form_data(soup)
     form_data.update(get_download_tile_form_data(soup, sheet_no, first_pass=False))
     logger.debug(f'spec page form data second pass:\n{pformat(form_data)}')
@@ -160,7 +165,7 @@ def download_tile(sheet_no):
             raise Exception(f'Unexpected Error: {error_heading.text}')
 
         not_found = soup.find('span', {'id':'ContentPlaceHolder1_lblSheetNotExist'})
-        NOT_FOUND_MSG = 'Sheet Number is not available.'
+        NOT_FOUND_MSG = 'Sheet Number is not exist... Please enter valid Sheet Number.'
         if not_found is not None and not_found.text.strip() == NOT_FOUND_MSG:
             logger.warning('sheet not found, writing unavailable file')
             file_to_write = out_file_unavailable
@@ -235,7 +240,6 @@ def is_sheet_done(sheet_no, done):
         return True
 
     return False
-
 
 def scrape(phone_num, password, otp_from_pb):
     login_wrap(phone_num, password, otp_from_pb)
