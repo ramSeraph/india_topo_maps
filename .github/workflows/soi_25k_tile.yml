@@ -56,9 +56,8 @@ jobs:
           TMPDIR=./temp 
           GDAL_VERSION=$(gdalinfo --version | cut -d"," -f1 | cut -d" " -f2)
           echo "GDAL_VERSION=$GDAL_VERSION"
-          uvx --with numpy --with pillow --with gdal==$GDAL_VERSION --from topo-map-processor retile-e2e --help
-          #uvx --with numpy --with pillow --with gdal==$GDAL_VERSION --from topo-map-processor retile-e2e \
-          #    --pmtiles-release 25k-nhp-pmtiles \
-          #    --gtiffs-release 25k-nhp-georef \
-          #    --pmtiles-prefix SOI-NHP-25k \
-          #    --bounds-file-tiled "bounds.geojson"
+          uvx --with numpy --with pillow --with gdal==$GDAL_VERSION --from topo-map-processor retile-e2e \
+              --pmtiles-release 25k-nhp-pmtiles \
+              --gtiffs-release 25k-nhp-georef \
+              --pmtiles-prefix SOI-NHP-25k \
+              --bounds-file-tiled "bounds.geojson"
