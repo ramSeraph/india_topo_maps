@@ -37,16 +37,6 @@ jobs:
           df -h .
           free -h
 
-      - name: Setup swap
-        uses: pierotofy/set-swap-space@v1.0
-        with:
-          swap-size-gb: 12
-
-      - name: Space check2
-        run: |
-          df -h .
-          free -h
-
       - uses: actions/checkout@v4.1.7
 
       - name: Install uv
@@ -56,22 +46,17 @@ jobs:
 
       - name: Install packages
         run: |
-          df -h .
-          free -h
-          #sudo apt-get update
-          #sudo apt-get install -y gdal-bin libgdal-dev
-
-      - name: Get current date
-        run: echo "date=$(date +'%d%b%Y')" >> $GITHUB_OUTPUT
-        id: date
+          sudo apt-get update
+          sudo apt-get install -y gdal-bin libgdal-dev build-essential python3-dev
 
       - name: Retile
         id: retile
         run: |
           mkdir -p temp
-          #TMPDIR=./temp 
-          #GDAL_VERSION=$(gdalinfo --version | cut -d"," -f1 | cut -d" " -f2)
-          #echo "GDAL_VERSION=$GDAL_VERSION"
+          TMPDIR=./temp 
+          GDAL_VERSION=$(gdalinfo --version | cut -d"," -f1 | cut -d" " -f2)
+          echo "GDAL_VERSION=$GDAL_VERSION"
+          uvx --with numpy --with pillow --with gdal==$GDAL_VERSION --from topo-map-processor retile-e2e --help
           #uvx --with numpy --with pillow --with gdal==$GDAL_VERSION --from topo-map-processor retile-e2e \
           #    --pmtiles-release 25k-nhp-pmtiles \
           #    --gtiffs-release 25k-nhp-georef \
