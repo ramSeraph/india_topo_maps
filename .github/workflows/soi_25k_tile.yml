@@ -15,10 +15,37 @@ jobs:
     env:
       GH_TOKEN: ${{ github.token }}
     steps:
+
+      - name: Space check0
+        run: |
+          df -h .
+          free -h
+
+      - name: Free Disk Space
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: true
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          docker-images: true
+          #swap-storage: true
+
+      - name: Space check1
+        run: |
+          df -h .
+          free -h
+
       - name: Setup swap
         uses: pierotofy/set-swap-space@v1.0
         with:
           swap-size-gb: 12
+
+      - name: Space check2
+        run: |
+          df -h .
+          free -h
 
       - uses: actions/checkout@v4.1.7
 
@@ -30,8 +57,9 @@ jobs:
       - name: Install packages
         run: |
           df -h .
-          sudo apt-get update
-          sudo apt-get install -y gdal-bin libgdal-dev
+          free -h
+          #sudo apt-get update
+          #sudo apt-get install -y gdal-bin libgdal-dev
 
       - name: Get current date
         run: echo "date=$(date +'%d%b%Y')" >> $GITHUB_OUTPUT
