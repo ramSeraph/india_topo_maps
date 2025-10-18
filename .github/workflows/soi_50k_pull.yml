@@ -119,7 +119,7 @@ jobs:
         run: |
           cd 50k/osm
           gh release download soi-ancillary -p combined_files_50k.json
-          uv run process_duplictes.py
+          uv run process_duplicates.py
           gh release upload soi-ancillary combined_files_50k.json --clobber
 
       - name: Upload raw files to github releases
