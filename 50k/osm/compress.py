@@ -327,6 +327,7 @@ if __name__ == '__main__':
 
     from_list = from_list_file.read_text().split('\n')
     from_list = [ f.strip() for f in from_list if f.strip() != '' ]
+    from_list = [ f.replace('.pdf', '') for f in from_list ]
     total = len(from_list)
     
     special_cases = {}
