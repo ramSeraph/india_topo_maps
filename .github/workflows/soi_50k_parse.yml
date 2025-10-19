@@ -137,7 +137,7 @@ jobs:
           cd 50k/osm
 
           util/get_work_for_parser.sh data/to_parse.txt
-          grep -v -f <(ls data/raw/) data/to_parse.txt > data/to_parse_tmp.txt
+          grep -v -f <(ls data/raw/) data/to_parse.txt > data/to_parse_tmp.txt || touch data/to_parse_tmp.txt
           mv data/to_parse_tmp.txt data/to_parse.txt
           num_items=$(wc -l data/to_parse.txt | tr -s " " | cut -d" " -f1)
           echo "Number of items to parse: $num_items"
