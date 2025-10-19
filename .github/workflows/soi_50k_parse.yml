@@ -137,9 +137,13 @@ jobs:
           cd 50k/osm
 
           util/get_work_for_parser.sh data/to_parse.txt
-          uvx --from gh-release-tools download-from-release -r '50k-osm-orig' -d 'data/raw' -f data/to_parse.txt
           grep -v -f <(ls data/raw/) data/to_parse.txt > data/to_parse_tmp.txt
           mv data/to_parse_tmp.txt data/to_parse.txt
+          num_items=$(wc -l data/to_parse.txt | tr -s " " | cut -d" " -f1)
+          echo "Number of items to parse: $num_items"
+          if [ "$num_items" -ne "0" ]; then
+            uvx --from gh-release-tools download-from-release -r '50k-osm-orig' -d 'data/raw' -f data/to_parse.txt
+          fi
 
           mkdir -p export/gtiffs/
 
