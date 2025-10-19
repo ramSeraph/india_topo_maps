@@ -135,6 +135,9 @@ jobs:
 
           util/get_work_for_compressor.sh data/to_compress.txt
           cat data/to_compress.txt
+          # remove files already in data/raw from to_compress.txt
+          grep -v -f <(ls data/raw/) data/to_compress.txt > data/to_compress_tmp.txt
+          mv data/to_compress_tmp.txt data/to_compress.txt
           uvx --from gh-release-tools download-from-release -r '50k-osm-orig' -d 'data/raw' -f data/to_compress.txt
 
           uv run compress.py data/to_compress.txt
