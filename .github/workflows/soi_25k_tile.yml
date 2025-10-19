@@ -30,7 +30,7 @@ jobs:
           haskell: true
           large-packages: true
           docker-images: true
-          #swap-storage: true
+          swap-storage: true
 
       - name: Space check1
         run: |
@@ -56,7 +56,11 @@ jobs:
           TMPDIR=./temp 
           GDAL_VERSION=$(gdalinfo --version | cut -d"," -f1 | cut -d" " -f2)
           echo "GDAL_VERSION=$GDAL_VERSION"
-          uvx --with numpy --with pillow --with gdal==$GDAL_VERSION --from topo-map-processor retile-e2e \
+          uv venv
+          uv pip install numpy pillow
+          uv pip install gdal==$GDAL_VERSION
+          uv pip install topo-map-processor
+          uv run retile-e2e \
               --pmtiles-release 25k-nhp-pmtiles \
               --gtiffs-release 25k-nhp-georef \
               --pmtiles-prefix SOI-NHP-25k \
