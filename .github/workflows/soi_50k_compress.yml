@@ -93,14 +93,16 @@ jobs:
         if: ${{ steps.tools-cache.outputs.cache-hit != 'true' }}
         run: |
           cd 50k/osm
-          wget -P util https://raw.githubusercontent.com/ramSeraph/soi_common/refs/heads/main/utils/mupdf.patch
-          wget -P util https://raw.githubusercontent.com/ramSeraph/soi_common/refs/heads/main/utils/build_mutool.sh
-          wget -P util https://raw.githubusercontent.com/ramSeraph/soi_common/refs/heads/main/utils/build_mozjpeg.sh
           if [[ ! -f bin/mutool ]]; then
+            wget -P util https://raw.githubusercontent.com/ramSeraph/soi_common/refs/heads/main/utils/mupdf.patch
+            wget -P util https://raw.githubusercontent.com/ramSeraph/soi_common/refs/heads/main/utils/build_mutool.sh
+            chmod +x util/build_mutool.sh
             sudo apt-get install -y llvm
             CXX=clang++ AR=llvm-ar util/build_mutool.sh
           fi
           if [[ ! -f bin/cjpeg ]]; then
+            wget -P util https://raw.githubusercontent.com/ramSeraph/soi_common/refs/heads/main/utils/build_mozjpeg.sh
+            chmod +x util/build_mozjpeg.sh
             util/build_mozjpeg.sh
           fi
 
