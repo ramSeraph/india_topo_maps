@@ -58,7 +58,7 @@ jobs:
           echo "GDAL_VERSION=$GDAL_VERSION"
           uv venv
           uv pip install numpy pillow
-          uv pip install gdal==$GDAL_VERSION
+          uv pip install --no-build-isolation --no-cache-dir --force-reinstall GDAL==${GDAL_VERSION}
           uv pip install topo-map-processor
           uv run retile-e2e \
               --pmtiles-release 25k-nhp-pmtiles \
