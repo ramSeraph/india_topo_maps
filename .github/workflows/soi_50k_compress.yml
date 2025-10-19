@@ -134,7 +134,8 @@ jobs:
           cd 50k/osm
 
           util/get_work_for_compressor.sh data/to_compress.txt
-          uvx --from gh-release-tools download-from-release -r '50k-osm-orig' -d 'data/raw' -f data/to_compress.txt -e '.pdf'
+          cat data/to_compress.txt
+          uvx --from gh-release-tools download-from-release -r '50k-osm-orig' -d 'data/raw' -f data/to_compress.txt
 
           uv run compress.py data/to_compress.txt
 
