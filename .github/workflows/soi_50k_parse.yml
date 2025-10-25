@@ -99,7 +99,7 @@ jobs:
         run: |
           cd 50k/osm
 
-          [[ -f data/SOI_FONTS.zip ]] || wget -P data/raw/ https://github.com/ramSeraph/india_topo_maps/releases/download/soi-ancillary/SOI_FONTS.zip 
+          [[ -f data/SOI_FONTS.zip ]] || wget -P data/ https://github.com/ramSeraph/india_topo_maps/releases/download/soi-ancillary/SOI_FONTS.zip 
           [[ -f data/index_50k.geojson ]] || wget -P data/ https://github.com/ramSeraph/india_topo_maps/releases/download/soi-ancillary/index_50k.geojson
 
           cd data
