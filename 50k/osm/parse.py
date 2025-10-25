@@ -6,9 +6,6 @@
 #     "topo-map-processor[parse]",
 # ]
 #
-# [tool.uv.sources]
-# topo-map-processor = { path = "../../topo_map_processor", editable = true }
-#
 # ///
 
 
