@@ -112,6 +112,7 @@ class SOIProcessor(TopoMapProcessor):
         else:
             line_color_choices = self.line_color_choices
 
+        ip = None
         for line_color in line_color_choices:
             try:
                 min_expected_points = 1
