@@ -1,0 +1,73 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "58O_5",
+        "OSM_SHEET_": "C 44N5"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.25,
+              10.0
+            ],
+            [
+              79.25,
+              9.75
+            ],
+            [
+              79.50,
+              9.75
+            ],
+            [
+              79.50,
+              10.0
+            ],
+            [
+              79.25,
+              10.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "73P_3",
+        "OSM_SHEET_": "F 45V3"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.0,
+              20.5
+            ],
+            [
+              87.0,
+              20.25
+            ],
+            [
+              87.25,
+              20.25
+            ],
+            [
+              87.25,
+              20.5
+            ],
+            [
+              87.0,
+              20.5
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
