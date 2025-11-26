@@ -4,7 +4,7 @@ import os
 
 def create_25k_index():
     source_file = 'data/index_50k.geojson'
-    target_file = 'data/index_25k.geojson'
+    target_file = 'data/index_25k_full.geojson'
 
     with open(source_file) as f:
         data_50k = json.load(f)
@@ -77,7 +77,7 @@ def create_25k_index():
 
     geojson_25k = {
         "type": "FeatureCollection",
-        "name": "index_25k",
+        "name": "index_25k_full",
         "crs": data_50k.get("crs", {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}}),
         "features": features_25k
     }

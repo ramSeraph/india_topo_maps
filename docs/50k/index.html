@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="Content-Security-Policy" content="
+default-src 'none';
+script-src 'self' https://unpkg.com https://cdn.jsdelivr.net;
+style-src 'self' https://fonts.googleapis.com https://unpkg.com https://cdn.jsdelivr.net https://viglino.github.io;
+img-src 'self' https://tile.openstreetmap.org https://indianopenmaps.fly.dev https://*.tile.opentopomap.org https://server.arcgisonline.com https://*.google.com data:;
+font-src 'self' https://fonts.gstatic.com https://viglino.github.io;
+connect-src 'self' https://tile.openstreetmap.org https://storage.googleapis.com https://raw.githubusercontent.com https://indianopenmaps.fly.dev;
+media-src 'self';
+object-src 'self';
+child-src 'self';
+form-action 'self' 'unsafe-inline';
+base-uri 'self';
+worker-src 'self' blob:
+" />
+<meta http-equiv="X-XSS-Protection"  content="1;mode=block" always>
+<meta http-equiv="Referrer-Policy" content="no-referrer, strict-origin-when-cross-origin">
+<head>
+  <base href="/india_topo_maps/">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>1:50,000 Scale Maps</title>
+  <meta name="description" content="1:50,000 scale topographic maps of India" />
+  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/main-dark.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="menu">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="25k/">25k</a></li>
+          <li><a href="50k/">50k</a></li>
+          <li><a href="5k/">5k</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <h1>1:50,000 Scale Maps</h1>
+      <p>Topographic maps at 1:50,000 scale from Survey of India.</p>
+
+      <h2>Available Collections</h2>
+      
+      <h3><a href="50k/osm/">OSM (Open Series Maps)</a></h3>
+      <p>Collection of Open Series Maps from Survey Of India.</p>
+      <ul>
+        <li><a href="50k/osm/sheets">Sheet Listing</a></li>
+        <li><a href="50k/osm/status">Extraction Status</a></li>
+        <li><a href="50k/osm/compare">Demo/Compare</a></li>
+      </ul>
+    </main>
+  </div>
+</body>
+</html>

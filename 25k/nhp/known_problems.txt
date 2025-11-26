@@ -3,3 +3,11 @@
 # bad file
 63K_14_SE
 
+# grid redo
+63O_2_SE
+
+# grid removal problems
+72F_8_NE
+
+# bad georef
+72B_2_SE

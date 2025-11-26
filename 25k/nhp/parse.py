@@ -6,8 +6,6 @@
 #     "shapely",
 # ]
 #
-# [tool.uv.sources]
-# topo-map-processor = { path = "../../topo_map_processor", editable = true }
 # ///
 
 
@@ -867,7 +865,7 @@ class SOIProcessor(TopoMapProcessor):
 
  
 def get_sheetmap():
-    sheetmap_file = Path('data/index.geojson')
+    sheetmap_file = Path('data/index_25k.geojson')
     data = json.loads(sheetmap_file.read_text())
     features = data['features']
     sheetmap_file = Path('data/extra.geojson')
@@ -908,6 +906,9 @@ def process_files():
 
     sheet_map = get_sheetmap()
 
+    bad_files = Path('bad_files.txt').read_text().split('\n')
+    bad_files = set([ f.strip() for f in bad_files if f.strip() != '' ])
+
     total = len(image_files)
     processed_count = 0
     failed_count = 0
@@ -917,7 +918,7 @@ def process_files():
         print(f'==========  Processed: {processed_count}/{total} Success: {success_count} Failed: {failed_count} processing {filepath.name} ==========')
         extra = special_cases.get(filepath.name, {})
         id = filepath.name.replace('.pdf', '')
-        if id in ['63K_14_SE', '53E_5_NW']:
+        if filepath.name in bad_files:
             print(f"Skipping known bad file {filepath.name}")
             continue
 

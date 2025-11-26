@@ -1,0 +1,76 @@
+name: Pages Deploy
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  workflow_call:
+
+concurrency: 
+  group: docs
+  cancel-in-progress: false
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Collect-Ancillary-Files
+        run: |
+          # 50k OSM files
+          osm_50k_dir='docs/50k/osm/'
+          mkdir -p $osm_50k_dir
+          gh release download soi-ancillary -p index_50k.geojson -O ${osm_50k_dir}/osm_index.geojson
+          gh release download soi-ancillary -p polymap15m_area.geojson -O ${osm_50k_dir}/india_boundary.geojson
+          gh release download 50k-osm-orig -p listing_files.csv -O ${osm_50k_dir}/pdf_listing.csv
+          gh release download 50k-osm-georef -p listing_files.csv -O ${osm_50k_dir}/tiff_listing.csv
+          gh release download 50k-osm-jpg -p listing_files.csv -O ${osm_50k_dir}/jpg_listing.csv
+
+          # 25k NHP files
+          nhp_25k_dir='docs/25k/nhp/'
+          mkdir -p $nhp_25k_dir
+          gh release download soi-ancillary -p index_25k.geojson -O ${nhp_25k_dir}/nhp_index.geojson
+          gh release download soi-ancillary -p polymap15m_area.geojson -O ${nhp_25k_dir}/india_boundary.geojson
+          gh release download 25k-nhp-orig -p listing_files.csv -O ${nhp_25k_dir}/pdf_listing.csv
+          gh release download 25k-nhp-georef -p listing_files.csv -O ${nhp_25k_dir}/tiff_listing.csv
+
+          # 25k CZMP files
+          czmp_25k_dir='docs/25k/czmp/'
+          mkdir -p $czmp_25k_dir
+          gh release download 25k-czmp-orig -p listing_files.csv -O ${czmp_25k_dir}/pdf_listing.csv
+
+          # 5k CMPDI files
+          cmpdi_5k_dir='docs/5k/cmpdi/'
+          mkdir -p $cmpdi_5k_dir
+          gh release download 5k-cmpdi-orig -p listing_files.csv -O ${cmpdi_5k_dir}/pdf_listing.csv
+
+      - name: Upload-Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'docs/'
+
+  # Deploy job
+  deploy:
+    # Add a dependency to the build job
+    needs: build
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

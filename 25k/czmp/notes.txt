@@ -1,0 +1,4 @@
+
+https://ieswm.wb.gov.in/admin/pdf_upload_file/WB%20Draft%20CZMP%202019%20for%20North%2024%20Parganas.pdf
+
+need to write code to collect taluka maps for the sheets which have overlaps between states

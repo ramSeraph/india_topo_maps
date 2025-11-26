@@ -2,3 +2,12 @@ __pycache__/
 data/
 export/
 staging/
+.secrets
+
+# Downloaded data files (fetched via GitHub Actions)
+docs/**/osm_index.geojson
+docs/**/nhp_index.geojson
+docs/**/india_boundary.geojson
+docs/**/pdf_listing.csv
+docs/**/tiff_listing.csv
+docs/**/jpg_listing.csv

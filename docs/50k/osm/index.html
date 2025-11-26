@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="Content-Security-Policy" content="
+default-src 'none';
+script-src 'self' https://unpkg.com https://cdn.jsdelivr.net;
+style-src 'self' https://fonts.googleapis.com https://unpkg.com https://cdn.jsdelivr.net https://viglino.github.io;
+img-src 'self' https://tile.openstreetmap.org https://indianopenmaps.fly.dev https://*.tile.opentopomap.org https://server.arcgisonline.com https://*.google.com data:;
+font-src 'self' https://fonts.gstatic.com https://viglino.github.io;
+connect-src 'self' https://tile.openstreetmap.org https://storage.googleapis.com https://raw.githubusercontent.com https://indianopenmaps.fly.dev;
+media-src 'self';
+object-src 'self';
+child-src 'self';
+form-action 'self' 'unsafe-inline';
+base-uri 'self';
+worker-src 'self' blob:
+" />
+<meta http-equiv="X-XSS-Protection"  content="1;mode=block" always>
+<meta http-equiv="Referrer-Policy" content="no-referrer, strict-origin-when-cross-origin">
+<head>
+  <base href="/india_topo_maps/">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>OSM - Open Series Maps</title>
+  <meta name="description" content="Collection of Open Series Maps from Survey Of India" />
+  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/main-dark.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="menu">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="25k/">25k</a></li>
+          <li><a href="50k/">50k</a></li>
+          <li><a href="5k/">5k</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <p>Collection of Open Series Maps from <a href="https://onlinemaps.surveyofindia.gov.in">Survey Of India</a> - <a href="https://surveyofindia.gov.in/pages/copyright-policy">Copyright Notice</a></p>
+
+      <p>All the data below is updated weekly (every Saturday)</p>
+
+      <h1 id="collection-summary">Collection Summary</h1>
+      <ul>
+        <li><a href="50k/osm/sheets">List Of All Available Sheets</a></li>
+        <li><a href="50k/osm/status">Extraction Status Page</a></li>
+      </ul>
+
+      <h1 id="get-a-copy">Get A Copy</h1>
+      <p>The data is also hosted as a mosaic of <a href="https://protomaps.com/docs/pmtiles">pmtiles</a> files.</p>
+
+      <p>This can be downloaded as local <a href="https://docs.mapbox.com/help/glossary/mbtiles/">mbtiles</a> by running the following commands (after installing <a href="https://docs.astral.sh/uv/getting-started/installation/">uv</a>):</p>
+
+      <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>uvx --from pmtiles-mosaic download-mosaic -u https://github.com/ramSeraph/india_topo_maps/releases/download/50k-osm-pmtiles/SOI-OSM-50k.mosaic.json -o soi_osm_50k.mbtiles
+</code></pre></div></div>
+
+      <br>
+      <p>This creates a file <code class="language-plaintext highlighter-rouge">soi_osm_50k.mbtiles</code> in the current directory containing the whole data.</p>
+
+      <h1 id="web">Web</h1>
+      <ul>
+        <li>Tile URL
+          <ul>
+            <li><code class="language-plaintext highlighter-rouge">https://indianopenmaps.fly.dev/soi/osm/{z}/{x}/{y}.webp</code></li>
+          </ul>
+        </li>
+        <li>Demo Page
+          <ul>
+            <li><a href="50k/osm/compare">DEMO of the tilemap</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <h1 id="josm">JOSM</h1>
+      <ul>
+        <li>Plugins needed to use the above tile url with JOSM
+          <ul>
+            <li>ImageIO plugin
+              <ul>
+                <li>After enabling the plugin enable webp in Imagery Preferences -&gt; ImageIO tab</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>A locally downloaded <code class="language-plaintext highlighter-rouge">soi_osm_50k.mbtiles</code> file can also be used by installing the following plugins and opening the file in JOSM.
+          <ul>
+            <li>ImageIO plugin
+              <ul>
+                <li>After enabling the plugin enable webp in Imagery Preferences -&gt; ImageIO tab</li>
+              </ul>
+            </li>
+            <li><a href="https://github.com/iandees/josm-mbtiles">iandees/josm-mbtiles</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <h1 id="appendix">Appendix</h1>
+      <ul>
+        <li><a href="https://github.com/ramSeraph/india_topo_maps/releases/download/soi-ancillary/OSM_SHEET_INDEX.zip">Original sheet grid shapefile</a></li>
+        <li><a href="https://github.com/ramSeraph/india_topo_maps/releases/download/soi-ancillary/index_50k.geojson">Modified Index geojson for the sheet grid</a></li>
+      </ul>
+    </main>
+  </div>
+</body>
+</html>
