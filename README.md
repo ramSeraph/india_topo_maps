@@ -60,8 +60,8 @@ uvx --from pmtiles-mosaic download-mosaic -u https://github.com/ramSeraph/india_
 ```
 
 ### Tile URLs
-- **50k OSM**: `https://indianopenmaps.fly.dev/soi/osm/{z}/{x}/{y}.webp`
-- **25k NHP**: `https://indianopenmaps.fly.dev/soi/25k/nhp/{z}/{x}/{y}.webp`
+- **50k OSM**: `https://indianopenmaps.com/soi/osm/{z}/{x}/{y}.webp`
+- **25k NHP**: `https://indianopenmaps.com/soi/25k/nhp/{z}/{x}/{y}.webp`
 
 ### Using with JOSM
 The tile URLs can be used with JOSM after installing:

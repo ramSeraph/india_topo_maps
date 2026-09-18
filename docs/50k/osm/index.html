@@ -4,9 +4,9 @@
 default-src 'none';
 script-src 'self' https://unpkg.com https://cdn.jsdelivr.net;
 style-src 'self' https://fonts.googleapis.com https://unpkg.com https://cdn.jsdelivr.net https://viglino.github.io;
-img-src 'self' https://tile.openstreetmap.org https://indianopenmaps.fly.dev https://*.tile.opentopomap.org https://server.arcgisonline.com https://*.google.com data:;
+img-src 'self' https://tile.openstreetmap.org https://indianopenmaps.com https://*.tile.opentopomap.org https://server.arcgisonline https://*.google.com data:;
 font-src 'self' https://fonts.gstatic.com https://viglino.github.io;
-connect-src 'self' https://tile.openstreetmap.org https://storage.googleapis.com https://raw.githubusercontent.com https://indianopenmaps.fly.dev;
+connect-src 'self' https://tile.openstreetmap.org https://raw.githubusercontent.com https://indianopenmaps.com;
 media-src 'self';
 object-src 'self';
 child-src 'self';
@@ -64,7 +64,7 @@ worker-src 'self' blob:
       <ul>
         <li>Tile URL
           <ul>
-            <li><code class="language-plaintext highlighter-rouge">https://indianopenmaps.fly.dev/soi/osm/{z}/{x}/{y}.webp</code></li>
+            <li><code class="language-plaintext highlighter-rouge">https://indianopenmaps.com/soi/osm/{z}/{x}/{y}.webp</code></li>
           </ul>
         </li>
         <li>Demo Page

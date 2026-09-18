@@ -39,7 +39,7 @@ const soi_attribution = makeLink('https://onlinemaps.surveyofindia.gov.in/FreeMa
                     makeLink('https://www.surveyofindia.gov.in/pages/copyright-policy', 'Survey Of India');
 function getSOILayer() {
     const src = new ol.source.XYZ({
-        url: 'https://indianopenmaps.fly.dev/soi/25k/nhp/{z}/{x}/{y}.webp',
+        url: 'https://indianopenmaps.com/soi/25k/nhp/{z}/{x}/{y}.webp',
         attributions: [soi_attribution],
     });
     return new ol.layer.Tile({
@@ -315,4 +315,3 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     setMode('swipev');
 });
-
