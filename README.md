@@ -81,6 +81,12 @@ The repository uses GitHub Actions to automatically maintain and update the map 
   - Updates PMTiles
   - All updates are automatically released
 
+### Monthly Keep-Alive
+
+- [Keep scheduled workflows active](https://github.com/ramSeraph/india_topo_maps/actions/workflows/keepalive.yml) runs on the first of each month at 03:17 UTC / 08:47 IST, or manually.
+- It commits a UTC timestamp to `.github/keepalive` on `main` to keep repository activity within GitHub's 60-day inactivity window.
+- It uses the built-in `GITHUB_TOKEN` with `contents: write`; no extra secret is needed. Re-enable any already-disabled schedules in Actions first.
+
 ### Documentation Deployment
 - **GitHub Pages**: Automatically deploys the documentation site when changes are pushed to main branch
   - Downloads current data listings from releases
