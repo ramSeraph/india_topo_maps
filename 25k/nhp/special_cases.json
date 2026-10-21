@@ -1,4 +1,20 @@
 {
+  "73N_11_NW.pdf": {
+    "line_removal_padding": 1.0
+  },
+  "73N_2_NE.pdf": {
+    "black_color_tol": 0.3,
+    "line_removal_padding": 1.0
+  },
+  "73N_6_NW.pdf": {
+    "line_removal_padding": 1.0
+  },
+  "78B_4_SW.pdf": {
+    "line_removal_padding": 1.0
+  },
+  "78C_2_NE.pdf": {
+    "line_removal_padding": 1.0
+  },
   "a73M_6_SW.pdf": {
     "blue_color_tol": 0.5
   },
@@ -8,20 +24,8 @@
   "a78C_2_NE.pdf": {
     "blue_color_tol": 0.5
   },
-  "73N_7_SE.pdf": {
-    "remove_lines_using_image_processing": true,
-    "blue_line_scale": 1000,
-    "blue_color_tol": 0.1,
-    "black_color_tol": 0.5
-  },
   "52D_8_NE.pdf": {
     "corner_overrides": [[1724,698],[1716,7245],[7289,7249],[7290,701]]
-  },
-  "73N_7_SW.pdf": {
-    "remove_lines_using_image_processing": true,
-    "blue_line_scale": 1000,
-    "blue_color_tol": 0.1,
-    "black_color_tol": 0.5
   },
   "52L_3_SE.pdf": {
     "auto_remove_lines": false,
@@ -75,7 +79,8 @@
     "black_line_scale": 64
   },
   "78C_2_SE.pdf": {
-    "black_color_tol": 0.3
+    "black_color_tol": 0.3,
+    "line_removal_padding": 1.0
   },
   "53A_8_NE.pdf": {
     "other_layer_name": "Other 5"

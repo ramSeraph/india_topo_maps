@@ -463,55 +463,95 @@ def check_is_rectangle(corners, tolerance_degrees=1.0):
             
     return True
 
+def connected_line_paths(items):
+    """Group consecutive PDF line segments without bridging separate subpaths."""
+    points = []
+    for item in items:
+        if item[0] != 'l':
+            if points:
+                yield points
+                points = []
+            continue
+        p1, p2 = item[1:3]
+        if points and np.hypot(p1.x - points[-1].x, p1.y - points[-1].y) <= 0.01:
+            points.append(p2)
+        else:
+            if points:
+                yield points
+            points = [p1, p2]
+    if points:
+        yield points
+
+
+def is_long_straight_path(points, min_length):
+    """Accept slightly curved projected grid lines, but not winding blue paths."""
+    coords = np.array([(p.x, p.y) for p in points])
+    direction = coords[-1] - coords[0]
+    span = np.linalg.norm(direction)
+    if span <= min_length:
+        return False
+    path_length = np.linalg.norm(np.diff(coords, axis=0), axis=1).sum()
+    offsets = coords - coords[0]
+    deviations = abs(offsets[:, 0] * direction[1] - offsets[:, 1] * direction[0]) / span
+    return path_length <= span * 1.05 and deviations.max() <= span * 0.01
+
+
 def has_blue_lines(doc, layer_name, color_tol):
     page = doc[0]
     page_rect = page.rect
     h, w = page_rect.height, page_rect.width
     diag_len = np.sqrt(h*h + w*w)
-    drawings = page.get_drawings("rawdict")
-    blue_lines = []
+    drawings = page.get_drawings()
+    big_blue_lines = 0
     
     for drawing in drawings:
         if drawing.get('layer') != layer_name:
             continue
         color = drawing.get('color')
         if color is not None and is_color_match(color, (0.0, 0.0, 1.0), tol=color_tol):
-            for item in drawing['items']:
-                if item[0] == 'l':  # Line
-                    p1, p2 = item[1], item[2]
-                    dist = np.sqrt((p1.x - p2.x)**2 + (p1.y - p2.y)**2)
-                    blue_lines.append(dist/diag_len)
-    big_blue_lines = [ d for d in blue_lines if d > 0.3 ]
-    if len(big_blue_lines) > 10:
-        print(f"Found {len(big_blue_lines)} big blue lines")
+            # SOI often splits one grid line into dozens of short segments.
+            for points in connected_line_paths(drawing['items']):
+                if is_long_straight_path(points, 0.3 * diag_len):
+                    big_blue_lines += 1
+    if big_blue_lines > 10:
+        print(f"Found {big_blue_lines} big blue lines")
         return True
 
     return False
 
-def locate_other_layer_name(doc, check_for_blue_lines=False, blue_color_tol=None):
+def locate_other_layer_name(doc, check_for_blue_lines=False, blue_color_tol=BLUE_COLOR_TOL):
     layer_configs = doc.layer_ui_configs()
-    other_layer_numbers = []
-    other_layer_names = []
-    for config in layer_configs:
-        name = config.get('text', '')
-        if name.startswith(OTHER_LAYER_NAME_PREFIX):
-            other_layer_numbers.append(config.get('number'))
-            other_layer_names.append(name)
-    pprint(f"Found {len(other_layer_numbers)} layers starting with {OTHER_LAYER_NAME_PREFIX}")
+    other_layer_names = [config['text'] for config in layer_configs
+                         if config.get('text', '').startswith(OTHER_LAYER_NAME_PREFIX)]
+    pprint(f"Found {len(other_layer_names)} layers starting with {OTHER_LAYER_NAME_PREFIX}")
     pprint(other_layer_names)
+    if not other_layer_names:
+        return None
 
-    for i,num in enumerate(other_layer_numbers):
-        print(f"Checking Other layer: number {num}, name {other_layer_names[i]}")
-        # switch on the layer
-        doc.set_layer_ui_config(num, action=0)
-        text = doc[0].get_text("text")
-        print(f"Extracted text length: {len(text)}")
-        if text.find('COPYRIGHT') >= 0:
-            print(f"Located 'COPYRIGHT' text in layer {other_layer_names[i]}")
-            if check_for_blue_lines and not has_blue_lines(doc, other_layer_names[i], blue_color_tol):
-                print(f"Layer {other_layer_names[i]} does not has blue lines, skipping it")
-                continue
-            return other_layer_names[i]
+    # Trace spans carry their actual layer; page text includes unrelated layers.
+    # Temporarily show hidden candidates, then restore the original UI state.
+    hidden_candidates = [config for config in layer_configs
+                         if config['text'] in other_layer_names and not config['on']]
+    try:
+        for config in hidden_candidates:
+            doc.set_layer_ui_config(config['number'], action=0)
+
+        text_by_layer = {}
+        for span in doc[0].get_texttrace():
+            name = span.get('layer')
+            text_by_layer.setdefault(name, []).append(''.join(chr(c[0]) for c in span['chars']))
+
+        for name in other_layer_names:
+            if 'COPYRIGHT' in ''.join(text_by_layer.get(name, [])):
+                print(f"Located 'COPYRIGHT' text in layer {name}")
+                if check_for_blue_lines and not has_blue_lines(doc, name, blue_color_tol):
+                    print(f"Layer {name} does not have long blue lines, skipping it")
+                    continue
+                return name
+    finally:
+        if hidden_candidates:
+            for config in layer_configs:
+                doc.set_layer_ui_config(config['number'], action=0 if config['on'] else 2)
     
     return None
 
@@ -619,6 +659,8 @@ class SOIProcessor(TopoMapProcessor):
         self.lines_to_remove = extra.get('lines_to_remove', None)
         self.lines_to_remove_widths = extra.get('lines_to_remove_widths', None)
         self.remove_lines_using_image_processing = extra.get('remove_lines_using_image_processing', False)
+        # Extra rendered pixels on each side cover antialiased grid edges.
+        self.line_removal_padding = extra.get('line_removal_padding', 0.0)
         self.other_layer_name = extra.get('other_layer_name', None)
 
     def rotate(self):
@@ -722,7 +764,8 @@ class SOIProcessor(TopoMapProcessor):
             black_v_lines, black_h_lines = locate_lines(doc, angle_tol=1, color=(0.0, 0.0, 0.0), color_tol=self.black_color_tol, min_line_scale=self.black_line_scale)
             black_lines = black_v_lines + black_h_lines
             to_disp = [ (li[0], li[1]) for li in black_lines ]
-            display_lines([], to_disp, title="Black Lines")
+            if self.SHOW_IMG:
+                display_lines([], to_disp, title="Black Lines")
             pprint(f"Removing {len(black_lines)} black lines")
 
             print(f"Using blue color tolerance of {self.blue_color_tol}")
@@ -747,6 +790,7 @@ class SOIProcessor(TopoMapProcessor):
                         thickness = thickness * factor
                         if thickness < 2.0:
                             thickness = 2.0
+                        thickness += 2 * self.line_removal_padding
                         line_buf_ratio = thickness / (w * 2.0)
                         line_removal_params = LineRemovalParams(
                             line_buf_ratio=line_buf_ratio,
@@ -771,7 +815,9 @@ class SOIProcessor(TopoMapProcessor):
 
             workdir.mkdir(parents=True, exist_ok=True)
             temp_pdf_path = workdir / 'graticule_removed.pdf'
-            doc.save(str(temp_pdf_path), garbage=4, deflate=True, clean=True)
+            # Preserve resource dictionaries: compacting some SOI PDFs loses
+            # image XObjects after their optional layers are switched off.
+            doc.save(str(temp_pdf_path))
 
             run_external(f'bin/mutool draw -n data/SOI_FONTS -r {DPI} -c rgb -o {str(full_img_path)} {str(temp_pdf_path)}')
         #temp_pdf_path.unlink()
