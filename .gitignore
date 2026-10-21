@@ -4,6 +4,9 @@ export/
 staging/
 .secrets
 
+# Platform-specific tools built locally or in CI
+/50k/osm/bin/
+
 # Downloaded data files (fetched via GitHub Actions)
 docs/**/osm_index.geojson
 docs/**/nhp_index.geojson

@@ -86,20 +86,21 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: 50k/osm/bin/
-          key:  soi-compress-tools-v1
+          key:  soi-compress-tools-v2-${{ runner.os }}-${{ runner.arch }}
         id: tools-cache
 
       - name: Install tools
-        if: ${{ steps.tools-cache.outputs.cache-hit != 'true' }}
         run: |
           cd 50k/osm
-          if [[ ! -f bin/mutool ]]; then
+          if ! bin/mutool -v >/dev/null 2>&1; then
+            rm -f bin/mutool
             wget -P util https://raw.githubusercontent.com/ramSeraph/soi_common/refs/heads/main/utils/mupdf.patch
             wget -P util https://raw.githubusercontent.com/ramSeraph/soi_common/refs/heads/main/utils/build_mutool.sh
             chmod +x util/build_mutool.sh
             sudo apt-get install -y llvm
             CXX=clang++ AR=llvm-ar util/build_mutool.sh
           fi
+          bin/mutool -v
           if [[ ! -f bin/cjpeg ]]; then
             wget -P util https://raw.githubusercontent.com/ramSeraph/soi_common/refs/heads/main/utils/build_mozjpeg.sh
             chmod +x util/build_mozjpeg.sh
@@ -111,7 +112,7 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: 50k/osm/bin/
-          key:  soi-compress-tools-v1
+          key:  soi-compress-tools-v2-${{ runner.os }}-${{ runner.arch }}
 
       - name: Get current date
         run: echo "date=$(date +'%d%b%Y')" >> $GITHUB_OUTPUT

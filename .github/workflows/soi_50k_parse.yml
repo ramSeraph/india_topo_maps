@@ -63,27 +63,28 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: 50k/osm/bin/
-          key:  soi-parse-tools-v5
+          key:  soi-parse-tools-v6-${{ runner.os }}-${{ runner.arch }}
         id: tools-cache
 
       - name: Install tools
-        if: ${{ steps.tools-cache.outputs.cache-hit != 'true' }}
         run: |
           cd 50k/osm
-          if [[ ! -f bin/mutool ]]; then
+          if ! bin/mutool -v >/dev/null 2>&1; then
+            rm -f bin/mutool
             sudo apt-get install -y llvm
             wget -P util https://raw.githubusercontent.com/ramSeraph/soi_common/refs/heads/main/utils/mupdf.patch
             wget -P util https://raw.githubusercontent.com/ramSeraph/soi_common/refs/heads/main/utils/build_mutool.sh
             chmod +x util/build_mutool.sh
             CXX=clang++ AR=llvm-ar util/build_mutool.sh
           fi
+          bin/mutool -v
 
       - name: Save parse tools to cache
         if: ${{ steps.tools-cache.outputs.cache-hit != 'true' }}
         uses: actions/cache/save@v4
         with:
           path: 50k/osm/bin/
-          key:  soi-parse-tools-v5
+          key:  soi-parse-tools-v6-${{ runner.os }}-${{ runner.arch }}
 
       - name: Restore ancillary files from cache
         uses: actions/cache/restore@v4
