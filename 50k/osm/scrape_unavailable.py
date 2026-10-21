@@ -20,6 +20,9 @@
 import json
 import logging
 import shutil
+import time
+
+import requests
 
 from pprint import pformat, pprint
 from pathlib import Path
@@ -43,6 +46,10 @@ from soi_common.common import (
 )
 
 logger = logging.getLogger(__name__)
+
+REQUEST_TIMEOUT = (20, 120)
+MAX_NETWORK_ATTEMPTS = 5
+RETRYABLE_HTTP_STATUS = {408, 429, 500, 502, 503, 504}
 
 
 
@@ -123,9 +130,8 @@ def download_tile(sheet_no):
 
     
     url = base_url + 'FreeMapSpecification.aspx'
-    resp = session.get(url)
-    if not resp.ok:
-        raise Exception('unable to get FreeMapSpec page')
+    resp = session.get(url, timeout=REQUEST_TIMEOUT)
+    resp.raise_for_status()
     soup = BeautifulSoup(resp.text, 'html.parser')
 
     form_data = get_form_data(soup)
@@ -140,19 +146,17 @@ def download_tile(sheet_no):
     }
 
     url = base_url + 'FreeMapSpecification.aspx'
-    resp = session.post(url, data=form_data, headers=headers)
+    resp = session.post(url, data=form_data, headers=headers, timeout=REQUEST_TIMEOUT)
     logger.debug(f'status_code = {resp.status_code} headers:\n{pformat(dict(resp.headers))}')
-    if not resp.ok:
-        raise Exception(f'unable to lookup {sheet_no} in FreeMapSpec page')
+    resp.raise_for_status()
 
     soup = BeautifulSoup(resp.text, 'html.parser')
     form_data = get_form_data(soup)
     form_data.update(get_download_tile_form_data(soup, sheet_no, first_pass=False))
     logger.debug(f'spec page form data second pass:\n{pformat(form_data)}')
-    resp = session.post(url, data=form_data, headers=headers)
+    resp = session.post(url, data=form_data, headers=headers, timeout=REQUEST_TIMEOUT)
     logger.debug(f'status_code = {resp.status_code} headers:\n{pformat(dict(resp.headers))}')
-    if not resp.ok:
-        raise Exception('unable to download {sheet_no=}')
+    resp.raise_for_status()
 
     if resp.headers['Content-Type'] != 'text/html; charset=utf-8':
         content = resp.content
@@ -198,23 +202,40 @@ def download_tile(sheet_no):
 
 
 def download_tile_wrap(tile_info):
-    count = 0
-    success = False
+    captcha_failures = 0
+    network_failures = 0
     sheet_no = tile_info['id']
     logger.info(f'downloading {sheet_no=}')
-    while count < MAX_CAPTCHA_ATTEMPTS:
+    while captcha_failures < MAX_CAPTCHA_ATTEMPTS:
         try:
-            download_tile(sheet_no)
-            success = True
-            break
-        except Exception as ex:
-            if str(ex) != 'Captcha Failed':
-                raise ex
-            count += 1
+            return download_tile(sheet_no)
+        except (requests.ConnectionError, requests.Timeout,
+                requests.exceptions.ChunkedEncodingError, requests.HTTPError) as exc:
+            # Configuration/certificate errors and permanent HTTP failures need
+            # intervention; retry only failures that may clear on their own.
+            if isinstance(exc, requests.exceptions.SSLError):
+                raise
+            if isinstance(exc, requests.HTTPError):
+                if exc.response is None or exc.response.status_code not in RETRYABLE_HTTP_STATUS:
+                    raise
+            network_failures += 1
+            if network_failures >= MAX_NETWORK_ATTEMPTS:
+                logger.error('Network retries exhausted for %s', sheet_no)
+                raise
+            delay = min(5 * 2 ** (network_failures - 1), 60)
+            logger.warning('%s for %s; restarting lookup in %ss (network attempt %s/%s)',
+                           type(exc).__name__, sheet_no, delay,
+                           network_failures + 1, MAX_NETWORK_ATTEMPTS)
+            time.sleep(delay)
+            # Keep authenticated cookies, but restart the entire lookup: a
+            # failed POST may have consumed its viewstate or CAPTCHA.
+        except Exception as exc:
+            if str(exc) != 'Captcha Failed':
+                raise
+            captcha_failures += 1
             logger.warning('captcha failed..')
 
-    if not success:
-        raise Exception('download tile map because of captcha errors')
+    raise Exception('download tile map because of captcha errors')
 
 
 def get_done_set():
