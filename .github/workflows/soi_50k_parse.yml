@@ -159,7 +159,7 @@ jobs:
 
           echo "Generating bounds file and uploading"
           gh release download '50k-osm-georef' -p bounds.geojson
-          uvx --from topo-map-processor collect-bounds -u -o bounds.geojson -b export/bounds
+          uvx --from 'topo-map-processor>=0.1.25' collect-bounds -u -o bounds.geojson -b export/bounds
           gh release upload '50k-osm-georef' bounds.geojson --clobber
           rm data/bounds.geojson
 

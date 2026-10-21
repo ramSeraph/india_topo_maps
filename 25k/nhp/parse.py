@@ -2,7 +2,7 @@
 # requires-python = ">=3.12"
 # dependencies = [
 #     "pymupdf",
-#     "topo-map-processor[parse]",
+#     "topo-map-processor[parse]>=0.1.25",
 #     "shapely",
 # ]
 #

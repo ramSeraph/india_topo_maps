@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.12"
-# dependencies = ["pymupdf", "topo-map-processor[parse]", "shapely"]
+# dependencies = ["pymupdf", "topo-map-processor[parse]>=0.1.25", "shapely"]
 # ///
 
 """Regression tests using small generated PDFs; run with `uv run test_parse.py`."""

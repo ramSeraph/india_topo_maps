@@ -51,12 +51,12 @@ uvx --from gh-release-tools upload-to-release --release 25k-nhp-georef --extensi
 uvx --from gh-release-tools generate-lists --release 25k-nhp-georef --extension tif
 
 # 10. create bounds file
-uvx --from topo-map-processor collect-bounds --bounds-dir export/bounds --output-file export/bounds.geojson
+uvx --from 'topo-map-processor>=0.1.25' collect-bounds --bounds-dir export/bounds --output-file export/bounds.geojson
 gh release upload 25k-nhp-georef export/bounds.geojson
 
 # 11. tile the georeferenced tifs
 GDAL_VERSION=$(gdalinfo --version | cut -d"," -f1 | cut -d" " -f2)
-uvx --with numpy --with pillow --with gdal==$GDAL_VERSION --from topo_map_processor tile --tiles-dir export/tiles --tiffs-dir export/gtiffs --max-zoom 15 --name "SOI 1:25k" --description "SOI 1:25k maps" --attribution-file attribution.txt
+uvx --with numpy --with pillow --with gdal==$GDAL_VERSION --from 'topo-map-processor>=0.1.25' tile --tiles-dir export/tiles --tiffs-dir export/gtiffs --max-zoom 15 --name "SOI 1:25k" --description "SOI 1:25k maps" --attribution-file attribution.txt
 
 # 12. create pmtiles files
 uvx --from pmtiles-mosaic partition --from-source export/tiles --to-pmtiles export/pmtiles/SOI-NHP-25k.pmtiles --no-cache

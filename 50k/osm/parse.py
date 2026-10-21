@@ -3,7 +3,7 @@
 # dependencies = [
 #     "pdfminer-six",
 #     "pypdf",
-#     "topo-map-processor[parse]",
+#     "topo-map-processor[parse]>=0.1.25",
 # ]
 #
 # ///

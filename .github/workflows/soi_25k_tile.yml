@@ -59,7 +59,7 @@ jobs:
           uv venv
           uv pip install numpy pillow setuptools wheel
           uv pip install --no-build-isolation --no-cache-dir --force-reinstall GDAL==${GDAL_VERSION}
-          uv pip install topo-map-processor
+          uv pip install 'topo-map-processor>=0.1.25'
           uv run retile-e2e \
               --pmtiles-release 25k-nhp-pmtiles \
               --gtiffs-release 25k-nhp-georef \

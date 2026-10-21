@@ -12,10 +12,10 @@ uv run --with pyproj grid_to_geojson.py
 uv run parse_crz.py
 
 # 5. Create the bounds file
-uvx --from topo-map-processor collect-bounds -b export/bounds -o data/bounds.geojson
+uvx --from 'topo-map-processor>=0.1.25' collect-bounds -b export/bounds -o data/bounds.geojson
 
 # 6. Tile the COGs to PMTiles
-uvx --from topo-map-processor --with gdal==3.11.4 tile --tiles-dir export/tiles --tiffs-dir export/gtiffs --max-zoom 18 --name "CZMP 2019 Goa 4k" --description "CZMP 2019 (Draft), Department of Environment and Climate Change, Government of Goa" --attribution "CZMP 2019 (Draft), Department of Environment and Climate Change, Government of Goa"
+uvx --from 'topo-map-processor>=0.1.25' --with gdal==3.11.4 tile --tiles-dir export/tiles --tiffs-dir export/gtiffs --max-zoom 18 --name "CZMP 2019 Goa 4k" --description "CZMP 2019 (Draft), Department of Environment and Climate Change, Government of Goa" --attribution "CZMP 2019 (Draft), Department of Environment and Climate Change, Government of Goa"
 uvx --from pmtiles-mosaic partition --from-source export/tiles --no-cache --to-pmtiles export/pmtiles/CZMP-2019-Goa-4k.pmtiles
 
 # 7. upload to github releases and update lists
