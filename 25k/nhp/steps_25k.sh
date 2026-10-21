@@ -1,13 +1,22 @@
 
 
-# 1. get list of avaialble 25k sheets
-uv run scrape_available.py
+# 1. Download the current NHP "Download Preview Index" ZIP and release inventory,
+# refresh all state/district listings, and rebuild the missing-sheet retry list.
+# Local regression tests: uv run test_nhp.py; uv run test_refresh_lookup.py
+uv run refresh_lookup.py
+# For a quick rebuild using a complete catalogue already collected locally:
+# uv run refresh_lookup.py --reuse-catalogue
 
-# 2. download the sheets
-uv run scrape_sheets.py
+# 2. Download the remaining sheets.
+# Inspect data/sheet_availability.csv and data/sheet_availability_summary.json.
+# PB_TOKEN supplies Pushbullet access for login OTPs; credentials: data/users.json.
+uv run scrape_sheets.py data/sheet_nos_to_lookup.txt --keep-going
+# Per-sheet outcomes are saved to data/download_attempts.json, including failures.
+# Rebuild the retry list after downloading, with no website lookups:
+python3 build_download_list.py data/NHP_3_5m.zip
 
-# 3. collect the available sheet numbers to data/sheet_nos.txt
-uv run collect_sheet_nos.py
+# 3. data/sheet_nos_combined.txt now contains the deduplicated union.
+# collect_sheet_nos.py reads the legacy data/list cache; it is not needed above.
 
 # 4. get the kml file for the sheets
 # TODO: automate this if needed - this was manually downloaded and upload to soi-ancillary
@@ -20,9 +29,7 @@ ogr2ogr -f GeoJSON data/NHP_3-5m.geojson data/NHP_3-5m.kml
 uv run process_geojson.py
 cat data/NHP_3-5m_parsed.geojson| jq -r '.features[].properties.id' > data/sheet_nos_kml.txt
 
-# 6. download sheets from both sheet_nos.txt and sheet_nos_kml.txt
-uv run scrape_sheets.py data/sheet_nos.txt
-uv run scrape_sheets.py data/sheet_nos_kml.txt
+# 6. The combined lookup list above supersedes separate catalogue/KML downloads.
 
 # 7. get the list of sheet nos around the periphary of the available sheets and scrape them
 # TODO: add steps used to create 25k index

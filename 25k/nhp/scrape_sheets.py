@@ -2,23 +2,36 @@
 # requires-python = ">=3.12"
 # dependencies = [
 #     "soi-common",
+#     "torch; sys_platform == 'linux'",
+#     "torchvision; sys_platform == 'linux'",
 # ]
 #
 # [tool.uv.sources]
-# soi-common = { git = "https://github.com/ramseraph/soi_common" }
+# soi-common = { git = "https://github.com/ramseraph/soi_common", rev = "5ac714f5e0b2e6d741da8da97951702dd70f59b9" }
+# torch = { index = "pytorch-cpu", marker = "sys_platform == 'linux'" }
+# torchvision = { index = "pytorch-cpu", marker = "sys_platform == 'linux'" }
+#
+# [[tool.uv.index]]
+# name = "pytorch-cpu"
+# url = "https://download.pytorch.org/whl/cpu"
+# explicit = true
 # ///
 
 import logging
-import shutil
 import json
 import time
 import zipfile
 import io
+import argparse
+from datetime import datetime, timezone
+import os
+
+import requests
 
 from pathlib import Path
-from pprint import pprint
 
 from bs4 import BeautifulSoup
+from nhp_portal import get_error_alert, get_product_selection, get_submit_control, normalize_sheet_no, require_pdf_picker
 
 from soi_common.captcha_helper import (
      check_captcha_models,
@@ -29,13 +42,12 @@ from soi_common.login import login_wrap, get_form_data, get_secrets
 from soi_common.common import (
     base_url,
     setup_logging,
-    get_page_soup,
     session,
-    reset_session,
 )
 
 
 DELAY = 1
+REQUEST_TIMEOUT = (20, 120)
 logger = logging.getLogger(__name__)
 
 data_dir = 'data/'
@@ -45,9 +57,16 @@ class DelayedRetriableException(Exception):
     pass
 class KnownException(Exception):
     pass
+class PortalError(Exception):
+    pass
 
 def check_for_error(resp, err_file=None):
-    global force_map_tried
+    if 'text/html' in resp.headers.get('Content-Type', '').lower() or resp.content.lstrip().startswith(b'<'):
+        message = get_error_alert(BeautifulSoup(resp.text, 'html.parser'))
+        if message:
+            if err_file is not None:
+                err_file.write_text(resp.text)
+            raise PortalError(message)
     resps = list(resp.history) + [resp]
     for r in resps:
         if '/Errorpage.aspx' in str(r.url):
@@ -60,28 +79,20 @@ def check_for_error(resp, err_file=None):
             for e in err_strings:
                 if e in err_text:
                     if err_file is not None:
-                        d_file = err_file.parent
-                        s_file = d_file.parent
-                        s_name = s_file.name
-                        d_name = d_file.name
-                        if s_name not in force_map_tried:
-                            force_map_tried[s_name] = {}
-                        force_map_tried[s_name][d_name] = True
-
                         err_file.write_text(resp.text)
                     logging.error('Some retriable error happened, error text: %s', err_text)
                     raise KnownException(err_text)
             raise Exception('Some Error Happened')
 
 def scrape(phone_num, password, otp_from_pb, typ, sheet_list):
-    global done_sheets
-    global force_map_tried
 
     login_wrap(phone_num, password, otp_from_pb)
 
     logging.info('Product Show page scraping')
     dp_page = base_url + 'Digital_Product_Show.aspx'
-    soup = get_page_soup(dp_page)
+    response = session.get(dp_page, timeout=REQUEST_TIMEOUT)
+    response.raise_for_status()
+    soup = BeautifulSoup(response.text, 'html.parser')
 
     form_data = get_form_data(soup)
     post_data = {
@@ -94,34 +105,29 @@ def scrape(phone_num, password, otp_from_pb, typ, sheet_list):
         "origin": base_url[:-1],
         "referer": dp_page,
         "content-type": "application/x-www-form-urlencoded",
-        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
     }
 
     logging.info('Navigating to SOI project page listing')
-    resp = session.post(dp_page, headers=headers, data=form_data)
+    resp = session.post(dp_page, headers=headers, data=form_data, timeout=REQUEST_TIMEOUT)
     if not resp.ok:
-        raise Exception('Unable to post to get village shapefile listing')
+        raise RuntimeError('Unable to open the digital product listing')
     check_for_error(resp)
 
     soup = BeautifulSoup(resp.text, 'html.parser')
     form_data = get_form_data(soup)
-    if typ == 'NHP':
-        key = 'ctl00$ContentPlaceHolder1$ListViewSingleProduct$ctrl1$Button4'
-    else:
-        key = 'ctl00$ContentPlaceHolder1$ListViewSingleProduct$ctrl1$Button3'
-
+    form_data.update(get_product_selection(soup, typ))
     form_data.update({
-        key: 'Click to Buy',
         'ctl00$ContentPlaceHolder1$rblFormats': 'All',
         'ctl00$ContentPlaceHolder1$rblDigitalProduct': '12',
     })
 
     logging.info(f'Navigating to the {typ} Product Specification page')
-    resp = session.post(dp_page, headers=headers, data=form_data)
+    resp = session.post(dp_page, headers=headers, data=form_data, timeout=REQUEST_TIMEOUT)
     if not resp.ok:
         raise Exception(f'Unable to navigate to the {typ} Product Specification page')
     check_for_error(resp)
     soup = BeautifulSoup(resp.text, 'html.parser')
+    require_pdf_picker(soup)
     form_data = get_form_data(soup)
     
     logging.info('Change to pdf listing')
@@ -133,7 +139,7 @@ def scrape(phone_num, password, otp_from_pb, typ, sheet_list):
         '__EVENTTARGET': 'ctl00$ContentPlaceHolder1$ddlFormateTyoe',
     })
     sheet_picker_url = resp.url
-    resp = session.post(sheet_picker_url, headers=headers, data=form_data)
+    resp = session.post(sheet_picker_url, headers=headers, data=form_data, timeout=REQUEST_TIMEOUT)
     if not resp.ok:
         raise Exception('Unable to post to change to pdf listing')
 
@@ -148,9 +154,12 @@ def scrape(phone_num, password, otp_from_pb, typ, sheet_list):
 
         logging.info(f'Downloading sheet {done_count + 1}/{total_count}: {sheet_no}')
         out_file = Path(raw_data_dir) / f'{sheet_no}.pdf'
-        out_unavailable_file = out_file.with_suffix('.pdf.unavailable')
         out_html_file = out_file.with_suffix('.html')
-        if out_file.exists() or out_unavailable_file.exists() or out_html_file.exists():
+        valid_pdf = False
+        if out_file.exists():
+            with out_file.open('rb') as stream:
+                valid_pdf = stream.read(5) == b'%PDF-'
+        if valid_pdf:
             logging.info(f'Sheet {sheet_no} already done, skipping')
             done_count += 1
             continue
@@ -165,7 +174,7 @@ def scrape(phone_num, password, otp_from_pb, typ, sheet_list):
         })
         time.sleep(DELAY)
         logging.info(f'Adding sheet {sheet_no} to cart')
-        resp = session.post(sheet_picker_url, headers=headers, data=form_data)
+        resp = session.post(sheet_picker_url, headers=headers, data=form_data, timeout=REQUEST_TIMEOUT)
         if not resp.ok:
             raise Exception(f'Unable to post to add sheet {sheet_no} to cart')
 
@@ -178,7 +187,7 @@ def scrape(phone_num, password, otp_from_pb, typ, sheet_list):
 
         time.sleep(DELAY)
         logging.info(f'Viewing cart for sheet {sheet_no}')
-        resp = session.post(sheet_picker_url, headers=headers, data=form_data)
+        resp = session.post(sheet_picker_url, headers=headers, data=form_data, timeout=REQUEST_TIMEOUT)
         if not resp.ok:
             raise Exception(f'Unable to post to view cart for sheet {sheet_no}')
 
@@ -192,18 +201,15 @@ def scrape(phone_num, password, otp_from_pb, typ, sheet_list):
 
         time.sleep(DELAY)
         logging.info(f'Placing order for sheet {sheet_no}')
-        resp = session.post(resp.url, headers=new_headers, data=form_data)
+        resp = session.post(resp.url, headers=new_headers, data=form_data, timeout=REQUEST_TIMEOUT)
         if not resp.ok:
             raise Exception(f'Unable to post to place order for sheet {sheet_no}')
 
         try:
             check_for_error(resp)
         except KnownException:
-            logging.warning(f'Failed to place order for sheet {sheet_no}, marking as unavailable')
-            out_unavailable_file.write_text('Sheet not available')
-            done_count += 1
+            logging.warning(f'Failed to place order for sheet {sheet_no}; will retry')
             raise DelayedRetriableException('Unable to place order, trying again')
-            continue
 
         soup = BeautifulSoup(resp.text, 'html.parser')
         form_data = get_form_data(soup)
@@ -214,84 +220,57 @@ def scrape(phone_num, password, otp_from_pb, typ, sheet_list):
         new_headers['referer'] = resp.url
         time.sleep(DELAY)
         logging.info(f'Agree to terms and conditions for sheet {sheet_no}')
-        resp = session.post(resp.url, headers=new_headers, data=form_data)
+        resp = session.post(resp.url, headers=new_headers, data=form_data, timeout=REQUEST_TIMEOUT)
         if not resp.ok:
             raise Exception(f'Unable to post to agree to T&C for sheet {sheet_no}')
 
         check_for_error(resp)
         soup = BeautifulSoup(resp.text, 'html.parser')
         form_data = get_form_data(soup)
+        form_data.update(get_submit_control(soup, 'btnProceedDownload', sheet_no))
         form_data.update({
-            'ctl00$ContentPlaceHolder1$gvCustomers$ctl02$btnProceedDownload': 'Proceed for Download',
             'ctl00$ContentPlaceHolder1$HiddenField1': ''
         })
         new_headers['referer'] = resp.url
         logging.info(f'Proceeding to download for sheet {sheet_no}')
 
         time.sleep(DELAY)
-        resp = session.post(resp.url, headers=new_headers, data=form_data)
+        resp = session.post(resp.url, headers=new_headers, data=form_data, timeout=REQUEST_TIMEOUT)
         if not resp.ok:
             raise Exception(f'Unable to post to proceed to download for sheet {sheet_no}')
 
         check_for_error(resp)
         soup = BeautifulSoup(resp.text, 'html.parser')
-        form_data = get_form_data(soup)
-        form_data.update({
-            'ctl00$ContentPlaceHolder1$gvOrders$ctl02$btnRequest': 'Request',
-            'ctl00$ContentPlaceHolder1$HiddenFieldOrder': '',
-            'ctl00$ContentPlaceHolder1$HiddenFieldpointID': '',
-            'ctl00$ContentPlaceHolder1$HiddenFieldMasterCode': '',
-            'ctl00$ContentPlaceHolder1$HiddenFieldStateCode': '',
-            'ctl00$ContentPlaceHolder1$HiddenFieldDistrictCode': '',
-        })
-        new_headers['referer'] = resp.url
-        time.sleep(DELAY)
-        logging.info(f'Requesting download for sheet {sheet_no}')
-        resp = session.post(resp.url, headers=new_headers, data=form_data)
-        if not resp.ok:
-            raise Exception(f'Unable to post to request download for sheet {sheet_no}')
+        # SOI may offer Download immediately, or require the preparation steps.
+        for control in ('btnRequest', 'btnGenerateDownloadLink'):
+            if get_submit_control(soup, 'btnDownloadMap', sheet_no, required=False):
+                break
+            action = get_submit_control(soup, control, sheet_no, required=False)
+            if action is None:
+                continue
+            form_data = get_form_data(soup)
+            form_data.update(action)
+            new_headers['referer'] = resp.url
+            time.sleep(DELAY)
+            logging.info(f'Preparing download for sheet {sheet_no}: {control}')
+            resp = session.post(resp.url, headers=new_headers, data=form_data, timeout=REQUEST_TIMEOUT)
+            if not resp.ok:
+                raise Exception(f'Unable to prepare download for sheet {sheet_no}')
+            check_for_error(resp)
+            soup = BeautifulSoup(resp.text, 'html.parser')
 
-        check_for_error(resp)
-        soup = BeautifulSoup(resp.text, 'html.parser')
         form_data = get_form_data(soup)
-        form_data.update({
-            'ctl00$ContentPlaceHolder1$gvOrders$ctl02$btnGenerateDownloadLink': 'Generate Download Link',
-            'ctl00$ContentPlaceHolder1$HiddenFieldOrder': '',
-            'ctl00$ContentPlaceHolder1$HiddenFieldpointID': '',
-            'ctl00$ContentPlaceHolder1$HiddenFieldMasterCode': '',
-            'ctl00$ContentPlaceHolder1$HiddenFieldStateCode': '',
-            'ctl00$ContentPlaceHolder1$HiddenFieldDistrictCode': '',
-            'ctl00$ContentPlaceHolder1$HiddenFieldProductCode': '',
-        })
-        new_headers['referer'] = resp.url
-        time.sleep(DELAY)
-        logging.info(f'Generating download link for sheet {sheet_no}')
-        resp = session.post(resp.url, headers=new_headers, data=form_data)
-        if not resp.ok:
-            raise Exception(f'Unable to post to generate download link for sheet {sheet_no}')
-
-        check_for_error(resp)
-        soup = BeautifulSoup(resp.text, 'html.parser')
-        form_data = get_form_data(soup)
-        form_data.update({
-            'ctl00$ContentPlaceHolder1$gvOrders$ctl02$btnDownloadMap': 'Download',
-            'ctl00$ContentPlaceHolder1$HiddenFieldOrder': '',
-            'ctl00$ContentPlaceHolder1$HiddenFieldpointID': '',
-            'ctl00$ContentPlaceHolder1$HiddenFieldMasterCode': '',
-            'ctl00$ContentPlaceHolder1$HiddenFieldStateCode': '',
-            'ctl00$ContentPlaceHolder1$HiddenFieldDistrictCode': '',
-            'ctl00$ContentPlaceHolder1$HiddenFieldProductCode': '',
-        })
+        form_data.update(get_submit_control(soup, 'btnDownloadMap', sheet_no))
         new_headers['referer'] = resp.url
         time.sleep(DELAY)
         logging.info(f'Downloading sheet {sheet_no}')
-        resp = session.post(resp.url, headers=new_headers, data=form_data)
+        resp = session.post(resp.url, headers=new_headers, data=form_data, timeout=REQUEST_TIMEOUT)
         if not resp.ok:
             raise Exception(f'Unable to post to download sheet {sheet_no}')
         check_for_error(resp, err_file=out_file.with_suffix('.html'))
         zip_file_contents = resp.content
         # decode the zip file and locate the pdf inside it
-        if resp.headers.get('content-type', '').lower() != 'application/x-zip-compressed':
+        if not zipfile.is_zipfile(io.BytesIO(zip_file_contents)):
             out_html_file.write_text(resp.text)
             logger.error(f'Zip file not received for sheet {sheet_no}, check the html file')
             done_count += 1
@@ -308,8 +287,12 @@ def scrape(phone_num, password, otp_from_pb, typ, sheet_list):
                 out_file.with_suffix('.html').write_text(resp.text)
                 raise Exception(f'Multiple pdf files found in the zip for sheet {sheet_no}, check the html file')
             pdf_file_name = pdf_files[0]
-            with zf.open(pdf_file_name) as pdf_f, open(out_file, 'wb') as out_f:
-                shutil.copyfileobj(pdf_f, out_f)
+            content = zf.read(pdf_file_name)
+            if not content.startswith(b'%PDF-'):
+                raise RuntimeError(f'Invalid PDF in download for {sheet_no}')
+            temporary = out_file.with_suffix('.pdf.part')
+            temporary.write_bytes(content)
+            temporary.replace(out_file)
         logging.info(f'Sheet {sheet_no} written to {out_file}')
         done_count += 1
 
@@ -318,70 +301,82 @@ def scrape(phone_num, password, otp_from_pb, typ, sheet_list):
 
 
 
-tried_users_file = data_dir + 'tried_users.txt'
-def get_tried_users():
-    if not Path(tried_users_file).exists():
-        return []
-    with open(tried_users_file, 'r') as f:
-        tried_users = f.read().split('\n')
-    return [ x.strip() for x in tried_users ]
-
-
-def update_tried_users(tried_users):
-    tried_users_file_new = tried_users_file + '.new'
-    with open(tried_users_file_new, 'w') as f:
-        f.write('\n'.join(tried_users))
-    shutil.move(tried_users_file_new, tried_users_file)
-
- 
 def scrape_wrap(otp_from_pb, typ, sheet_list):
     secrets_map = get_secrets()
-    #tried_users = get_tried_users()
-    secrets_map = {k:v for k,v in secrets_map.items()}
-    total_count = len(secrets_map)
-    s_items = list(secrets_map.items())
-    while True:
-        phone_num, password = s_items[0]
+    if not secrets_map:
+        raise RuntimeError('No enabled accounts in data/users.json')
+    phone_num, password = next(iter(secrets_map.items()))
+    for attempt in range(3):
         try:
-            ret = scrape(phone_num, password, otp_from_pb, typ, sheet_list)
-            return
-        except (KnownException, DelayedRetriableException) as ke:
-            logger.warning('Known Exception for this user..')
+            return scrape(phone_num, password, otp_from_pb, typ, sheet_list)
+        except (KnownException, DelayedRetriableException, requests.ConnectionError,
+                requests.Timeout, requests.exceptions.ChunkedEncodingError) as ke:
+            if attempt == 2:
+                raise
+            logger.warning('Temporary SOI failure (%s); retrying in 60s', type(ke).__name__)
             time.sleep(60)
+            if isinstance(ke, requests.RequestException):
+                continue
             saved_cookie_file = Path(f'data/cookies/saved_cookies.{phone_num}.pkl')
             saved_cookie_file.unlink(missing_ok=True)
-            reset_session()
-            # unlink cookie file
-            #tried_users.append(phone_num)
-            #update_tried_users(tried_users)
-            #session = requests.session()
-        except Exception as ex:
-            logger.error('Some Exception happened, cannot continue')
-            logger.exception(ex)
-            raise ex
+            # Login, CAPTCHA, and this scraper share the same Session object.
+            # Rebinding common.session leaves the imported references stale.
+            session.cookies.clear()
+
+
+def download_batch(sheet_list, report_path, keep_going=False):
+    report_path = Path(report_path)
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    Path(raw_data_dir).mkdir(parents=True, exist_ok=True)
+    records = []
+    for sheet_no in dict.fromkeys(normalize_sheet_no(s) for s in sheet_list):
+        output = Path(raw_data_dir) / f'{sheet_no}.pdf'
+        record = {'sheet_no': sheet_no, 'checked_at': datetime.now(timezone.utc).isoformat(), 'status': 'interrupted'}
+        try:
+            existed = output.exists() and output.read_bytes().startswith(b'%PDF-')
+            if not existed:
+                scrape_wrap(True, 'NHP', [sheet_no])
+            if not output.exists() or not output.read_bytes().startswith(b'%PDF-'):
+                raise RuntimeError('SOI did not return a valid PDF')
+            record.update({'status': 'already_local' if existed else 'downloaded', 'bytes': output.stat().st_size})
+        except Exception as exc:
+            record.update({'status': 'failed', 'error_type': type(exc).__name__,
+                           'error': type(exc).__name__ if isinstance(exc, requests.RequestException) else str(exc)})
+            logger.warning('Sheet %s failed: %s', sheet_no, record['error'])
+            if not keep_going:
+                raise
+        finally:
+            records.append(record)
+            temporary = report_path.with_name(report_path.name + '.tmp')
+            temporary.write_text(json.dumps(records, indent=2) + '\n')
+            temporary.replace(report_path)
+    return records
+
+
+def main():
+    parser = argparse.ArgumentParser(description='Download NHP sheets and record each result')
+    parser.add_argument('sheets', nargs='?', type=Path, default=Path('data/sheet_nos_to_lookup.txt'))
+    parser.add_argument('--keep-going', action='store_true', help='Try remaining sheets after a download failure')
+    parser.add_argument('--report', type=Path, default=Path('data/download_attempts.json'))
+    parser.add_argument('--pushbullet-token-file', type=Path, help='Read PB_TOKEN from a local file')
+    parser.add_argument('--models-dir', default=captcha_model_dir)
+    args = parser.parse_args()
+    setup_logging(logging.INFO)
+    if args.pushbullet_token_file:
+        os.environ['PB_TOKEN'] = args.pushbullet_token_file.read_text().strip()
+    if not CAPTCHA_MANUAL:
+        from soi_common import captcha_helper
+        captcha_helper.captcha_model_dir = args.models_dir
+        check_captcha_models(args.models_dir)
+    sheets = [s.strip() for s in args.sheets.read_text().splitlines() if s.strip()]
+    records = download_batch(sheets, args.report, args.keep_going)
+    failed = sum(r['status'] == 'failed' for r in records)
+    logger.info('Finished %s sheets: %s downloaded, %s already local, %s failed; report: %s',
+                len(records), sum(r['status'] == 'downloaded' for r in records),
+                sum(r['status'] == 'already_local' for r in records), failed, args.report)
+    return int(failed > 0)
 
 
 if __name__ == '__main__':
-    import sys
-    sheets_fname = sys.argv[1]
-    setup_logging(logging.INFO)
-
-    if not CAPTCHA_MANUAL:
-        check_captcha_models(captcha_model_dir)
-
-
-    done_sheets = set()
-    force_map_tried = {}
-    otp_from_pb = True
-    typ = 'NHP'
-    #geojson = json.loads(Path('data/index.geojson').read_text())
-    #features = geojson['features']
-    #extra_sheet_list = Path('data/extra_unprobed.txt').read_text().split('\n')
-    #extra_sheet_list = [ x.strip() for x in extra_sheet_list if x.strip() != '' ]
-    #sheet_list = []
-    #sheet_list.extend(extra_sheet_list)
-    #sheet_list.extend([ f['properties']['id'] for f in features ])
-    sheet_list = Path(sheets_fname).read_text().split('\n')
-    sheet_list = [ x.strip() for x in sheet_list if x.strip() != '' ]
-    scrape_wrap(otp_from_pb, typ, sheet_list)
+    raise SystemExit(main())
 
