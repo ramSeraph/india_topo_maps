@@ -2,10 +2,19 @@
 # requires-python = ">=3.12"
 # dependencies = [
 #     "soi-common",
+#     "torch; sys_platform == 'linux'",
+#     "torchvision; sys_platform == 'linux'",
 # ]
 #
 # [tool.uv.sources]
-# soi-common = { git = "https://github.com/ramseraph/soi_common" }
+# soi-common = { git = "https://github.com/ramseraph/soi_common", rev = "5ac714f5e0b2e6d741da8da97951702dd70f59b9" }
+# torch = { index = "pytorch-cpu", marker = "sys_platform == 'linux'" }
+# torchvision = { index = "pytorch-cpu", marker = "sys_platform == 'linux'" }
+#
+# [[tool.uv.index]]
+# name = "pytorch-cpu"
+# url = "https://download.pytorch.org/whl/cpu"
+# explicit = true
 # ///
 
 import json

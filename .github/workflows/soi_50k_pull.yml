@@ -23,32 +23,14 @@ jobs:
         uses: astral-sh/setup-uv@v5
         with:
           enable-cache: true
+          python-version: '3.12'
+          cache-dependency-glob: 50k/osm/scrape_unavailable.py
 
-      - name: Restore tesseract models from cache
-        uses: actions/cache/restore@v4
+      - name: Cache CAPTCHA model
+        uses: actions/cache@v4
         with:
-          path: '50k/osm/data/captcha/models/'
-          key:  'SOI-tesseract-models-v2'
-        id: models-cache
-
-      - name: Install packages
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y tesseract-ocr
-
-      - name: Download tesseract models from github releases
-        if: ${{ steps.models-cache.outputs.cache-hit != 'true' }}
-        run: |
-          cd 50k/osm
-          mkdir -p data/captcha/models/
-          uvx --from git+https://github.com/ramSeraph/soi_common download-captcha-models data/captcha/models/
-
-      - name: Save tesseract models to cache
-        if: ${{ steps.models-cache.outputs.cache-hit != 'true' }}
-        uses: actions/cache/save@v4
-        with:
-          path: '50k/osm/data/captcha/models/'
-          key:  'SOI-tesseract-models-v2'
+          path: '50k/osm/data/captcha/models/captchabreaker/'
+          key: 'SOI-captchabreaker-model-v1'
 
       - name: Restore ancillary files from cache
         uses: actions/cache/restore@v4
