@@ -21,8 +21,11 @@
 48J_10
 45H_10
 
-# bad file
-54N_12
+# manually repaired; could be inaccurate or incomplete
+54N_12: manually repaired from a corrupted source PDF. Some original drawing data
+could not be recovered, primarily vegetation symbols and associated white fills.
+The unrepaired original is archived as 54N_12.original-corrupt.pdf.bak in the
+50k-osm-orig-extra1 release; the repaired copy is published as 54N_12.pdf.
 
 
 
