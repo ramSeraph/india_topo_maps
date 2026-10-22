@@ -31,9 +31,9 @@ from pdfminer.layout import LTImage
 from pdfminer.pdftypes import resolve_all, PDFObjRef, PDFNotImplementedError
 
 from pypdf import PdfReader
-import PIL
+from PIL import Image, UnidentifiedImageError
 
-PIL.Image.MAX_IMAGE_PIXELS = None
+Image.MAX_IMAGE_PIXELS = None
 
 inter_dir = Path('data/inter')
 
@@ -76,7 +76,7 @@ def is_expected_error(err_txt):
 def run_external(cmd, expected_error_fn=None):
     print(f'running cmd - {cmd}')
     start = time.time()
-    res = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+    res = subprocess.run(cmd, shell=isinstance(cmd, str), capture_output=True, text=True)
     end = time.time()
     print(f'STDOUT: {res.stdout}')
     print(f'STDERR: {res.stderr}')
@@ -85,15 +85,6 @@ def run_external(cmd, expected_error_fn=None):
         if expected_error_fn is not None and expected_error_fn(res.stderr):
             return
         raise Exception(f'command {cmd} failed with exit code: {res.returncode}')
-
-def get_dpi(file):
-    dpi_file = Path('dpi.txt')
-    if dpi_file.exists():
-        dpi_file.unlink()
-    run_external(f"identify -units PixelsPerInch -format '%x\\n' {file} > {dpi_file}")
-    dpi = int(dpi_file.read_text().strip())
-    dpi_file.unlink()
-    return dpi
 
 def get_images(layout):
     imgs = []
@@ -254,13 +245,16 @@ class Converter:
             self.convert_pdf_to_image()
 
     def fix_dpi(self, file):
-        dpi = get_dpi(file)
-        if dpi != 300:
-            temp_file = Path('temp.jpg')
-            if temp_file.exists():
-                temp_file.unlink()
-            run_external(f'convert -units PixelsPerInch {file} -density 300 {temp_file}')
-            shutil.move(temp_file, file)
+        # Change only metadata: decoding these large sheets can exhaust
+        # ImageMagick's pixel cache, and re-encoding would reduce JPEG quality.
+        run_external([
+            'exiftool', '-overwrite_original',
+            '-JFIF:ResolutionUnit=inches',
+            '-JFIF:XResolution=300', '-JFIF:YResolution=300',
+            '-EXIF:ResolutionUnit=inches',
+            '-EXIF:XResolution=300', '-EXIF:YResolution=300',
+            str(file),
+        ])
 
 
     def compress(self):
@@ -268,25 +262,41 @@ class Converter:
 
         compressed_file = self.get_compressed_file()
         if compressed_file.exists():
-            print(f'file {compressed_file} exists.. skipping compression')
-            return
-        shutil.copy(img_file, compressed_file)
+            try:
+                with Image.open(compressed_file) as image:
+                    reusable = image.format == 'JPEG' and compressed_file.stat().st_size < MAX_SIZE
+            except (OSError, UnidentifiedImageError):
+                reusable = False
+            if reusable:
+                self.fix_dpi(compressed_file)
+                if compressed_file.stat().st_size < MAX_SIZE:
+                    print(f'file {compressed_file} exists.. skipping compression')
+                    return
 
-        curr_size = None
-        quality = 100
-        quality_list = [ 75, 50, 25, 10 ]
-        while len(quality_list) > 0:
-            curr_size = compressed_file.stat().st_size
+        # mutool can write PNG data even when the output is named full.jpg.
+        # Only an actual JPEG can be copied directly to the export.
+        with Image.open(img_file) as image:
+            can_copy = image.format == 'JPEG' and img_file.stat().st_size < MAX_SIZE
 
-            if curr_size < MAX_SIZE:
-                break
-
-            quality = quality_list.pop(0)
-            run_external(f'bin/cjpeg -outfile {compressed_file} -quality {quality} -baseline {img_file}')
-            self.fix_dpi(compressed_file)
-
-        if curr_size > MAX_SIZE:
-            raise Exception(f'Couldn\'t compress {img_file} beyond {curr_size} bytes') 
+        temp_file = compressed_file.with_name('compressed.tmp.jpg')
+        quality_list = ([None] if can_copy else []) + [75, 50, 25, 10]
+        try:
+            for quality in quality_list:
+                if quality is None:
+                    shutil.copyfile(img_file, temp_file)
+                else:
+                    run_external([
+                        'bin/cjpeg', '-outfile', str(temp_file),
+                        '-quality', str(quality), '-baseline', str(img_file),
+                    ])
+                self.fix_dpi(temp_file)
+                curr_size = temp_file.stat().st_size
+                if curr_size < MAX_SIZE:
+                    temp_file.replace(compressed_file)
+                    return
+            raise Exception(f'Couldn\'t compress {img_file} beyond {curr_size} bytes')
+        finally:
+            temp_file.unlink(missing_ok=True)
 
     def close(self):
         if self.file_fp is not None:
@@ -300,8 +310,6 @@ class Converter:
             return
         print(f'converting {sheet}')
         converter.convert()
-        print(f'fixing dpi for {sheet}')
-        converter.fix_dpi(converter.get_full_img_file())
         print(f'compressing {sheet}')
         converter.compress()
         compressed_file = self.get_compressed_file()

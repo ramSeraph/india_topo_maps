@@ -43,6 +43,7 @@ jobs:
     runs-on: ubuntu-24.04
     env:
       GH_TOKEN: ${{ github.token }}
+      PYTHONUNBUFFERED: '1'
     steps:
       - uses: actions/checkout@v4.1.7
 
@@ -54,7 +55,7 @@ jobs:
       - name: Install packages
         run: |
           sudo apt-get update
-          sudo apt-get install -y imagemagick
+          sudo apt-get install -y libimage-exiftool-perl
 
       - name: Restore ancillary files from cache
         uses: actions/cache/restore@v4
@@ -65,14 +66,13 @@ jobs:
         id: base-files-cache
 
       - name: Get SOI Fonts
-        if: ${{ steps.base-files-cache.outputs.cache-hit != 'true' }}
         run: |
           cd 50k/osm
 
           [[ -f data/SOI_FONTS.zip ]] || wget -P data/ https://github.com/ramSeraph/india_topo_maps/releases/download/soi-ancillary/SOI_FONTS.zip 
 
           cd data
-          unzip SOI_FONTS.zip
+          unzip -oq SOI_FONTS.zip
 
       - name: Save ancillary files to cache
         if: ${{ steps.base-files-cache.outputs.cache-hit != 'true' }}
