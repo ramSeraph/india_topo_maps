@@ -1,0 +1,248 @@
+{
+  "method": "Manual visual interpretation of public satellite imagery at GeoPDF-derived locations",
+  "geolocated_occurrences": 22,
+  "imagery_reviewed_occurrences": 6,
+  "summary": {
+    "open_circular_structure": 3,
+    "unclear": 3
+  },
+  "source": "Esri World Imagery / Vantor; point-specific metadata saved with each observation",
+  "source_service": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "tile_zoom": 18,
+  "interpretation": "Three locations show circular rimmed openings. The PDF WELL layer favours an open well, but an open circular tank cannot be excluded from this imagery.",
+  "qualification": "Overhead imagery does not establish depth or use. Well versus open tank remains provisional, as do the original font outline and filled/hollow convention. The other 16 occurrences have not been checked in imagery.",
+  "observations": [
+    {
+      "id": "P04",
+      "latitude": 23.7741713424199,
+      "longitude": 84.4432131585284,
+      "map_link": "https://www.google.com/maps/@?api=1&map_action=map&center=23.7741713,84.4432132&zoom=20&basemap=satellite",
+      "status": "open_circular_structure",
+      "reading": "Clear circular rim and dark opening at the predicted location; an open well or open tank is possible.",
+      "source_attributes": {
+        "OBJECTID": 4376894,
+        "SRC_DATE": 20230404,
+        "SRC_RES": 0.31,
+        "SRC_ACC": 5,
+        "SAMP_RES": 0.6,
+        "SRC_DESC": "WV03",
+        "MinMapLevel": 12,
+        "MaxMapLevel": 18,
+        "NICE_NAME": "Vivid",
+        "DrawOrder": 80,
+        "SRC_DATE2": 1680566400000,
+        "NICE_DESC": "Vantor",
+        "Shape_Length": 62826.872824891405,
+        "Shape_Area": 179095367,
+        "BlockName": "Vivid_Standard_IN08_25Q2",
+        "ReleaseName": "Raster Basemaps 2025.R08"
+      },
+      "metadata_query_url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/10/query?geometry=84.4432131585284,23.7741713424199&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=*&returnGeometry=false&f=pjson"
+    },
+    {
+      "id": "P10",
+      "latitude": 23.7710415751983,
+      "longitude": 84.4264580450547,
+      "map_link": "https://www.google.com/maps/@?api=1&map_action=map&center=23.7710416,84.4264580&zoom=20&basemap=satellite",
+      "status": "unclear",
+      "reading": "Dark feature near the predicted location, but its rim and footprint are not clear enough to classify.",
+      "source_attributes": {
+        "OBJECTID": 4178817,
+        "SRC_DATE": 20230118,
+        "SRC_RES": 0.5,
+        "SRC_ACC": 5,
+        "SAMP_RES": 0.6,
+        "SRC_DESC": "WV02",
+        "MinMapLevel": 12,
+        "MaxMapLevel": 18,
+        "NICE_NAME": "Vivid",
+        "DrawOrder": 80,
+        "SRC_DATE2": 1674000000000,
+        "NICE_DESC": "Vantor",
+        "Shape_Length": 206664.62531879664,
+        "Shape_Area": 886707623.5,
+        "BlockName": "Vivid_Standard_IN08_25Q2",
+        "ReleaseName": "Raster Basemaps 2025.R08"
+      },
+      "metadata_query_url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/10/query?geometry=84.4264580450547,23.7710415751983&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=*&returnGeometry=false&f=pjson"
+    },
+    {
+      "id": "P16",
+      "latitude": 23.762122797187,
+      "longitude": 84.42864171983,
+      "map_link": "https://www.google.com/maps/@?api=1&map_action=map&center=23.7621228,84.4286417&zoom=20&basemap=satellite",
+      "status": "unclear",
+      "reading": "Vegetated location; no sufficiently distinct structure to classify in this image.",
+      "source_attributes": {
+        "OBJECTID": 4178817,
+        "SRC_DATE": 20230118,
+        "SRC_RES": 0.5,
+        "SRC_ACC": 5,
+        "SAMP_RES": 0.6,
+        "SRC_DESC": "WV02",
+        "MinMapLevel": 12,
+        "MaxMapLevel": 18,
+        "NICE_NAME": "Vivid",
+        "DrawOrder": 80,
+        "SRC_DATE2": 1674000000000,
+        "NICE_DESC": "Vantor",
+        "Shape_Length": 206664.62531879664,
+        "Shape_Area": 886707623.5,
+        "BlockName": "Vivid_Standard_IN08_25Q2",
+        "ReleaseName": "Raster Basemaps 2025.R08"
+      },
+      "metadata_query_url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/10/query?geometry=84.42864171983,23.762122797187&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=*&returnGeometry=false&f=pjson"
+    },
+    {
+      "id": "P18",
+      "latitude": 23.7614810874346,
+      "longitude": 84.4293795847878,
+      "map_link": "https://www.google.com/maps/@?api=1&map_action=map&center=23.7614811,84.4293796&zoom=20&basemap=satellite",
+      "status": "unclear",
+      "reading": "Partly obscured dark feature; a well is possible but cannot be established from this crop.",
+      "source_attributes": {
+        "OBJECTID": 4178817,
+        "SRC_DATE": 20230118,
+        "SRC_RES": 0.5,
+        "SRC_ACC": 5,
+        "SAMP_RES": 0.6,
+        "SRC_DESC": "WV02",
+        "MinMapLevel": 12,
+        "MaxMapLevel": 18,
+        "NICE_NAME": "Vivid",
+        "DrawOrder": 80,
+        "SRC_DATE2": 1674000000000,
+        "NICE_DESC": "Vantor",
+        "Shape_Length": 206664.62531879664,
+        "Shape_Area": 886707623.5,
+        "BlockName": "Vivid_Standard_IN08_25Q2",
+        "ReleaseName": "Raster Basemaps 2025.R08"
+      },
+      "metadata_query_url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/10/query?geometry=84.4293795847878,23.7614810874346&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=*&returnGeometry=false&f=pjson"
+    },
+    {
+      "id": "P20",
+      "latitude": 23.7594703449765,
+      "longitude": 84.4487267469522,
+      "map_link": "https://www.google.com/maps/@?api=1&map_action=map&center=23.7594703,84.4487267&zoom=20&basemap=satellite",
+      "status": "open_circular_structure",
+      "reading": "Circular opening with a pale rim beside buildings; imagery alone does not distinguish well from tank.",
+      "source_attributes": {
+        "OBJECTID": 4376894,
+        "SRC_DATE": 20230404,
+        "SRC_RES": 0.31,
+        "SRC_ACC": 5,
+        "SAMP_RES": 0.6,
+        "SRC_DESC": "WV03",
+        "MinMapLevel": 12,
+        "MaxMapLevel": 18,
+        "NICE_NAME": "Vivid",
+        "DrawOrder": 80,
+        "SRC_DATE2": 1680566400000,
+        "NICE_DESC": "Vantor",
+        "Shape_Length": 62826.872824891405,
+        "Shape_Area": 179095367,
+        "BlockName": "Vivid_Standard_IN08_25Q2",
+        "ReleaseName": "Raster Basemaps 2025.R08"
+      },
+      "metadata_query_url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/10/query?geometry=84.4487267469522,23.7594703449765&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=*&returnGeometry=false&f=pjson"
+    },
+    {
+      "id": "P22",
+      "latitude": 23.7538290144626,
+      "longitude": 84.4426224523086,
+      "map_link": "https://www.google.com/maps/@?api=1&map_action=map&center=23.7538290,84.4426225&zoom=20&basemap=satellite",
+      "status": "open_circular_structure",
+      "reading": "Circular rim and dark opening beside a field path; imagery alone does not distinguish well from tank.",
+      "source_attributes": {
+        "OBJECTID": 4376894,
+        "SRC_DATE": 20230404,
+        "SRC_RES": 0.31,
+        "SRC_ACC": 5,
+        "SAMP_RES": 0.6,
+        "SRC_DESC": "WV03",
+        "MinMapLevel": 12,
+        "MaxMapLevel": 18,
+        "NICE_NAME": "Vivid",
+        "DrawOrder": 80,
+        "SRC_DATE2": 1680566400000,
+        "NICE_DESC": "Vantor",
+        "Shape_Length": 62826.872824891405,
+        "Shape_Area": 179095367,
+        "BlockName": "Vivid_Standard_IN08_25Q2",
+        "ReleaseName": "Raster Basemaps 2025.R08"
+      },
+      "metadata_query_url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/10/query?geometry=84.4426224523086,23.7538290144626&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=*&returnGeometry=false&f=pjson"
+    }
+  ],
+  "working_decision": "Open well selected provisionally after considering an open tank. Hollow-circle rendering is a separate provisional glyph choice.",
+  "georeference": {
+    "source_sha256": "1e83b279678f60a5d8b094ba7ae4c9820c9dec321e94de906fde6bc98046e0fe",
+    "viewport": "Plan (inline page dictionary)",
+    "measure_xref": 1330,
+    "control_page_xy": [
+      [
+        402.0495910644531,
+        1691.1531982421875
+      ],
+      [
+        373.2525939941406,
+        95.1544189453125
+      ],
+      [
+        1846.613037109375,
+        68.5198974609375
+      ],
+      [
+        1875.4100341796875,
+        1664.5186767578125
+      ]
+    ],
+    "control_latlon": [
+      [
+        23.74959,
+        84.42501
+      ],
+      [
+        23.77499,
+        84.42451
+      ],
+      [
+        23.77542,
+        84.44999
+      ],
+      [
+        23.75001,
+        84.45049
+      ]
+    ],
+    "affine_page_to_utm45n": [
+      [
+        1.7633863150601994,
+        -0.031722485675328545
+      ],
+      [
+        -0.03167477223211804,
+        -1.7634847483669502
+      ],
+      [
+        236875.32962464207,
+        2631874.3574153143
+      ]
+    ],
+    "fit_residual_m": [
+      0.29153041000091723,
+      0.2915301459452323,
+      0.29152977717261186,
+      0.2915300647085036
+    ],
+    "gdal_control_error_m": [
+      1.6577342896395066,
+      0.47444311376077686,
+      0.7829025944488817,
+      0.9064287065910805
+    ],
+    "anchor_assumption": "Missing glyph centre estimated at 0.5em, 0.5em; exact original anchor unknown.",
+    "inspection_radius_note": "15m search radius is a visual aid, not a measured positional error or confidence bound."
+  }
+}

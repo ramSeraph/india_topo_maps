@@ -1,0 +1,415 @@
+{
+  "description": "SOI_cel outline families used by these replacement fonts; original font coordinate units are retained.",
+  "families": [
+    {
+      "id": "e3a392d9257495536bb05c9e14bc896847f7b4b17b90666153777ffe71331090",
+      "units_per_em": 2000,
+      "bounds": [
+        5,
+        80,
+        300,
+        650
+      ],
+      "svg_path": "M150 650 300 80H5Z",
+      "codes": [
+        40
+      ],
+      "glyph_names": [
+        "parenleft"
+      ],
+      "sources": [
+        {
+          "sheet": "73N_10_SE",
+          "font_xref": 175,
+          "font_sha256": "45d8051919dad886ff513a50b901447d05870355e1d6bdeb80874ef42258744b"
+        },
+        {
+          "sheet": "79B_10_SE",
+          "font_xref": 175,
+          "font_sha256": "65959e68c8c5f4aa36e3e686b0b53542ec47106712d32849f7566d61e5475330"
+        }
+      ],
+      "font_occurrences": 2,
+      "review_id": "G001"
+    },
+    {
+      "id": "fdf1a32cc65bfec036858ad7a0eaa890bff11029eef659fc836d85a058553d2f",
+      "units_per_em": 2000,
+      "bounds": [
+        0,
+        0,
+        700,
+        850
+      ],
+      "svg_path": "M55 850H60Q66 850 195 675H510Q510 686 640 850H645Q690 822 700 805Q597 662 555 615L535 630H530V600H170V630L145 615Q140 616 0 805Q10 822 55 850ZM170 250H530V220Q555 240 560 240Q560 235 700 50V40Q693 40 640 0Q511 175 505 175H195Q65 11 65 0H60Q55 0 0 45L140 240H145L165 225H170Z",
+      "codes": [
+        84
+      ],
+      "glyph_names": [
+        "T"
+      ],
+      "sources": [
+        {
+          "sheet": "43J_10_NE",
+          "font_xref": 172,
+          "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+        },
+        {
+          "sheet": "53H_12_NE",
+          "font_xref": 175,
+          "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+        },
+        {
+          "sheet": "72O_13_NW",
+          "font_xref": 175,
+          "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+        },
+        {
+          "sheet": "73M_4_NE",
+          "font_xref": 176,
+          "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+        },
+        {
+          "sheet": "73M_7_SW",
+          "font_xref": 175,
+          "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+        }
+      ],
+      "font_occurrences": 12,
+      "review_id": "G020"
+    },
+    {
+      "id": "a0a55493b410b1bf1b2701892c898933a5d16fd6539c1c9be50a82027bad5c38",
+      "units_per_em": 2000,
+      "bounds": [
+        0,
+        -4,
+        197,
+        193
+      ],
+      "svg_path": "M99 -4Q58 -4 29.0 25.0Q0 54 0 95Q0 135 29.0 164.0Q58 193 99 193Q139 193 168.0 164.0Q197 135 197 95Q197 54 168.0 25.0Q139 -4 99 -4Z",
+      "codes": [
+        103
+      ],
+      "glyph_names": [
+        "g"
+      ],
+      "sources": [
+        {
+          "sheet": "72O_13_NW",
+          "font_xref": 175,
+          "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+        },
+        {
+          "sheet": "74E_6_NW",
+          "font_xref": 181,
+          "font_sha256": "6da0a0d4db91e5c2c235300e80335fb6d9a2f5b07cefc5879f0e605873dcf16a"
+        },
+        {
+          "sheet": "79B_10_SE",
+          "font_xref": 175,
+          "font_sha256": "65959e68c8c5f4aa36e3e686b0b53542ec47106712d32849f7566d61e5475330"
+        }
+      ],
+      "font_occurrences": 3,
+      "review_id": "G027"
+    },
+    {
+      "id": "6ea2ef9abe33635f0ef90287054e7e19d823e3c9e7e50fcc292e6c365a4234e5",
+      "units_per_em": 2000,
+      "bounds": [
+        0,
+        -1,
+        446,
+        446
+      ],
+      "svg_path": "M40 405V40H405V405ZM446 -1H0V446H446Z",
+      "codes": [
+        179
+      ],
+      "glyph_names": [
+        "uni00B3"
+      ],
+      "sources": [
+        {
+          "sheet": "43J_10_NE",
+          "font_xref": 172,
+          "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+        },
+        {
+          "sheet": "53H_12_NE",
+          "font_xref": 175,
+          "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+        },
+        {
+          "sheet": "73N_10_SE",
+          "font_xref": 175,
+          "font_sha256": "45d8051919dad886ff513a50b901447d05870355e1d6bdeb80874ef42258744b"
+        },
+        {
+          "sheet": "74E_6_NW",
+          "font_xref": 181,
+          "font_sha256": "6da0a0d4db91e5c2c235300e80335fb6d9a2f5b07cefc5879f0e605873dcf16a"
+        },
+        {
+          "sheet": "79B_10_SE",
+          "font_xref": 175,
+          "font_sha256": "65959e68c8c5f4aa36e3e686b0b53542ec47106712d32849f7566d61e5475330"
+        }
+      ],
+      "font_occurrences": 5,
+      "review_id": "G046"
+    },
+    {
+      "id": "6eeea26244131cd07e4eed9517009a23b98dc65fa551fe54a3f050956c523efe",
+      "units_per_em": 2000,
+      "bounds": [
+        -2,
+        -3,
+        525,
+        524
+      ],
+      "svg_path": "M262 -3Q153 -3 75.5 74.0Q-2 151 -2 261Q-2 370 75.5 447.0Q153 524 262 524Q371 524 448.0 447.0Q525 370 525 261Q525 151 448.0 74.0Q371 -3 262 -3ZM262 55Q347 55 407.5 115.0Q468 175 468 261Q468 346 407.5 406.0Q347 466 262 466Q176 466 116.0 406.0Q56 346 56 261Q56 175 116.0 115.0Q176 55 262 55Z",
+      "codes": [
+        202
+      ],
+      "glyph_names": [
+        "Ecircumflex"
+      ],
+      "sources": [
+        {
+          "sheet": "72O_13_NW",
+          "font_xref": 175,
+          "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+        }
+      ],
+      "font_occurrences": 1,
+      "review_id": "G056"
+    },
+    {
+      "id": "65c259f3073c9c1bef9adbcfd2a7bb8d845f20f7484f85bb857f2289a4fcb017",
+      "units_per_em": 2000,
+      "bounds": [
+        0,
+        0,
+        367,
+        365
+      ],
+      "svg_path": "M30 365 185 215 340 365 365 340V335L215 180Q221 180 367 28L365 25L340 0L185 150L30 0Q23 0 0 30Q6 30 155 185Q149 185 0 340Z",
+      "codes": [
+        207
+      ],
+      "glyph_names": [
+        "Idieresis"
+      ],
+      "sources": [
+        {
+          "sheet": "43J_10_NE",
+          "font_xref": 172,
+          "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+        },
+        {
+          "sheet": "53H_12_NE",
+          "font_xref": 175,
+          "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+        },
+        {
+          "sheet": "72O_13_NW",
+          "font_xref": 175,
+          "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+        },
+        {
+          "sheet": "73M_4_NE",
+          "font_xref": 176,
+          "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+        },
+        {
+          "sheet": "73M_7_SW",
+          "font_xref": 175,
+          "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+        }
+      ],
+      "font_occurrences": 12,
+      "review_id": "G058"
+    },
+    {
+      "id": "99185b1103f93954488a38a287cc1bae08162eefaa57ec34adfe6e213c8d4fde",
+      "units_per_em": 2000,
+      "bounds": [
+        0,
+        0,
+        410,
+        410
+      ],
+      "svg_path": "M0 410H410V0H0Z",
+      "codes": [
+        226
+      ],
+      "glyph_names": [
+        "acircumflex"
+      ],
+      "sources": [
+        {
+          "sheet": "72O_13_NW",
+          "font_xref": 175,
+          "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+        },
+        {
+          "sheet": "73M_4_NE",
+          "font_xref": 176,
+          "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+        },
+        {
+          "sheet": "73M_7_SW",
+          "font_xref": 175,
+          "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+        },
+        {
+          "sheet": "73N_5_NW",
+          "font_xref": 184,
+          "font_sha256": "e3773273d3589be0df12a0272771d4aefe0f11d593f9fea4edb83976d0e5a369"
+        }
+      ],
+      "font_occurrences": 4,
+      "review_id": "G069"
+    },
+    {
+      "id": "900fffed0d9096f09c8effe8182402cbf706047db3f568bd80a8ecbc3715862b",
+      "units_per_em": 2000,
+      "bounds": [
+        0,
+        0,
+        415,
+        415
+      ],
+      "svg_path": "M0 415H415V0H0Z",
+      "codes": [
+        243
+      ],
+      "glyph_names": [
+        "oacute"
+      ],
+      "sources": [
+        {
+          "sheet": "53H_12_NE",
+          "font_xref": 175,
+          "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+        },
+        {
+          "sheet": "72O_13_NW",
+          "font_xref": 175,
+          "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+        },
+        {
+          "sheet": "73N_10_SE",
+          "font_xref": 175,
+          "font_sha256": "45d8051919dad886ff513a50b901447d05870355e1d6bdeb80874ef42258744b"
+        },
+        {
+          "sheet": "74E_6_NW",
+          "font_xref": 181,
+          "font_sha256": "6da0a0d4db91e5c2c235300e80335fb6d9a2f5b07cefc5879f0e605873dcf16a"
+        },
+        {
+          "sheet": "78C_2_SW",
+          "font_xref": 180,
+          "font_sha256": "ce0610f8979c511fc2b9401f881d765992d260ff2d35960b76bd2d852606a64a"
+        }
+      ],
+      "font_occurrences": 6,
+      "review_id": "G075"
+    },
+    {
+      "id": "4b7d11790f2f88a27e3bf675046c515ee774dc92fe38c4c2a0003e618b3a219f",
+      "units_per_em": 2000,
+      "bounds": [
+        0,
+        11,
+        526,
+        411
+      ],
+      "svg_path": "M526 11V411H0V11Z",
+      "codes": [
+        267
+      ],
+      "glyph_names": [
+        "cdotaccent"
+      ],
+      "sources": [
+        {
+          "sheet": "43J_10_NE",
+          "font_xref": 172,
+          "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+        },
+        {
+          "sheet": "53H_12_NE",
+          "font_xref": 175,
+          "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+        },
+        {
+          "sheet": "72O_13_NW",
+          "font_xref": 175,
+          "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+        },
+        {
+          "sheet": "73M_4_NE",
+          "font_xref": 176,
+          "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+        },
+        {
+          "sheet": "73M_7_SW",
+          "font_xref": 175,
+          "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+        }
+      ],
+      "font_occurrences": 12,
+      "review_id": "G090"
+    },
+    {
+      "id": "2a81a01987ba1593f3eccdcdc39e560d627a6ae8afa50f81e7317a67d6516ce5",
+      "units_per_em": 2000,
+      "bounds": [
+        0,
+        0,
+        1340,
+        80
+      ],
+      "svg_path": "M0 80H1340V0H0Z",
+      "codes": [
+        376
+      ],
+      "glyph_names": [
+        "Ydieresis"
+      ],
+      "sources": [
+        {
+          "sheet": "72O_13_NW",
+          "font_xref": 175,
+          "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+        },
+        {
+          "sheet": "73M_4_NE",
+          "font_xref": 176,
+          "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+        },
+        {
+          "sheet": "73M_7_SW",
+          "font_xref": 175,
+          "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+        },
+        {
+          "sheet": "74E_6_NW",
+          "font_xref": 181,
+          "font_sha256": "6da0a0d4db91e5c2c235300e80335fb6d9a2f5b07cefc5879f0e605873dcf16a"
+        },
+        {
+          "sheet": "78C_2_SW",
+          "font_xref": 180,
+          "font_sha256": "ce0610f8979c511fc2b9401f881d765992d260ff2d35960b76bd2d852606a64a"
+        }
+      ],
+      "font_occurrences": 5,
+      "review_id": "G114"
+    }
+  ]
+}

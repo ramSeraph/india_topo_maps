@@ -41,6 +41,7 @@ Collection of topographic maps of India from various sources, organized by scale
   - **Coverage**: Mining areas of India
   - [Sheet Listing](https://ramseraph.github.io/india_topo_maps/5k/cmpdi/sheets)
   - [Original Sheets (PDFs)](https://github.com/ramSeraph/india_topo_maps/releases/tag/5k-cmpdi-orig)
+  - [Replacement symbol fonts and reconstruction notes](5k/cmpdi/fonts/)
   - **Note**: Raw PDF files only, no georeferenced data or PMTiles available
 
 ## Using the Data

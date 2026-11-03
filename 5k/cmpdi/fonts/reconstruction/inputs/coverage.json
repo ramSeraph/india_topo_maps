@@ -1,0 +1,3193 @@
+{
+  "summary": {
+    "scope": "Only missing-DGN-font symbol codes used in the AURANGA legend",
+    "distinct_codes": 12,
+    "font_code_pairs": 15,
+    "shape_candidates_available": 11,
+    "provisional_codes": [
+      "$",
+      "y",
+      "%",
+      "T",
+      "I"
+    ],
+    "needs_review_codes": [
+      "]"
+    ],
+    "unresolved_codes": [
+      "H"
+    ],
+    "all_covered": false,
+    "qualification": "Candidate shapes are not verified replacements. Exact DGN outlines, scales and placements remain unavailable or unchecked. Ordinary SOI text-font repair is outside this symbol audit."
+  },
+  "rows": [
+    {
+      "character": "U",
+      "feature": "Road bridge",
+      "expected_shape": "Flared bridge sides",
+      "status": "candidate_available",
+      "candidate_outlines": [
+        {
+          "review_id": "G020",
+          "id": "fdf1a32cc65bfec036858ad7a0eaa890bff11029eef659fc836d85a058553d2f",
+          "codes": [
+            84
+          ],
+          "glyph_names": [
+            "T"
+          ],
+          "sources": [
+            {
+              "sheet": "43J_10_NE",
+              "font_xref": 172,
+              "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+            },
+            {
+              "sheet": "53H_12_NE",
+              "font_xref": 175,
+              "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+            },
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            }
+          ]
+        }
+      ],
+      "evidence": "Bridge variants exist in SOI_cel; exact DGN proportions are unavailable.",
+      "observations": [
+        {
+          "span_index": 1385,
+          "font": "DGNSymbols_new",
+          "code": 85,
+          "character": "U",
+          "origin_pt": [
+            211.7877197265625,
+            326.0904541015625
+          ],
+          "font_size_pt": 12.600460052490234,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "character": "$",
+      "feature": "Distance-stone tick beneath 25 in the road row",
+      "expected_shape": "Perpendicular tick: native horizontal bar, rotated 90 degrees",
+      "status": "candidate_available",
+      "candidate_outlines": [
+        {
+          "review_id": "G114",
+          "id": "2a81a01987ba1593f3eccdcdc39e560d627a6ae8afa50f81e7317a67d6516ce5",
+          "codes": [
+            376
+          ],
+          "glyph_names": [
+            "Ydieresis"
+          ],
+          "sources": [
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            },
+            {
+              "sheet": "74E_6_NW",
+              "font_xref": 181,
+              "font_sha256": "6da0a0d4db91e5c2c235300e80335fb6d9a2f5b07cefc5879f0e605873dcf16a"
+            },
+            {
+              "sheet": "78C_2_SW",
+              "font_xref": 180,
+              "font_sha256": "ce0610f8979c511fc2b9401f881d765992d260ff2d35960b76bd2d852606a64a"
+            }
+          ]
+        },
+        {
+          "review_id": "G115",
+          "id": "85b87db20ac9a33f85df4047390796b30f82bf5afb242900c2d7af870b541ac4",
+          "codes": [
+            377
+          ],
+          "glyph_names": [
+            "Zacute"
+          ],
+          "sources": [
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            },
+            {
+              "sheet": "74E_6_NW",
+              "font_xref": 181,
+              "font_sha256": "6da0a0d4db91e5c2c235300e80335fb6d9a2f5b07cefc5879f0e605873dcf16a"
+            },
+            {
+              "sheet": "78C_2_SW",
+              "font_xref": 180,
+              "font_sha256": "ce0610f8979c511fc2b9401f881d765992d260ff2d35960b76bd2d852606a64a"
+            }
+          ]
+        }
+      ],
+      "evidence": "This is a second missing-font symbol in the road row, separate from bridge U. The PDF rotates $ by 90 degrees and draws the road over its base afterwards. A native horizontal SOI_cel bar becomes a vertical tick under that rotation; the earlier native vertical-stroke candidate would turn sideways. Length and placement remain provisional.",
+      "observations": [
+        {
+          "span_index": 1613,
+          "font": "DGNSymbols_new",
+          "code": 36,
+          "character": "$",
+          "origin_pt": [
+            252.8292236328125,
+            319.6107177734375
+          ],
+          "font_size_pt": 2.159909963607788,
+          "text_direction": [
+            0.0,
+            -1.0
+          ],
+          "color": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "interpretation": {
+        "status": "provisional",
+        "type": "legend_and_pdf_rotation_inference",
+        "reference_support": "Reference legend shows a short red perpendicular distance-stone tick below 20.",
+        "pdf_support": "AURANGA uses red $ below 25, direction (0,-1), size 2.15991 pt; road strokes follow the glyph.",
+        "evidence_local": "road_aqueduct_paint_order.json",
+        "source_detail_local": "road_row_detail.png",
+        "reference_detail_local": "reference_road_detail.png",
+        "superseded_candidate": "G071 (native vertical bar) is incompatible with preserving the existing 90-degree rotation.",
+        "assumptions": [
+          "Native horizontal bars are candidates; exact length and offset still require fitting."
+        ]
+      }
+    },
+    {
+      "character": "]",
+      "feature": "Aqueduct crossing",
+      "expected_shape": "Crossing symbol: glyph and orientation under review",
+      "status": "candidate_needs_review",
+      "candidate_outlines": [
+        {
+          "review_id": "G020",
+          "id": "fdf1a32cc65bfec036858ad7a0eaa890bff11029eef659fc836d85a058553d2f",
+          "codes": [
+            84
+          ],
+          "glyph_names": [
+            "T"
+          ],
+          "sources": [
+            {
+              "sheet": "43J_10_NE",
+              "font_xref": 172,
+              "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+            },
+            {
+              "sheet": "53H_12_NE",
+              "font_xref": 175,
+              "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+            },
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            }
+          ]
+        },
+        {
+          "review_id": "G013",
+          "id": "37e0f67709ce0b82ca7b0f6a13f32253024abcecd24548b367c4b6045c7eafed",
+          "codes": [
+            73
+          ],
+          "glyph_names": [
+            "I"
+          ],
+          "sources": [
+            {
+              "sheet": "43J_10_NE",
+              "font_xref": 172,
+              "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+            },
+            {
+              "sheet": "53H_12_NE",
+              "font_xref": 175,
+              "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+            },
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            }
+          ]
+        }
+      ],
+      "evidence": "The AURANGA watercourse crosses roughly vertically here, but the proposed SOI_cel aqueduct outlines are oriented horizontally. A quarter-turn is a reconstruction candidate, not a verified mapping. The backslash-shaped cyan mark is a separate vector line, not another font character, and must be preserved. The supplied legend.webp has no aqueduct row. The intact NHP extended legend only establishes that T and I are used for aqueduct variants; it does not establish the original DGN ] outline.",
+      "observations": [
+        {
+          "span_index": 1386,
+          "font": "DGNSymbols_new",
+          "code": 93,
+          "character": "]",
+          "origin_pt": [
+            217.097900390625,
+            361.5489501953125
+          ],
+          "font_size_pt": 8.100299835205078,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "interpretation": {
+        "status": "needs_review",
+        "type": "feature_level_candidate_only",
+        "user_statement": "the aqueduct symbol is also suspect",
+        "evidence_local": "road_aqueduct_paint_order.json",
+        "source_detail_local": "aqueduct_row_detail.png",
+        "comparison_detail_local": "nhp_aqueduct_row_detail.png",
+        "source_font_missing": true,
+        "exact_glyph_assignment": null,
+        "backslash_shaped_component": {
+          "kind": "existing_vector_line",
+          "seqno": 115672,
+          "start_pt": [
+            219.88800048828125,
+            352.9093017578125
+          ],
+          "end_pt": [
+            222.58810424804688,
+            361.18896484375
+          ],
+          "stroke_width_pt": 0.18001000583171844,
+          "color": [
+            0,
+            1,
+            1
+          ],
+          "literal_backslash_font_character_found": false,
+          "action": "Preserve when reconstructing the missing ] glyph.",
+          "evidence_local": "aqueduct_backslash_check.json"
+        },
+        "candidate_transform": "Quarter-turn of the SOI_cel outline, with scale and placement to be fitted.",
+        "limitations": [
+          "No aqueduct entry in the user-supplied reference legend.",
+          "A different NHP legend establishes feature usage, not equality to the missing DGN glyph."
+        ]
+      }
+    },
+    {
+      "character": "O",
+      "feature": "Dams, embankments and cuttings",
+      "expected_shape": "Repeated filled triangular hachures",
+      "status": "candidate_available",
+      "candidate_outlines": [
+        {
+          "review_id": "G001",
+          "id": "e3a392d9257495536bb05c9e14bc896847f7b4b17b90666153777ffe71331090",
+          "codes": [
+            40
+          ],
+          "glyph_names": [
+            "parenleft"
+          ],
+          "sources": [
+            {
+              "sheet": "73N_10_SE",
+              "font_xref": 175,
+              "font_sha256": "45d8051919dad886ff513a50b901447d05870355e1d6bdeb80874ef42258744b"
+            },
+            {
+              "sheet": "79B_10_SE",
+              "font_xref": 175,
+              "font_sha256": "65959e68c8c5f4aa36e3e686b0b53542ec47106712d32849f7566d61e5475330"
+            }
+          ]
+        }
+      ],
+      "evidence": "The intact NHP legend shows triangular teeth for these features; size and direction vary.",
+      "observations": [
+        {
+          "span_index": 1387,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            232.3084716796875,
+            369.108642578125
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1388,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            230.14837646484375,
+            369.108642578125
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1389,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            227.98831176757812,
+            369.108642578125
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1390,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            225.82821655273438,
+            369.108642578125
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1391,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            223.48812866210938,
+            369.108642578125
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1392,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            221.32806396484375,
+            369.108642578125
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1393,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            219.16799926757812,
+            369.108642578125
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1394,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            217.00790405273438,
+            369.108642578125
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1395,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            214.66781616210938,
+            369.108642578125
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1396,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            212.50775146484375,
+            369.108642578125
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1397,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            210.70767211914062,
+            369.108642578125
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1398,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            262.5495910644531,
+            369.108642578125
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1399,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            260.3894958496094,
+            369.108642578125
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1400,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            258.22943115234375,
+            369.108642578125
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1401,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            255.88934326171875,
+            369.108642578125
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1402,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            253.729248046875,
+            369.108642578125
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1403,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            251.56918334960938,
+            369.108642578125
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1404,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            249.40908813476562,
+            369.108642578125
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1405,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            247.06900024414062,
+            369.108642578125
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1406,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            244.908935546875,
+            369.108642578125
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1407,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            242.74884033203125,
+            369.108642578125
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1408,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            240.94879150390625,
+            369.108642578125
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1409,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            296.93084716796875,
+            368.7486572265625
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "span_index": 1410,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            294.7707824707031,
+            368.7486572265625
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "span_index": 1411,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            292.6106872558594,
+            368.7486572265625
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "span_index": 1412,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            290.45062255859375,
+            368.7486572265625
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "span_index": 1413,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            288.29052734375,
+            368.7486572265625
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "span_index": 1414,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            285.950439453125,
+            368.7486572265625
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "span_index": 1415,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            283.7903747558594,
+            368.7486572265625
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "span_index": 1416,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            281.6302795410156,
+            368.7486572265625
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "span_index": 1417,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            279.47021484375,
+            368.7486572265625
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "span_index": 1418,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            277.130126953125,
+            368.7486572265625
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "span_index": 1419,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            275.3300476074219,
+            368.7486572265625
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            -1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "span_index": 1420,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            210.52767944335938,
+            417.70654296875
+          ],
+          "font_size_pt": 2.1600799560546875,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1421,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            211.96771240234375,
+            417.70654296875
+          ],
+          "font_size_pt": 2.1600799560546875,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1422,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            213.40777587890625,
+            417.70654296875
+          ],
+          "font_size_pt": 2.1600799560546875,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1423,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            215.02783203125,
+            417.70654296875
+          ],
+          "font_size_pt": 2.1600799560546875,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1424,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            216.4678955078125,
+            417.70654296875
+          ],
+          "font_size_pt": 2.1600799560546875,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1425,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            217.90792846679688,
+            417.70654296875
+          ],
+          "font_size_pt": 2.1600799560546875,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1426,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            219.52801513671875,
+            417.70654296875
+          ],
+          "font_size_pt": 2.1600799560546875,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1427,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            220.96804809570312,
+            417.70654296875
+          ],
+          "font_size_pt": 2.1600799560546875,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1428,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            222.40811157226562,
+            417.70654296875
+          ],
+          "font_size_pt": 2.1600799560546875,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1429,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            224.02816772460938,
+            417.70654296875
+          ],
+          "font_size_pt": 2.1600799560546875,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1430,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            225.46823120117188,
+            417.70654296875
+          ],
+          "font_size_pt": 2.1600799560546875,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1431,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            226.90826416015625,
+            417.70654296875
+          ],
+          "font_size_pt": 2.1600799560546875,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1432,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            228.34832763671875,
+            417.70654296875
+          ],
+          "font_size_pt": 2.1600799560546875,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1433,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            229.06832885742188,
+            420.2320556640625
+          ],
+          "font_size_pt": 2.1600794792175293,
+          "text_direction": [
+            -0.9999862909317017,
+            -0.005235918331891298
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1434,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            227.6282958984375,
+            420.2320556640625
+          ],
+          "font_size_pt": 2.1600794792175293,
+          "text_direction": [
+            -0.9999862909317017,
+            -0.005235918331891298
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1435,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            226.00820922851562,
+            420.2320556640625
+          ],
+          "font_size_pt": 2.1600794792175293,
+          "text_direction": [
+            -0.9999862909317017,
+            -0.005235918331891298
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1436,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            224.56817626953125,
+            420.2320556640625
+          ],
+          "font_size_pt": 2.1600794792175293,
+          "text_direction": [
+            -0.9999862909317017,
+            -0.005235918331891298
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1437,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            223.12811279296875,
+            420.2320556640625
+          ],
+          "font_size_pt": 2.1600794792175293,
+          "text_direction": [
+            -0.9999862909317017,
+            -0.005235918331891298
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1438,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            221.508056640625,
+            420.2320556640625
+          ],
+          "font_size_pt": 2.1600794792175293,
+          "text_direction": [
+            -0.9999862909317017,
+            -0.005235918331891298
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1439,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            220.0679931640625,
+            420.2320556640625
+          ],
+          "font_size_pt": 2.1600794792175293,
+          "text_direction": [
+            -0.9999862909317017,
+            -0.005235918331891298
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1440,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            218.62796020507812,
+            420.2320556640625
+          ],
+          "font_size_pt": 2.1600794792175293,
+          "text_direction": [
+            -0.9999862909317017,
+            -0.005235918331891298
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1441,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            217.00790405273438,
+            420.2320556640625
+          ],
+          "font_size_pt": 2.1600794792175293,
+          "text_direction": [
+            -0.9999862909317017,
+            -0.005235918331891298
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1442,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            215.56784057617188,
+            420.2320556640625
+          ],
+          "font_size_pt": 2.1600794792175293,
+          "text_direction": [
+            -0.9999862909317017,
+            -0.005235918331891298
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1443,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            214.12777709960938,
+            420.2320556640625
+          ],
+          "font_size_pt": 2.1600794792175293,
+          "text_direction": [
+            -0.9999862909317017,
+            -0.005235918331891298
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1444,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            212.50772094726562,
+            420.2320556640625
+          ],
+          "font_size_pt": 2.1600794792175293,
+          "text_direction": [
+            -0.9999862909317017,
+            -0.005235918331891298
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1445,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            297.1107177734375,
+            419.601318359375
+          ],
+          "font_size_pt": 2.159982442855835,
+          "text_direction": [
+            -0.66656094789505,
+            0.745450496673584
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1446,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            296.1900634765625,
+            420.67919921875
+          ],
+          "font_size_pt": 2.160015344619751,
+          "text_direction": [
+            -0.8141377568244934,
+            0.5806717872619629
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1447,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            294.87701416015625,
+            421.4539794921875
+          ],
+          "font_size_pt": 2.160059928894043,
+          "text_direction": [
+            -0.9317010641098022,
+            0.3632260262966156
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1448,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            293.6675109863281,
+            422.16357421875
+          ],
+          "font_size_pt": 2.160074472427368,
+          "text_direction": [
+            -0.9785125851631165,
+            0.20618733763694763
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1449,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            292.0701904296875,
+            422.5343017578125
+          ],
+          "font_size_pt": 2.160080671310425,
+          "text_direction": [
+            -0.9995599389076233,
+            0.02966555953025818
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1450,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            290.62451171875,
+            422.6810302734375
+          ],
+          "font_size_pt": 2.160078525543213,
+          "text_direction": [
+            -0.994338870048523,
+            -0.10625538975000381
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1451,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            289.158935546875,
+            422.4656982421875
+          ],
+          "font_size_pt": 2.160074472427368,
+          "text_direction": [
+            -0.9707211256027222,
+            -0.24020931124687195
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1452,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            287.6739807128906,
+            422.065673828125
+          ],
+          "font_size_pt": 2.1600563526153564,
+          "text_direction": [
+            -0.929142415523529,
+            -0.36972182989120483
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1453,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            286.35687255859375,
+            421.82666015625
+          ],
+          "font_size_pt": 2.160036087036133,
+          "text_direction": [
+            -0.8763232827186584,
+            -0.481723427772522
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1480,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            285.5912170410156,
+            459.6861572265625
+          ],
+          "font_size_pt": 2.160081624984741,
+          "text_direction": [
+            0.9992631673812866,
+            -0.03838280960917473
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1481,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            287.22723388671875,
+            459.8341064453125
+          ],
+          "font_size_pt": 2.1600797176361084,
+          "text_direction": [
+            0.9845053553581238,
+            -0.17535464465618134
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1482,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            288.71630859375,
+            459.6558837890625
+          ],
+          "font_size_pt": 2.160059928894043,
+          "text_direction": [
+            0.9391036033630371,
+            -0.3436339795589447
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1483,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            290.2527160644531,
+            459.1337890625
+          ],
+          "font_size_pt": 2.1600375175476074,
+          "text_direction": [
+            0.8499111533164978,
+            -0.5269260406494141
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1484,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            291.6564025878906,
+            458.2376708984375
+          ],
+          "font_size_pt": 2.15999174118042,
+          "text_direction": [
+            0.7169379591941833,
+            -0.6971369385719299
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1485,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            292.72052001953125,
+            457.115966796875
+          ],
+          "font_size_pt": 2.159961223602295,
+          "text_direction": [
+            0.5649963021278381,
+            -0.8250935673713684
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1486,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            293.5840759277344,
+            456.1187744140625
+          ],
+          "font_size_pt": 2.159935474395752,
+          "text_direction": [
+            0.43211477994918823,
+            -0.9018186330795288
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1487,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            294.38775634765625,
+            454.2930908203125
+          ],
+          "font_size_pt": 2.1599440574645996,
+          "text_direction": [
+            -0.4787207543849945,
+            -0.8779671788215637
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1488,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            293.79315185546875,
+            452.953125
+          ],
+          "font_size_pt": 2.1599745750427246,
+          "text_direction": [
+            -0.5948542356491089,
+            -0.803833544254303
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1489,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            292.856689453125,
+            451.7457275390625
+          ],
+          "font_size_pt": 2.1599979400634766,
+          "text_direction": [
+            -0.7278016209602356,
+            -0.6857876777648926
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1490,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            291.73638916015625,
+            450.6612548828125
+          ],
+          "font_size_pt": 2.160031795501709,
+          "text_direction": [
+            -0.8571864366531372,
+            -0.5150063037872314
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1491,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            290.57891845703125,
+            449.7152099609375
+          ],
+          "font_size_pt": 2.160066843032837,
+          "text_direction": [
+            -0.9521371722221375,
+            -0.3056710958480835
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1492,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            289.1852111816406,
+            449.3123779296875
+          ],
+          "font_size_pt": 2.160078525543213,
+          "text_direction": [
+            -0.9950563907623291,
+            -0.0993112102150917
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1493,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            287.9297790527344,
+            448.985595703125
+          ],
+          "font_size_pt": 2.1600804328918457,
+          "text_direction": [
+            -0.9993284940719604,
+            0.036642152816057205
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1494,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            280.5404968261719,
+            449.240478515625
+          ],
+          "font_size_pt": 2.160074234008789,
+          "text_direction": [
+            -0.9909844398498535,
+            0.13397687673568726
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1495,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            279.25579833984375,
+            449.4747314453125
+          ],
+          "font_size_pt": 2.1600732803344727,
+          "text_direction": [
+            -0.9681523442268372,
+            0.2503618597984314
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1496,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            277.5970458984375,
+            449.714599609375
+          ],
+          "font_size_pt": 2.16005539894104,
+          "text_direction": [
+            -0.9323325753211975,
+            0.3616018295288086
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1497,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            276.09283447265625,
+            450.2982177734375
+          ],
+          "font_size_pt": 2.16003680229187,
+          "text_direction": [
+            -0.8729388117790222,
+            0.48782965540885925
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1498,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            274.7502746582031,
+            451.0721435546875
+          ],
+          "font_size_pt": 2.1600193977355957,
+          "text_direction": [
+            -0.7965530157089233,
+            0.604568600654602
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1499,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            273.4853210449219,
+            451.8453369140625
+          ],
+          "font_size_pt": 2.159943103790283,
+          "text_direction": [
+            -0.4586787223815918,
+            0.8886021375656128
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1500,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            272.0012512207031,
+            454.626708984375
+          ],
+          "font_size_pt": 2.1599626541137695,
+          "text_direction": [
+            0.5821535587310791,
+            0.8130788803100586
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1501,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            272.9734191894531,
+            455.9749755859375
+          ],
+          "font_size_pt": 2.159989833831787,
+          "text_direction": [
+            0.6820263862609863,
+            0.7313275337219238
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1502,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            273.7659606933594,
+            457.1710205078125
+          ],
+          "font_size_pt": 2.1600141525268555,
+          "text_direction": [
+            0.7815458178520203,
+            0.6238477826118469
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1503,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            275.1119079589844,
+            458.0296630859375
+          ],
+          "font_size_pt": 2.160037040710449,
+          "text_direction": [
+            0.8686471581459045,
+            0.4954313337802887
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1504,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            276.3011474609375,
+            458.8994140625
+          ],
+          "font_size_pt": 2.1600611209869385,
+          "text_direction": [
+            0.9342143535614014,
+            0.35671210289001465
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1505,
+          "font": "DGNSymbols_new",
+          "code": 79,
+          "character": "O",
+          "origin_pt": [
+            277.8769836425781,
+            459.4053955078125
+          ],
+          "font_size_pt": 2.1600699424743652,
+          "text_direction": [
+            0.9751536250114441,
+            0.22152987122535706
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "character": "g",
+      "feature": "Approximate/relative height and main power-line markers",
+      "expected_shape": "Solid dot",
+      "status": "candidate_available",
+      "candidate_outlines": [
+        {
+          "review_id": "G027",
+          "id": "a0a55493b410b1bf1b2701892c898933a5d16fd6539c1c9be50a82027bad5c38",
+          "codes": [
+            103
+          ],
+          "glyph_names": [
+            "g"
+          ],
+          "sources": [
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "74E_6_NW",
+              "font_xref": 181,
+              "font_sha256": "6da0a0d4db91e5c2c235300e80335fb6d9a2f5b07cefc5879f0e605873dcf16a"
+            },
+            {
+              "sheet": "79B_10_SE",
+              "font_xref": 175,
+              "font_sha256": "65959e68c8c5f4aa36e3e686b0b53542ec47106712d32849f7566d61e5475330"
+            }
+          ]
+        }
+      ],
+      "evidence": "Supported by both legend uses and the user interpretation. Available in other SOI_cel subsets.",
+      "observations": [
+        {
+          "span_index": 1454,
+          "font": "DGNSymbols_new",
+          "code": 103,
+          "character": "g",
+          "origin_pt": [
+            255.61932373046875,
+            423.2862548828125
+          ],
+          "font_size_pt": 6.660250186920166,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1457,
+          "font": "DGNSymbols_new",
+          "code": 103,
+          "character": "g",
+          "origin_pt": [
+            285.8604431152344,
+            424.7261962890625
+          ],
+          "font_size_pt": 6.660250186920166,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1616,
+          "font": "DGNSymbols",
+          "code": 103,
+          "character": "g",
+          "origin_pt": [
+            208.09759521484375,
+            570.159912109375
+          ],
+          "font_size_pt": 6.660250186920166,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1626,
+          "font": "DGNSymbols",
+          "code": 103,
+          "character": "g",
+          "origin_pt": [
+            207.64755249023438,
+            639.27685546875
+          ],
+          "font_size_pt": 9.720359802246094,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1627,
+          "font": "DGNSymbols",
+          "code": 103,
+          "character": "g",
+          "origin_pt": [
+            224.38818359375,
+            639.27685546875
+          ],
+          "font_size_pt": 9.720359802246094,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1628,
+          "font": "DGNSymbols",
+          "code": 103,
+          "character": "g",
+          "origin_pt": [
+            236.80862426757812,
+            639.27685546875
+          ],
+          "font_size_pt": 9.720359802246094,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1629,
+          "font": "DGNSymbols",
+          "code": 103,
+          "character": "g",
+          "origin_pt": [
+            246.70901489257812,
+            639.27685546875
+          ],
+          "font_size_pt": 9.720359802246094,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "character": "y",
+      "feature": "Railway-station surrounding shape; GCP-pillar surrounding shape",
+      "expected_shape": "Hollow box (provisional)",
+      "status": "candidate_available",
+      "candidate_outlines": [
+        {
+          "review_id": "G046",
+          "id": "6ea2ef9abe33635f0ef90287054e7e19d823e3c9e7e50fcc292e6c365a4234e5",
+          "codes": [
+            179
+          ],
+          "glyph_names": [
+            "uni00B3"
+          ],
+          "sources": [
+            {
+              "sheet": "43J_10_NE",
+              "font_xref": 172,
+              "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+            },
+            {
+              "sheet": "53H_12_NE",
+              "font_xref": 175,
+              "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+            },
+            {
+              "sheet": "73N_10_SE",
+              "font_xref": 175,
+              "font_sha256": "45d8051919dad886ff513a50b901447d05870355e1d6bdeb80874ef42258744b"
+            },
+            {
+              "sheet": "74E_6_NW",
+              "font_xref": 181,
+              "font_sha256": "6da0a0d4db91e5c2c235300e80335fb6d9a2f5b07cefc5879f0e605873dcf16a"
+            },
+            {
+              "sheet": "79B_10_SE",
+              "font_xref": 175,
+              "font_sha256": "65959e68c8c5f4aa36e3e686b0b53542ec47106712d32849f7566d61e5475330"
+            }
+          ]
+        },
+        {
+          "review_id": "G045",
+          "id": "4c77ec27f39c4041994a21cde629de557821e7ff8011453c1d1f18306a1b9757",
+          "codes": [
+            178
+          ],
+          "glyph_names": [
+            "uni00B2"
+          ],
+          "sources": [
+            {
+              "sheet": "43J_10_NE",
+              "font_xref": 172,
+              "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+            },
+            {
+              "sheet": "74E_6_NW",
+              "font_xref": 181,
+              "font_sha256": "6da0a0d4db91e5c2c235300e80335fb6d9a2f5b07cefc5879f0e605873dcf16a"
+            }
+          ]
+        }
+      ],
+      "evidence": "User proposes an unfilled box, consistent with the rectangular station frame in the supplied reference legend. SOI_cel has hollow square and rectangular outlines. Station: black y, white %, red T. GCP: black y with black H inside. The station uses DGNSymbols_new and the GCP uses DGNSymbols; the GCP interpretation and equivalence between those font variants remain provisional.",
+      "observations": [
+        {
+          "span_index": 1458,
+          "font": "DGNSymbols_new",
+          "code": 121,
+          "character": "y",
+          "origin_pt": [
+            247.8790283203125,
+            435.8857421875
+          ],
+          "font_size_pt": 5.940219879150391,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1618,
+          "font": "DGNSymbols",
+          "code": 121,
+          "character": "y",
+          "origin_pt": [
+            290.45062255859375,
+            569.7999267578125
+          ],
+          "font_size_pt": 11.160409927368164,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "interpretation": {
+        "status": "provisional",
+        "type": "user_hypothesis_with_legend_support",
+        "user_statement": "i think y is an unfilled box",
+        "reference_legend_url": "https://storage.cloud.google.com/soi_data/legend.webp",
+        "reference_legend_local": "reference_legend.webp",
+        "reference_support": "Railway-station frame is rectangular; GCP pillar is not depicted.",
+        "assumptions": [
+          "Exact dimensions and stroke width are unknown.",
+          "Applying the same outline to DGNSymbols and DGNSymbols_new is unverified."
+        ]
+      }
+    },
+    {
+      "character": "%",
+      "feature": "White backing/cleanup component of the station symbol",
+      "expected_shape": "Filled white square (user hypothesis)",
+      "status": "candidate_available",
+      "candidate_outlines": [
+        {
+          "review_id": "G069",
+          "id": "99185b1103f93954488a38a287cc1bae08162eefaa57ec34adfe6e213c8d4fde",
+          "codes": [
+            226
+          ],
+          "glyph_names": [
+            "acircumflex"
+          ],
+          "sources": [
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            },
+            {
+              "sheet": "73N_5_NW",
+              "font_xref": 184,
+              "font_sha256": "e3773273d3589be0df12a0272771d4aefe0f11d593f9fea4edb83976d0e5a369"
+            }
+          ]
+        },
+        {
+          "review_id": "G075",
+          "id": "900fffed0d9096f09c8effe8182402cbf706047db3f568bd80a8ecbc3715862b",
+          "codes": [
+            243
+          ],
+          "glyph_names": [
+            "oacute"
+          ],
+          "sources": [
+            {
+              "sheet": "53H_12_NE",
+              "font_xref": 175,
+              "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+            },
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73N_10_SE",
+              "font_xref": 175,
+              "font_sha256": "45d8051919dad886ff513a50b901447d05870355e1d6bdeb80874ef42258744b"
+            },
+            {
+              "sheet": "74E_6_NW",
+              "font_xref": 181,
+              "font_sha256": "6da0a0d4db91e5c2c235300e80335fb6d9a2f5b07cefc5879f0e605873dcf16a"
+            },
+            {
+              "sheet": "78C_2_SW",
+              "font_xref": 180,
+              "font_sha256": "ce0610f8979c511fc2b9401f881d765992d260ff2d35960b76bd2d852606a64a"
+            }
+          ]
+        }
+      ],
+      "evidence": "User proposes both % and T are filled squares. White % is drawn between black y and red T. The railway and its white dash segments are drawn later: the visible gap in the railway is not evidence for the outline of %. Its full extent and exact SOI_cel mapping remain undetermined.",
+      "observations": [
+        {
+          "span_index": 1459,
+          "font": "DGNSymbols_new",
+          "code": 37,
+          "character": "%",
+          "origin_pt": [
+            249.04910278320312,
+            433.90576171875
+          ],
+          "font_size_pt": 3.600130081176758,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "interpretation": {
+        "status": "provisional",
+        "type": "user_hypothesis_with_pdf_paint_order",
+        "user_statement": "Both filled is my guess",
+        "reference_legend_url": "https://storage.cloud.google.com/soi_data/legend.webp",
+        "reference_legend_local": "reference_legend.webp",
+        "reference_detail_local": "reference_station_detail.png",
+        "reference_support": "Station has a rectangular black frame and red building; white glyph is not independently identifiable.",
+        "pdf_support": "Paint order is y (115948), % (115949), T (115950), then railway strokes (115951 onward). The railway includes separate white strokes.",
+        "paint_order_evidence_local": "station_paint_order.json",
+        "superseded_interpretation": "The claim that % creates the visible white railway gap was withdrawn after checking the later railway strokes.",
+        "assumptions": [
+          "A filled white backing/cleanup square is a reconstruction hypothesis, not a recovered font outline.",
+          "Full extent, scale and position require fitting; visible white space alone does not establish them."
+        ],
+        "exact_glyph_assignment": null
+      }
+    },
+    {
+      "character": "T",
+      "feature": "Single building, surveyed boundary pillar and station centre",
+      "expected_shape": "Filled square (working interpretation)",
+      "status": "candidate_available",
+      "candidate_outlines": [
+        {
+          "review_id": "G069",
+          "id": "99185b1103f93954488a38a287cc1bae08162eefaa57ec34adfe6e213c8d4fde",
+          "codes": [
+            226
+          ],
+          "glyph_names": [
+            "acircumflex"
+          ],
+          "sources": [
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            },
+            {
+              "sheet": "73N_5_NW",
+              "font_xref": 184,
+              "font_sha256": "e3773273d3589be0df12a0272771d4aefe0f11d593f9fea4edb83976d0e5a369"
+            }
+          ]
+        },
+        {
+          "review_id": "G075",
+          "id": "900fffed0d9096f09c8effe8182402cbf706047db3f568bd80a8ecbc3715862b",
+          "codes": [
+            243
+          ],
+          "glyph_names": [
+            "oacute"
+          ],
+          "sources": [
+            {
+              "sheet": "53H_12_NE",
+              "font_xref": 175,
+              "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+            },
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73N_10_SE",
+              "font_xref": 175,
+              "font_sha256": "45d8051919dad886ff513a50b901447d05870355e1d6bdeb80874ef42258744b"
+            },
+            {
+              "sheet": "74E_6_NW",
+              "font_xref": 181,
+              "font_sha256": "6da0a0d4db91e5c2c235300e80335fb6d9a2f5b07cefc5879f0e605873dcf16a"
+            },
+            {
+              "sheet": "78C_2_SW",
+              "font_xref": 180,
+              "font_sha256": "ce0610f8979c511fc2b9401f881d765992d260ff2d35960b76bd2d852606a64a"
+            }
+          ]
+        }
+      ],
+      "evidence": "The surveyed-pillar convention and user interpretation support a filled square; the station copy is red. SOI_cel \u00e2 and \u00f3 are both candidates. Neither has been assigned uniquely to T or %.",
+      "observations": [
+        {
+          "span_index": 1460,
+          "font": "DGNSymbols",
+          "code": 84,
+          "character": "T",
+          "origin_pt": [
+            248.23907470703125,
+            435.345703125
+          ],
+          "font_size_pt": 5.220190048217773,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1465,
+          "font": "DGNSymbols_new",
+          "code": 84,
+          "character": "T",
+          "origin_pt": [
+            293.7807312011719,
+            482.1436767578125
+          ],
+          "font_size_pt": 5.220190048217773,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            1.0,
+            0.3019599914550781,
+            0.3019599914550781
+          ]
+        },
+        {
+          "span_index": 1615,
+          "font": "DGNSymbols_new",
+          "code": 84,
+          "character": "T",
+          "origin_pt": [
+            209.80764770507812,
+            555.58056640625
+          ],
+          "font_size_pt": 3.600130081176758,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "interpretation": {
+        "status": "provisional",
+        "type": "user_hypothesis_with_legend_support",
+        "user_statement": "Both filled is my guess",
+        "assumptions": [
+          "The intended shape is filled; exact assignment to SOI_cel \u00e2 or \u00f3 is unverified."
+        ],
+        "exact_glyph_assignment": null
+      }
+    },
+    {
+      "character": "H",
+      "feature": "Inner component of the GCP pillar",
+      "expected_shape": "Unresolved centre mark",
+      "status": "unresolved_outline",
+      "candidate_outlines": [],
+      "evidence": "Small black glyph inside y. User proposes a circle, smaller square, or triangle inside the provisional outer square. These are unranked shape hypotheses; no outline is assigned.",
+      "observations": [
+        {
+          "span_index": 1619,
+          "font": "DGNSymbols_new",
+          "code": 72,
+          "character": "H",
+          "origin_pt": [
+            294.2307434082031,
+            565.840087890625
+          ],
+          "font_size_pt": 3.600130081176758,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "interpretation": {
+        "status": "unresolved",
+        "type": "user_shape_hypotheses",
+        "inner_shape_hypotheses": [
+          "circle",
+          "square",
+          "triangle"
+        ],
+        "hypotheses_ranked": false,
+        "outer_shape_hypothesis": "square (the separate y glyph; unverified)",
+        "fill_style": null,
+        "exact_glyph_assignment": null,
+        "comparison_details_local": [
+          "nhp_gcp_phases.png",
+          "nhp_gcp_types.png"
+        ],
+        "comparison_support": "NHP has GCP Phase I/II and GPS/other/traverse rows, but neither is explicitly labelled GCP pillar.",
+        "limitations": [
+          "Neither the inner shape nor its filled/hollow treatment is established.",
+          "Other GCP conventions do not identify the missing DGNSymbols H outline."
+        ]
+      }
+    },
+    {
+      "character": "I",
+      "feature": "Two legs of the overhead tank",
+      "expected_shape": "Native horizontal bars rotated into vertical legs",
+      "status": "candidate_available",
+      "candidate_outlines": [
+        {
+          "review_id": "G114",
+          "id": "2a81a01987ba1593f3eccdcdc39e560d627a6ae8afa50f81e7317a67d6516ce5",
+          "codes": [
+            376
+          ],
+          "glyph_names": [
+            "Ydieresis"
+          ],
+          "sources": [
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            },
+            {
+              "sheet": "74E_6_NW",
+              "font_xref": 181,
+              "font_sha256": "6da0a0d4db91e5c2c235300e80335fb6d9a2f5b07cefc5879f0e605873dcf16a"
+            },
+            {
+              "sheet": "78C_2_SW",
+              "font_xref": 180,
+              "font_sha256": "ce0610f8979c511fc2b9401f881d765992d260ff2d35960b76bd2d852606a64a"
+            }
+          ]
+        },
+        {
+          "review_id": "G115",
+          "id": "85b87db20ac9a33f85df4047390796b30f82bf5afb242900c2d7af870b541ac4",
+          "codes": [
+            377
+          ],
+          "glyph_names": [
+            "Zacute"
+          ],
+          "sources": [
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            },
+            {
+              "sheet": "74E_6_NW",
+              "font_xref": 181,
+              "font_sha256": "6da0a0d4db91e5c2c235300e80335fb6d9a2f5b07cefc5879f0e605873dcf16a"
+            },
+            {
+              "sheet": "78C_2_SW",
+              "font_xref": 180,
+              "font_sha256": "ce0610f8979c511fc2b9401f881d765992d260ff2d35960b76bd2d852606a64a"
+            }
+          ]
+        }
+      ],
+      "evidence": "The two source glyphs have the same 90-degree PDF rotation as the distance-stone tick. Native horizontal bars preserve that rotation and become vertical legs. SOI_cel also provides a complete overhead-tank glyph \u00c9. Length and placement remain provisional.",
+      "observations": [
+        {
+          "span_index": 1620,
+          "font": "DGNSymbols_new",
+          "code": 73,
+          "character": "I",
+          "origin_pt": [
+            213.5877685546875,
+            582.0394287109375
+          ],
+          "font_size_pt": 3.599839925765991,
+          "text_direction": [
+            0.0,
+            -1.0
+          ],
+          "color": [
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "span_index": 1621,
+          "font": "DGNSymbols_new",
+          "code": 73,
+          "character": "I",
+          "origin_pt": [
+            215.02783203125,
+            582.0394287109375
+          ],
+          "font_size_pt": 3.599839925765991,
+          "text_direction": [
+            0.0,
+            -1.0
+          ],
+          "color": [
+            0.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "interpretation": {
+        "status": "provisional",
+        "type": "legend_and_pdf_rotation_inference",
+        "pdf_support": "Both cyan I glyphs have direction (0,-1); horizontal native bars become vertical.",
+        "superseded_candidate": "G071 is a native vertical bar and would turn horizontal if the PDF rotation is preserved.",
+        "assumptions": [
+          "Bar length and placement have not been fitted."
+        ]
+      }
+    },
+    {
+      "character": "~",
+      "feature": "Body of the overhead tank",
+      "expected_shape": "Filled rectangular tank",
+      "status": "candidate_available",
+      "candidate_outlines": [
+        {
+          "review_id": "G090",
+          "id": "4b7d11790f2f88a27e3bf675046c515ee774dc92fe38c4c2a0003e618b3a219f",
+          "codes": [
+            267
+          ],
+          "glyph_names": [
+            "cdotaccent"
+          ],
+          "sources": [
+            {
+              "sheet": "43J_10_NE",
+              "font_xref": 172,
+              "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+            },
+            {
+              "sheet": "53H_12_NE",
+              "font_xref": 175,
+              "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+            },
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            }
+          ]
+        }
+      ],
+      "evidence": "The intact NHP legend uses SOI_cel \u00c9 for the complete rectangle-and-legs symbol.",
+      "observations": [
+        {
+          "span_index": 1622,
+          "font": "DGNSymbols_new",
+          "code": 126,
+          "character": "~",
+          "origin_pt": [
+            210.70767211914062,
+            580.0594482421875
+          ],
+          "font_size_pt": 3.600130081176758,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "character": "'",
+      "feature": "State-boundary markers",
+      "expected_shape": "Cross marks",
+      "status": "candidate_available",
+      "candidate_outlines": [
+        {
+          "review_id": "G058",
+          "id": "65c259f3073c9c1bef9adbcfd2a7bb8d845f20f7484f85bb857f2289a4fcb017",
+          "codes": [
+            207
+          ],
+          "glyph_names": [
+            "Idieresis"
+          ],
+          "sources": [
+            {
+              "sheet": "43J_10_NE",
+              "font_xref": 172,
+              "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+            },
+            {
+              "sheet": "53H_12_NE",
+              "font_xref": 175,
+              "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+            },
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            }
+          ]
+        }
+      ],
+      "evidence": "Candidate based on the corresponding state-boundary row of the intact NHP legend.",
+      "observations": [
+        {
+          "span_index": 1630,
+          "font": "DGNSymbols_new",
+          "code": 39,
+          "character": "'",
+          "origin_pt": [
+            270.6498718261719,
+            531.6416015625
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1631,
+          "font": "DGNSymbols_new",
+          "code": 39,
+          "character": "'",
+          "origin_pt": [
+            281.09027099609375,
+            531.6416015625
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "span_index": 1632,
+          "font": "DGNSymbols_new",
+          "code": 39,
+          "character": "'",
+          "origin_pt": [
+            291.5306396484375,
+            531.6416015625
+          ],
+          "font_size_pt": 2.880110025405884,
+          "text_direction": [
+            1.0,
+            0.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  ],
+  "square_mapping_comparison": {
+    "scope": "Direct substitution at the existing PDF font sizes, with no additional glyph scaling.",
+    "options": [
+      {
+        "white_candidate": "G069",
+        "building_candidate": "G075",
+        "white_width_pt": 0.7380266666412354,
+        "building_width_pt": 1.083189435005188,
+        "white_to_building_width_ratio": 0.6813458872387363
+      },
+      {
+        "white_candidate": "G075",
+        "building_candidate": "G069",
+        "white_width_pt": 0.7470269918441772,
+        "building_width_pt": 1.0701389598846436,
+        "white_to_building_width_ratio": 0.6980654100517035
+      }
+    ],
+    "conclusion": "Both options make white % roughly 0.69 times the width of T. The 410-versus-415-unit outline difference does not identify the original mapping. A larger white backing would require different glyph metrics or separate scaling."
+  }
+}
