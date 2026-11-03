@@ -1,0 +1,252 @@
+{
+  "fonts": [
+    {
+      "font": "DGNSymbols",
+      "symbols": 13,
+      "bytes": 2596,
+      "sha256": "e0f449c66fb9752fb99503dea551a9e4ce841af10abd5e1e47d0f176108ee170",
+      "coverage_and_metrics": "pass",
+      "existing_fits": "pass"
+    },
+    {
+      "font": "DGNSymbols_new",
+      "symbols": 21,
+      "bytes": 3540,
+      "sha256": "244a51cdac70be6571f7e632f74809035d05488d7447908455d9f1ea93a36644",
+      "coverage_and_metrics": "pass",
+      "existing_fits": "pass"
+    }
+  ],
+  "rendered_examples": 18,
+  "source_pdfs": [
+    {
+      "file": "JHARIA_37.pdf",
+      "source_sha256": "88023740588dd9250400fe0ae4ed5141de0e23b7ea89acdead7dca8e4ee48c34",
+      "font_resources": [
+        {
+          "font": "DGNSymbols",
+          "xref": 104
+        },
+        {
+          "font": "DGNSymbols_new",
+          "xref": 106
+        }
+      ],
+      "page_content_streams_unchanged": true,
+      "source_file_unchanged": true
+    },
+    {
+      "file": "BHANDER_12.pdf",
+      "source_sha256": "40b0627cca55f00b6b68c5c1be9ff8bf36c987a2aa7983e6ce5145467cea74a8",
+      "font_resources": [
+        {
+          "font": "DGNSymbols",
+          "xref": 102
+        },
+        {
+          "font": "DGNSymbols_new",
+          "xref": 104
+        }
+      ],
+      "page_content_streams_unchanged": true,
+      "source_file_unchanged": true
+    },
+    {
+      "file": "WARDHA_78.pdf",
+      "source_sha256": "d294929bb4e667864d2f070cd76c62935975c2f758800afb228a8b941a3da708",
+      "font_resources": [
+        {
+          "font": "DGNSymbols",
+          "xref": 27
+        },
+        {
+          "font": "DGNSymbols_new",
+          "xref": 29
+        }
+      ],
+      "page_content_streams_unchanged": true,
+      "source_file_unchanged": true
+    },
+    {
+      "file": "WARDHA_494.pdf",
+      "source_sha256": "d7bc38fbf453f4bd9a034001a732c50d80ad8af7a4bfcef4b136b5156e899b33",
+      "font_resources": [
+        {
+          "font": "DGNSymbols",
+          "xref": 83
+        },
+        {
+          "font": "DGNSymbols_new",
+          "xref": 79
+        }
+      ],
+      "page_content_streams_unchanged": true,
+      "source_file_unchanged": true
+    },
+    {
+      "file": "JHARIA_13.pdf",
+      "source_sha256": "2b3b7ee771355c3c888eb71d49a02cbcc8aec752fef3310dd95e29d78af11400",
+      "font_resources": [
+        {
+          "font": "DGNSymbols",
+          "xref": 87
+        },
+        {
+          "font": "DGNSymbols_new",
+          "xref": 82
+        }
+      ],
+      "page_content_streams_unchanged": true,
+      "source_file_unchanged": true
+    },
+    {
+      "file": "KAMPTEE_36.pdf",
+      "source_sha256": "2c1abdbe4972858099707d093643880bcd109f10e3a054d63202553b47fa2586",
+      "font_resources": [
+        {
+          "font": "DGNSymbols",
+          "xref": 87
+        },
+        {
+          "font": "DGNSymbols_new",
+          "xref": 89
+        }
+      ],
+      "page_content_streams_unchanged": true,
+      "source_file_unchanged": true
+    },
+    {
+      "file": "WARDHA_423.pdf",
+      "source_sha256": "367a742ce2a5800e22d402e92ae94c5c431b715cc2e0aa830d597a655bf82344",
+      "font_resources": [
+        {
+          "font": "DGNSymbols",
+          "xref": 16
+        },
+        {
+          "font": "DGNSymbols_new",
+          "xref": 22
+        }
+      ],
+      "page_content_streams_unchanged": true,
+      "source_file_unchanged": true
+    },
+    {
+      "file": "JHARIA_26.pdf",
+      "source_sha256": "3f09cc9da675f0f43b2343df7c2f7d55c7acb0c1d5a800ec97997bc4665aade6",
+      "font_resources": [
+        {
+          "font": "DGNSymbols",
+          "xref": 89
+        },
+        {
+          "font": "DGNSymbols_new",
+          "xref": 84
+        }
+      ],
+      "page_content_streams_unchanged": true,
+      "source_file_unchanged": true
+    },
+    {
+      "file": "JHARIA_84.pdf",
+      "source_sha256": "1bd93c0c187159406c7ccd22d6e6b3ed2cf1c11def099829a8c330be1cc39673",
+      "font_resources": [
+        {
+          "font": "DGNSymbols",
+          "xref": 97
+        },
+        {
+          "font": "DGNSymbols_new",
+          "xref": 93
+        }
+      ],
+      "page_content_streams_unchanged": true,
+      "source_file_unchanged": true
+    },
+    {
+      "file": "BHANDER_27.pdf",
+      "source_sha256": "642460799024754103245b5225c6a8f617edff51928919310c1046d67452d655",
+      "font_resources": [
+        {
+          "font": "DGNSymbols",
+          "xref": 104
+        },
+        {
+          "font": "DGNSymbols_new",
+          "xref": 89
+        }
+      ],
+      "page_content_streams_unchanged": true,
+      "source_file_unchanged": true
+    },
+    {
+      "file": "RAMGARH_2.pdf",
+      "source_sha256": "d5e4a89cf80c4fe07e7de6802c22d557fdf3ca8525901a2340a018d169370a98",
+      "font_resources": [
+        {
+          "font": "DGNSymbols",
+          "xref": 74
+        },
+        {
+          "font": "DGNSymbols_new",
+          "xref": 92
+        }
+      ],
+      "page_content_streams_unchanged": true,
+      "source_file_unchanged": true
+    },
+    {
+      "file": "JHARIA_24.pdf",
+      "source_sha256": "d84df50a3d234372bf65928f0c3b473fe18962cbf69029b443826a754649556c",
+      "font_resources": [
+        {
+          "font": "DGNSymbols_new",
+          "xref": 105
+        },
+        {
+          "font": "DGNSymbols",
+          "xref": 103
+        }
+      ],
+      "page_content_streams_unchanged": true,
+      "source_file_unchanged": true
+    },
+    {
+      "file": "JHARIA_45.pdf",
+      "source_sha256": "8ebf77673c956ca7f4da76dcb92051e3fb2c2315dfddfe5b00ac011b96a40364",
+      "font_resources": [
+        {
+          "font": "DGNSymbols",
+          "xref": 87
+        },
+        {
+          "font": "DGNSymbols_new",
+          "xref": 89
+        }
+      ],
+      "page_content_streams_unchanged": true,
+      "source_file_unchanged": true
+    },
+    {
+      "file": "KORBA_8.pdf",
+      "source_sha256": "88b9903bb894c481f402c686aec7810cd558bb2addc99a6406210085269e38ba",
+      "font_resources": [
+        {
+          "font": "DGNSymbols_new",
+          "xref": 9747
+        },
+        {
+          "font": "DGNSymbols",
+          "xref": 9745
+        }
+      ],
+      "page_content_streams_unchanged": true,
+      "source_file_unchanged": true
+    }
+  ],
+  "source_pdf_edits": 0,
+  "note": "Character coverage and source advances are verified across the audit; visual fitting is sampled, and t remains provisional.",
+  "deterministic_rebuild": "pass",
+  "collection_extension_rebuild": "byte-for-byte fonts, manifest and outlines match",
+  "visual_review": "18 representative contexts inspected"
+}

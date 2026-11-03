@@ -1,0 +1,620 @@
+[
+  {
+    "font": "DGNSymbols",
+    "character": "$",
+    "feature": "Distance-stone tick",
+    "cmpdi_example": {
+      "file": "JHARIA_37.pdf",
+      "page": 1,
+      "layer": "DISTANCE_STONE",
+      "origin_pt": [
+        1249.23828125,
+        1607.7615966796875
+      ],
+      "bbox_pt": [
+        1248.2894287109375,
+        1605.522216796875,
+        1250.5614013671875,
+        1607.793212890625
+      ],
+      "size_pt": 1.6200162172317505,
+      "direction": [
+        0.7997080087661743,
+        -0.6003890633583069
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seqno": 341555,
+      "resource_xrefs": [
+        104
+      ]
+    }
+  },
+  {
+    "font": "DGNSymbols",
+    "character": "9",
+    "feature": "Grave: single arc",
+    "cmpdi_example": {
+      "file": "BHANDER_12.pdf",
+      "page": 1,
+      "layer": "",
+      "origin_pt": [
+        1008.6415405273438,
+        857.8812866210938
+      ],
+      "bbox_pt": [
+        1008.6047973632812,
+        854.3317260742188,
+        1012.2459106445312,
+        857.9690551757812
+      ],
+      "size_pt": 3.6000072956085205,
+      "direction": [
+        0.9999451637268066,
+        -0.010472201742231846
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seqno": 460714,
+      "resource_xrefs": [
+        102
+      ]
+    }
+  },
+  {
+    "font": "DGNSymbols",
+    "character": "I",
+    "feature": "Weir (point symbol)",
+    "cmpdi_example": {
+      "file": "WARDHA_78.pdf",
+      "page": 1,
+      "layer": "",
+      "origin_pt": [
+        450.41876220703125,
+        745.823974609375
+      ],
+      "bbox_pt": [
+        450.3700256347656,
+        742.9019775390625,
+        455.3594665527344,
+        747.8924560546875
+      ],
+      "size_pt": 3.600045919418335,
+      "direction": [
+        0.831975519657135,
+        0.5548123717308044
+      ],
+      "color": [
+        0.0,
+        1.0,
+        1.0
+      ],
+      "seqno": 16257,
+      "resource_xrefs": [
+        27
+      ]
+    }
+  },
+  {
+    "font": "DGNSymbols",
+    "character": "N",
+    "feature": "Unlined well: hollow circle",
+    "cmpdi_example": {
+      "file": "WARDHA_494.pdf",
+      "page": 1,
+      "layer": "WELL",
+      "origin_pt": [
+        442.01605224609375,
+        1200.23876953125
+      ],
+      "bbox_pt": [
+        441.98541259765625,
+        1196.6954345703125,
+        445.6168212890625,
+        1200.326416015625
+      ],
+      "size_pt": 3.6001369953155518,
+      "direction": [
+        0.9999619126319885,
+        -0.008724668063223362
+      ],
+      "color": [
+        0.0,
+        1.0,
+        1.0
+      ],
+      "seqno": 13115,
+      "resource_xrefs": [
+        83
+      ]
+    }
+  },
+  {
+    "font": "DGNSymbols",
+    "character": "O",
+    "feature": "Tube-well",
+    "cmpdi_example": {
+      "file": "BHANDER_12.pdf",
+      "page": 1,
+      "layer": "",
+      "origin_pt": [
+        1489.1522216796875,
+        1119.2315673828125
+      ],
+      "bbox_pt": [
+        1489.098876953125,
+        1114.0849609375,
+        1494.373291015625,
+        1119.35888671875
+      ],
+      "size_pt": 5.220005989074707,
+      "direction": [
+        0.9999451637268066,
+        -0.010471252724528313
+      ],
+      "color": [
+        0.3019599914550781,
+        1.0,
+        1.0
+      ],
+      "seqno": 458353,
+      "resource_xrefs": [
+        102
+      ]
+    }
+  },
+  {
+    "font": "DGNSymbols",
+    "character": "P",
+    "feature": "Hand pump",
+    "cmpdi_example": {
+      "file": "JHARIA_13.pdf",
+      "page": 1,
+      "layer": "HAND_PUMP",
+      "origin_pt": [
+        717.8765869140625,
+        589.972900390625
+      ],
+      "bbox_pt": [
+        717.8499145507812,
+        584.853271484375,
+        723.097412109375,
+        590.1002197265625
+      ],
+      "size_pt": 5.220191478729248,
+      "direction": [
+        0.9999862909317017,
+        -0.005235440097749233
+      ],
+      "color": [
+        0.0,
+        1.0,
+        1.0
+      ],
+      "seqno": 19841,
+      "resource_xrefs": [
+        87
+      ]
+    }
+  },
+  {
+    "font": "DGNSymbols",
+    "character": "Q",
+    "feature": "Spring",
+    "cmpdi_example": {
+      "file": "KAMPTEE_36.pdf",
+      "page": 1,
+      "layer": "SPRING",
+      "origin_pt": [
+        1582.448486328125,
+        1651.855712890625
+      ],
+      "bbox_pt": [
+        1582.3778076171875,
+        1645.989013671875,
+        1588.3900146484375,
+        1652.0006103515625
+      ],
+      "size_pt": 5.940223693847656,
+      "direction": [
+        0.9999253749847412,
+        -0.012215027585625648
+      ],
+      "color": [
+        0.0,
+        1.0,
+        1.0
+      ],
+      "seqno": 656471,
+      "resource_xrefs": [
+        87
+      ]
+    }
+  },
+  {
+    "font": "DGNSymbols",
+    "character": "t",
+    "feature": "Surveyed tree (hypothesis)",
+    "cmpdi_example": {
+      "file": "WARDHA_423.pdf",
+      "page": 1,
+      "layer": "",
+      "origin_pt": [
+        1002.3767700195312,
+        1504.8123779296875
+      ],
+      "bbox_pt": [
+        1002.2940063476562,
+        1495.2452392578125,
+        1012.1085815429688,
+        1505.0494384765625
+      ],
+      "size_pt": 9.720359802246094,
+      "direction": [
+        0.9999619126319885,
+        -0.008726014755666256
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seqno": 5540,
+      "resource_xrefs": [
+        16
+      ]
+    },
+    "clip_pt": [
+      900,
+      1455,
+      1055,
+      1620
+    ]
+  },
+  {
+    "font": "DGNSymbols_new",
+    "character": "&",
+    "feature": "Building point: hollow square",
+    "cmpdi_example": {
+      "file": "JHARIA_26.pdf",
+      "page": 1,
+      "layer": "BUILDING_POINT",
+      "origin_pt": [
+        1784.5057373046875,
+        314.9405517578125
+      ],
+      "bbox_pt": [
+        1784.4874267578125,
+        311.40966796875,
+        1788.1063232421875,
+        315.0283203125
+      ],
+      "size_pt": 3.6001293659210205,
+      "direction": [
+        0.9999862909317017,
+        -0.005235922988504171
+      ],
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "seqno": 27437,
+      "resource_xrefs": [
+        84
+      ]
+    }
+  },
+  {
+    "font": "DGNSymbols_new",
+    "character": "+",
+    "feature": "Church",
+    "cmpdi_example": {
+      "file": "JHARIA_84.pdf",
+      "page": 1,
+      "layer": "CHURCH",
+      "origin_pt": [
+        753.1578369140625,
+        512.7554931640625
+      ],
+      "bbox_pt": [
+        753.1326904296875,
+        505.5300598144531,
+        760.5386352539062,
+        512.9354858398438
+      ],
+      "size_pt": 7.380274772644043,
+      "direction": [
+        0.9999939203262329,
+        -0.0034903851337730885
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seqno": 12023,
+      "resource_xrefs": [
+        93
+      ]
+    }
+  },
+  {
+    "font": "DGNSymbols_new",
+    "character": "/",
+    "feature": "Tomb",
+    "cmpdi_example": {
+      "file": "BHANDER_27.pdf",
+      "page": 1,
+      "layer": "TOMB",
+      "origin_pt": [
+        1433.222900390625,
+        387.22802734375
+      ],
+      "bbox_pt": [
+        1433.1549072265625,
+        380.6614990234375,
+        1439.89111328125,
+        387.39044189453125
+      ],
+      "size_pt": 6.660245418548584,
+      "direction": [
+        0.9999451637268066,
+        -0.010471085086464882
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seqno": 61772,
+      "resource_xrefs": [
+        89
+      ]
+    }
+  },
+  {
+    "font": "DGNSymbols_new",
+    "character": "1",
+    "feature": "Mosque",
+    "cmpdi_example": {
+      "file": "RAMGARH_2.pdf",
+      "page": 1,
+      "layer": "",
+      "origin_pt": [
+        1160.2919921875,
+        705.6986083984375
+      ],
+      "bbox_pt": [
+        1160.241455078125,
+        699.852294921875,
+        1166.2330322265625,
+        705.843505859375
+      ],
+      "size_pt": 5.940006256103516,
+      "direction": [
+        0.9999619722366333,
+        -0.00872557982802391
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seqno": 2252,
+      "resource_xrefs": [
+        92
+      ]
+    }
+  },
+  {
+    "font": "DGNSymbols_new",
+    "character": "2",
+    "feature": "Idgah",
+    "cmpdi_example": {
+      "file": "JHARIA_24.pdf",
+      "page": 1,
+      "layer": "IDGAH",
+      "origin_pt": [
+        1593.96875,
+        93.916259765625
+      ],
+      "bbox_pt": [
+        1593.9383544921875,
+        88.09033203125,
+        1599.90966796875,
+        94.0611343383789
+      ],
+      "size_pt": 5.940181732177734,
+      "direction": [
+        0.9999862909317017,
+        -0.005235529970377684
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seqno": 191292,
+      "resource_xrefs": [
+        105
+      ]
+    }
+  },
+  {
+    "font": "DGNSymbols_new",
+    "character": "5",
+    "feature": "Watch tower",
+    "cmpdi_example": {
+      "file": "JHARIA_45.pdf",
+      "page": 1,
+      "layer": "WATCH_TOWER",
+      "origin_pt": [
+        1641.2940673828125,
+        179.737548828125
+      ],
+      "bbox_pt": [
+        1641.2735595703125,
+        173.8632354736328,
+        1647.2945556640625,
+        179.88388061523438
+      ],
+      "size_pt": 6.000046253204346,
+      "direction": [
+        0.9999939799308777,
+        -0.003489973023533821
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seqno": 61062,
+      "resource_xrefs": [
+        89
+      ]
+    }
+  },
+  {
+    "font": "DGNSymbols_new",
+    "character": "6",
+    "feature": "Chhatri",
+    "cmpdi_example": {
+      "file": "JHARIA_13.pdf",
+      "page": 1,
+      "layer": "CHATRI",
+      "origin_pt": [
+        932.6243896484375,
+        479.817626953125
+      ],
+      "bbox_pt": [
+        932.5977172851562,
+        474.6978759765625,
+        937.8504028320312,
+        479.9449462890625
+      ],
+      "size_pt": 5.220191478729248,
+      "direction": [
+        0.9999862909317017,
+        -0.005235440097749233
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seqno": 19859,
+      "resource_xrefs": [
+        82
+      ]
+    }
+  },
+  {
+    "font": "DGNSymbols_new",
+    "character": ":",
+    "feature": "Temple",
+    "cmpdi_example": {
+      "file": "JHARIA_13.pdf",
+      "page": 1,
+      "layer": "TEMPLE",
+      "origin_pt": [
+        1267.436767578125,
+        180.48876953125
+      ],
+      "bbox_pt": [
+        1267.413818359375,
+        176.07522583007812,
+        1271.9373779296875,
+        180.59852600097656
+      ],
+      "size_pt": 4.500162124633789,
+      "direction": [
+        0.9999862313270569,
+        -0.005235366988927126
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "seqno": 19833,
+      "resource_xrefs": [
+        82
+      ]
+    }
+  },
+  {
+    "font": "DGNSymbols_new",
+    "character": "Q",
+    "feature": "Dispensary",
+    "cmpdi_example": {
+      "file": "KORBA_8.pdf",
+      "page": 1,
+      "layer": "DISPENSARY",
+      "origin_pt": [
+        1584.24609375,
+        1511.364013671875
+      ],
+      "bbox_pt": [
+        1584.2449951171875,
+        1504.86669921875,
+        1590.95166015625,
+        1511.572998046875
+      ],
+      "size_pt": 6.660262107849121,
+      "direction": [
+        0.9999756813049316,
+        0.00698170717805624
+      ],
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "seqno": 19891,
+      "resource_xrefs": [
+        9747
+      ]
+    }
+  },
+  {
+    "font": "DGNSymbols",
+    "character": "(",
+    "feature": "Lined well: filled circle (corrected)",
+    "cmpdi_example": {
+      "file": "WARDHA_494.pdf",
+      "page": 1,
+      "layer": "WELL",
+      "origin_pt": [
+        696.3653564453125,
+        327.6302490234375
+      ],
+      "bbox_pt": [
+        696.3469848632812,
+        325.50421142578125,
+        698.5323486328125,
+        327.68292236328125
+      ],
+      "size_pt": 2.1600823402404785,
+      "direction": [
+        0.9999619126319885,
+        -0.008726519532501698
+      ],
+      "color": [
+        0.3019599914550781,
+        1.0,
+        1.0
+      ],
+      "seqno": 13080,
+      "resource_xrefs": [
+        83
+      ]
+    }
+  }
+]

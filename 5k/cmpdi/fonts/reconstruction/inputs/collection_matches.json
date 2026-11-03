@@ -1,0 +1,1165 @@
+{
+  "summary": {
+    "font_character_pairs": 17,
+    "status_counts": {
+      "supported": 12,
+      "accepted_choice": 4,
+      "hypothesis": 1
+    },
+    "source_outline_families": 17,
+    "scope": "Conventional symbol shapes located in the SOI_cel subset union. Original missing DGN outlines and font metrics are not recovered.",
+    "reference_legend": {
+      "url": "https://storage.cloud.google.com/soi_data/legend.webp",
+      "sha256": "24965f3420bfd22a7c5352e4fae8db195f49c74725774b27457b03ad9764e4e0",
+      "file_name": "reference_legend.webp"
+    },
+    "nhp_legend": {
+      "sheet": "43J_10_NE",
+      "page": 1,
+      "sha256": "d8253cacacd7b6e471bea48ac872fbf269c1f65609c15698f764e07c99cf5b7e"
+    },
+    "source_outlines": {
+      "file": "available_symbols.json",
+      "sha256": "1c64cebf4a0d3ef19df30ec393d8184fafd964a66208861def48a04217c09a1f"
+    },
+    "gotchas": [
+      "Font-qualified mappings are essential: Q is spring in DGNSymbols and dispensary in DGNSymbols_new.",
+      "NHP frequently paints a separate white knockout behind religious/tower glyphs. Those white glyphs are not the visible symbol outline.",
+      "Not every NHP legend symbol is SOI_cel: its dispensary uses SOI_BDR U+2020, its spring SOI_BDR U+00BD, and its unlined well ESRIDefaultMarker U+0028. The proposed replacements use corresponding shapes from SOI_cel.",
+      "The user selected a single G043 grave arc per DGNSymbols 9; a three-arc composite is not required.",
+      "The point weir symbol differs from the long, toothed weir in the main legend.",
+      "Do not infer missing-glyph size or shape from the fallback letters. Fit outlines inside the font and retain PDF text positions/rotations.",
+      "The user selected G046 (hollow square) for DGNSymbols_new & and G044 for DGNSymbols P.",
+      "The user selected a hollow unlined well for N, with the earlier ( corrected to the filled lined-well convention.",
+      "The t surveyed-tree mapping remains provisional when building the updated fonts."
+    ],
+    "other_legend_fonts": {
+      "dispensary": {
+        "font": "SOI_BDR",
+        "codepoint": 8224
+      },
+      "spring": {
+        "font": "SOI_BDR",
+        "codepoint": 189
+      },
+      "unlined_well": {
+        "font": "ESRIDefaultMarker",
+        "codepoint": 40
+      }
+    }
+  },
+  "rows": [
+    {
+      "font": "DGNSymbols",
+      "character": "$",
+      "codepoint": 36,
+      "feature": "Distance-stone tick",
+      "status": "supported",
+      "candidates": [
+        {
+          "review_id": "G114",
+          "id": "2a81a01987ba1593f3eccdcdc39e560d627a6ae8afa50f81e7317a67d6516ce5"
+        }
+      ],
+      "evidence_category": "road",
+      "reasoning": "Horizontal bar in font coordinates; the PDF rotation produces the perpendicular tick. Reuses the shape identified for DGNSymbols_new $. Fit must be checked in this font.",
+      "source_layers": {
+        "DISTANCE_STONE": 4
+      },
+      "occurrences": 4,
+      "sheets": 2,
+      "cmpdi_example": {
+        "file": "JHARIA_37.pdf",
+        "page": 1,
+        "layer": "DISTANCE_STONE",
+        "origin_pt": [
+          1249.23828125,
+          1607.7615966796875
+        ],
+        "bbox_pt": [
+          1248.2894287109375,
+          1605.522216796875,
+          1250.5614013671875,
+          1607.793212890625
+        ],
+        "size_pt": 1.6200162172317505,
+        "direction": [
+          0.7997080087661743,
+          -0.6003890633583069
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 341555,
+        "resource_xrefs": [
+          104
+        ]
+      },
+      "nhp_legend_clip_pt": [
+        68,
+        722,
+        359,
+        739
+      ],
+      "reference_legend_clip_px": [
+        45,
+        212,
+        2752,
+        343
+      ]
+    },
+    {
+      "font": "DGNSymbols",
+      "character": "9",
+      "codepoint": 57,
+      "feature": "Grave: single arc",
+      "status": "accepted_choice",
+      "candidates": [
+        {
+          "review_id": "G043",
+          "id": "12588c0b0eb98e8edc3c502dc3201d3bcdd577afd3a97baaed40fc347dec2ecd"
+        }
+      ],
+      "evidence_category": "religious",
+      "reasoning": "Use one semicircular SOI_cel U+00AE grave mark. The user selected the single symbol. Both reference legends show clusters of three arcs, but the replacement choice is one arc per DGNSymbols 9. Scaling and placement remain to be fitted.",
+      "source_layers": {
+        "": 5,
+        "GRAVE": 184
+      },
+      "occurrences": 189,
+      "sheets": 37,
+      "cmpdi_example": {
+        "file": "BHANDER_12.pdf",
+        "page": 1,
+        "layer": "",
+        "origin_pt": [
+          1008.6415405273438,
+          857.8812866210938
+        ],
+        "bbox_pt": [
+          1008.6047973632812,
+          854.3317260742188,
+          1012.2459106445312,
+          857.9690551757812
+        ],
+        "size_pt": 3.6000072956085205,
+        "direction": [
+          0.9999451637268066,
+          -0.010472201742231846
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 460714,
+        "resource_xrefs": [
+          102
+        ]
+      },
+      "nhp_legend_clip_pt": [
+        68,
+        978.5,
+        359,
+        993
+      ],
+      "reference_legend_clip_px": [
+        45,
+        2246,
+        2752,
+        2361
+      ],
+      "decision": {
+        "source": "user",
+        "statement": "I think the single symbol is fone for grave",
+        "selected_outline": "G043",
+        "component_count": 1,
+        "composite_required": false
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "character": "I",
+      "codepoint": 73,
+      "feature": "Weir (point symbol)",
+      "status": "supported",
+      "candidates": [
+        {
+          "review_id": "G122",
+          "id": "f3dcae972bcd3eccd401c47161fb6efd7587cf081f3631632ef85857fe4fb0d9"
+        }
+      ],
+      "evidence_category": "weir",
+      "reasoning": "The extended NHP legend explicitly uses SOI_cel U+02C9 in the Weir position of Flow arrow / Sluice / Weir / Rapids. This is a point-symbol candidate. The main legend also has a long weir drawn using repeated triangular teeth.",
+      "source_layers": {
+        "WEIR": 8,
+        "": 5
+      },
+      "occurrences": 13,
+      "sheets": 8,
+      "cmpdi_example": {
+        "file": "WARDHA_219.pdf",
+        "page": 1,
+        "layer": "WEIR",
+        "origin_pt": [
+          1157.62109375,
+          76.9097900390625
+        ],
+        "bbox_pt": [
+          1157.595458984375,
+          73.55123901367188,
+          1162.087158203125,
+          78.04513549804688
+        ],
+        "size_pt": 3.600094795227051,
+        "direction": [
+          0.9563137292861938,
+          0.29234227538108826
+        ],
+        "color": [
+          0.0,
+          1.0,
+          1.0
+        ],
+        "seqno": 1573,
+        "resource_xrefs": [
+          75
+        ]
+      },
+      "nhp_legend_clip_pt": [
+        68,
+        1353,
+        359,
+        1367
+      ],
+      "reference_legend_clip_px": [
+        45,
+        842,
+        2752,
+        927
+      ]
+    },
+    {
+      "font": "DGNSymbols",
+      "character": "N",
+      "codepoint": 78,
+      "feature": "Unlined well: hollow circle",
+      "status": "accepted_choice",
+      "candidates": [
+        {
+          "review_id": "G056",
+          "id": "6eeea26244131cd07e4eed9517009a23b98dc65fa551fe54a3f050956c523efe"
+        }
+      ],
+      "evidence_category": "wells",
+      "reasoning": "The user selected the unlined well for N, using hollow SOI_cel U+00CA. Both legends distinguish lined wells (filled circles) from unlined wells (hollow circles). The earlier ( mapping is being corrected to a filled lined-well symbol to preserve the requested distinction.",
+      "source_layers": {
+        "WELL": 563,
+        "": 171
+      },
+      "occurrences": 734,
+      "sheets": 133,
+      "cmpdi_example": {
+        "file": "WARDHA_494.pdf",
+        "page": 1,
+        "layer": "WELL",
+        "origin_pt": [
+          442.01605224609375,
+          1200.23876953125
+        ],
+        "bbox_pt": [
+          441.98541259765625,
+          1196.6954345703125,
+          445.6168212890625,
+          1200.326416015625
+        ],
+        "size_pt": 3.6001369953155518,
+        "direction": [
+          0.9999619126319885,
+          -0.008724668063223362
+        ],
+        "color": [
+          0.0,
+          1.0,
+          1.0
+        ],
+        "seqno": 13115,
+        "resource_xrefs": [
+          83
+        ]
+      },
+      "nhp_legend_clip_pt": [
+        68,
+        838,
+        359,
+        852
+      ],
+      "reference_legend_clip_px": [
+        45,
+        1192,
+        2752,
+        1301
+      ],
+      "decision": {
+        "source": "user",
+        "statement": "for 'N' given we picked the previous one as lined well.. pick this as unlined",
+        "selected_outline": "G056",
+        "fill_style": "hollow",
+        "feature": "unlined well",
+        "paired_correction": {
+          "font": "DGNSymbols",
+          "character": "(",
+          "feature": "lined well",
+          "fill_style": "filled"
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "character": "O",
+      "codepoint": 79,
+      "feature": "Tube-well",
+      "status": "supported",
+      "candidates": [
+        {
+          "review_id": "G074",
+          "id": "574b5cdea3064b53f77551a9f747151a5cb141c05f23eaf7162b1c22884ca9b8"
+        }
+      ],
+      "evidence_category": "wells",
+      "reasoning": "Filled upright triangle. The NHP tube-well position uses SOI_cel U+00F1, and the supplied legend shows the same form. This is different from DGNSymbols_new O, the triangular hachure.",
+      "source_layers": {
+        "": 16,
+        "TUBEWELL": 64
+      },
+      "occurrences": 80,
+      "sheets": 27,
+      "cmpdi_example": {
+        "file": "BHANDER_12.pdf",
+        "page": 1,
+        "layer": "",
+        "origin_pt": [
+          1489.1522216796875,
+          1119.2315673828125
+        ],
+        "bbox_pt": [
+          1489.098876953125,
+          1114.0849609375,
+          1494.373291015625,
+          1119.35888671875
+        ],
+        "size_pt": 5.220005989074707,
+        "direction": [
+          0.9999451637268066,
+          -0.010471252724528313
+        ],
+        "color": [
+          0.3019599914550781,
+          1.0,
+          1.0
+        ],
+        "seqno": 458353,
+        "resource_xrefs": [
+          102
+        ]
+      },
+      "nhp_legend_clip_pt": [
+        68,
+        838,
+        359,
+        852
+      ],
+      "reference_legend_clip_px": [
+        45,
+        1192,
+        2752,
+        1301
+      ]
+    },
+    {
+      "font": "DGNSymbols",
+      "character": "P",
+      "codepoint": 80,
+      "feature": "Hand pump",
+      "status": "accepted_choice",
+      "candidates": [
+        {
+          "review_id": "G044",
+          "id": "63c02a1571799e399bf3304f05ba0bec4a10d6c8bb30682db545e11a46204b29"
+        }
+      ],
+      "evidence_category": "hand_pump",
+      "reasoning": "The user accepted the pump-handle-shaped SOI_cel U+00B0. It occurs 12 times in WATER_COLLECTION_POINT on 74E_6_NW; CMPDI uses P in HAND_PUMP. This choice is supported by map-layer usage, without an explicit hand-pump label in the two main legends. Scaling and placement remain to be fitted.",
+      "source_layers": {
+        "HAND_PUMP": 221
+      },
+      "occurrences": 221,
+      "sheets": 28,
+      "cmpdi_example": {
+        "file": "JHARIA_13.pdf",
+        "page": 1,
+        "layer": "HAND_PUMP",
+        "origin_pt": [
+          717.8765869140625,
+          589.972900390625
+        ],
+        "bbox_pt": [
+          717.8499145507812,
+          584.853271484375,
+          723.097412109375,
+          590.1002197265625
+        ],
+        "size_pt": 5.220191478729248,
+        "direction": [
+          0.9999862909317017,
+          -0.005235440097749233
+        ],
+        "color": [
+          0.0,
+          1.0,
+          1.0
+        ],
+        "seqno": 19841,
+        "resource_xrefs": [
+          87
+        ]
+      },
+      "nhp_legend_clip_pt": null,
+      "reference_legend_clip_px": null,
+      "decision": {
+        "source": "user",
+        "statement": "the hand pump symbol looks good enough for me",
+        "selected_outline": "G044"
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "character": "Q",
+      "codepoint": 81,
+      "feature": "Spring",
+      "status": "supported",
+      "candidates": [
+        {
+          "review_id": "G072",
+          "id": "bc40fa6fb0f9db8aac94e6b61a30497e18da5d21db36ac6fbd7ee01349981656"
+        }
+      ],
+      "evidence_category": "wells",
+      "reasoning": "Thin cyan plus. Both legends show this form; 43J_10_NE also uses SOI_cel U+00EA at 23 map spring locations, including locations labelled Spring. Keep distinct from the heavier dispensary cross.",
+      "source_layers": {
+        "SPRING": 2
+      },
+      "occurrences": 2,
+      "sheets": 2,
+      "cmpdi_example": {
+        "file": "KAMPTEE_37.pdf",
+        "page": 1,
+        "layer": "SPRING",
+        "origin_pt": [
+          1582.2685546875,
+          83.4517822265625
+        ],
+        "bbox_pt": [
+          1582.1978759765625,
+          77.5849609375,
+          1588.2100830078125,
+          83.59663391113281
+        ],
+        "size_pt": 5.940223693847656,
+        "direction": [
+          0.9999253749847412,
+          -0.012215027585625648
+        ],
+        "color": [
+          0.0,
+          1.0,
+          1.0
+        ],
+        "seqno": 812411,
+        "resource_xrefs": [
+          92
+        ]
+      },
+      "nhp_legend_clip_pt": [
+        68,
+        838,
+        359,
+        852
+      ],
+      "reference_legend_clip_px": [
+        45,
+        1192,
+        2752,
+        1301
+      ]
+    },
+    {
+      "font": "DGNSymbols",
+      "character": "t",
+      "codepoint": 116,
+      "feature": "Surveyed tree (hypothesis)",
+      "status": "hypothesis",
+      "candidates": [
+        {
+          "review_id": "G073",
+          "id": "44bfcad8e560c7ee8e0ac5a3bdfb8154bc221a939ed0cd0ee354cd26e8068698"
+        }
+      ],
+      "evidence_category": "tree",
+      "reasoning": "The user suggested a tree. All four unique black t locations lie on or beside the playground boundary; other nearby tree marks are green. Both legends depict a surveyed tree in black, and NHP uses SOI_cel U+00EE. This supports G073 as a plausible candidate. The CMPDI objects have no semantic layer name, so the identification remains provisional.",
+      "source_layers": {
+        "": 8
+      },
+      "occurrences": 8,
+      "sheets": 1,
+      "cmpdi_example": {
+        "file": "WARDHA_423.pdf",
+        "page": 1,
+        "layer": "",
+        "origin_pt": [
+          1002.3767700195312,
+          1504.8123779296875
+        ],
+        "bbox_pt": [
+          1002.2940063476562,
+          1495.2452392578125,
+          1012.1085815429688,
+          1505.0494384765625
+        ],
+        "size_pt": 9.720359802246094,
+        "direction": [
+          0.9999619126319885,
+          -0.008726014755666256
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 5540,
+        "resource_xrefs": [
+          16
+        ]
+      },
+      "nhp_legend_clip_pt": [
+        68,
+        1029.5,
+        359,
+        1044
+      ],
+      "reference_legend_clip_px": [
+        45,
+        2731,
+        2752,
+        2843
+      ],
+      "inference": {
+        "type": "user_suggestion_with_colour_and_spatial_context",
+        "user_statement": "could t be a tree? most of them seem to be on park boundaries",
+        "candidate_outline": "G073",
+        "identity_confirmed": false,
+        "unique_locations": 4,
+        "source_draws": 8,
+        "semantic_layer": "",
+        "source_pdf_sha256": "367a742ce2a5800e22d402e92ae94c5c431b715cc2e0aa830d597a655bf82344",
+        "positions": [
+          {
+            "origin_pt": [
+              1002.3767700195312,
+              1504.8123779296875
+            ],
+            "draw_count": 2
+          },
+          {
+            "origin_pt": [
+              946.9347534179688,
+              1547.29052734375
+            ],
+            "draw_count": 2
+          },
+          {
+            "origin_pt": [
+              951.4348754882812,
+              1582.928955078125
+            ],
+            "draw_count": 2
+          },
+          {
+            "origin_pt": [
+              1001.6567993164062,
+              1584.908935546875
+            ],
+            "draw_count": 2
+          }
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "&",
+      "codepoint": 38,
+      "feature": "Building point: hollow square",
+      "status": "accepted_choice",
+      "candidates": [
+        {
+          "review_id": "G046",
+          "id": "6ea2ef9abe33635f0ef90287054e7e19d823e3c9e7e50fcc292e6c365a4234e5"
+        }
+      ],
+      "evidence_category": "building",
+      "reasoning": "The user selected the hollow SOI_cel square U+00B3 for &. The solid-square G075 is already assigned to T. CMPDI uses & in BUILDING_POINT, and the references show both filled and hollow building/hut marks. This is a user-selected reconstruction; scaling and placement remain to be fitted.",
+      "source_layers": {
+        "BUILDING_POINT": 46,
+        "": 4
+      },
+      "occurrences": 50,
+      "sheets": 34,
+      "cmpdi_example": {
+        "file": "JHARIA_26.pdf",
+        "page": 1,
+        "layer": "BUILDING_POINT",
+        "origin_pt": [
+          1784.5057373046875,
+          314.9405517578125
+        ],
+        "bbox_pt": [
+          1784.4874267578125,
+          311.40966796875,
+          1788.1063232421875,
+          315.0283203125
+        ],
+        "size_pt": 3.6001293659210205,
+        "direction": [
+          0.9999862909317017,
+          -0.005235922988504171
+        ],
+        "color": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 27437,
+        "resource_xrefs": [
+          84
+        ]
+      },
+      "nhp_legend_clip_pt": [
+        68,
+        938,
+        359,
+        979
+      ],
+      "reference_legend_clip_px": [
+        45,
+        2007,
+        2752,
+        2241
+      ],
+      "decision": {
+        "source": "user",
+        "statement": "for the building point '&' pick the other one.. i mean the solid fill is already assigned right.. so pick the hollow fill",
+        "selected_outline": "G046",
+        "fill_style": "hollow",
+        "existing_solid_square_assignment": {
+          "font": "DGNSymbols_new",
+          "character": "T",
+          "outline": "G075"
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "+",
+      "codepoint": 43,
+      "feature": "Church",
+      "status": "supported",
+      "candidates": [
+        {
+          "review_id": "G035",
+          "id": "3d040076ae144a50ef81e14b9944b402822f6c9186e1448c478ceaa0c96f17ba"
+        }
+      ],
+      "evidence_category": "religious",
+      "reasoning": "Solid stem with a cross above. The Church slot of the NHP religious row uses SOI_cel U+007C; the supplied legend agrees.",
+      "source_layers": {
+        "CHURCH": 2
+      },
+      "occurrences": 2,
+      "sheets": 1,
+      "cmpdi_example": {
+        "file": "JHARIA_84.pdf",
+        "page": 1,
+        "layer": "CHURCH",
+        "origin_pt": [
+          753.1578369140625,
+          512.7554931640625
+        ],
+        "bbox_pt": [
+          753.1326904296875,
+          505.5300598144531,
+          760.5386352539062,
+          512.9354858398438
+        ],
+        "size_pt": 7.380274772644043,
+        "direction": [
+          0.9999939203262329,
+          -0.0034903851337730885
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 12023,
+        "resource_xrefs": [
+          93
+        ]
+      },
+      "nhp_legend_clip_pt": [
+        68,
+        978.5,
+        359,
+        993
+      ],
+      "reference_legend_clip_px": [
+        45,
+        2246,
+        2752,
+        2361
+      ]
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "/",
+      "codepoint": 47,
+      "feature": "Tomb",
+      "status": "supported",
+      "candidates": [
+        {
+          "review_id": "G078",
+          "id": "6c3a223883da5f79d80fa164b1bf67a1e3aedea0ae8898bfbe29781c92399106"
+        }
+      ],
+      "evidence_category": "religious",
+      "reasoning": "Rounded upper chamber above a rectangular base. The Tomb slot uses SOI_cel U+00F7; the supplied legend agrees.",
+      "source_layers": {
+        "TOMB": 1
+      },
+      "occurrences": 1,
+      "sheets": 1,
+      "cmpdi_example": {
+        "file": "BHANDER_27.pdf",
+        "page": 1,
+        "layer": "TOMB",
+        "origin_pt": [
+          1433.222900390625,
+          387.22802734375
+        ],
+        "bbox_pt": [
+          1433.1549072265625,
+          380.6614990234375,
+          1439.89111328125,
+          387.39044189453125
+        ],
+        "size_pt": 6.660245418548584,
+        "direction": [
+          0.9999451637268066,
+          -0.010471085086464882
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 61772,
+        "resource_xrefs": [
+          89
+        ]
+      },
+      "nhp_legend_clip_pt": [
+        68,
+        978.5,
+        359,
+        993
+      ],
+      "reference_legend_clip_px": [
+        45,
+        2246,
+        2752,
+        2361
+      ]
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "1",
+      "codepoint": 49,
+      "feature": "Mosque",
+      "status": "supported",
+      "candidates": [
+        {
+          "review_id": "G053",
+          "id": "1b60b440e0e8145928ef739cd3561675d94a75e23e0bd8d635c6feceafa5c9cd"
+        }
+      ],
+      "evidence_category": "religious",
+      "reasoning": "Central dome and flanking minarets. The Mosque slot uses SOI_cel U+00C0; the supplied legend agrees.",
+      "source_layers": {
+        "": 1,
+        "MOSQUE": 50
+      },
+      "occurrences": 51,
+      "sheets": 21,
+      "cmpdi_example": {
+        "file": "RAMGARH_2.pdf",
+        "page": 1,
+        "layer": "",
+        "origin_pt": [
+          1160.2919921875,
+          705.6986083984375
+        ],
+        "bbox_pt": [
+          1160.241455078125,
+          699.852294921875,
+          1166.2330322265625,
+          705.843505859375
+        ],
+        "size_pt": 5.940006256103516,
+        "direction": [
+          0.9999619722366333,
+          -0.00872557982802391
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 2252,
+        "resource_xrefs": [
+          92
+        ]
+      },
+      "nhp_legend_clip_pt": [
+        68,
+        978.5,
+        359,
+        993
+      ],
+      "reference_legend_clip_px": [
+        45,
+        2246,
+        2752,
+        2361
+      ]
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "2",
+      "codepoint": 50,
+      "feature": "Idgah",
+      "status": "supported",
+      "candidates": [
+        {
+          "review_id": "G047",
+          "id": "e7f4505359dfa57d14a5fd56d5420214bcee4ee74dcb18c9a91aa9d71c3f4374"
+        }
+      ],
+      "evidence_category": "religious",
+      "reasoning": "Two uprights and connecting horizontal strokes. The Idgah slot uses SOI_cel U+00B4; the supplied legend agrees.",
+      "source_layers": {
+        "IDGAH": 13
+      },
+      "occurrences": 13,
+      "sheets": 8,
+      "cmpdi_example": {
+        "file": "JHARIA_24.pdf",
+        "page": 1,
+        "layer": "IDGAH",
+        "origin_pt": [
+          1593.96875,
+          93.916259765625
+        ],
+        "bbox_pt": [
+          1593.9383544921875,
+          88.09033203125,
+          1599.90966796875,
+          94.0611343383789
+        ],
+        "size_pt": 5.940181732177734,
+        "direction": [
+          0.9999862909317017,
+          -0.005235529970377684
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 191292,
+        "resource_xrefs": [
+          105
+        ]
+      },
+      "nhp_legend_clip_pt": [
+        68,
+        978.5,
+        359,
+        993
+      ],
+      "reference_legend_clip_px": [
+        45,
+        2246,
+        2752,
+        2361
+      ]
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "5",
+      "codepoint": 53,
+      "feature": "Watch tower",
+      "status": "supported",
+      "candidates": [
+        {
+          "review_id": "G121",
+          "id": "58777f42b0658daa70fa65c42b6f5353f303be3a2cb2c4894f444dcabe23f8e0"
+        }
+      ],
+      "evidence_category": "tower",
+      "reasoning": "Tapering tower with top and base bars. The Tower slot uses SOI_cel U+02C6; the supplied legend agrees. This is not the more elaborate Gopuram glyph U+00AB.",
+      "source_layers": {
+        "WATCH_TOWER": 6
+      },
+      "occurrences": 6,
+      "sheets": 1,
+      "cmpdi_example": {
+        "file": "JHARIA_45.pdf",
+        "page": 1,
+        "layer": "WATCH_TOWER",
+        "origin_pt": [
+          1641.2940673828125,
+          179.737548828125
+        ],
+        "bbox_pt": [
+          1641.2735595703125,
+          173.8632354736328,
+          1647.2945556640625,
+          179.88388061523438
+        ],
+        "size_pt": 6.000046253204346,
+        "direction": [
+          0.9999939799308777,
+          -0.003489973023533821
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 61062,
+        "resource_xrefs": [
+          89
+        ]
+      },
+      "nhp_legend_clip_pt": [
+        68,
+        966,
+        359,
+        979
+      ],
+      "reference_legend_clip_px": [
+        45,
+        2132,
+        2752,
+        2241
+      ]
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "6",
+      "codepoint": 54,
+      "feature": "Chhatri",
+      "status": "supported",
+      "candidates": [
+        {
+          "review_id": "G033",
+          "id": "a847086801264e8a7c9e1884681c64ce88a9080e6afd80dde97ba89bbd32f803"
+        }
+      ],
+      "evidence_category": "religious",
+      "reasoning": "Domed pavilion without the temple finial and central door stroke. The Chhatri slot uses SOI_cel U+007A; the supplied legend agrees.",
+      "source_layers": {
+        "CHATRI": 83,
+        "": 10
+      },
+      "occurrences": 93,
+      "sheets": 49,
+      "cmpdi_example": {
+        "file": "JHARIA_13.pdf",
+        "page": 1,
+        "layer": "CHATRI",
+        "origin_pt": [
+          932.6243896484375,
+          479.817626953125
+        ],
+        "bbox_pt": [
+          932.5977172851562,
+          474.6978759765625,
+          937.8504028320312,
+          479.9449462890625
+        ],
+        "size_pt": 5.220191478729248,
+        "direction": [
+          0.9999862909317017,
+          -0.005235440097749233
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 19859,
+        "resource_xrefs": [
+          82
+        ]
+      },
+      "nhp_legend_clip_pt": [
+        68,
+        978.5,
+        359,
+        993
+      ],
+      "reference_legend_clip_px": [
+        45,
+        2246,
+        2752,
+        2361
+      ]
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": ":",
+      "codepoint": 58,
+      "feature": "Temple",
+      "status": "supported",
+      "candidates": [
+        {
+          "review_id": "G077",
+          "id": "564e158942a224664b275dcaeacb0bd35a6d47289952c15d8794c7e031f19473"
+        }
+      ],
+      "evidence_category": "religious",
+      "reasoning": "Domed pavilion with finial and central door stroke. The Temple slot uses SOI_cel U+00F5; the supplied legend agrees. CMPDI also places one occurrence in GURUDWARA, which is retained as a source-layer exception.",
+      "source_layers": {
+        "TEMPLE": 838,
+        "": 24,
+        "GURUDWARA": 1
+      },
+      "occurrences": 863,
+      "sheets": 147,
+      "cmpdi_example": {
+        "file": "JHARIA_13.pdf",
+        "page": 1,
+        "layer": "TEMPLE",
+        "origin_pt": [
+          1267.436767578125,
+          180.48876953125
+        ],
+        "bbox_pt": [
+          1267.413818359375,
+          176.07522583007812,
+          1271.9373779296875,
+          180.59852600097656
+        ],
+        "size_pt": 4.500162124633789,
+        "direction": [
+          0.9999862313270569,
+          -0.005235366988927126
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 19833,
+        "resource_xrefs": [
+          82
+        ]
+      },
+      "nhp_legend_clip_pt": [
+        68,
+        978.5,
+        359,
+        993
+      ],
+      "reference_legend_clip_px": [
+        45,
+        2246,
+        2752,
+        2361
+      ]
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "Q",
+      "codepoint": 81,
+      "feature": "Dispensary",
+      "status": "supported",
+      "candidates": [
+        {
+          "review_id": "G010",
+          "id": "6a250bd181a67ee5ec048eabffc08df5688d3da8b37220320094d12a723129ec"
+        }
+      ],
+      "evidence_category": "medical",
+      "reasoning": "Heavy red plus. Both legends show that form; SOI_cel U+003E supplies the matching shape. The NHP legend itself uses SOI_BDR U+2020 for this mark. This is different from DGNSymbols Q for a spring.",
+      "source_layers": {
+        "DISPENSARY": 5
+      },
+      "occurrences": 5,
+      "sheets": 5,
+      "cmpdi_example": {
+        "file": "KORBA_8.pdf",
+        "page": 1,
+        "layer": "DISPENSARY",
+        "origin_pt": [
+          1584.24609375,
+          1511.364013671875
+        ],
+        "bbox_pt": [
+          1584.2449951171875,
+          1504.86669921875,
+          1590.95166015625,
+          1511.572998046875
+        ],
+        "size_pt": 6.660262107849121,
+        "direction": [
+          0.9999756813049316,
+          0.00698170717805624
+        ],
+        "color": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 19891,
+        "resource_xrefs": [
+          9747
+        ]
+      },
+      "nhp_legend_clip_pt": [
+        68,
+        1183,
+        359,
+        1194.6
+      ],
+      "reference_legend_clip_px": [
+        45,
+        4032,
+        2752,
+        4135
+      ]
+    }
+  ]
+}

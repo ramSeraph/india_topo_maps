@@ -1,0 +1,1463 @@
+{
+  "pdf_count": 1430,
+  "download_bytes": 7503945171,
+  "rows": [
+    {
+      "font": "DGNSymbols",
+      "character": "$",
+      "count": 4,
+      "sheet_count": 2,
+      "layers": {
+        "DISTANCE_STONE": 4
+      },
+      "example": {
+        "file": "JHARIA_37.pdf",
+        "page": 1,
+        "layer": "DISTANCE_STONE",
+        "origin_pt": [
+          1249.23828125,
+          1607.7615966796875
+        ],
+        "bbox_pt": [
+          1248.2894287109375,
+          1605.522216796875,
+          1250.5614013671875,
+          1607.793212890625
+        ],
+        "size_pt": 1.6200162172317505,
+        "direction": [
+          0.7997080087661743,
+          -0.6003890633583069
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 341555,
+        "resource_xrefs": [
+          104
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "character": "(",
+      "count": 20145,
+      "sheet_count": 919,
+      "layers": {
+        "WELL": 16299,
+        "": 3829,
+        "WELL_COVERED": 17
+      },
+      "example": {
+        "file": "WARDHA_494.pdf",
+        "page": 1,
+        "layer": "WELL",
+        "origin_pt": [
+          696.3653564453125,
+          327.6302490234375
+        ],
+        "bbox_pt": [
+          696.3469848632812,
+          325.50421142578125,
+          698.5323486328125,
+          327.68292236328125
+        ],
+        "size_pt": 2.1600823402404785,
+        "direction": [
+          0.9999619126319885,
+          -0.008726519532501698
+        ],
+        "color": [
+          0.3019599914550781,
+          1.0,
+          1.0
+        ],
+        "seqno": 13080,
+        "resource_xrefs": [
+          83
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "character": "9",
+      "count": 189,
+      "sheet_count": 37,
+      "layers": {
+        "": 5,
+        "GRAVE": 184
+      },
+      "example": {
+        "file": "BHANDER_12.pdf",
+        "page": 1,
+        "layer": "",
+        "origin_pt": [
+          1008.6415405273438,
+          857.8812866210938
+        ],
+        "bbox_pt": [
+          1008.6047973632812,
+          854.3317260742188,
+          1012.2459106445312,
+          857.9690551757812
+        ],
+        "size_pt": 3.6000072956085205,
+        "direction": [
+          0.9999451637268066,
+          -0.010472201742231846
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 460714,
+        "resource_xrefs": [
+          102
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "character": "I",
+      "count": 13,
+      "sheet_count": 8,
+      "layers": {
+        "WEIR": 8,
+        "": 5
+      },
+      "example": {
+        "file": "WARDHA_219.pdf",
+        "page": 1,
+        "layer": "WEIR",
+        "origin_pt": [
+          1157.62109375,
+          76.9097900390625
+        ],
+        "bbox_pt": [
+          1157.595458984375,
+          73.55123901367188,
+          1162.087158203125,
+          78.04513549804688
+        ],
+        "size_pt": 3.600094795227051,
+        "direction": [
+          0.9563137292861938,
+          0.29234227538108826
+        ],
+        "color": [
+          0.0,
+          1.0,
+          1.0
+        ],
+        "seqno": 1573,
+        "resource_xrefs": [
+          75
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "character": "N",
+      "count": 734,
+      "sheet_count": 133,
+      "layers": {
+        "WELL": 563,
+        "": 171
+      },
+      "example": {
+        "file": "WARDHA_494.pdf",
+        "page": 1,
+        "layer": "WELL",
+        "origin_pt": [
+          442.01605224609375,
+          1200.23876953125
+        ],
+        "bbox_pt": [
+          441.98541259765625,
+          1196.6954345703125,
+          445.6168212890625,
+          1200.326416015625
+        ],
+        "size_pt": 3.6001369953155518,
+        "direction": [
+          0.9999619126319885,
+          -0.008724668063223362
+        ],
+        "color": [
+          0.0,
+          1.0,
+          1.0
+        ],
+        "seqno": 13115,
+        "resource_xrefs": [
+          83
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "character": "O",
+      "count": 80,
+      "sheet_count": 27,
+      "layers": {
+        "": 16,
+        "TUBEWELL": 64
+      },
+      "example": {
+        "file": "BHANDER_12.pdf",
+        "page": 1,
+        "layer": "",
+        "origin_pt": [
+          1489.1522216796875,
+          1119.2315673828125
+        ],
+        "bbox_pt": [
+          1489.098876953125,
+          1114.0849609375,
+          1494.373291015625,
+          1119.35888671875
+        ],
+        "size_pt": 5.220005989074707,
+        "direction": [
+          0.9999451637268066,
+          -0.010471252724528313
+        ],
+        "color": [
+          0.3019599914550781,
+          1.0,
+          1.0
+        ],
+        "seqno": 458353,
+        "resource_xrefs": [
+          102
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "character": "P",
+      "count": 221,
+      "sheet_count": 28,
+      "layers": {
+        "HAND_PUMP": 221
+      },
+      "example": {
+        "file": "JHARIA_13.pdf",
+        "page": 1,
+        "layer": "HAND_PUMP",
+        "origin_pt": [
+          717.8765869140625,
+          589.972900390625
+        ],
+        "bbox_pt": [
+          717.8499145507812,
+          584.853271484375,
+          723.097412109375,
+          590.1002197265625
+        ],
+        "size_pt": 5.220191478729248,
+        "direction": [
+          0.9999862909317017,
+          -0.005235440097749233
+        ],
+        "color": [
+          0.0,
+          1.0,
+          1.0
+        ],
+        "seqno": 19841,
+        "resource_xrefs": [
+          87
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "character": "Q",
+      "count": 2,
+      "sheet_count": 2,
+      "layers": {
+        "SPRING": 2
+      },
+      "example": {
+        "file": "KAMPTEE_37.pdf",
+        "page": 1,
+        "layer": "SPRING",
+        "origin_pt": [
+          1582.2685546875,
+          83.4517822265625
+        ],
+        "bbox_pt": [
+          1582.1978759765625,
+          77.5849609375,
+          1588.2100830078125,
+          83.59663391113281
+        ],
+        "size_pt": 5.940223693847656,
+        "direction": [
+          0.9999253749847412,
+          -0.012215027585625648
+        ],
+        "color": [
+          0.0,
+          1.0,
+          1.0
+        ],
+        "seqno": 812411,
+        "resource_xrefs": [
+          92
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "character": "T",
+      "count": 1391,
+      "sheet_count": 1388,
+      "layers": {
+        "Other 9": 244,
+        "Other 5": 2,
+        "Other 10": 230,
+        "Other 11": 116,
+        "Other 12": 147,
+        "": 402,
+        "Other": 99,
+        "Other 4": 58,
+        "Other 13": 87,
+        "WATER_TANK_CELL": 2,
+        "Other 6": 4
+      },
+      "example": {
+        "file": "WARDHA_494.pdf",
+        "page": 1,
+        "layer": "Other 9",
+        "origin_pt": [
+          248.05882263183594,
+          472.3345947265625
+        ],
+        "bbox_pt": [
+          248.05882263183594,
+          467.24212646484375,
+          253.28424072265625,
+          472.4619140625
+        ],
+        "size_pt": 5.220190048217773,
+        "direction": [
+          1.0,
+          0.0
+        ],
+        "color": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 14118,
+        "resource_xrefs": [
+          83
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "character": "g",
+      "count": 35018,
+      "sheet_count": 1388,
+      "layers": {
+        "Other 9": 1220,
+        "Other 5": 10,
+        "Other 10": 1150,
+        "POWER_LINE_PYLON": 3005,
+        "HEIGHT_POINT": 10730,
+        "Other 11": 580,
+        "Other 12": 735,
+        "": 16346,
+        "Other": 495,
+        "Other 4": 290,
+        "Other 13": 435,
+        "Other 6": 20,
+        "MINE_SHAFT": 1,
+        "BM": 1
+      },
+      "example": {
+        "file": "WARDHA_494.pdf",
+        "page": 1,
+        "layer": "Other 9",
+        "origin_pt": [
+          207.91734313964844,
+          607.148681640625
+        ],
+        "bbox_pt": [
+          207.91734313964844,
+          600.6514282226562,
+          214.5775909423828,
+          607.3110961914062
+        ],
+        "size_pt": 6.660250186920166,
+        "direction": [
+          1.0,
+          0.0
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 15297,
+        "resource_xrefs": [
+          83
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "character": "t",
+      "count": 8,
+      "sheet_count": 1,
+      "layers": {
+        "": 8
+      },
+      "example": {
+        "file": "WARDHA_423.pdf",
+        "page": 1,
+        "layer": "",
+        "origin_pt": [
+          1002.3767700195312,
+          1504.8123779296875
+        ],
+        "bbox_pt": [
+          1002.2940063476562,
+          1495.2452392578125,
+          1012.1085815429688,
+          1505.0494384765625
+        ],
+        "size_pt": 9.720359802246094,
+        "direction": [
+          0.9999619126319885,
+          -0.008726014755666256
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 5540,
+        "resource_xrefs": [
+          16
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "character": "w",
+      "count": 15,
+      "sheet_count": 13,
+      "layers": {
+        "HEIGHT_POINT": 14,
+        "": 1
+      },
+      "example": {
+        "file": "AURANGA_37.pdf",
+        "page": 1,
+        "layer": "HEIGHT_POINT",
+        "origin_pt": [
+          1209.294921875,
+          1517.32568359375
+        ],
+        "bbox_pt": [
+          1209.2039794921875,
+          1511.438232421875,
+          1215.2366943359375,
+          1517.4705810546875
+        ],
+        "size_pt": 5.94022274017334,
+        "direction": [
+          0.9998766183853149,
+          -0.015706481412053108
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 623864,
+        "resource_xrefs": [
+          96
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "character": "y",
+      "count": 1391,
+      "sheet_count": 1388,
+      "layers": {
+        "Other 9": 244,
+        "Other 5": 2,
+        "Other 10": 230,
+        "Other 11": 116,
+        "Other 12": 147,
+        "": 401,
+        "Other": 99,
+        "Other 4": 58,
+        "Other 13": 87,
+        "Other 6": 4,
+        "GCP_PILLAR": 2,
+        "UNMAPPED_CELLS": 1
+      },
+      "example": {
+        "file": "WARDHA_494.pdf",
+        "page": 1,
+        "layer": "Other 9",
+        "origin_pt": [
+          290.2703857421875,
+          606.7886962890625
+        ],
+        "bbox_pt": [
+          290.2703857421875,
+          595.9013671875,
+          301.4196472167969,
+          607.0608520507812
+        ],
+        "size_pt": 11.160409927368164,
+        "direction": [
+          1.0,
+          0.0
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 15299,
+        "resource_xrefs": [
+          83
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "$",
+      "count": 2047,
+      "sheet_count": 1388,
+      "layers": {
+        "DISTANCE_STONE": 184,
+        "Other 9": 244,
+        "Other 5": 2,
+        "Other 10": 230,
+        "BUILDING_POINT": 350,
+        "Other 11": 116,
+        "Other 12": 147,
+        "": 459,
+        "Other": 99,
+        "Other 4": 58,
+        "Other 13": 87,
+        "SLUICE": 67,
+        "Other 6": 4
+      },
+      "example": {
+        "file": "WARDHA_494.pdf",
+        "page": 1,
+        "layer": "DISTANCE_STONE",
+        "origin_pt": [
+          649.0504150390625,
+          1073.08935546875
+        ],
+        "bbox_pt": [
+          649.0386962890625,
+          1071.0345458984375,
+          651.6299438476562,
+          1073.6207275390625
+        ],
+        "size_pt": 2.1600699424743652,
+        "direction": [
+          0.9751536250114441,
+          0.22152987122535706
+        ],
+        "color": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 13067,
+        "resource_xrefs": [
+          79
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "%",
+      "count": 1389,
+      "sheet_count": 1388,
+      "layers": {
+        "Other 9": 244,
+        "Other 5": 2,
+        "Other 10": 230,
+        "Other 11": 116,
+        "Other 12": 147,
+        "": 401,
+        "Other": 99,
+        "Other 4": 58,
+        "RAILWAY_STATION_ENCLOSURE": 1,
+        "Other 13": 87,
+        "Other 6": 4
+      },
+      "example": {
+        "file": "WARDHA_494.pdf",
+        "page": 1,
+        "layer": "Other 9",
+        "origin_pt": [
+          248.8688507080078,
+          470.8946533203125
+        ],
+        "bbox_pt": [
+          248.8688507080078,
+          467.38262939453125,
+          252.4725799560547,
+          470.9824523925781
+        ],
+        "size_pt": 3.600130081176758,
+        "direction": [
+          1.0,
+          0.0
+        ],
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "seqno": 14117,
+        "resource_xrefs": [
+          79
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "&",
+      "count": 50,
+      "sheet_count": 34,
+      "layers": {
+        "BUILDING_POINT": 46,
+        "": 4
+      },
+      "example": {
+        "file": "JHARIA_26.pdf",
+        "page": 1,
+        "layer": "BUILDING_POINT",
+        "origin_pt": [
+          1784.5057373046875,
+          314.9405517578125
+        ],
+        "bbox_pt": [
+          1784.4874267578125,
+          311.40966796875,
+          1788.1063232421875,
+          315.0283203125
+        ],
+        "size_pt": 3.6001293659210205,
+        "direction": [
+          0.9999862909317017,
+          -0.005235922988504171
+        ],
+        "color": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 27437,
+        "resource_xrefs": [
+          84
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "'",
+      "count": 756,
+      "sheet_count": 256,
+      "layers": {
+        "": 558,
+        "Other 11": 156,
+        "Other 10": 39,
+        "BUILDING_POINT": 3
+      },
+      "example": {
+        "file": "HASDO_46.pdf",
+        "page": 1,
+        "layer": "",
+        "origin_pt": [
+          263.26971435546875,
+          535.9420166015625
+        ],
+        "bbox_pt": [
+          263.26971435546875,
+          533.1324462890625,
+          266.1469421386719,
+          536.0122680664062
+        ],
+        "size_pt": 2.880110025405884,
+        "direction": [
+          1.0,
+          0.0
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 857500,
+        "resource_xrefs": [
+          85
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "+",
+      "count": 2,
+      "sheet_count": 1,
+      "layers": {
+        "CHURCH": 2
+      },
+      "example": {
+        "file": "JHARIA_84.pdf",
+        "page": 1,
+        "layer": "CHURCH",
+        "origin_pt": [
+          753.1578369140625,
+          512.7554931640625
+        ],
+        "bbox_pt": [
+          753.1326904296875,
+          505.5300598144531,
+          760.5386352539062,
+          512.9354858398438
+        ],
+        "size_pt": 7.380274772644043,
+        "direction": [
+          0.9999939203262329,
+          -0.0034903851337730885
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 12023,
+        "resource_xrefs": [
+          93
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "/",
+      "count": 1,
+      "sheet_count": 1,
+      "layers": {
+        "TOMB": 1
+      },
+      "example": {
+        "file": "BHANDER_27.pdf",
+        "page": 1,
+        "layer": "TOMB",
+        "origin_pt": [
+          1433.222900390625,
+          387.22802734375
+        ],
+        "bbox_pt": [
+          1433.1549072265625,
+          380.6614990234375,
+          1439.89111328125,
+          387.39044189453125
+        ],
+        "size_pt": 6.660245418548584,
+        "direction": [
+          0.9999451637268066,
+          -0.010471085086464882
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 61772,
+        "resource_xrefs": [
+          89
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "1",
+      "count": 51,
+      "sheet_count": 21,
+      "layers": {
+        "": 1,
+        "MOSQUE": 50
+      },
+      "example": {
+        "file": "RAMGARH_2.pdf",
+        "page": 1,
+        "layer": "",
+        "origin_pt": [
+          1160.2919921875,
+          705.6986083984375
+        ],
+        "bbox_pt": [
+          1160.241455078125,
+          699.852294921875,
+          1166.2330322265625,
+          705.843505859375
+        ],
+        "size_pt": 5.940006256103516,
+        "direction": [
+          0.9999619722366333,
+          -0.00872557982802391
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 2252,
+        "resource_xrefs": [
+          92
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "2",
+      "count": 13,
+      "sheet_count": 8,
+      "layers": {
+        "IDGAH": 13
+      },
+      "example": {
+        "file": "JHARIA_24.pdf",
+        "page": 1,
+        "layer": "IDGAH",
+        "origin_pt": [
+          1593.96875,
+          93.916259765625
+        ],
+        "bbox_pt": [
+          1593.9383544921875,
+          88.09033203125,
+          1599.90966796875,
+          94.0611343383789
+        ],
+        "size_pt": 5.940181732177734,
+        "direction": [
+          0.9999862909317017,
+          -0.005235529970377684
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 191292,
+        "resource_xrefs": [
+          105
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "5",
+      "count": 6,
+      "sheet_count": 1,
+      "layers": {
+        "WATCH_TOWER": 6
+      },
+      "example": {
+        "file": "JHARIA_45.pdf",
+        "page": 1,
+        "layer": "WATCH_TOWER",
+        "origin_pt": [
+          1641.2940673828125,
+          179.737548828125
+        ],
+        "bbox_pt": [
+          1641.2735595703125,
+          173.8632354736328,
+          1647.2945556640625,
+          179.88388061523438
+        ],
+        "size_pt": 6.000046253204346,
+        "direction": [
+          0.9999939799308777,
+          -0.003489973023533821
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 61062,
+        "resource_xrefs": [
+          89
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "6",
+      "count": 93,
+      "sheet_count": 49,
+      "layers": {
+        "CHATRI": 83,
+        "": 10
+      },
+      "example": {
+        "file": "JHARIA_13.pdf",
+        "page": 1,
+        "layer": "CHATRI",
+        "origin_pt": [
+          932.6243896484375,
+          479.817626953125
+        ],
+        "bbox_pt": [
+          932.5977172851562,
+          474.6978759765625,
+          937.8504028320312,
+          479.9449462890625
+        ],
+        "size_pt": 5.220191478729248,
+        "direction": [
+          0.9999862909317017,
+          -0.005235440097749233
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 19859,
+        "resource_xrefs": [
+          82
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": ":",
+      "count": 863,
+      "sheet_count": 147,
+      "layers": {
+        "TEMPLE": 838,
+        "": 24,
+        "GURUDWARA": 1
+      },
+      "example": {
+        "file": "JHARIA_13.pdf",
+        "page": 1,
+        "layer": "TEMPLE",
+        "origin_pt": [
+          1267.436767578125,
+          180.48876953125
+        ],
+        "bbox_pt": [
+          1267.413818359375,
+          176.07522583007812,
+          1271.9373779296875,
+          180.59852600097656
+        ],
+        "size_pt": 4.500162124633789,
+        "direction": [
+          0.9999862313270569,
+          -0.005235366988927126
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 19833,
+        "resource_xrefs": [
+          82
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "H",
+      "count": 1391,
+      "sheet_count": 1388,
+      "layers": {
+        "Other 9": 244,
+        "Other 5": 2,
+        "Other 10": 230,
+        "Other 11": 116,
+        "Other 12": 147,
+        "": 401,
+        "Other": 99,
+        "Other 4": 58,
+        "Other 13": 87,
+        "Other 6": 4,
+        "GCP_PILLAR": 2,
+        "UNMAPPED_CELLS": 1
+      },
+      "example": {
+        "file": "WARDHA_494.pdf",
+        "page": 1,
+        "layer": "Other 9",
+        "origin_pt": [
+          294.050537109375,
+          602.828857421875
+        ],
+        "bbox_pt": [
+          294.050537109375,
+          599.3168334960938,
+          297.6506652832031,
+          602.9166870117188
+        ],
+        "size_pt": 3.600130081176758,
+        "direction": [
+          1.0,
+          0.0
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 15300,
+        "resource_xrefs": [
+          79
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "I",
+      "count": 4209,
+      "sheet_count": 1388,
+      "layers": {
+        "OVER_HEAD_TANK": 1178,
+        "Other 9": 488,
+        "Other 5": 4,
+        "Other 10": 460,
+        "Other 11": 232,
+        "Other 12": 294,
+        "": 1042,
+        "Other": 198,
+        "DISTANCE_STONE": 15,
+        "Other 4": 116,
+        "Other 13": 174,
+        "Other 6": 8
+      },
+      "example": {
+        "file": "WARDHA_494.pdf",
+        "page": 1,
+        "layer": "OVER_HEAD_TANK",
+        "origin_pt": [
+          978.271484375,
+          851.758056640625
+        ],
+        "bbox_pt": [
+          974.7279663085938,
+          848.1611328125,
+          978.3593139648438,
+          851.7886962890625
+        ],
+        "size_pt": 3.5998470783233643,
+        "direction": [
+          -0.0087281484156847,
+          -0.9999619126319885
+        ],
+        "color": [
+          0.0,
+          1.0,
+          1.0
+        ],
+        "seqno": 13071,
+        "resource_xrefs": [
+          79
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "O",
+      "count": 574753,
+      "sheet_count": 1388,
+      "layers": {
+        "Other 9": 21461,
+        "EMBANKMENT_ONE_SIDE": 371338,
+        "Other 5": 176,
+        "Other 10": 20294,
+        "CUTTING_ONE_SIDE": 26825,
+        "Other 11": 10468,
+        "Other 12": 12936,
+        "": 87207,
+        "DAM": 1361,
+        "Other": 8712,
+        "Other 4": 5104,
+        "Other 13": 7656,
+        "WEIR_SURVEYED": 572,
+        "Other 6": 352,
+        "BUNDH": 291
+      },
+      "example": {
+        "file": "WARDHA_494.pdf",
+        "page": 1,
+        "layer": "Other 9",
+        "origin_pt": [
+          232.1282196044922,
+          406.097412109375
+        ],
+        "bbox_pt": [
+          229.24810791015625,
+          406.02716064453125,
+          232.1282196044922,
+          408.90704345703125
+        ],
+        "size_pt": 2.880110025405884,
+        "direction": [
+          -1.0,
+          0.0
+        ],
+        "color": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 13753,
+        "resource_xrefs": [
+          79
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "Q",
+      "count": 5,
+      "sheet_count": 5,
+      "layers": {
+        "DISPENSARY": 5
+      },
+      "example": {
+        "file": "KORBA_8.pdf",
+        "page": 1,
+        "layer": "DISPENSARY",
+        "origin_pt": [
+          1584.24609375,
+          1511.364013671875
+        ],
+        "bbox_pt": [
+          1584.2449951171875,
+          1504.86669921875,
+          1590.95166015625,
+          1511.572998046875
+        ],
+        "size_pt": 6.660262107849121,
+        "direction": [
+          0.9999756813049316,
+          0.00698170717805624
+        ],
+        "color": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 19891,
+        "resource_xrefs": [
+          9747
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "T",
+      "count": 24119,
+      "sheet_count": 1388,
+      "layers": {
+        "Other 9": 244,
+        "Other 5": 2,
+        "Other 10": 243,
+        "BUILDING_POINT": 18384,
+        "Other 11": 168,
+        "Other 12": 147,
+        "": 4681,
+        "Other": 99,
+        "Other 4": 58,
+        "Other 13": 87,
+        "Other 6": 4,
+        "RAILWAY_STATION": 2
+      },
+      "example": {
+        "file": "WARDHA_494.pdf",
+        "page": 1,
+        "layer": "Other 9",
+        "origin_pt": [
+          293.6004638671875,
+          519.132568359375
+        ],
+        "bbox_pt": [
+          293.6004638671875,
+          514.0401000976562,
+          298.82586669921875,
+          519.2598876953125
+        ],
+        "size_pt": 5.220190048217773,
+        "direction": [
+          1.0,
+          0.0
+        ],
+        "color": [
+          1.0,
+          0.3019599914550781,
+          0.3019599914550781
+        ],
+        "seqno": 14199,
+        "resource_xrefs": [
+          79
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "U",
+      "count": 2546,
+      "sheet_count": 704,
+      "layers": {
+        "BRIDGE": 2001,
+        "": 480,
+        "Other 11": 52,
+        "Other 10": 13
+      },
+      "example": {
+        "file": "WARDHA_494.pdf",
+        "page": 1,
+        "layer": "BRIDGE",
+        "origin_pt": [
+          1881.052001953125,
+          1596.2989501953125
+        ],
+        "bbox_pt": [
+          1874.900146484375,
+          1586.25244140625,
+          1885.0400390625,
+          1596.3924560546875
+        ],
+        "size_pt": 7.379844665527344,
+        "direction": [
+          0.5195488333702087,
+          -0.8544407486915588
+        ],
+        "color": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 13070,
+        "resource_xrefs": [
+          79
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "]",
+      "count": 1496,
+      "sheet_count": 1332,
+      "layers": {
+        "Other 9": 244,
+        "Other 5": 2,
+        "Other 10": 230,
+        "Other 11": 116,
+        "Other 12": 147,
+        "": 365,
+        "Other": 99,
+        "Other 4": 58,
+        "Other 13": 87,
+        "AQUEDUCT": 141,
+        "Other 6": 4,
+        "AQUEDUCT_SURVEYED1": 2,
+        "VIADUCT": 1
+      },
+      "example": {
+        "file": "WARDHA_494.pdf",
+        "page": 1,
+        "layer": "Other 9",
+        "origin_pt": [
+          218.3157196044922,
+          399.4058837890625
+        ],
+        "bbox_pt": [
+          216.27064514160156,
+          389.6766357421875,
+          226.1911163330078,
+          399.5967102050781
+        ],
+        "size_pt": 8.100255966186523,
+        "direction": [
+          0.9659311771392822,
+          -0.2587992250919342
+        ],
+        "color": [
+          0.0,
+          1.0,
+          1.0
+        ],
+        "seqno": 13747,
+        "resource_xrefs": [
+          79
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "g",
+      "count": 8943,
+      "sheet_count": 1388,
+      "layers": {
+        "Other 9": 488,
+        "RELATIVE_HEIGHT_POINT": 3701,
+        "Other 5": 4,
+        "Other 10": 460,
+        "Other 11": 232,
+        "Other 12": 294,
+        "": 3267,
+        "Other": 198,
+        "Other 4": 116,
+        "Other 13": 174,
+        "Other 6": 8,
+        "OIL_TANK": 1
+      },
+      "example": {
+        "file": "WARDHA_494.pdf",
+        "page": 1,
+        "layer": "Other 9",
+        "origin_pt": [
+          255.43910217285156,
+          460.2750244140625
+        ],
+        "bbox_pt": [
+          255.43910217285156,
+          453.7777404785156,
+          262.099365234375,
+          460.4374694824219
+        ],
+        "size_pt": 6.660250186920166,
+        "direction": [
+          1.0,
+          0.0
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 14103,
+        "resource_xrefs": [
+          79
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "y",
+      "count": 2540,
+      "sheet_count": 1388,
+      "layers": {
+        "Other 9": 488,
+        "Other 5": 4,
+        "Other 10": 447,
+        "Other 11": 180,
+        "Other 12": 294,
+        "": 617,
+        "Other": 198,
+        "Other 4": 116,
+        "RAILWAY_STATION_ENCLOSURE": 1,
+        "Other 13": 174,
+        "Other 6": 8,
+        "BOUNDARY_PILLAR": 13
+      },
+      "example": {
+        "file": "WARDHA_494.pdf",
+        "page": 1,
+        "layer": "Other 9",
+        "origin_pt": [
+          247.6988067626953,
+          472.87451171875
+        ],
+        "bbox_pt": [
+          247.6988067626953,
+          467.07965087890625,
+          253.63308715820312,
+          473.0193786621094
+        ],
+        "size_pt": 5.940219879150391,
+        "direction": [
+          1.0,
+          0.0
+        ],
+        "color": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "seqno": 14116,
+        "resource_xrefs": [
+          79
+        ]
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "character": "~",
+      "count": 2097,
+      "sheet_count": 1388,
+      "layers": {
+        "OVER_HEAD_TANK": 589,
+        "Other 9": 244,
+        "Other 5": 2,
+        "Other 10": 230,
+        "Other 11": 116,
+        "Other 12": 147,
+        "": 521,
+        "Other": 99,
+        "Other 4": 58,
+        "Other 13": 87,
+        "Other 6": 4
+      },
+      "example": {
+        "file": "WARDHA_494.pdf",
+        "page": 1,
+        "layer": "OVER_HEAD_TANK",
+        "origin_pt": [
+          975.375732421875,
+          849.7939453125
+        ],
+        "bbox_pt": [
+          975.3450927734375,
+          846.2506103515625,
+          978.9765014648438,
+          849.8817749023438
+        ],
+        "size_pt": 3.6001369953155518,
+        "direction": [
+          0.9999619126319885,
+          -0.008724668063223362
+        ],
+        "color": [
+          0.0,
+          1.0,
+          1.0
+        ],
+        "seqno": 13073,
+        "resource_xrefs": [
+          79
+        ]
+      }
+    }
+  ]
+}

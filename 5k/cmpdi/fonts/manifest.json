@@ -1,53 +1,90 @@
 {
-  "source_pdf": "AURANGA_10.pdf",
   "source_sha256": "1e83b279678f60a5d8b094ba7ae4c9820c9dec321e94de906fde6bc98046e0fe",
   "delivery": "Standalone TrueType substitution fonts; all adjustments are in the font outlines and metrics.",
-  "coverage": "All DGNSymbols and DGNSymbols_new characters used in AURANGA_10; not a recovery of the complete original font character sets.",
-  "base_variant": "point_dot_well_hollow",
+  "coverage": "All 34 font/character pairs observed in DGNSymbols and DGNSymbols_new across the 1,430-PDF CMPDI audit. This is observed character coverage, not recovery of the complete original fonts or validation of every visible occurrence.",
+  "base_variant": "AURANGA fits plus collection glyphs; lined/unlined well correction",
   "fonts": {
     "DGNSymbols": {
       "file": "DGNSymbols.ttf",
-      "sha256": "8c7fe2f6740d463672a26b4e973acdad7e401354618dedd064a910ca806d5e41",
+      "sha256": "e0f449c66fb9752fb99503dea551a9e4ce841af10abd5e1e47d0f176108ee170",
       "family_name": "DGNSymbols",
       "postscript_name": "DGNSymbols",
       "source_occurrences": {
-        "(": 22,
-        "w": 2,
-        "T": 1,
-        "g": 5,
-        "y": 1
+        "$": 4,
+        "(": 20145,
+        "9": 189,
+        "I": 13,
+        "N": 734,
+        "O": 80,
+        "P": 221,
+        "Q": 2,
+        "T": 1391,
+        "g": 35018,
+        "t": 8,
+        "w": 15,
+        "y": 1391
       },
       "glyphs": {
         "(": {
-          "review_id": "G056",
+          "review_id": "G123",
           "cel_codes": [
-            202
+            729
           ],
-          "source_outline_sha256": "6eeea26244131cd07e4eed9517009a23b98dc65fa551fe54a3f050956c523efe",
+          "source_outline_sha256": "18d9a5fb84f6a6721745b268d05fc9b0d94e1cdce599bd14b88c1b99bfcdf4a7",
           "source_fonts": [
+            {
+              "sheet": "43J_10_NE",
+              "font_xref": 172,
+              "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+            },
+            {
+              "sheet": "53H_12_NE",
+              "font_xref": 175,
+              "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+            },
             {
               "sheet": "72O_13_NW",
               "font_xref": 175,
               "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
             }
           ],
           "affine_transform": [
-            3.795066413662239,
+            5.063291139240507,
             0,
             0,
-            3.795066413662239,
-            7.59013282732451,
-            11.385199240986708
+            5.063291139240507,
+            -1.1368683772161603e-13,
+            20.253164556961906
           ],
-          "status": "visual_trial_only",
           "fit": {
-            "width_em": 1,
-            "height_em": 1,
+            "width_em": 1.0000000000000002,
+            "height_em": 1.0000000000000002,
             "centre_em": [
               0.5,
               0.5
             ],
-            "reason": "Trial circular well footprint at one source em; lined/unlined interpretation remains unresolved."
+            "reason": "Filled lined-well circle: preserve the previous ( diameter and centre while adopting the user-requested lined/unlined distinction."
+          },
+          "status": "reconstructed_shape",
+          "feature": "Lined well: filled circle",
+          "mapping_status": "user_requested_pairing",
+          "evidence": {
+            "user_statement": "for 'N' given we picked the previous one as lined well.. pick this as unlined",
+            "previous_outline": "G056",
+            "previous_rendering": "hollow circle",
+            "paired_code": "DGNSymbols N",
+            "paired_outline": "G056",
+            "interpretation": "Use filled ( for lined well and hollow N for unlined well; this is not a recovered original DGN mapping."
           }
         },
         "w": {
@@ -229,6 +266,925 @@
           ],
           "status": "visual_trial_only",
           "fit": null
+        },
+        "$": {
+          "review_id": "G114",
+          "cel_codes": [
+            376
+          ],
+          "source_outline_sha256": "2a81a01987ba1593f3eccdcdc39e560d627a6ae8afa50f81e7317a67d6516ce5",
+          "source_fonts": [
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            },
+            {
+              "sheet": "74E_6_NW",
+              "font_xref": 181,
+              "font_sha256": "6da0a0d4db91e5c2c235300e80335fb6d9a2f5b07cefc5879f0e605873dcf16a"
+            },
+            {
+              "sheet": "78C_2_SW",
+              "font_xref": 180,
+              "font_sha256": "ce0610f8979c511fc2b9401f881d765992d260ff2d35960b76bd2d852606a64a"
+            }
+          ],
+          "affine_transform": [
+            2.0,
+            0,
+            0,
+            5.695466399786616,
+            -340.0,
+            772.1813440085353
+          ],
+          "status": "visual_trial_only",
+          "fit": {
+            "width_em": 1.34,
+            "height_em": 0.2278186559914646,
+            "centre_em": [
+              0.5,
+              0.5
+            ],
+            "reason": "Reuse the fitted distance-stone bar from DGNSymbols_new; retain this font resource's original PDF size and rotation."
+          },
+          "feature": "Distance-stone tick",
+          "mapping_status": "supported",
+          "evidence": {
+            "font": "DGNSymbols",
+            "character": "$",
+            "codepoint": 36,
+            "feature": "Distance-stone tick",
+            "status": "supported",
+            "candidates": [
+              {
+                "review_id": "G114",
+                "id": "2a81a01987ba1593f3eccdcdc39e560d627a6ae8afa50f81e7317a67d6516ce5"
+              }
+            ],
+            "evidence_category": "road",
+            "reasoning": "Horizontal bar in font coordinates; the PDF rotation produces the perpendicular tick. Reuses the shape identified for DGNSymbols_new $. Fit must be checked in this font.",
+            "source_layers": {
+              "DISTANCE_STONE": 4
+            },
+            "occurrences": 4,
+            "sheets": 2,
+            "cmpdi_example": {
+              "file": "JHARIA_37.pdf",
+              "page": 1,
+              "layer": "DISTANCE_STONE",
+              "origin_pt": [
+                1249.23828125,
+                1607.7615966796875
+              ],
+              "bbox_pt": [
+                1248.2894287109375,
+                1605.522216796875,
+                1250.5614013671875,
+                1607.793212890625
+              ],
+              "size_pt": 1.6200162172317505,
+              "direction": [
+                0.7997080087661743,
+                -0.6003890633583069
+              ],
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "seqno": 341555,
+              "resource_xrefs": [
+                104
+              ]
+            },
+            "nhp_legend_clip_pt": [
+              68,
+              722,
+              359,
+              739
+            ],
+            "reference_legend_clip_px": [
+              45,
+              212,
+              2752,
+              343
+            ]
+          }
+        },
+        "9": {
+          "review_id": "G043",
+          "cel_codes": [
+            174
+          ],
+          "source_outline_sha256": "12588c0b0eb98e8edc3c502dc3201d3bcdd577afd3a97baaed40fc347dec2ecd",
+          "source_fonts": [
+            {
+              "sheet": "43J_10_NE",
+              "font_xref": 172,
+              "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+            },
+            {
+              "sheet": "53H_12_NE",
+              "font_xref": 175,
+              "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+            },
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            }
+          ],
+          "affine_transform": [
+            2.0,
+            0,
+            0,
+            2.0,
+            474.0,
+            730.0
+          ],
+          "fit": {
+            "width_em": 0.526,
+            "height_em": 0.27,
+            "centre_em": [
+              0.5,
+              0.5
+            ],
+            "reason": "Centred CEL outline at the established 2x source scale."
+          },
+          "status": "reconstructed_shape",
+          "feature": "Grave: single arc",
+          "mapping_status": "accepted_choice",
+          "evidence": {
+            "font": "DGNSymbols",
+            "character": "9",
+            "codepoint": 57,
+            "feature": "Grave: single arc",
+            "status": "accepted_choice",
+            "candidates": [
+              {
+                "review_id": "G043",
+                "id": "12588c0b0eb98e8edc3c502dc3201d3bcdd577afd3a97baaed40fc347dec2ecd"
+              }
+            ],
+            "evidence_category": "religious",
+            "reasoning": "Use one semicircular SOI_cel U+00AE grave mark. The user selected the single symbol. Both reference legends show clusters of three arcs, but the replacement choice is one arc per DGNSymbols 9. Scaling and placement remain to be fitted.",
+            "source_layers": {
+              "": 5,
+              "GRAVE": 184
+            },
+            "occurrences": 189,
+            "sheets": 37,
+            "cmpdi_example": {
+              "file": "BHANDER_12.pdf",
+              "page": 1,
+              "layer": "",
+              "origin_pt": [
+                1008.6415405273438,
+                857.8812866210938
+              ],
+              "bbox_pt": [
+                1008.6047973632812,
+                854.3317260742188,
+                1012.2459106445312,
+                857.9690551757812
+              ],
+              "size_pt": 3.6000072956085205,
+              "direction": [
+                0.9999451637268066,
+                -0.010472201742231846
+              ],
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "seqno": 460714,
+              "resource_xrefs": [
+                102
+              ]
+            },
+            "nhp_legend_clip_pt": [
+              68,
+              978.5,
+              359,
+              993
+            ],
+            "reference_legend_clip_px": [
+              45,
+              2246,
+              2752,
+              2361
+            ],
+            "decision": {
+              "source": "user",
+              "statement": "I think the single symbol is fone for grave",
+              "selected_outline": "G043",
+              "component_count": 1,
+              "composite_required": false
+            }
+          }
+        },
+        "I": {
+          "review_id": "G122",
+          "cel_codes": [
+            713
+          ],
+          "source_outline_sha256": "f3dcae972bcd3eccd401c47161fb6efd7587cf081f3631632ef85857fe4fb0d9",
+          "source_fonts": [
+            {
+              "sheet": "43J_10_NE",
+              "font_xref": 172,
+              "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+            },
+            {
+              "sheet": "53H_12_NE",
+              "font_xref": 175,
+              "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+            },
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            }
+          ],
+          "affine_transform": [
+            2.0,
+            0,
+            0,
+            2.0,
+            300.0,
+            150.0
+          ],
+          "fit": {
+            "width_em": 0.7,
+            "height_em": 0.85,
+            "centre_em": [
+              0.5,
+              0.5
+            ],
+            "reason": "Centred CEL outline at the established 2x source scale."
+          },
+          "status": "reconstructed_shape",
+          "feature": "Weir (point symbol)",
+          "mapping_status": "supported",
+          "evidence": {
+            "font": "DGNSymbols",
+            "character": "I",
+            "codepoint": 73,
+            "feature": "Weir (point symbol)",
+            "status": "supported",
+            "candidates": [
+              {
+                "review_id": "G122",
+                "id": "f3dcae972bcd3eccd401c47161fb6efd7587cf081f3631632ef85857fe4fb0d9"
+              }
+            ],
+            "evidence_category": "weir",
+            "reasoning": "The extended NHP legend explicitly uses SOI_cel U+02C9 in the Weir position of Flow arrow / Sluice / Weir / Rapids. This is a point-symbol candidate. The main legend also has a long weir drawn using repeated triangular teeth.",
+            "source_layers": {
+              "WEIR": 8,
+              "": 5
+            },
+            "occurrences": 13,
+            "sheets": 8,
+            "cmpdi_example": {
+              "file": "WARDHA_219.pdf",
+              "page": 1,
+              "layer": "WEIR",
+              "origin_pt": [
+                1157.62109375,
+                76.9097900390625
+              ],
+              "bbox_pt": [
+                1157.595458984375,
+                73.55123901367188,
+                1162.087158203125,
+                78.04513549804688
+              ],
+              "size_pt": 3.600094795227051,
+              "direction": [
+                0.9563137292861938,
+                0.29234227538108826
+              ],
+              "color": [
+                0.0,
+                1.0,
+                1.0
+              ],
+              "seqno": 1573,
+              "resource_xrefs": [
+                75
+              ]
+            },
+            "nhp_legend_clip_pt": [
+              68,
+              1353,
+              359,
+              1367
+            ],
+            "reference_legend_clip_px": [
+              45,
+              842,
+              2752,
+              927
+            ]
+          }
+        },
+        "N": {
+          "review_id": "G056",
+          "cel_codes": [
+            202
+          ],
+          "source_outline_sha256": "6eeea26244131cd07e4eed9517009a23b98dc65fa551fe54a3f050956c523efe",
+          "source_fonts": [
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            }
+          ],
+          "affine_transform": [
+            2.0,
+            0,
+            0,
+            2.0,
+            477.0,
+            479.0
+          ],
+          "fit": {
+            "width_em": 0.527,
+            "height_em": 0.527,
+            "centre_em": [
+              0.5,
+              0.5
+            ],
+            "reason": "Centred CEL outline at the established 2x source scale."
+          },
+          "status": "reconstructed_shape",
+          "feature": "Unlined well: hollow circle",
+          "mapping_status": "accepted_choice",
+          "evidence": {
+            "font": "DGNSymbols",
+            "character": "N",
+            "codepoint": 78,
+            "feature": "Unlined well: hollow circle",
+            "status": "accepted_choice",
+            "candidates": [
+              {
+                "review_id": "G056",
+                "id": "6eeea26244131cd07e4eed9517009a23b98dc65fa551fe54a3f050956c523efe"
+              }
+            ],
+            "evidence_category": "wells",
+            "reasoning": "The user selected the unlined well for N, using hollow SOI_cel U+00CA. Both legends distinguish lined wells (filled circles) from unlined wells (hollow circles). The earlier ( mapping is being corrected to a filled lined-well symbol to preserve the requested distinction.",
+            "source_layers": {
+              "WELL": 563,
+              "": 171
+            },
+            "occurrences": 734,
+            "sheets": 133,
+            "cmpdi_example": {
+              "file": "WARDHA_494.pdf",
+              "page": 1,
+              "layer": "WELL",
+              "origin_pt": [
+                442.01605224609375,
+                1200.23876953125
+              ],
+              "bbox_pt": [
+                441.98541259765625,
+                1196.6954345703125,
+                445.6168212890625,
+                1200.326416015625
+              ],
+              "size_pt": 3.6001369953155518,
+              "direction": [
+                0.9999619126319885,
+                -0.008724668063223362
+              ],
+              "color": [
+                0.0,
+                1.0,
+                1.0
+              ],
+              "seqno": 13115,
+              "resource_xrefs": [
+                83
+              ]
+            },
+            "nhp_legend_clip_pt": [
+              68,
+              838,
+              359,
+              852
+            ],
+            "reference_legend_clip_px": [
+              45,
+              1192,
+              2752,
+              1301
+            ],
+            "decision": {
+              "source": "user",
+              "statement": "for 'N' given we picked the previous one as lined well.. pick this as unlined",
+              "selected_outline": "G056",
+              "fill_style": "hollow",
+              "feature": "unlined well",
+              "paired_correction": {
+                "font": "DGNSymbols",
+                "character": "(",
+                "feature": "lined well",
+                "fill_style": "filled"
+              }
+            }
+          }
+        },
+        "O": {
+          "review_id": "G074",
+          "cel_codes": [
+            241
+          ],
+          "source_outline_sha256": "574b5cdea3064b53f77551a9f747151a5cb141c05f23eaf7162b1c22884ca9b8",
+          "source_fonts": [
+            {
+              "sheet": "43J_10_NE",
+              "font_xref": 172,
+              "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+            },
+            {
+              "sheet": "53H_12_NE",
+              "font_xref": 175,
+              "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+            },
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            }
+          ],
+          "affine_transform": [
+            2.0,
+            0,
+            0,
+            2.0,
+            525.0,
+            370.0
+          ],
+          "fit": {
+            "width_em": 0.475,
+            "height_em": 0.63,
+            "centre_em": [
+              0.5,
+              0.5
+            ],
+            "reason": "Centred CEL outline at the established 2x source scale."
+          },
+          "status": "reconstructed_shape",
+          "feature": "Tube-well",
+          "mapping_status": "supported",
+          "evidence": {
+            "font": "DGNSymbols",
+            "character": "O",
+            "codepoint": 79,
+            "feature": "Tube-well",
+            "status": "supported",
+            "candidates": [
+              {
+                "review_id": "G074",
+                "id": "574b5cdea3064b53f77551a9f747151a5cb141c05f23eaf7162b1c22884ca9b8"
+              }
+            ],
+            "evidence_category": "wells",
+            "reasoning": "Filled upright triangle. The NHP tube-well position uses SOI_cel U+00F1, and the supplied legend shows the same form. This is different from DGNSymbols_new O, the triangular hachure.",
+            "source_layers": {
+              "": 16,
+              "TUBEWELL": 64
+            },
+            "occurrences": 80,
+            "sheets": 27,
+            "cmpdi_example": {
+              "file": "BHANDER_12.pdf",
+              "page": 1,
+              "layer": "",
+              "origin_pt": [
+                1489.1522216796875,
+                1119.2315673828125
+              ],
+              "bbox_pt": [
+                1489.098876953125,
+                1114.0849609375,
+                1494.373291015625,
+                1119.35888671875
+              ],
+              "size_pt": 5.220005989074707,
+              "direction": [
+                0.9999451637268066,
+                -0.010471252724528313
+              ],
+              "color": [
+                0.3019599914550781,
+                1.0,
+                1.0
+              ],
+              "seqno": 458353,
+              "resource_xrefs": [
+                102
+              ]
+            },
+            "nhp_legend_clip_pt": [
+              68,
+              838,
+              359,
+              852
+            ],
+            "reference_legend_clip_px": [
+              45,
+              1192,
+              2752,
+              1301
+            ]
+          }
+        },
+        "P": {
+          "review_id": "G044",
+          "cel_codes": [
+            176
+          ],
+          "source_outline_sha256": "63c02a1571799e399bf3304f05ba0bec4a10d6c8bb30682db545e11a46204b29",
+          "source_fonts": [
+            {
+              "sheet": "74E_6_NW",
+              "font_xref": 181,
+              "font_sha256": "6da0a0d4db91e5c2c235300e80335fb6d9a2f5b07cefc5879f0e605873dcf16a"
+            }
+          ],
+          "affine_transform": [
+            2.0,
+            0,
+            0,
+            2.0,
+            625.0,
+            300.0
+          ],
+          "fit": {
+            "width_em": 0.375,
+            "height_em": 0.7,
+            "centre_em": [
+              0.5,
+              0.5
+            ],
+            "reason": "Centred CEL outline at the established 2x source scale."
+          },
+          "status": "reconstructed_shape",
+          "feature": "Hand pump",
+          "mapping_status": "accepted_choice",
+          "evidence": {
+            "font": "DGNSymbols",
+            "character": "P",
+            "codepoint": 80,
+            "feature": "Hand pump",
+            "status": "accepted_choice",
+            "candidates": [
+              {
+                "review_id": "G044",
+                "id": "63c02a1571799e399bf3304f05ba0bec4a10d6c8bb30682db545e11a46204b29"
+              }
+            ],
+            "evidence_category": "hand_pump",
+            "reasoning": "The user accepted the pump-handle-shaped SOI_cel U+00B0. It occurs 12 times in WATER_COLLECTION_POINT on 74E_6_NW; CMPDI uses P in HAND_PUMP. This choice is supported by map-layer usage, without an explicit hand-pump label in the two main legends. Scaling and placement remain to be fitted.",
+            "source_layers": {
+              "HAND_PUMP": 221
+            },
+            "occurrences": 221,
+            "sheets": 28,
+            "cmpdi_example": {
+              "file": "JHARIA_13.pdf",
+              "page": 1,
+              "layer": "HAND_PUMP",
+              "origin_pt": [
+                717.8765869140625,
+                589.972900390625
+              ],
+              "bbox_pt": [
+                717.8499145507812,
+                584.853271484375,
+                723.097412109375,
+                590.1002197265625
+              ],
+              "size_pt": 5.220191478729248,
+              "direction": [
+                0.9999862909317017,
+                -0.005235440097749233
+              ],
+              "color": [
+                0.0,
+                1.0,
+                1.0
+              ],
+              "seqno": 19841,
+              "resource_xrefs": [
+                87
+              ]
+            },
+            "nhp_legend_clip_pt": null,
+            "reference_legend_clip_px": null,
+            "decision": {
+              "source": "user",
+              "statement": "the hand pump symbol looks good enough for me",
+              "selected_outline": "G044"
+            }
+          }
+        },
+        "Q": {
+          "review_id": "G072",
+          "cel_codes": [
+            234
+          ],
+          "source_outline_sha256": "bc40fa6fb0f9db8aac94e6b61a30497e18da5d21db36ac6fbd7ee01349981656",
+          "source_fonts": [
+            {
+              "sheet": "43J_10_NE",
+              "font_xref": 172,
+              "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+            }
+          ],
+          "affine_transform": [
+            2.0,
+            0,
+            0,
+            2.0,
+            285.0,
+            285.0
+          ],
+          "fit": {
+            "width_em": 0.715,
+            "height_em": 0.715,
+            "centre_em": [
+              0.5,
+              0.5
+            ],
+            "reason": "Centred CEL outline at the established 2x source scale."
+          },
+          "status": "reconstructed_shape",
+          "feature": "Spring",
+          "mapping_status": "supported",
+          "evidence": {
+            "font": "DGNSymbols",
+            "character": "Q",
+            "codepoint": 81,
+            "feature": "Spring",
+            "status": "supported",
+            "candidates": [
+              {
+                "review_id": "G072",
+                "id": "bc40fa6fb0f9db8aac94e6b61a30497e18da5d21db36ac6fbd7ee01349981656"
+              }
+            ],
+            "evidence_category": "wells",
+            "reasoning": "Thin cyan plus. Both legends show this form; 43J_10_NE also uses SOI_cel U+00EA at 23 map spring locations, including locations labelled Spring. Keep distinct from the heavier dispensary cross.",
+            "source_layers": {
+              "SPRING": 2
+            },
+            "occurrences": 2,
+            "sheets": 2,
+            "cmpdi_example": {
+              "file": "KAMPTEE_37.pdf",
+              "page": 1,
+              "layer": "SPRING",
+              "origin_pt": [
+                1582.2685546875,
+                83.4517822265625
+              ],
+              "bbox_pt": [
+                1582.1978759765625,
+                77.5849609375,
+                1588.2100830078125,
+                83.59663391113281
+              ],
+              "size_pt": 5.940223693847656,
+              "direction": [
+                0.9999253749847412,
+                -0.012215027585625648
+              ],
+              "color": [
+                0.0,
+                1.0,
+                1.0
+              ],
+              "seqno": 812411,
+              "resource_xrefs": [
+                92
+              ]
+            },
+            "nhp_legend_clip_pt": [
+              68,
+              838,
+              359,
+              852
+            ],
+            "reference_legend_clip_px": [
+              45,
+              1192,
+              2752,
+              1301
+            ]
+          }
+        },
+        "t": {
+          "review_id": "G073",
+          "cel_codes": [
+            238
+          ],
+          "source_outline_sha256": "44bfcad8e560c7ee8e0ac5a3bdfb8154bc221a939ed0cd0ee354cd26e8068698",
+          "source_fonts": [
+            {
+              "sheet": "43J_10_NE",
+              "font_xref": 172,
+              "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+            },
+            {
+              "sheet": "53H_12_NE",
+              "font_xref": 175,
+              "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+            },
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            }
+          ],
+          "affine_transform": [
+            1.0,
+            0,
+            0,
+            1.0,
+            712.5,
+            450.0
+          ],
+          "fit": {
+            "width_em": 0.2875,
+            "height_em": 0.55,
+            "centre_em": [
+              0.5,
+              0.5
+            ],
+            "reason": "Native CEL scale for the tall tree at the CMPDI 9.72 pt font size; height 5.35 pt. Tree identity is provisional."
+          },
+          "status": "reconstructed_shape",
+          "feature": "Surveyed tree (hypothesis)",
+          "mapping_status": "hypothesis",
+          "evidence": {
+            "font": "DGNSymbols",
+            "character": "t",
+            "codepoint": 116,
+            "feature": "Surveyed tree (hypothesis)",
+            "status": "hypothesis",
+            "candidates": [
+              {
+                "review_id": "G073",
+                "id": "44bfcad8e560c7ee8e0ac5a3bdfb8154bc221a939ed0cd0ee354cd26e8068698"
+              }
+            ],
+            "evidence_category": "tree",
+            "reasoning": "The user suggested a tree. All four unique black t locations lie on or beside the playground boundary; other nearby tree marks are green. Both legends depict a surveyed tree in black, and NHP uses SOI_cel U+00EE. This supports G073 as a plausible candidate. The CMPDI objects have no semantic layer name, so the identification remains provisional.",
+            "source_layers": {
+              "": 8
+            },
+            "occurrences": 8,
+            "sheets": 1,
+            "cmpdi_example": {
+              "file": "WARDHA_423.pdf",
+              "page": 1,
+              "layer": "",
+              "origin_pt": [
+                1002.3767700195312,
+                1504.8123779296875
+              ],
+              "bbox_pt": [
+                1002.2940063476562,
+                1495.2452392578125,
+                1012.1085815429688,
+                1505.0494384765625
+              ],
+              "size_pt": 9.720359802246094,
+              "direction": [
+                0.9999619126319885,
+                -0.008726014755666256
+              ],
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "seqno": 5540,
+              "resource_xrefs": [
+                16
+              ]
+            },
+            "nhp_legend_clip_pt": [
+              68,
+              1029.5,
+              359,
+              1044
+            ],
+            "reference_legend_clip_px": [
+              45,
+              2731,
+              2752,
+              2843
+            ],
+            "inference": {
+              "type": "user_suggestion_with_colour_and_spatial_context",
+              "user_statement": "could t be a tree? most of them seem to be on park boundaries",
+              "candidate_outline": "G073",
+              "identity_confirmed": false,
+              "unique_locations": 4,
+              "source_draws": 8,
+              "semantic_layer": "",
+              "source_pdf_sha256": "367a742ce2a5800e22d402e92ae94c5c431b715cc2e0aa830d597a655bf82344",
+              "positions": [
+                {
+                  "origin_pt": [
+                    1002.3767700195312,
+                    1504.8123779296875
+                  ],
+                  "draw_count": 2
+                },
+                {
+                  "origin_pt": [
+                    946.9347534179688,
+                    1547.29052734375
+                  ],
+                  "draw_count": 2
+                },
+                {
+                  "origin_pt": [
+                    951.4348754882812,
+                    1582.928955078125
+                  ],
+                  "draw_count": 2
+                },
+                {
+                  "origin_pt": [
+                    1001.6567993164062,
+                    1584.908935546875
+                  ],
+                  "draw_count": 2
+                }
+              ]
+            }
+          }
         }
       },
       "advance_widths": {
@@ -237,42 +1193,66 @@
         "84": 2002,
         "103": 2000,
         "119": 2000,
-        "121": 1998
+        "121": 1998,
+        "36": 2006,
+        "57": 2002,
+        "73": 1998,
+        "78": 2000,
+        "79": 2000,
+        "80": 2000,
+        "81": 2000,
+        "116": 2002
       },
       "head_timestamps": {
         "created": 3876553455,
-        "modified": 3876553455
+        "modified": 3876553456
       },
       "name_records": {
         "1": "DGNSymbols",
         "2": "Regular",
-        "3": "DGNSymbols-CEL-reconstruction-v1",
+        "3": "DGNSymbols-CEL-reconstruction-v2",
         "4": "DGNSymbols",
-        "5": "Version 1.000; reconstructed",
+        "5": "Version 2.000; reconstructed",
         "6": "DGNSymbols",
-        "10": "SOI_cel-derived reconstruction for symbols used in AURANGA_10. See manifest.json for choices and evidence.",
+        "10": "SOI_cel-derived reconstruction of all observed CMPDI symbol codes. See manifest.json for choices, provisional interpretations and fit evidence.",
         "16": "DGNSymbols",
         "17": "Regular"
+      },
+      "auranga_source_occurrences": {
+        "(": 22,
+        "w": 2,
+        "T": 1,
+        "g": 5,
+        "y": 1
       }
     },
     "DGNSymbols_new": {
       "file": "DGNSymbols_new.ttf",
-      "sha256": "da67cd5e8dae4c038aeaa7fc0c545a9b6fc0d9749a7de6686b2e2c1e44915abc",
+      "sha256": "244a51cdac70be6571f7e632f74809035d05488d7447908455d9f1ea93a36644",
       "family_name": "DGNSymbols_new",
       "postscript_name": "DGNSymbols_new",
       "source_occurrences": {
-        "O": 943,
-        "g": 23,
-        "U": 1,
-        "]": 1,
-        "y": 1,
-        "%": 1,
-        "T": 2,
-        "$": 1,
-        "H": 1,
-        "I": 2,
-        "~": 1,
-        "'": 3
+        "$": 2047,
+        "%": 1389,
+        "&": 50,
+        "'": 756,
+        "+": 2,
+        "/": 1,
+        "1": 51,
+        "2": 13,
+        "5": 6,
+        "6": 93,
+        ":": 863,
+        "H": 1391,
+        "I": 4209,
+        "O": 574753,
+        "Q": 5,
+        "T": 24119,
+        "U": 2546,
+        "]": 1496,
+        "g": 8943,
+        "y": 2540,
+        "~": 2097
       },
       "glyphs": {
         "O": {
@@ -802,6 +1782,1057 @@
           ],
           "status": "visual_trial_only",
           "fit": null
+        },
+        "&": {
+          "review_id": "G046",
+          "cel_codes": [
+            179
+          ],
+          "source_outline_sha256": "6ea2ef9abe33635f0ef90287054e7e19d823e3c9e7e50fcc292e6c365a4234e5",
+          "source_fonts": [
+            {
+              "sheet": "43J_10_NE",
+              "font_xref": 172,
+              "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+            },
+            {
+              "sheet": "53H_12_NE",
+              "font_xref": 175,
+              "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+            },
+            {
+              "sheet": "73N_10_SE",
+              "font_xref": 175,
+              "font_sha256": "45d8051919dad886ff513a50b901447d05870355e1d6bdeb80874ef42258744b"
+            },
+            {
+              "sheet": "74E_6_NW",
+              "font_xref": 181,
+              "font_sha256": "6da0a0d4db91e5c2c235300e80335fb6d9a2f5b07cefc5879f0e605873dcf16a"
+            },
+            {
+              "sheet": "79B_10_SE",
+              "font_xref": 175,
+              "font_sha256": "65959e68c8c5f4aa36e3e686b0b53542ec47106712d32849f7566d61e5475330"
+            }
+          ],
+          "affine_transform": [
+            2.0,
+            0,
+            0,
+            2.0,
+            554.0,
+            555.0
+          ],
+          "fit": {
+            "width_em": 0.446,
+            "height_em": 0.447,
+            "centre_em": [
+              0.5,
+              0.5
+            ],
+            "reason": "Centred CEL outline at the established 2x source scale."
+          },
+          "status": "reconstructed_shape",
+          "feature": "Building point: hollow square",
+          "mapping_status": "accepted_choice",
+          "evidence": {
+            "font": "DGNSymbols_new",
+            "character": "&",
+            "codepoint": 38,
+            "feature": "Building point: hollow square",
+            "status": "accepted_choice",
+            "candidates": [
+              {
+                "review_id": "G046",
+                "id": "6ea2ef9abe33635f0ef90287054e7e19d823e3c9e7e50fcc292e6c365a4234e5"
+              }
+            ],
+            "evidence_category": "building",
+            "reasoning": "The user selected the hollow SOI_cel square U+00B3 for &. The solid-square G075 is already assigned to T. CMPDI uses & in BUILDING_POINT, and the references show both filled and hollow building/hut marks. This is a user-selected reconstruction; scaling and placement remain to be fitted.",
+            "source_layers": {
+              "BUILDING_POINT": 46,
+              "": 4
+            },
+            "occurrences": 50,
+            "sheets": 34,
+            "cmpdi_example": {
+              "file": "JHARIA_26.pdf",
+              "page": 1,
+              "layer": "BUILDING_POINT",
+              "origin_pt": [
+                1784.5057373046875,
+                314.9405517578125
+              ],
+              "bbox_pt": [
+                1784.4874267578125,
+                311.40966796875,
+                1788.1063232421875,
+                315.0283203125
+              ],
+              "size_pt": 3.6001293659210205,
+              "direction": [
+                0.9999862909317017,
+                -0.005235922988504171
+              ],
+              "color": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "seqno": 27437,
+              "resource_xrefs": [
+                84
+              ]
+            },
+            "nhp_legend_clip_pt": [
+              68,
+              938,
+              359,
+              979
+            ],
+            "reference_legend_clip_px": [
+              45,
+              2007,
+              2752,
+              2241
+            ],
+            "decision": {
+              "source": "user",
+              "statement": "for the building point '&' pick the other one.. i mean the solid fill is already assigned right.. so pick the hollow fill",
+              "selected_outline": "G046",
+              "fill_style": "hollow",
+              "existing_solid_square_assignment": {
+                "font": "DGNSymbols_new",
+                "character": "T",
+                "outline": "G075"
+              }
+            }
+          }
+        },
+        "+": {
+          "review_id": "G035",
+          "cel_codes": [
+            124
+          ],
+          "source_outline_sha256": "3d040076ae144a50ef81e14b9944b402822f6c9186e1448c478ceaa0c96f17ba",
+          "source_fonts": [
+            {
+              "sheet": "43J_10_NE",
+              "font_xref": 172,
+              "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+            },
+            {
+              "sheet": "53H_12_NE",
+              "font_xref": 175,
+              "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+            },
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            }
+          ],
+          "affine_transform": [
+            2.0,
+            0,
+            0,
+            2.0,
+            685.0,
+            -50.0
+          ],
+          "fit": {
+            "width_em": 0.315,
+            "height_em": 1.05,
+            "centre_em": [
+              0.5,
+              0.5
+            ],
+            "reason": "Centred CEL outline at the established 2x source scale."
+          },
+          "status": "reconstructed_shape",
+          "feature": "Church",
+          "mapping_status": "supported",
+          "evidence": {
+            "font": "DGNSymbols_new",
+            "character": "+",
+            "codepoint": 43,
+            "feature": "Church",
+            "status": "supported",
+            "candidates": [
+              {
+                "review_id": "G035",
+                "id": "3d040076ae144a50ef81e14b9944b402822f6c9186e1448c478ceaa0c96f17ba"
+              }
+            ],
+            "evidence_category": "religious",
+            "reasoning": "Solid stem with a cross above. The Church slot of the NHP religious row uses SOI_cel U+007C; the supplied legend agrees.",
+            "source_layers": {
+              "CHURCH": 2
+            },
+            "occurrences": 2,
+            "sheets": 1,
+            "cmpdi_example": {
+              "file": "JHARIA_84.pdf",
+              "page": 1,
+              "layer": "CHURCH",
+              "origin_pt": [
+                753.1578369140625,
+                512.7554931640625
+              ],
+              "bbox_pt": [
+                753.1326904296875,
+                505.5300598144531,
+                760.5386352539062,
+                512.9354858398438
+              ],
+              "size_pt": 7.380274772644043,
+              "direction": [
+                0.9999939203262329,
+                -0.0034903851337730885
+              ],
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "seqno": 12023,
+              "resource_xrefs": [
+                93
+              ]
+            },
+            "nhp_legend_clip_pt": [
+              68,
+              978.5,
+              359,
+              993
+            ],
+            "reference_legend_clip_px": [
+              45,
+              2246,
+              2752,
+              2361
+            ]
+          }
+        },
+        "/": {
+          "review_id": "G078",
+          "cel_codes": [
+            247
+          ],
+          "source_outline_sha256": "6c3a223883da5f79d80fa164b1bf67a1e3aedea0ae8898bfbe29781c92399106",
+          "source_fonts": [
+            {
+              "sheet": "43J_10_NE",
+              "font_xref": 172,
+              "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+            },
+            {
+              "sheet": "53H_12_NE",
+              "font_xref": 175,
+              "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+            },
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            }
+          ],
+          "affine_transform": [
+            2.0,
+            0,
+            0,
+            2.0,
+            330.0,
+            75.0
+          ],
+          "fit": {
+            "width_em": 0.67,
+            "height_em": 0.925,
+            "centre_em": [
+              0.5,
+              0.5
+            ],
+            "reason": "Centred CEL outline at the established 2x source scale."
+          },
+          "status": "reconstructed_shape",
+          "feature": "Tomb",
+          "mapping_status": "supported",
+          "evidence": {
+            "font": "DGNSymbols_new",
+            "character": "/",
+            "codepoint": 47,
+            "feature": "Tomb",
+            "status": "supported",
+            "candidates": [
+              {
+                "review_id": "G078",
+                "id": "6c3a223883da5f79d80fa164b1bf67a1e3aedea0ae8898bfbe29781c92399106"
+              }
+            ],
+            "evidence_category": "religious",
+            "reasoning": "Rounded upper chamber above a rectangular base. The Tomb slot uses SOI_cel U+00F7; the supplied legend agrees.",
+            "source_layers": {
+              "TOMB": 1
+            },
+            "occurrences": 1,
+            "sheets": 1,
+            "cmpdi_example": {
+              "file": "BHANDER_27.pdf",
+              "page": 1,
+              "layer": "TOMB",
+              "origin_pt": [
+                1433.222900390625,
+                387.22802734375
+              ],
+              "bbox_pt": [
+                1433.1549072265625,
+                380.6614990234375,
+                1439.89111328125,
+                387.39044189453125
+              ],
+              "size_pt": 6.660245418548584,
+              "direction": [
+                0.9999451637268066,
+                -0.010471085086464882
+              ],
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "seqno": 61772,
+              "resource_xrefs": [
+                89
+              ]
+            },
+            "nhp_legend_clip_pt": [
+              68,
+              978.5,
+              359,
+              993
+            ],
+            "reference_legend_clip_px": [
+              45,
+              2246,
+              2752,
+              2361
+            ]
+          }
+        },
+        "1": {
+          "review_id": "G053",
+          "cel_codes": [
+            192
+          ],
+          "source_outline_sha256": "1b60b440e0e8145928ef739cd3561675d94a75e23e0bd8d635c6feceafa5c9cd",
+          "source_fonts": [
+            {
+              "sheet": "43J_10_NE",
+              "font_xref": 172,
+              "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+            },
+            {
+              "sheet": "53H_12_NE",
+              "font_xref": 175,
+              "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+            },
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            }
+          ],
+          "affine_transform": [
+            2.0,
+            0,
+            0,
+            2.0,
+            170.0,
+            15.0
+          ],
+          "fit": {
+            "width_em": 0.83,
+            "height_em": 0.985,
+            "centre_em": [
+              0.5,
+              0.5
+            ],
+            "reason": "Centred CEL outline at the established 2x source scale."
+          },
+          "status": "reconstructed_shape",
+          "feature": "Mosque",
+          "mapping_status": "supported",
+          "evidence": {
+            "font": "DGNSymbols_new",
+            "character": "1",
+            "codepoint": 49,
+            "feature": "Mosque",
+            "status": "supported",
+            "candidates": [
+              {
+                "review_id": "G053",
+                "id": "1b60b440e0e8145928ef739cd3561675d94a75e23e0bd8d635c6feceafa5c9cd"
+              }
+            ],
+            "evidence_category": "religious",
+            "reasoning": "Central dome and flanking minarets. The Mosque slot uses SOI_cel U+00C0; the supplied legend agrees.",
+            "source_layers": {
+              "": 1,
+              "MOSQUE": 50
+            },
+            "occurrences": 51,
+            "sheets": 21,
+            "cmpdi_example": {
+              "file": "RAMGARH_2.pdf",
+              "page": 1,
+              "layer": "",
+              "origin_pt": [
+                1160.2919921875,
+                705.6986083984375
+              ],
+              "bbox_pt": [
+                1160.241455078125,
+                699.852294921875,
+                1166.2330322265625,
+                705.843505859375
+              ],
+              "size_pt": 5.940006256103516,
+              "direction": [
+                0.9999619722366333,
+                -0.00872557982802391
+              ],
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "seqno": 2252,
+              "resource_xrefs": [
+                92
+              ]
+            },
+            "nhp_legend_clip_pt": [
+              68,
+              978.5,
+              359,
+              993
+            ],
+            "reference_legend_clip_px": [
+              45,
+              2246,
+              2752,
+              2361
+            ]
+          }
+        },
+        "2": {
+          "review_id": "G047",
+          "cel_codes": [
+            180
+          ],
+          "source_outline_sha256": "e7f4505359dfa57d14a5fd56d5420214bcee4ee74dcb18c9a91aa9d71c3f4374",
+          "source_fonts": [
+            {
+              "sheet": "43J_10_NE",
+              "font_xref": 172,
+              "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+            },
+            {
+              "sheet": "53H_12_NE",
+              "font_xref": 175,
+              "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+            },
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            }
+          ],
+          "affine_transform": [
+            2.0,
+            0,
+            0,
+            2.0,
+            285.0,
+            120.0
+          ],
+          "fit": {
+            "width_em": 0.715,
+            "height_em": 0.88,
+            "centre_em": [
+              0.5,
+              0.5
+            ],
+            "reason": "Centred CEL outline at the established 2x source scale."
+          },
+          "status": "reconstructed_shape",
+          "feature": "Idgah",
+          "mapping_status": "supported",
+          "evidence": {
+            "font": "DGNSymbols_new",
+            "character": "2",
+            "codepoint": 50,
+            "feature": "Idgah",
+            "status": "supported",
+            "candidates": [
+              {
+                "review_id": "G047",
+                "id": "e7f4505359dfa57d14a5fd56d5420214bcee4ee74dcb18c9a91aa9d71c3f4374"
+              }
+            ],
+            "evidence_category": "religious",
+            "reasoning": "Two uprights and connecting horizontal strokes. The Idgah slot uses SOI_cel U+00B4; the supplied legend agrees.",
+            "source_layers": {
+              "IDGAH": 13
+            },
+            "occurrences": 13,
+            "sheets": 8,
+            "cmpdi_example": {
+              "file": "JHARIA_24.pdf",
+              "page": 1,
+              "layer": "IDGAH",
+              "origin_pt": [
+                1593.96875,
+                93.916259765625
+              ],
+              "bbox_pt": [
+                1593.9383544921875,
+                88.09033203125,
+                1599.90966796875,
+                94.0611343383789
+              ],
+              "size_pt": 5.940181732177734,
+              "direction": [
+                0.9999862909317017,
+                -0.005235529970377684
+              ],
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "seqno": 191292,
+              "resource_xrefs": [
+                105
+              ]
+            },
+            "nhp_legend_clip_pt": [
+              68,
+              978.5,
+              359,
+              993
+            ],
+            "reference_legend_clip_px": [
+              45,
+              2246,
+              2752,
+              2361
+            ]
+          }
+        },
+        "5": {
+          "review_id": "G121",
+          "cel_codes": [
+            710
+          ],
+          "source_outline_sha256": "58777f42b0658daa70fa65c42b6f5353f303be3a2cb2c4894f444dcabe23f8e0",
+          "source_fonts": [
+            {
+              "sheet": "43J_10_NE",
+              "font_xref": 172,
+              "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+            },
+            {
+              "sheet": "53H_12_NE",
+              "font_xref": 175,
+              "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+            },
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            }
+          ],
+          "affine_transform": [
+            2.0,
+            0,
+            0,
+            2.0,
+            145.0,
+            365.0
+          ],
+          "fit": {
+            "width_em": 0.855,
+            "height_em": 0.635,
+            "centre_em": [
+              0.5,
+              0.5
+            ],
+            "reason": "Centred CEL outline at the established 2x source scale."
+          },
+          "status": "reconstructed_shape",
+          "feature": "Watch tower",
+          "mapping_status": "supported",
+          "evidence": {
+            "font": "DGNSymbols_new",
+            "character": "5",
+            "codepoint": 53,
+            "feature": "Watch tower",
+            "status": "supported",
+            "candidates": [
+              {
+                "review_id": "G121",
+                "id": "58777f42b0658daa70fa65c42b6f5353f303be3a2cb2c4894f444dcabe23f8e0"
+              }
+            ],
+            "evidence_category": "tower",
+            "reasoning": "Tapering tower with top and base bars. The Tower slot uses SOI_cel U+02C6; the supplied legend agrees. This is not the more elaborate Gopuram glyph U+00AB.",
+            "source_layers": {
+              "WATCH_TOWER": 6
+            },
+            "occurrences": 6,
+            "sheets": 1,
+            "cmpdi_example": {
+              "file": "JHARIA_45.pdf",
+              "page": 1,
+              "layer": "WATCH_TOWER",
+              "origin_pt": [
+                1641.2940673828125,
+                179.737548828125
+              ],
+              "bbox_pt": [
+                1641.2735595703125,
+                173.8632354736328,
+                1647.2945556640625,
+                179.88388061523438
+              ],
+              "size_pt": 6.000046253204346,
+              "direction": [
+                0.9999939799308777,
+                -0.003489973023533821
+              ],
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "seqno": 61062,
+              "resource_xrefs": [
+                89
+              ]
+            },
+            "nhp_legend_clip_pt": [
+              68,
+              966,
+              359,
+              979
+            ],
+            "reference_legend_clip_px": [
+              45,
+              2132,
+              2752,
+              2241
+            ]
+          }
+        },
+        "6": {
+          "review_id": "G033",
+          "cel_codes": [
+            122
+          ],
+          "source_outline_sha256": "a847086801264e8a7c9e1884681c64ce88a9080e6afd80dde97ba89bbd32f803",
+          "source_fonts": [
+            {
+              "sheet": "43J_10_NE",
+              "font_xref": 172,
+              "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+            },
+            {
+              "sheet": "53H_12_NE",
+              "font_xref": 175,
+              "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+            },
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            }
+          ],
+          "affine_transform": [
+            2.0,
+            0,
+            0,
+            2.0,
+            240.0,
+            365.0
+          ],
+          "fit": {
+            "width_em": 0.76,
+            "height_em": 0.635,
+            "centre_em": [
+              0.5,
+              0.5
+            ],
+            "reason": "Centred CEL outline at the established 2x source scale."
+          },
+          "status": "reconstructed_shape",
+          "feature": "Chhatri",
+          "mapping_status": "supported",
+          "evidence": {
+            "font": "DGNSymbols_new",
+            "character": "6",
+            "codepoint": 54,
+            "feature": "Chhatri",
+            "status": "supported",
+            "candidates": [
+              {
+                "review_id": "G033",
+                "id": "a847086801264e8a7c9e1884681c64ce88a9080e6afd80dde97ba89bbd32f803"
+              }
+            ],
+            "evidence_category": "religious",
+            "reasoning": "Domed pavilion without the temple finial and central door stroke. The Chhatri slot uses SOI_cel U+007A; the supplied legend agrees.",
+            "source_layers": {
+              "CHATRI": 83,
+              "": 10
+            },
+            "occurrences": 93,
+            "sheets": 49,
+            "cmpdi_example": {
+              "file": "JHARIA_13.pdf",
+              "page": 1,
+              "layer": "CHATRI",
+              "origin_pt": [
+                932.6243896484375,
+                479.817626953125
+              ],
+              "bbox_pt": [
+                932.5977172851562,
+                474.6978759765625,
+                937.8504028320312,
+                479.9449462890625
+              ],
+              "size_pt": 5.220191478729248,
+              "direction": [
+                0.9999862909317017,
+                -0.005235440097749233
+              ],
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "seqno": 19859,
+              "resource_xrefs": [
+                82
+              ]
+            },
+            "nhp_legend_clip_pt": [
+              68,
+              978.5,
+              359,
+              993
+            ],
+            "reference_legend_clip_px": [
+              45,
+              2246,
+              2752,
+              2361
+            ]
+          }
+        },
+        ":": {
+          "review_id": "G077",
+          "cel_codes": [
+            245
+          ],
+          "source_outline_sha256": "564e158942a224664b275dcaeacb0bd35a6d47289952c15d8794c7e031f19473",
+          "source_fonts": [
+            {
+              "sheet": "43J_10_NE",
+              "font_xref": 172,
+              "font_sha256": "db90ee22150b4e633d50475ead7f67e4e88e8dd9048cc516412049b0cbd88b19"
+            },
+            {
+              "sheet": "53H_12_NE",
+              "font_xref": 175,
+              "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+            },
+            {
+              "sheet": "72O_13_NW",
+              "font_xref": 175,
+              "font_sha256": "b6915105cf746ff7935fcb23d1bf60a7d90f0913059e8aa5a538553625602a06"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            }
+          ],
+          "affine_transform": [
+            2.0,
+            0,
+            0,
+            2.0,
+            240.0,
+            125.0
+          ],
+          "fit": {
+            "width_em": 0.76,
+            "height_em": 0.875,
+            "centre_em": [
+              0.5,
+              0.5
+            ],
+            "reason": "Centred CEL outline at the established 2x source scale."
+          },
+          "status": "reconstructed_shape",
+          "feature": "Temple",
+          "mapping_status": "supported",
+          "evidence": {
+            "font": "DGNSymbols_new",
+            "character": ":",
+            "codepoint": 58,
+            "feature": "Temple",
+            "status": "supported",
+            "candidates": [
+              {
+                "review_id": "G077",
+                "id": "564e158942a224664b275dcaeacb0bd35a6d47289952c15d8794c7e031f19473"
+              }
+            ],
+            "evidence_category": "religious",
+            "reasoning": "Domed pavilion with finial and central door stroke. The Temple slot uses SOI_cel U+00F5; the supplied legend agrees. CMPDI also places one occurrence in GURUDWARA, which is retained as a source-layer exception.",
+            "source_layers": {
+              "TEMPLE": 838,
+              "": 24,
+              "GURUDWARA": 1
+            },
+            "occurrences": 863,
+            "sheets": 147,
+            "cmpdi_example": {
+              "file": "JHARIA_13.pdf",
+              "page": 1,
+              "layer": "TEMPLE",
+              "origin_pt": [
+                1267.436767578125,
+                180.48876953125
+              ],
+              "bbox_pt": [
+                1267.413818359375,
+                176.07522583007812,
+                1271.9373779296875,
+                180.59852600097656
+              ],
+              "size_pt": 4.500162124633789,
+              "direction": [
+                0.9999862313270569,
+                -0.005235366988927126
+              ],
+              "color": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "seqno": 19833,
+              "resource_xrefs": [
+                82
+              ]
+            },
+            "nhp_legend_clip_pt": [
+              68,
+              978.5,
+              359,
+              993
+            ],
+            "reference_legend_clip_px": [
+              45,
+              2246,
+              2752,
+              2361
+            ]
+          }
+        },
+        "Q": {
+          "review_id": "G010",
+          "cel_codes": [
+            62
+          ],
+          "source_outline_sha256": "6a250bd181a67ee5ec048eabffc08df5688d3da8b37220320094d12a723129ec",
+          "source_fonts": [
+            {
+              "sheet": "53H_12_NE",
+              "font_xref": 175,
+              "font_sha256": "0f470d245d5ee535d7ce1fec4a4fe050ed5241d06619d056002efe4f8956ee9a"
+            },
+            {
+              "sheet": "73M_4_NE",
+              "font_xref": 176,
+              "font_sha256": "1feffe376b8ea2616f4be6ad7d1cd12f88323c6165fede90f1ae157c1cd9d89e"
+            },
+            {
+              "sheet": "73M_7_SW",
+              "font_xref": 175,
+              "font_sha256": "b91bc3e8806d1d821f53a6079e488f41a920fb98adabeea67894c3126dfbaf6d"
+            },
+            {
+              "sheet": "73N_10_SE",
+              "font_xref": 175,
+              "font_sha256": "45d8051919dad886ff513a50b901447d05870355e1d6bdeb80874ef42258744b"
+            },
+            {
+              "sheet": "79B_10_SE",
+              "font_xref": 175,
+              "font_sha256": "65959e68c8c5f4aa36e3e686b0b53542ec47106712d32849f7566d61e5475330"
+            }
+          ],
+          "affine_transform": [
+            2.0,
+            0,
+            0,
+            2.0,
+            260.0,
+            260.0
+          ],
+          "fit": {
+            "width_em": 0.74,
+            "height_em": 0.74,
+            "centre_em": [
+              0.5,
+              0.5
+            ],
+            "reason": "Centred CEL outline at the established 2x source scale."
+          },
+          "status": "reconstructed_shape",
+          "feature": "Dispensary",
+          "mapping_status": "supported",
+          "evidence": {
+            "font": "DGNSymbols_new",
+            "character": "Q",
+            "codepoint": 81,
+            "feature": "Dispensary",
+            "status": "supported",
+            "candidates": [
+              {
+                "review_id": "G010",
+                "id": "6a250bd181a67ee5ec048eabffc08df5688d3da8b37220320094d12a723129ec"
+              }
+            ],
+            "evidence_category": "medical",
+            "reasoning": "Heavy red plus. Both legends show that form; SOI_cel U+003E supplies the matching shape. The NHP legend itself uses SOI_BDR U+2020 for this mark. This is different from DGNSymbols Q for a spring.",
+            "source_layers": {
+              "DISPENSARY": 5
+            },
+            "occurrences": 5,
+            "sheets": 5,
+            "cmpdi_example": {
+              "file": "KORBA_8.pdf",
+              "page": 1,
+              "layer": "DISPENSARY",
+              "origin_pt": [
+                1584.24609375,
+                1511.364013671875
+              ],
+              "bbox_pt": [
+                1584.2449951171875,
+                1504.86669921875,
+                1590.95166015625,
+                1511.572998046875
+              ],
+              "size_pt": 6.660262107849121,
+              "direction": [
+                0.9999756813049316,
+                0.00698170717805624
+              ],
+              "color": [
+                1.0,
+                0.0,
+                0.0
+              ],
+              "seqno": 19891,
+              "resource_xrefs": [
+                9747
+              ]
+            },
+            "nhp_legend_clip_pt": [
+              68,
+              1183,
+              359,
+              1194.6
+            ],
+            "reference_legend_clip_px": [
+              45,
+              4032,
+              2752,
+              4135
+            ]
+          }
         }
       },
       "advance_widths": {
@@ -817,33 +2848,47 @@
         "93": 2000,
         "103": 2000,
         "121": 1998,
-        "126": 2000
+        "126": 2000,
+        "38": 2000,
+        "43": 2000,
+        "47": 2002,
+        "49": 2000,
+        "50": 2000,
+        "53": 2000,
+        "54": 2002,
+        "58": 2000,
+        "81": 2000
       },
       "head_timestamps": {
         "created": 3876553455,
-        "modified": 3876553455
+        "modified": 3876553456
       },
       "name_records": {
         "1": "DGNSymbols_new",
         "2": "Regular",
-        "3": "DGNSymbols_new-CEL-reconstruction-v1",
+        "3": "DGNSymbols_new-CEL-reconstruction-v2",
         "4": "DGNSymbols_new",
-        "5": "Version 1.000; reconstructed",
+        "5": "Version 2.000; reconstructed",
         "6": "DGNSymbols_new",
-        "10": "SOI_cel-derived reconstruction for symbols used in AURANGA_10. See manifest.json for choices and evidence.",
+        "10": "SOI_cel-derived reconstruction of all observed CMPDI symbol codes. See manifest.json for choices, provisional interpretations and fit evidence.",
         "16": "DGNSymbols_new",
         "17": "Regular"
+      },
+      "auranga_source_occurrences": {
+        "O": 943,
+        "g": 23,
+        "U": 1,
+        "]": 1,
+        "y": 1,
+        "%": 1,
+        "T": 2,
+        "$": 1,
+        "H": 1,
+        "I": 2,
+        "~": 1,
+        "'": 3
       }
     }
-  },
-  "open_well": {
-    "source_code": "(",
-    "feature": "open well",
-    "status": "provisionally_selected",
-    "user_statement": "do open well for now",
-    "glyph": "G056 / U+00CA, hollow circle",
-    "glyph_choice_basis": "Provisional rendering choice; open well does not establish lined/unlined or original glyph fill.",
-    "evidence": "imagery_evidence.json"
   },
   "gcp_dot": {
     "source_code": "H",
@@ -872,11 +2917,12 @@
   },
   "unmapped_observed_symbol_characters": [],
   "validation": [
-    "Exact family and PostScript names",
-    "All observed symbol codes covered",
-    "Original advance widths retained",
-    "H centred within square opening",
-    "Source PDF SHA256 unchanged"
+    "All 34 observed font/code pairs have nonempty glyphs",
+    "Original source advances agree across the collection and are retained",
+    "Exact original family and PostScript names",
+    "Existing fits preserved except the documented lined-well correction",
+    "Source PDF content streams remain unchanged in rendering checks",
+    "Deterministic rebuild from the manifest and extracted outlines"
   ],
   "source_release": "https://github.com/ramSeraph/india_topo_maps/releases/tag/5k-cmpdi-orig",
   "build": {
@@ -893,5 +2939,42 @@
     "inventory_outline_families": 126,
     "inventory_codepoints_with_outlines": 131,
     "qualification": "Union of nonempty embedded subset outlines. Provenance source lists retain at most five examples per outline; they are not a complete font inventory."
-  }
+  },
+  "previous_open_well": {
+    "source_code": "(",
+    "feature": "open well",
+    "status": "provisionally_selected",
+    "user_statement": "do open well for now",
+    "glyph": "G056 / U+00CA, hollow circle",
+    "glyph_choice_basis": "Provisional rendering choice; open well does not establish lined/unlined or original glyph fill.",
+    "evidence": "imagery_evidence.json"
+  },
+  "wells": {
+    "lined": {
+      "font": "DGNSymbols",
+      "code": "(",
+      "outline": "G123",
+      "fill": "solid"
+    },
+    "unlined": {
+      "font": "DGNSymbols",
+      "code": "N",
+      "outline": "G056",
+      "fill": "hollow"
+    },
+    "status": "user_selected_convention",
+    "original_glyphs_recovered": false
+  },
+  "initial_source_pdf": "AURANGA_10.pdf",
+  "collection_audit": {
+    "pdf_count": 1430,
+    "download_bytes": 7503945171,
+    "metrics_consistent": true,
+    "font_character_pairs": 34,
+    "source_occurrences": 686581,
+    "usage_input": "reconstruction/inputs/collection_usage.json",
+    "metrics_input": "reconstruction/inputs/collection_metrics.json",
+    "mapping_input": "reconstruction/inputs/collection_matches.json"
+  },
+  "version": "2.000"
 }

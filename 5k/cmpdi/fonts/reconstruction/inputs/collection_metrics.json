@@ -1,0 +1,481 @@
+{
+  "rows": [
+    {
+      "font": "DGNSymbols",
+      "codepoint": 36,
+      "character": "$",
+      "widths_pdf_units": {
+        "1003.0": 2
+      },
+      "examples": {
+        "1003.0": {
+          "file": "JHARIA_37.pdf",
+          "xref": 104
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "codepoint": 40,
+      "character": "(",
+      "widths_pdf_units": {
+        "1003.0": 919
+      },
+      "examples": {
+        "1003.0": {
+          "file": "AURANGA_1.pdf",
+          "xref": 75
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "codepoint": 57,
+      "character": "9",
+      "widths_pdf_units": {
+        "1001.0": 37
+      },
+      "examples": {
+        "1001.0": {
+          "file": "BHANDER_04.pdf",
+          "xref": 92
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "codepoint": 73,
+      "character": "I",
+      "widths_pdf_units": {
+        "999.0": 8
+      },
+      "examples": {
+        "999.0": {
+          "file": "HASDO_74.pdf",
+          "xref": 74
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "codepoint": 78,
+      "character": "N",
+      "widths_pdf_units": {
+        "1000.0": 133
+      },
+      "examples": {
+        "1000.0": {
+          "file": "BHANDER_04.pdf",
+          "xref": 92
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "codepoint": 79,
+      "character": "O",
+      "widths_pdf_units": {
+        "1000.0": 27
+      },
+      "examples": {
+        "1000.0": {
+          "file": "BHANDER_04.pdf",
+          "xref": 92
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "codepoint": 80,
+      "character": "P",
+      "widths_pdf_units": {
+        "1000.0": 28
+      },
+      "examples": {
+        "1000.0": {
+          "file": "BHANDER_44.pdf",
+          "xref": 84
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "codepoint": 81,
+      "character": "Q",
+      "widths_pdf_units": {
+        "1000.0": 2
+      },
+      "examples": {
+        "1000.0": {
+          "file": "KAMPTEE_36.pdf",
+          "xref": 87
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "codepoint": 84,
+      "character": "T",
+      "widths_pdf_units": {
+        "1001.0": 1388
+      },
+      "examples": {
+        "1001.0": {
+          "file": "AURANGA_1.pdf",
+          "xref": 75
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "codepoint": 103,
+      "character": "g",
+      "widths_pdf_units": {
+        "1000.0": 1388
+      },
+      "examples": {
+        "1000.0": {
+          "file": "AURANGA_1.pdf",
+          "xref": 75
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "codepoint": 116,
+      "character": "t",
+      "widths_pdf_units": {
+        "1001.0": 1
+      },
+      "examples": {
+        "1001.0": {
+          "file": "WARDHA_423.pdf",
+          "xref": 16
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "codepoint": 119,
+      "character": "w",
+      "widths_pdf_units": {
+        "1000.0": 13
+      },
+      "examples": {
+        "1000.0": {
+          "file": "AURANGA_10.pdf",
+          "xref": 91
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols",
+      "codepoint": 121,
+      "character": "y",
+      "widths_pdf_units": {
+        "999.0": 1388
+      },
+      "examples": {
+        "999.0": {
+          "file": "AURANGA_1.pdf",
+          "xref": 75
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "codepoint": 36,
+      "character": "$",
+      "widths_pdf_units": {
+        "1003.0": 1388
+      },
+      "examples": {
+        "1003.0": {
+          "file": "AURANGA_1.pdf",
+          "xref": 77
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "codepoint": 37,
+      "character": "%",
+      "widths_pdf_units": {
+        "1001.0": 1388
+      },
+      "examples": {
+        "1001.0": {
+          "file": "AURANGA_1.pdf",
+          "xref": 77
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "codepoint": 38,
+      "character": "&",
+      "widths_pdf_units": {
+        "1000.0": 34
+      },
+      "examples": {
+        "1000.0": {
+          "file": "BHANDER_85.pdf",
+          "xref": 74
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "codepoint": 39,
+      "character": "'",
+      "widths_pdf_units": {
+        "999.0": 256
+      },
+      "examples": {
+        "999.0": {
+          "file": "AURANGA_1.pdf",
+          "xref": 77
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "codepoint": 43,
+      "character": "+",
+      "widths_pdf_units": {
+        "1000.0": 1
+      },
+      "examples": {
+        "1000.0": {
+          "file": "JHARIA_84.pdf",
+          "xref": 93
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "codepoint": 47,
+      "character": "/",
+      "widths_pdf_units": {
+        "1001.0": 1
+      },
+      "examples": {
+        "1001.0": {
+          "file": "BHANDER_27.pdf",
+          "xref": 89
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "codepoint": 49,
+      "character": "1",
+      "widths_pdf_units": {
+        "1000.0": 21
+      },
+      "examples": {
+        "1000.0": {
+          "file": "JHARIA_17.pdf",
+          "xref": 110
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "codepoint": 50,
+      "character": "2",
+      "widths_pdf_units": {
+        "1000.0": 8
+      },
+      "examples": {
+        "1000.0": {
+          "file": "JHARIA_23.pdf",
+          "xref": 103
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "codepoint": 53,
+      "character": "5",
+      "widths_pdf_units": {
+        "1000.0": 1
+      },
+      "examples": {
+        "1000.0": {
+          "file": "JHARIA_45.pdf",
+          "xref": 89
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "codepoint": 54,
+      "character": "6",
+      "widths_pdf_units": {
+        "1001.0": 49
+      },
+      "examples": {
+        "1001.0": {
+          "file": "BHANDER_04.pdf",
+          "xref": 96
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "codepoint": 58,
+      "character": ":",
+      "widths_pdf_units": {
+        "1000.0": 147
+      },
+      "examples": {
+        "1000.0": {
+          "file": "BHANDER_01.pdf",
+          "xref": 77
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "codepoint": 72,
+      "character": "H",
+      "widths_pdf_units": {
+        "1000.0": 1388
+      },
+      "examples": {
+        "1000.0": {
+          "file": "AURANGA_1.pdf",
+          "xref": 77
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "codepoint": 73,
+      "character": "I",
+      "widths_pdf_units": {
+        "999.0": 1388
+      },
+      "examples": {
+        "999.0": {
+          "file": "AURANGA_1.pdf",
+          "xref": 77
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "codepoint": 79,
+      "character": "O",
+      "widths_pdf_units": {
+        "1000.0": 1388
+      },
+      "examples": {
+        "1000.0": {
+          "file": "AURANGA_1.pdf",
+          "xref": 77
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "codepoint": 81,
+      "character": "Q",
+      "widths_pdf_units": {
+        "1000.0": 5
+      },
+      "examples": {
+        "1000.0": {
+          "file": "KORBA_21.pdf",
+          "xref": 82
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "codepoint": 84,
+      "character": "T",
+      "widths_pdf_units": {
+        "1001.0": 1388
+      },
+      "examples": {
+        "1001.0": {
+          "file": "AURANGA_1.pdf",
+          "xref": 77
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "codepoint": 85,
+      "character": "U",
+      "widths_pdf_units": {
+        "1000.0": 704
+      },
+      "examples": {
+        "1000.0": {
+          "file": "AURANGA_1.pdf",
+          "xref": 77
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "codepoint": 93,
+      "character": "]",
+      "widths_pdf_units": {
+        "1000.0": 1332
+      },
+      "examples": {
+        "1000.0": {
+          "file": "AURANGA_1.pdf",
+          "xref": 77
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "codepoint": 103,
+      "character": "g",
+      "widths_pdf_units": {
+        "1000.0": 1388
+      },
+      "examples": {
+        "1000.0": {
+          "file": "AURANGA_1.pdf",
+          "xref": 77
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "codepoint": 121,
+      "character": "y",
+      "widths_pdf_units": {
+        "999.0": 1388
+      },
+      "examples": {
+        "999.0": {
+          "file": "AURANGA_1.pdf",
+          "xref": 77
+        }
+      }
+    },
+    {
+      "font": "DGNSymbols_new",
+      "codepoint": 126,
+      "character": "~",
+      "widths_pdf_units": {
+        "1000.0": 1388
+      },
+      "examples": {
+        "1000.0": {
+          "file": "AURANGA_1.pdf",
+          "xref": 77
+        }
+      }
+    }
+  ],
+  "errors": []
+}
