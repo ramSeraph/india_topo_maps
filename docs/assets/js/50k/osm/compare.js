@@ -1,5 +1,6 @@
 
-const GRID_LAYER_INDEX = 'SOI OSM Index Grid';
+const settings = window.sheetCompareSettings || {};
+const GRID_LAYER_INDEX = settings.gridTitle || 'SOI OSM Index Grid';
 
 const boundaryStyle = new ol.style.Style({
     stroke: new ol.style.Stroke({
@@ -27,19 +28,20 @@ function getMap(target, layers) {
         interactions: getInteractions(),
         target: target,
         view: new ol.View({
-            zoom: 0,
-            maxZoom: 14,
-            center: [0, 0]
+            zoom: settings.zoom ?? 0,
+            maxZoom: settings.nativeMaxZoom ?? 14,
+            center: settings.center || [0, 0]
         }),
     });
 }
 
-const soi_attribution = makeLink('https://onlinemaps.surveyofindia.gov.in/FreeMapSpecification.aspx', '1:50000 Open Series Maps') +
+const soi_attribution = settings.attribution || makeLink('https://onlinemaps.surveyofindia.gov.in/FreeMapSpecification.aspx', '1:50000 Open Series Maps') +
                     ' &copy; ' +
                     makeLink('https://www.surveyofindia.gov.in/pages/copyright-policy', 'Survey Of India');
 function getSOILayer() {
     const src = new ol.source.XYZ({
-        url: 'https://indianopenmaps.com/soi/osm/{z}/{x}/{y}.webp',
+        url: settings.tileUrl || 'https://indianopenmaps.com/soi/osm/{z}/{x}/{y}.webp',
+        maxZoom: settings.nativeMaxZoom ?? 42,
         attributions: [soi_attribution],
     });
     return new ol.layer.Tile({
@@ -52,10 +54,10 @@ function getSOILayer() {
 function getGridSource() {
     const src = new ol.source.Vector({
         format: new ol.format.GeoJSON(),
-        url: '/india_topo_maps/50k/osm/osm_index.geojson',
-        overlaps: false,
+        url: settings.gridUrl || '/india_topo_maps/50k/osm/osm_index.geojson',
+        overlaps: settings.overlappingSheets ?? false,
         attributions: [
-            makeLink("https://onlinemaps.surveyofindia.gov.in/FreeOtherMaps.aspx", "SOI OSM Index(simplified)")
+            settings.gridAttribution || makeLink("https://onlinemaps.surveyofindia.gov.in/FreeOtherMaps.aspx", "SOI OSM Index(simplified)")
         ]
     });
     return src;
@@ -198,6 +200,7 @@ document.addEventListener("DOMContentLoaded", () => {
     var compareElem = document.getElementById('compare');
 
     const gridSrc = getGridSource();
+    gridSrc.on('featuresloaderror', () => setStatus('The sheet footprints could not be loaded.', true));
     var getGridLayer = () => {
         return new ol.layer.Vector({
             title: GRID_LAYER_INDEX,
@@ -221,7 +224,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
         console.log(feature.getGeometry().getExtent());
-        const html = contentFn(feature);
+        const html = settings.sheetPopup ? settings.sheetPopup(features) : contentFn(feature);
         if (html === null) {
             pop.hide();
             return;

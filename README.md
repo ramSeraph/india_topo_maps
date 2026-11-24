@@ -4,6 +4,15 @@ Collection of topographic maps of India from various sources, organized by scale
 
 **Website**: [https://ramseraph.github.io/india_topo_maps/](https://ramseraph.github.io/india_topo_maps/)
 
+## 1:253k Scale - Indian Atlas
+
+Survey of India’s historical Indian Atlas. The mosaic combines 308 editions across 121 sheet IDs. Quarter sheets overlay full sheets, and later editions take precedence within each extent.
+
+- [Demo/Compare](https://ramseraph.github.io/india_topo_maps/253k/indian_atlas/compare/) · [Browse individual sheets](https://indianopenmaps.com/stac-viewer?collection=indian-atlas-253k)
+- [Original scans](https://github.com/ramSeraph/india_topo_maps/releases/tag/253k-indian-atlas-orig) · [1902 graticule tables (PDF)](https://github.com/ramSeraph/india_topo_maps/releases/download/253k-indian-atlas-orig/graticules_indian_atlas.pdf)
+- [Georeferenced sheets (COGs)](https://github.com/ramSeraph/india_topo_maps/releases/tag/253k-indian-atlas-georef) · [PMTiles mosaic](https://github.com/ramSeraph/india_topo_maps/releases/tag/253k-indian-atlas-pmtiles) · [Mosaic sheet footprints (GeoJSON)](https://github.com/ramSeraph/india_topo_maps/releases/download/253k-indian-atlas-pmtiles/bounds.geojson)
+- [Automatic georeferencing and projection notes](253k/indian_atlas/)
+
 ## 1:50,000 Scale - Open Series Maps (OSM)
   - **Source**: Survey of India
   - **Coverage**: Most of India
@@ -47,11 +56,14 @@ Collection of topographic maps of India from various sources, organized by scale
 ## Using the Data
 
 ### Downloading PMTiles as MBTiles
-For projects with PMTiles support (OSM 50k and NHP 25k), you can download the data as MBTiles:
+For projects with PMTiles support (Indian Atlas 253k, OSM 50k and NHP 25k), you can download the data as MBTiles:
 
 ```bash
 # Install uv
 curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Download the 253k Indian Atlas
+uvx --from pmtiles-mosaic download-mosaic -u https://github.com/ramSeraph/india_topo_maps/releases/download/253k-indian-atlas-pmtiles/Indian_Atlas_253k.mosaic.json -o indian_atlas_253k.mbtiles
 
 # Download 50k OSM
 uvx --from pmtiles-mosaic download-mosaic -u https://github.com/ramSeraph/india_topo_maps/releases/download/50k-osm-pmtiles/SOI-OSM-50k.mosaic.json -o soi_osm_50k.mbtiles
@@ -61,6 +73,8 @@ uvx --from pmtiles-mosaic download-mosaic -u https://github.com/ramSeraph/india_
 ```
 
 ### Tile URLs
+
+- **253k Indian Atlas** `https://indianopenmaps.com/soi/253k/indian-atlas/{z}/{x}/{y}.webp`
 - **50k OSM**: `https://indianopenmaps.com/soi/osm/{z}/{x}/{y}.webp`
 - **25k NHP**: `https://indianopenmaps.com/soi/25k/nhp/{z}/{x}/{y}.webp`
 

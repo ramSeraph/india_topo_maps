@@ -21,6 +21,9 @@ jobs:
         uses: actions/checkout@v2
       - name: Collect-Ancillary-Files
         run: |
+          # Indian Atlas mosaic footprints
+          gh release download 253k-indian-atlas-pmtiles -p bounds.geojson -O docs/253k/indian_atlas/bounds.geojson
+
           # 50k OSM files
           osm_50k_dir='docs/50k/osm/'
           mkdir -p $osm_50k_dir
