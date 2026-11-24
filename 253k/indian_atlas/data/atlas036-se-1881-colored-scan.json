@@ -1,0 +1,229 @@
+{
+  "id": "atlas036-se-1881-colored",
+  "title": "Indian Atlas 036 SE \u00b7 1881 \u00b7 colored",
+  "sheet": "036",
+  "quarter": "SE",
+  "year": 1881,
+  "source": "sources/zenodo-19431985/sheets/036 SE Quarter Sheet Indian Atlas (1881) colored.jpg",
+  "table": "data/atlas012-nw-1888-projection.json",
+  "condition_note": "Intact colored SE quarter with dense western and southern hill shading. Native publication confirms September 1881. Own printed graticule and frame measured.",
+  "crossing_preview_seeds": [
+    [
+      75,
+      22.5,
+      725,
+      877
+    ],
+    [
+      75.5,
+      22.5,
+      1521,
+      887
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 22.81,
+  "tick_windows": {
+    "west": [
+      350,
+      425
+    ],
+    "east": [
+      6145,
+      6200
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 22.833333333333332,
+      "ys": [
+        300,
+        442,
+        584,
+        726,
+        867,
+        1009,
+        1151,
+        1293
+      ]
+    },
+    "east": {
+      "first_latitude": 22.833333333333332,
+      "ys": [
+        319,
+        461,
+        603,
+        745,
+        887,
+        1029,
+        1171,
+        1313
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      476,
+      522
+    ],
+    [
+      6117,
+      545
+    ],
+    [
+      6113,
+      4174
+    ],
+    [
+      471,
+      4148
+    ]
+  ],
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native graticule crops show nearly vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified in this edition.",
+  "crossing_local_seeds": [
+    [
+      208,
+      195
+    ],
+    [
+      198,
+      201
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        476,
+        522
+      ],
+      [
+        589,
+        522
+      ],
+      [
+        1886,
+        524
+      ],
+      [
+        3296,
+        529
+      ],
+      [
+        4705,
+        537
+      ],
+      [
+        6002,
+        544
+      ],
+      [
+        6117,
+        545
+      ]
+    ],
+    "east": [
+      [
+        545,
+        6117
+      ],
+      [
+        614,
+        6117
+      ],
+      [
+        1448,
+        6117
+      ],
+      [
+        2354,
+        6117
+      ],
+      [
+        3260,
+        6115
+      ],
+      [
+        4094,
+        6113
+      ],
+      [
+        4174,
+        6113
+      ]
+    ],
+    "south": [
+      [
+        471,
+        4148
+      ],
+      [
+        586,
+        4148
+      ],
+      [
+        1883,
+        4151
+      ],
+      [
+        3292,
+        4156
+      ],
+      [
+        4702,
+        4166
+      ],
+      [
+        5999,
+        4173
+      ],
+      [
+        6113,
+        4174
+      ]
+    ],
+    "west": [
+      [
+        522,
+        476
+      ],
+      [
+        596,
+        476
+      ],
+      [
+        1430,
+        477
+      ],
+      [
+        2338,
+        477
+      ],
+      [
+        3245,
+        474
+      ],
+      [
+        4079,
+        471
+      ],
+      [
+        4148,
+        471
+      ]
+    ]
+  },
+  "quality_note": "Native inspection confirms all controls and withheld checks are on printed graticule rules. The eastern 75.5-degree crossing retains a 10.90-source-pixel residual (primarily latitude), while independent checks have 0.97 arcseconds RMS. Retain the selected historical projection plus affine model and record the local mismatch; its cause is not established."
+}

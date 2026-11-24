@@ -1,0 +1,485 @@
+{
+  "id": "atlas026-1852-catalogue020",
+  "title": "Indian Atlas 026 \u00b7 1852 \u00b7 catalogued as 020",
+  "sheet": "026",
+  "catalogue_sheet": "020",
+  "quarter": null,
+  "year": 1852,
+  "source": "sources/zenodo-19431985/sheets/020 Sheet Indian Atlas (1852).jpg",
+  "table": "data/atlas026-1852-projection.json",
+  "condition_note": "Intact full sheet with ocean occupying most of the frame. Printed sheet number is 26; catalogue filename incorrectly says 020. Preserve the original map content, including ocean.",
+  "source_identification_note": "Native upper-right margin reads 26; west margin reads 17d30m; publication line reads May 1st 1852. This is sheet 026, despite the source filename 020.",
+  "source_identification_evidence": [
+    "work/atlas020-1852/printed-number.jpg",
+    "work/atlas020-1852/latitude-margin.jpg",
+    "work/atlas020-1852/publication-note.jpg"
+  ],
+  "crossing_preview_seeds": [
+    [
+      71.5,
+      17.5,
+      327,
+      374
+    ],
+    [
+      72,
+      17.5,
+      769,
+      383
+    ],
+    [
+      72.5,
+      17.5,
+      1212,
+      395
+    ],
+    [
+      73,
+      17.5,
+      1653,
+      404
+    ],
+    [
+      71.5,
+      17,
+      317,
+      834
+    ],
+    [
+      72,
+      17,
+      759,
+      847
+    ],
+    [
+      72.5,
+      17,
+      1203,
+      859
+    ],
+    [
+      73,
+      17,
+      1644,
+      871
+    ],
+    [
+      71.5,
+      16.5,
+      308,
+      1299
+    ],
+    [
+      72,
+      16.5,
+      751,
+      1314
+    ],
+    [
+      72.5,
+      16.5,
+      1197,
+      1329
+    ],
+    [
+      73,
+      16.5,
+      1638,
+      1343
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 17.71,
+  "tick_windows": {
+    "west": [
+      268,
+      339
+    ],
+    "east": [
+      11645,
+      11721
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 17.75,
+      "ys": [
+        139,
+        216,
+        292,
+        369,
+        446,
+        522,
+        599,
+        676,
+        752,
+        829,
+        906,
+        982,
+        1059,
+        1136,
+        1212,
+        1289,
+        1366
+      ]
+    },
+    "east": {
+      "first_latitude": 17.833333333333332,
+      "ys": [
+        110,
+        187,
+        264,
+        341,
+        418,
+        495,
+        572,
+        649,
+        726,
+        803,
+        880,
+        957,
+        1034,
+        1111,
+        1188,
+        1265,
+        1342
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      387,
+      417
+    ],
+    [
+      11613,
+      394
+    ],
+    [
+      11617,
+      7660
+    ],
+    [
+      395,
+      7669
+    ]
+  ],
+  "meridian_search_window": 12,
+  "crossing_local_seeds": [
+    [
+      196,
+      203
+    ],
+    [
+      198,
+      206
+    ],
+    [
+      195,
+      195
+    ],
+    [
+      202,
+      198
+    ],
+    [
+      173,
+      219
+    ],
+    [
+      178,
+      207
+    ],
+    [
+      176,
+      196
+    ],
+    [
+      194,
+      186
+    ],
+    [
+      174,
+      212
+    ],
+    [
+      177,
+      192
+    ],
+    [
+      171,
+      168
+    ],
+    [
+      182,
+      141
+    ]
+  ],
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native graticule crops on this southern sheet show nearly vertical meridians, outside the older default slope range. Use measured search geometry, independently of coordinate residuals.",
+  "crop_edge_guides": {
+    "north": [
+      [
+        387,
+        417
+      ],
+      [
+        613,
+        417
+      ],
+      [
+        3195,
+        414
+      ],
+      [
+        6002,
+        411
+      ],
+      [
+        8810,
+        406
+      ],
+      [
+        11392,
+        395
+      ],
+      [
+        11613,
+        394
+      ]
+    ],
+    "east": [
+      [
+        394,
+        11613
+      ],
+      [
+        544,
+        11613
+      ],
+      [
+        2214,
+        11615
+      ],
+      [
+        4028,
+        11613
+      ],
+      [
+        5842,
+        11616
+      ],
+      [
+        7512,
+        11617
+      ],
+      [
+        7660,
+        11617
+      ]
+    ],
+    "south": [
+      [
+        395,
+        7669
+      ],
+      [
+        617,
+        7669
+      ],
+      [
+        3199,
+        7672
+      ],
+      [
+        6005,
+        7671
+      ],
+      [
+        8811,
+        7664
+      ],
+      [
+        11393,
+        7660
+      ],
+      [
+        11617,
+        7660
+      ]
+    ],
+    "west": [
+      [
+        417,
+        387
+      ],
+      [
+        560,
+        387
+      ],
+      [
+        2227,
+        388
+      ],
+      [
+        4039,
+        388
+      ],
+      [
+        5851,
+        394
+      ],
+      [
+        7518,
+        395
+      ],
+      [
+        7669,
+        395
+      ]
+    ]
+  },
+  "meridian_samples": [
+    {
+      "longitude": 71.5,
+      "pixel": 1808,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 71.5,
+      "pixel": 1649,
+      "line": 7400,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 71.5,
+      "pixel": 1758,
+      "line": 3000,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 71.5,
+      "pixel": 1689,
+      "line": 5800,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 72,
+      "pixel": 4224,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 72,
+      "pixel": 4074,
+      "line": 7400,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 72,
+      "pixel": 4177,
+      "line": 3000,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 72,
+      "pixel": 4111,
+      "line": 5800,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 72.5,
+      "pixel": 6639,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 72.5,
+      "pixel": 6505,
+      "line": 7400,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 72.5,
+      "pixel": 6597,
+      "line": 3000,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 72.5,
+      "pixel": 6539,
+      "line": 5800,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 73,
+      "pixel": 9054,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 73,
+      "pixel": 8926,
+      "line": 7400,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 73,
+      "pixel": 9014,
+      "line": 3000,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 73,
+      "pixel": 8958,
+      "line": 5800,
+      "role": "withheld",
+      "search_window": 15
+    }
+  ],
+  "tick_search_overrides": {
+    "3": {
+      "initial_line": 2004,
+      "half_window": 4,
+      "reason": "Native control crop shows the true horizontal graticule tick below the bold degree label; unrestricted search selected part of the numeral."
+    },
+    "9": {
+      "initial_line": 4537,
+      "half_window": 4,
+      "reason": "Native control crop shows the true horizontal graticule tick below the bold degree label; unrestricted search selected part of the numeral."
+    },
+    "15": {
+      "initial_line": 7070,
+      "half_window": 4,
+      "reason": "Native control crop shows the true horizontal graticule tick below the bold degree label; unrestricted search selected part of the numeral."
+    }
+  },
+  "quality_note": "The source filename says sheet 020, but the printed number is 26. Verified interior crossings retain residuals up to about 18 pixels under historical-projection plus affine; internal alignment refinement remains pending.",
+  "frame_maximum_stroke_intensity": 195,
+  "frame_intensity_limit_reason": "One eastern inner-frame sample at source (11617,7431) has median intensity 192/255. Native crop confirms the continuous printed rule at the guide; all other frame samples are below 190."
+}

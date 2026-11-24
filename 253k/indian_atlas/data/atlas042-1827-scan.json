@@ -1,0 +1,409 @@
+{
+  "crossing_search_window": 10,
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native graticule crops show nearly vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified in this edition.",
+  "id": "atlas042-1827",
+  "title": "Indian Atlas 042 \u00b7 1827",
+  "sheet": "042",
+  "quarter": null,
+  "year": 1827,
+  "source": "sources/zenodo-19431985/sheets/042 Sheet Indian Atlas (1827).jpg",
+  "table": "data/atlas042-1827-projection.json",
+  "condition_note": "Intact full sheet with central fold and broad printed sea area. Native publication confirms1August1827. Own printed graticule and frame measured.",
+  "seed_north_latitude": 14.87,
+  "tick_windows": {
+    "west": [
+      215,
+      275
+    ],
+    "east": [
+      11520,
+      11580
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 14.916666666666666,
+      "ys": [
+        140.0,
+        218.7,
+        297.4,
+        376.1,
+        454.8,
+        533.5,
+        612.2,
+        690.9,
+        769.6,
+        848.3000000000001,
+        927.0,
+        1005.7,
+        1084.4,
+        1163.1,
+        1241.8,
+        1320.5,
+        1399.2
+      ]
+    },
+    "east": {
+      "first_latitude": 15,
+      "ys": [
+        94.0,
+        172.7,
+        251.4,
+        330.1,
+        408.8,
+        487.5,
+        566.2,
+        644.9,
+        723.6,
+        802.3000000000001,
+        881.0,
+        959.7,
+        1038.4,
+        1117.1,
+        1195.8,
+        1274.5,
+        1353.2
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      331,
+      338
+    ],
+    [
+      11480,
+      350
+    ],
+    [
+      11467,
+      7582
+    ],
+    [
+      306,
+      7565
+    ]
+  ],
+  "crossing_preview_seeds": [
+    [
+      74,
+      14.5,
+      441,
+      541
+    ],
+    [
+      74.5,
+      14.5,
+      894,
+      548
+    ],
+    [
+      75,
+      14.5,
+      1347,
+      552
+    ],
+    [
+      75.5,
+      14.5,
+      1798,
+      558
+    ],
+    [
+      74,
+      14,
+      434,
+      1017
+    ],
+    [
+      75,
+      14,
+      1342,
+      1032
+    ],
+    [
+      75.5,
+      14,
+      1794,
+      1039
+    ]
+  ],
+  "publication_note": {
+    "publication_date": "1827-08-01",
+    "source_crop": "work/atlas042-1827/publication-note.jpg"
+  },
+  "crossing_local_seeds": [
+    [
+      208,
+      203
+    ],
+    [
+      207,
+      207
+    ],
+    [
+      220,
+      218
+    ],
+    [
+      222,
+      221
+    ],
+    [
+      217,
+      179
+    ],
+    [
+      224,
+      175
+    ],
+    [
+      227,
+      172
+    ]
+  ],
+  "crossing_measurement_note": "The74.5E14N intersection is obscured by parallel sea hatching in native crossing-seeds-1.jpg and is not used as a full-coordinate crossing. Partial meridian observations remain independently measured.",
+  "meridian_samples": [
+    {
+      "longitude": 74,
+      "pixel": 2393.838939453898,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 74,
+      "pixel": 2321.539770478829,
+      "line": 7300,
+      "role": "fit"
+    },
+    {
+      "longitude": 74,
+      "pixel": 2370.886822318955,
+      "line": 3000,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74,
+      "pixel": 2339.901464186783,
+      "line": 5700,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 4815.904347826087,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 4761.121739130434,
+      "line": 7300,
+      "role": "fit"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 4798.51304347826,
+      "line": 3000,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 4775.034782608695,
+      "line": 5700,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7257.940363349131,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7200.712875197472,
+      "line": 7300,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7239.772906793049,
+      "line": 3000,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7215.246840442338,
+      "line": 5700,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9671.729141953341,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9631.87149070779,
+      "line": 7300,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9659.075919335706,
+      "line": 3000,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9641.994068801898,
+      "line": 5700,
+      "role": "withheld"
+    }
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        331,
+        338
+      ],
+      [
+        546,
+        339
+      ],
+      [
+        3111,
+        325
+      ],
+      [
+        5899,
+        320
+      ],
+      [
+        8687,
+        336
+      ],
+      [
+        11252,
+        348
+      ],
+      [
+        11480,
+        350
+      ]
+    ],
+    "east": [
+      [
+        350,
+        11480
+      ],
+      [
+        503,
+        11480
+      ],
+      [
+        2164,
+        11481
+      ],
+      [
+        3969,
+        11482
+      ],
+      [
+        5774,
+        11475
+      ],
+      [
+        7435,
+        11467
+      ],
+      [
+        7582,
+        11467
+      ]
+    ],
+    "south": [
+      [
+        306,
+        7565
+      ],
+      [
+        519,
+        7565
+      ],
+      [
+        3089,
+        7562
+      ],
+      [
+        5882,
+        7565
+      ],
+      [
+        8676,
+        7574
+      ],
+      [
+        11246,
+        7580
+      ],
+      [
+        11467,
+        7582
+      ]
+    ],
+    "west": [
+      [
+        338,
+        331
+      ],
+      [
+        483,
+        326
+      ],
+      [
+        2147,
+        317
+      ],
+      [
+        3956,
+        314
+      ],
+      [
+        5764,
+        307
+      ],
+      [
+        7428,
+        306
+      ],
+      [
+        7565,
+        306
+      ]
+    ]
+  },
+  "crossing_search_overrides": {
+    "2": {
+      "half_window": 3,
+      "reason": "Native75E14.5N contact places the marker about9pixels above the visible faint parallel; restrict the search around the observed rule near source2977 rather than nearby lettering."
+    }
+  },
+  "quality_note": "Native inspection confirms the retained graticule measurements after correcting one faint-parallel search. The 74.5E, 14N crossing was omitted because sea hatching obscures its parallel. Crossing residuals reach 13.01 source pixels; leave-one-observation-out RMS is 6.27 pixels, and 25 withheld checks have RMS 2.88 arcseconds and maximum 6.73 arcseconds. Historical projection plus affine retained; internal alignment refinement remains pending and the cause is not established.",
+  "internal_alignment_refinement_pending": true,
+  "frame_maximum_stroke_intensity": 200,
+  "frame_intensity_limit_reason": "Native weakest-frame contact confirms the faint southern inner rule at source11411,7580 (median intensity193), distinct from the darker outer graduation strip. Permit200 with measured guides and inspect final crop."
+}

@@ -1,0 +1,334 @@
+{
+  "id": "atlas044a-se-1873",
+  "title": "Indian Atlas 044A SE \u00b7 1873",
+  "sheet": "044A",
+  "quarter": "SE",
+  "year": 1873,
+  "source": "sources/zenodo-19431985/sheets/044A SE Quarter Sheet Indian Atlas (1873).jpg",
+  "table": "data/atlas044a-nw-1872-projection.json",
+  "condition_note": "Intact northern extension quarter; dense mountain hatching in south and blank unsurveyed area in north. Preserve both.",
+  "source_identification_note": "Printed 44A S.E.; publication June 1873. Western continuation 44A S.W.; southern continuation 45 N.E. Own printed graticule spans about 35d05m\u201335d49m.",
+  "crossing_preview_seeds": [
+    [
+      77.5,
+      35.5,
+      684,
+      709
+    ],
+    [
+      78,
+      35.5,
+      1336,
+      707
+    ],
+    [
+      78.5,
+      35.5,
+      1988,
+      704
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      201,
+      205
+    ],
+    [
+      205,
+      201
+    ],
+    [
+      210,
+      198
+    ]
+  ],
+  "crossing_search_window": 8,
+  "seed_north_latitude": 35.73,
+  "tick_windows": {
+    "west": [
+      555,
+      585
+    ],
+    "east": [
+      6440,
+      6470
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 35.75,
+      "ys": [
+        310,
+        440,
+        573,
+        704,
+        837,
+        969,
+        1100,
+        1230
+      ]
+    },
+    "east": {
+      "first_latitude": 35.75,
+      "ys": [
+        307,
+        438,
+        571,
+        702,
+        835,
+        967,
+        1099,
+        1230
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      657,
+      675
+    ],
+    [
+      6364,
+      701
+    ],
+    [
+      6348,
+      4286
+    ],
+    [
+      630,
+      4257
+    ]
+  ],
+  "line_slope_bounds": {
+    "vertical": [
+      -0.03,
+      0.03
+    ],
+    "horizontal": [
+      -0.025,
+      0.025
+    ]
+  },
+  "line_slope_bounds_reason": "Native preview shows nearly vertical meridians and almost horizontal parallels on this northern extension near the central meridian.",
+  "meridian_samples": [
+    {
+      "longitude": 77.5,
+      "pixel": 2165,
+      "line": 1200,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 77.5,
+      "pixel": 2173,
+      "line": 4000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 77.5,
+      "pixel": 2166,
+      "line": 1800,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 77.5,
+      "pixel": 2171,
+      "line": 3200,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 78,
+      "pixel": 4224,
+      "line": 1200,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 78,
+      "pixel": 4238,
+      "line": 4000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 78,
+      "pixel": 4227,
+      "line": 1800,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 78,
+      "pixel": 4234,
+      "line": 3200,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 78.5,
+      "pixel": 6283,
+      "line": 1200,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 78.5,
+      "pixel": 6326,
+      "line": 4000,
+      "role": "fit",
+      "search_window": 5,
+      "measurement_note": "Native meridian78p5-native.jpg traces the printed rule east of the first preview estimate. Previous search window followed mountain hatching; retain observation and fit/withheld role, centre on verified rule."
+    },
+    {
+      "longitude": 78.5,
+      "pixel": 6285,
+      "line": 1800,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 78.5,
+      "pixel": 6315,
+      "line": 3200,
+      "role": "withheld",
+      "search_window": 5,
+      "measurement_note": "Native meridian78p5-native.jpg traces the printed rule east of the first preview estimate. Previous search window followed mountain hatching; retain observation and fit/withheld role, centre on verified rule."
+    }
+  ],
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified on this edition.",
+  "frame_stroke_maximum_half_width_pixels_by_edge": {
+    "west": 2,
+    "south": 2,
+    "east": 2
+  },
+  "frame_stroke_width_reason": "Native lower corner crops show mountain hatching touching the content-side frame. Cap dark-stroke extension at two pixels before the four-pixel inset so terrain strokes do not widen the inferred frame.",
+  "crop_edge_guides": {
+    "north": [
+      [
+        657,
+        675
+      ],
+      [
+        771,
+        675
+      ],
+      [
+        2084,
+        683
+      ],
+      [
+        3510,
+        691
+      ],
+      [
+        4937,
+        701
+      ],
+      [
+        6250,
+        700
+      ],
+      [
+        6364,
+        701
+      ]
+    ],
+    "east": [
+      [
+        701,
+        6364
+      ],
+      [
+        773,
+        6364
+      ],
+      [
+        1597,
+        6361
+      ],
+      [
+        2494,
+        6357
+      ],
+      [
+        3390,
+        6353
+      ],
+      [
+        4214,
+        6347
+      ],
+      [
+        4286,
+        6348
+      ]
+    ],
+    "south": [
+      [
+        630,
+        4257
+      ],
+      [
+        744,
+        4257
+      ],
+      [
+        2060,
+        4263
+      ],
+      [
+        3489,
+        4271
+      ],
+      [
+        4918,
+        4279
+      ],
+      [
+        6234,
+        4286
+      ],
+      [
+        6348,
+        4286
+      ]
+    ],
+    "west": [
+      [
+        675,
+        657
+      ],
+      [
+        747,
+        657
+      ],
+      [
+        1570,
+        650
+      ],
+      [
+        2466,
+        644
+      ],
+      [
+        3362,
+        638
+      ],
+      [
+        4185,
+        629
+      ],
+      [
+        4257,
+        630
+      ]
+    ]
+  },
+  "seed_provenance": "Printed rules measured at native resolution. The 78d30m meridian at rows 3200 and 4000 was independently retraced in work/atlas044a-se-1873/meridian78p5-native.jpg; initial broad searches selected mountain hatching. Original fit/withheld roles retained.",
+  "quality_note": "Historical-projection plus affine retains a verified interior crossing residual up to 12.2 source pixels; leave-one-observation-out RMS 6.08 pixels. Withheld printed-graticule checks RMS 2.42 arcseconds. Internal alignment refinement remains pending. Two initial meridian measurements that followed mountain hatching were corrected from native evidence before accepting this fit."
+}

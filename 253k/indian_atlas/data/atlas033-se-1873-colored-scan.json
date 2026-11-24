@@ -1,0 +1,306 @@
+{
+  "id": "atlas033-se-1873-colored",
+  "title": "Indian Atlas 033 SE \u00b7 1873, additions to 1877, colored",
+  "sheet": "033",
+  "quarter": "SE",
+  "year": 1873,
+  "source": "sources/zenodo-19431985/sheets/033 SE Quarter Sheet Indian Atlas (1873) colored.jpg",
+  "table": "data/atlas001-ne-1871-projection.json",
+  "condition_note": "Intact colored SE quarter. Native publication line confirms December 1873 with additions to 1877. Southern 26.5-degree parallel lies close to the inner frame; measure it separately from the border.",
+  "crossing_preview_seeds": [
+    [
+      75,
+      27,
+      793,
+      555
+    ],
+    [
+      75.5,
+      27,
+      1516,
+      559
+    ],
+    [
+      75,
+      26.5,
+      786,
+      1363
+    ],
+    [
+      75.5,
+      26.5,
+      1512,
+      1369
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 27.12,
+  "tick_windows": {
+    "west": [
+      435,
+      505
+    ],
+    "east": [
+      6210,
+      6270
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 27.166666666666668,
+      "ys": [
+        282,
+        416,
+        550,
+        684,
+        818,
+        952,
+        1086,
+        1220,
+        1354
+      ]
+    },
+    "east": {
+      "first_latitude": 27.166666666666668,
+      "ys": [
+        294,
+        429,
+        563,
+        697,
+        832,
+        966,
+        1100,
+        1235,
+        1369
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      538,
+      684
+    ],
+    [
+      6177,
+      676
+    ],
+    [
+      6173,
+      4298
+    ],
+    [
+      537,
+      4290
+    ]
+  ],
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native graticule crops show nearly vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified in this edition.",
+  "meridian_samples": [
+    {
+      "longitude": 75,
+      "pixel": 2483.023015873016,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 2442.30873015873,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 2473.9753968253967,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75,
+      "pixel": 2449.8484126984126,
+      "line": 3200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4745.134363852557,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4719.450653983353,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4739.426872770511,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4724.206896551724,
+      "line": 3200,
+      "role": "withheld"
+    }
+  ],
+  "crossing_local_seeds": [
+    [
+      198,
+      200
+    ],
+    [
+      209,
+      206
+    ],
+    [
+      182,
+      199
+    ],
+    [
+      197,
+      202
+    ]
+  ],
+  "crossing_search_overrides": {
+    "0": {
+      "half_window": 3,
+      "reason": "Native 75-degree/27-degree crossing lies among closely spaced lake hatching. Restrict to the observed graticule crossing near local x198,y200 so adjacent horizontal lake hatch strokes cannot substitute for the parallel."
+    }
+  },
+  "crop_edge_guides": {
+    "north": [
+      [
+        538,
+        684
+      ],
+      [
+        650,
+        684
+      ],
+      [
+        1947,
+        683
+      ],
+      [
+        3356,
+        683
+      ],
+      [
+        4766,
+        681
+      ],
+      [
+        6063,
+        676
+      ],
+      [
+        6177,
+        676
+      ]
+    ],
+    "east": [
+      [
+        676,
+        6177
+      ],
+      [
+        749,
+        6177
+      ],
+      [
+        1582,
+        6176
+      ],
+      [
+        2488,
+        6175
+      ],
+      [
+        3393,
+        6174
+      ],
+      [
+        4226,
+        6173
+      ],
+      [
+        4298,
+        6173
+      ]
+    ],
+    "south": [
+      [
+        537,
+        4290
+      ],
+      [
+        649,
+        4290
+      ],
+      [
+        1945,
+        4292
+      ],
+      [
+        3354,
+        4293
+      ],
+      [
+        4763,
+        4297
+      ],
+      [
+        6059,
+        4298
+      ],
+      [
+        6173,
+        4298
+      ]
+    ],
+    "west": [
+      [
+        684,
+        538
+      ],
+      [
+        756,
+        538
+      ],
+      [
+        1586,
+        538
+      ],
+      [
+        2488,
+        538
+      ],
+      [
+        3389,
+        538
+      ],
+      [
+        4219,
+        537
+      ],
+      [
+        4290,
+        537
+      ]
+    ]
+  }
+}

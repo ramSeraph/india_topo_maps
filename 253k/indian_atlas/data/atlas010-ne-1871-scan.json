@@ -1,0 +1,221 @@
+{
+  "id": "atlas010-ne-1871",
+  "title": "Indian Atlas 010 NE \u00b7 1871",
+  "sheet": "010",
+  "quarter": "NE",
+  "year": 1871,
+  "source": "sources/zenodo-19431985/sheets/010 NE Quarter Sheet Indian Atlas (1871) colored.jpg",
+  "table": "data/atlas002-ne-1875-projection.json",
+  "crossing_preview_seeds": [
+    [
+      70,
+      26,
+      688,
+      730
+    ],
+    [
+      70.5,
+      26,
+      1421,
+      767
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      198,
+      199
+    ],
+    [
+      199,
+      200
+    ]
+  ],
+  "crossing_search_window": 10,
+  "tick_windows": {
+    "west": [
+      491,
+      563
+    ],
+    "east": [
+      6278,
+      6356
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 26.333333333333332,
+      "ys": [
+        163,
+        299,
+        435,
+        570,
+        706,
+        841,
+        978,
+        1114,
+        1248
+      ]
+    },
+    "east": {
+      "first_latitude": 26.333333333333332,
+      "ys": [
+        255,
+        390,
+        525,
+        660,
+        794,
+        931,
+        1067,
+        1201
+      ]
+    }
+  },
+  "seed_north_latitude": 26.25,
+  "frame_corners": [
+    [
+      592,
+      449
+    ],
+    [
+      6251,
+      451
+    ],
+    [
+      6243,
+      4098
+    ],
+    [
+      587,
+      4096
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        592,
+        449
+      ],
+      [
+        704,
+        449
+      ],
+      [
+        2006,
+        446
+      ],
+      [
+        3420,
+        446
+      ],
+      [
+        4835,
+        449
+      ],
+      [
+        6137,
+        451
+      ],
+      [
+        6251,
+        451
+      ]
+    ],
+    "east": [
+      [
+        451,
+        6251
+      ],
+      [
+        527,
+        6251
+      ],
+      [
+        1365,
+        6251
+      ],
+      [
+        2276,
+        6250
+      ],
+      [
+        3186,
+        6247
+      ],
+      [
+        4024,
+        6243
+      ],
+      [
+        4098,
+        6243
+      ]
+    ],
+    "south": [
+      [
+        587,
+        4096
+      ],
+      [
+        701,
+        4096
+      ],
+      [
+        2002,
+        4098
+      ],
+      [
+        3416,
+        4099
+      ],
+      [
+        4829,
+        4098
+      ],
+      [
+        6130,
+        4098
+      ],
+      [
+        6243,
+        4098
+      ]
+    ],
+    "west": [
+      [
+        449,
+        592
+      ],
+      [
+        524,
+        592
+      ],
+      [
+        1362,
+        590
+      ],
+      [
+        2272,
+        589
+      ],
+      [
+        3182,
+        588
+      ],
+      [
+        4020,
+        587
+      ],
+      [
+        4096,
+        587
+      ]
+    ]
+  },
+  "tick_search_overrides": {
+    "13": {
+      "initial_line": 2485,
+      "half_window": 6,
+      "reason": "Native control crop shows the broad search selected the numeral 26 above the printed rule; constrain the search to the visible 26-degree tick line."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "source": "1902 Tables for Computing and Projecting Graticules of Sheets of Indian Atlas.pdf",
+  "central_meridian_printed_degrees": 76.5,
+  "reference_radius_fathoms": 7331657.0,
+  "summary_table_pdf_page": 9,
+  "detailed_table_pdf_pages": [
+    26,
+    27,
+    28,
+    29
+  ],
+  "latitudes": [
+    17,
+    18,
+    19,
+    20
+  ],
+  "radius_fathoms": [
+    8118822.0,
+    8058312.6,
+    7997797.2,
+    7937275.6
+  ],
+  "angle_arcseconds_per_longitude_degree": [
+    1478.98,
+    1481.96,
+    1484.52,
+    1486.68
+  ],
+  "sine_check_longitude_offsets": [
+    7,
+    8
+  ],
+  "sine_check_fathoms": [
+    [
+      407329.4,
+      465459.5
+    ],
+    [
+      405107.6,
+      462920.4
+    ],
+    [
+      402759.4,
+      460236.6
+    ],
+    [
+      400292.7,
+      457418.0
+    ]
+  ],
+  "scope": "Latitude17\u201320 only; no extrapolation. Historical table coordinates are not a modern datum transformation.",
+  "transcription": "Latitude18 values retained from verified atlas026-1852 table. Latitude19 radius and detailed values verified for atlas024-1857. Latitude20 retained from verified atlas013-se-1885, with sine offset7=400292.7 additionally checked on original PDF page29 (work/atlas025-1854/latitude20-values.png). Latitude17 added from the verified atlas026-1852 table to cover the southern edge below18 degrees."
+}

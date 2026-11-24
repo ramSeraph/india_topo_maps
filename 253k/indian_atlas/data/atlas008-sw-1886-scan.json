@@ -1,0 +1,226 @@
+{
+  "id": "atlas008-sw-1886",
+  "title": "Indian Atlas 008 SW · 1886",
+  "sheet": "008",
+  "quarter": "SW",
+  "year": 1886,
+  "source": "sources/zenodo-19431985/sheets/008 SW Quarter Sheet Indian Atlas (1886).jpg",
+  "table": "data/atlas001a-se-1871-projection.json",
+  "crossing_preview_seeds": [
+    [
+      68.5,
+      28,
+      453,
+      921
+    ],
+    [
+      69,
+      28,
+      1215,
+      957
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      220,
+      192
+    ],
+    [
+      205,
+      198
+    ]
+  ],
+  "tick_windows": {
+    "west": [
+      294,
+      357
+    ],
+    "east": [
+      6126,
+      6195
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 28.416666666666668,
+      "ys": [
+        192,
+        335,
+        478,
+        619,
+        762,
+        905,
+        1048,
+        1190,
+        1332
+      ]
+    },
+    "east": {
+      "first_latitude": 28.416666666666668,
+      "ys": [
+        286,
+        430,
+        571,
+        713,
+        855,
+        996,
+        1139,
+        1280
+      ]
+    }
+  },
+  "seed_north_latitude": 28.34,
+  "frame_corners": [
+    [
+      391,
+      523
+    ],
+    [
+      6091,
+      490
+    ],
+    [
+      6093,
+      4165
+    ],
+    [
+      388,
+      4205
+    ]
+  ],
+  "crossing_search_window": 10,
+  "crop_edge_guides": {
+    "north": [
+      [
+        391,
+        523
+      ],
+      [
+        504,
+        522
+      ],
+      [
+        1814,
+        513
+      ],
+      [
+        3238,
+        506
+      ],
+      [
+        4663,
+        499
+      ],
+      [
+        5973,
+        490
+      ],
+      [
+        6091,
+        490
+      ]
+    ],
+    "east": [
+      [
+        490,
+        6091
+      ],
+      [
+        568,
+        6091
+      ],
+      [
+        1413,
+        6090
+      ],
+      [
+        2332,
+        6090
+      ],
+      [
+        3250,
+        6092
+      ],
+      [
+        4095,
+        6093
+      ],
+      [
+        4165,
+        6093
+      ]
+    ],
+    "south": [
+      [
+        388,
+        4205
+      ],
+      [
+        501,
+        4204
+      ],
+      [
+        1811,
+        4191
+      ],
+      [
+        3236,
+        4182
+      ],
+      [
+        4660,
+        4174
+      ],
+      [
+        5970,
+        4165
+      ],
+      [
+        6093,
+        4165
+      ]
+    ],
+    "west": [
+      [
+        523,
+        391
+      ],
+      [
+        596,
+        391
+      ],
+      [
+        1442,
+        389
+      ],
+      [
+        2363,
+        389
+      ],
+      [
+        3284,
+        389
+      ],
+      [
+        4130,
+        388
+      ],
+      [
+        4205,
+        388
+      ]
+    ]
+  },
+  "printed_longitude_note": {
+    "location": "Lower margin, Notes paragraph",
+    "source_crop": "work/atlas008-sw-1886/longitude-note.jpg",
+    "transcription": "All Longitudes require a correction of -1′-9″ to reduce them to the origin of the Great Trigonometrical Survey: viz: the Madras Observatory taken as 80°17′21″, and a further correction of -3′1″.5, to reduce them to the latest value 80°14′19″.5, of that Observatory.",
+    "atlas_to_old_gts_arcseconds": -69,
+    "old_gts_to_stated_madras_arcseconds": -181.5,
+    "printed_total_arcseconds": -250.5,
+    "applied_working_total_arcseconds": -216.18,
+    "working_minus_printed_arcseconds": 34.32
+  },
+  "longitude_convention_status": "The sheet explicitly prints two corrections: -69″ and -181.5″ (total -250.5″). The user-selected working adjustment remains -216.18″, 34.32″ east of that printed total; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "Printed margin confirms -69 arcseconds Atlas to old GTS and states a further -181.5 arcseconds to Madras 80d14m19.5s. Retain user-selected working second correction -147.18 arcseconds, total -216.18; this differs from printed total -250.5 by +34.32 arcseconds. Modern datum alignment remains provisional."
+}

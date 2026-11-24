@@ -1,0 +1,276 @@
+{
+  "book_frame_normal_tolerance_3857_m": 12.5,
+  "book_frame_normal_sides": ["south"],
+  "id": "atlas008-se-1880",
+  "title": "Indian Atlas 008 SE \u00b7 1880",
+  "sheet": "008",
+  "quarter": "SE",
+  "year": 1880,
+  "source": "sources/zenodo-19431985/sheets/008 SE Quarter Sheet Indian Atlas (1880) colored.jpg",
+  "table": "data/atlas001a-se-1871-projection.json",
+  "crossing_preview_seeds": [
+    [
+      70,
+      28,
+      851,
+      1053
+    ],
+    [
+      70.5,
+      28,
+      1599,
+      1084
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      191,
+      199
+    ],
+    [
+      195,
+      199
+    ]
+  ],
+  "tick_windows": {
+    "west": [
+      353,
+      422
+    ],
+    "east": [
+      6123,
+      6192
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 28.416666666666668,
+      "ys": [
+        321,
+        460,
+        601,
+        742,
+        882,
+        1023,
+        1164,
+        1305
+      ]
+    },
+    "east": {
+      "first_latitude": 28.5,
+      "ys": [
+        258,
+        398,
+        538,
+        679,
+        819,
+        960,
+        1102,
+        1242,
+        1384
+      ]
+    }
+  },
+  "seed_north_latitude": 28.43,
+  "frame_corners": [
+    [
+      450,
+      604
+    ],
+    [
+      6083,
+      586
+    ],
+    [
+      6097,
+      4209
+    ],
+    [
+      471,
+      4225
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        450,
+        604
+      ],
+      [
+        562,
+        604
+      ],
+      [
+        1857,
+        601
+      ],
+      [
+        3265,
+        600
+      ],
+      [
+        4673,
+        596
+      ],
+      [
+        5968,
+        587
+      ],
+      [
+        6083,
+        586
+      ]
+    ],
+    "east": [
+      [
+        586,
+        6083
+      ],
+      [
+        662,
+        6083
+      ],
+      [
+        1495,
+        6087
+      ],
+      [
+        2400,
+        6092
+      ],
+      [
+        3305,
+        6095
+      ],
+      [
+        4138,
+        6097
+      ],
+      [
+        4209,
+        6097
+      ]
+    ],
+    "south": [
+      [
+        471,
+        4225
+      ],
+      [
+        580,
+        4225
+      ],
+      [
+        1874,
+        4221
+      ],
+      [
+        3280,
+        4219
+      ],
+      [
+        4686,
+        4215
+      ],
+      [
+        5980,
+        4209
+      ],
+      [
+        6097,
+        4209
+      ]
+    ],
+    "west": [
+      [
+        604,
+        450
+      ],
+      [
+        680,
+        450
+      ],
+      [
+        1512,
+        456
+      ],
+      [
+        2416,
+        462
+      ],
+      [
+        3321,
+        467
+      ],
+      [
+        4153,
+        471
+      ],
+      [
+        4225,
+        471
+      ]
+    ]
+  },
+  "meridian_samples": [
+    {
+      "longitude": 70,
+      "pixel": 2631.3802929386407,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 10
+    },
+    {
+      "longitude": 70,
+      "pixel": 2515.004555387276,
+      "line": 3700,
+      "role": "fit",
+      "search_window": 10
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 4872.0941663256035,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 10
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 4760.42989341459,
+      "line": 3700,
+      "role": "fit",
+      "search_window": 10
+    },
+    {
+      "longitude": 70,
+      "pixel": 2605.9807265464315,
+      "line": 1600,
+      "role": "withheld",
+      "search_window": 10
+    },
+    {
+      "longitude": 70,
+      "pixel": 2539.223357595368,
+      "line": 3200,
+      "role": "withheld",
+      "search_window": 10
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 4850.672500223514,
+      "line": 1600,
+      "role": "withheld",
+      "search_window": 10
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 4784.450618487525,
+      "line": 3200,
+      "role": "withheld",
+      "search_window": 10
+    }
+  ],
+  "meridian_sampling_note": "Native crop review identified the 70.5-degree withheld search at source line 1600 on map symbols east of the printed meridian. Recenter 40 pixels west on the visible graticule and narrow search windows to exclude nearby symbols.",
+  "frame_maximum_stroke_intensity": 205,
+  "frame_intensity_limit_reason": "Native review of work/atlas008-se-1880/east-frame-detail.jpg confirms the faint inner stroke at x=6097 near y=4143 (41-pixel median intensity 196/255); the much darker outer stroke is at x=6114. Allow this measured inner stroke without moving the crop onto the outer border."
+}

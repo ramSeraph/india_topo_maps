@@ -1,0 +1,232 @@
+{
+  "id": "atlas032-ne-1872-colored",
+  "title": "Indian Atlas 032 NE \u00b7 1872, additions to 1881, colored",
+  "sheet": "032",
+  "quarter": "NE",
+  "year": 1872,
+  "source": "sources/zenodo-19431985/sheets/032 NE Quarter Sheet Indian Atlas (1872) colored.jpg",
+  "table": "data/atlas008-ne-1866-projection.json",
+  "condition_note": "Intact colored NE quarter. Native publication line confirms December 1872 with additions to 1881. No dissected panels or explicit longitude-correction note identified.",
+  "crossing_preview_seeds": [
+    [
+      75,
+      29,
+      857,
+      750
+    ],
+    [
+      75.5,
+      29,
+      1567,
+      755
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 29.25,
+  "tick_windows": {
+    "west": [
+      520,
+      582
+    ],
+    "east": [
+      6300,
+      6360
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 29.333333333333332,
+      "ys": [
+        202,
+        336,
+        472,
+        607,
+        745,
+        880,
+        1015,
+        1151,
+        1287
+      ]
+    },
+    "east": {
+      "first_latitude": 29.333333333333332,
+      "ys": [
+        212,
+        348,
+        485,
+        621,
+        757,
+        893,
+        1028,
+        1164,
+        1300
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      624,
+      579
+    ],
+    [
+      6262,
+      558
+    ],
+    [
+      6262,
+      4184
+    ],
+    [
+      614,
+      4210
+    ]
+  ],
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native inspection will refine near-vertical meridians and gently tilted parallels.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified in this edition.",
+  "crossing_local_seeds": [
+    [
+      197,
+      202
+    ],
+    [
+      203,
+      198
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        624,
+        579
+      ],
+      [
+        726,
+        579
+      ],
+      [
+        2027,
+        573
+      ],
+      [
+        3442,
+        567
+      ],
+      [
+        4856,
+        562
+      ],
+      [
+        6157,
+        558
+      ],
+      [
+        6262,
+        558
+      ]
+    ],
+    "east": [
+      [
+        558,
+        6262
+      ],
+      [
+        623,
+        6262
+      ],
+      [
+        1462,
+        6260
+      ],
+      [
+        2375,
+        6260
+      ],
+      [
+        3288,
+        6261
+      ],
+      [
+        4127,
+        6262
+      ],
+      [
+        4184,
+        6262
+      ]
+    ],
+    "south": [
+      [
+        614,
+        4210
+      ],
+      [
+        720,
+        4210
+      ],
+      [
+        2022,
+        4203
+      ],
+      [
+        3436,
+        4194
+      ],
+      [
+        4850,
+        4187
+      ],
+      [
+        6152,
+        4184
+      ],
+      [
+        6262,
+        4184
+      ]
+    ],
+    "west": [
+      [
+        579,
+        624
+      ],
+      [
+        643,
+        622
+      ],
+      [
+        1480,
+        621
+      ],
+      [
+        2391,
+        621
+      ],
+      [
+        3302,
+        618
+      ],
+      [
+        4139,
+        614
+      ],
+      [
+        4210,
+        614
+      ]
+    ]
+  },
+  "frame_maximum_stroke_intensity": 200,
+  "frame_intensity_limit_reason": "One southern-frame sample at x2781, expected y4198, has a faded but visibly continuous inner rule (native south-frame-0.jpg). Its median minimum is 194/255 at y4199; nearby paper is about 223\u2013235. Raise the explicit maximum from 190 to 200 for this scan; keep observed-frame tracing and four-pixel inset."
+}

@@ -1,0 +1,234 @@
+{
+  "id": "atlas033-ne-1879",
+  "title": "Indian Atlas 033 NE \u00b7 1879 additions",
+  "sheet": "033",
+  "quarter": "NE",
+  "year": 1879,
+  "source": "sources/zenodo-19431985/sheets/033 NE Quarter Sheet Indian Atlas (1879).jpg",
+  "table": "data/atlas001a-se-1871-projection.json",
+  "condition_note": "Intact NE quarter with colored boundary annotation. Native margin confirms December 1872 with additions to 1879. This scan is measured independently of the separately catalogued colored scan.",
+  "crossing_preview_seeds": [
+    [
+      75,
+      27.5,
+      800,
+      890
+    ],
+    [
+      75.5,
+      27.5,
+      1558,
+      897
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 27.85,
+  "tick_windows": {
+    "west": [
+      340,
+      412
+    ],
+    "east": [
+      6175,
+      6245
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 27.916666666666668,
+      "ys": [
+        177,
+        318,
+        460,
+        600,
+        742,
+        883,
+        1025,
+        1167,
+        1309
+      ]
+    },
+    "east": {
+      "first_latitude": 27.916666666666668,
+      "ys": [
+        195,
+        337,
+        478,
+        620,
+        759,
+        901,
+        1042,
+        1184,
+        1326
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      446,
+      511
+    ],
+    [
+      6147,
+      512
+    ],
+    [
+      6121,
+      4178
+    ],
+    [
+      416,
+      4181
+    ]
+  ],
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native graticule crops show nearly vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified in this edition.",
+  "crossing_local_seeds": [
+    [
+      199,
+      199
+    ],
+    [
+      195,
+      200
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        446,
+        511
+      ],
+      [
+        560,
+        511
+      ],
+      [
+        1871,
+        509
+      ],
+      [
+        3296,
+        508
+      ],
+      [
+        4722,
+        507
+      ],
+      [
+        6033,
+        512
+      ],
+      [
+        6147,
+        512
+      ]
+    ],
+    "east": [
+      [
+        512,
+        6147
+      ],
+      [
+        583,
+        6146
+      ],
+      [
+        1427,
+        6139
+      ],
+      [
+        2344,
+        6133
+      ],
+      [
+        3261,
+        6126
+      ],
+      [
+        4105,
+        6121
+      ],
+      [
+        4178,
+        6121
+      ]
+    ],
+    "south": [
+      [
+        416,
+        4181
+      ],
+      [
+        530,
+        4181
+      ],
+      [
+        1842,
+        4180
+      ],
+      [
+        3268,
+        4182
+      ],
+      [
+        4693,
+        4181
+      ],
+      [
+        6005,
+        4178
+      ],
+      [
+        6121,
+        4178
+      ]
+    ],
+    "west": [
+      [
+        511,
+        446
+      ],
+      [
+        584,
+        445
+      ],
+      [
+        1428,
+        438
+      ],
+      [
+        2345,
+        431
+      ],
+      [
+        3262,
+        423
+      ],
+      [
+        4106,
+        416
+      ],
+      [
+        4181,
+        416
+      ]
+    ]
+  },
+  "frame_stroke_maximum_half_width_pixels_by_edge": {
+    "east": 2
+  },
+  "frame_stroke_width_reason": "Native northeast crop review of this scan confirms Babaji Hills hachures touch the eastern inner rule and broaden its dark profile. Cap only eastern stroke half-width at two source pixels before the four-pixel inset to preserve adjoining map content."
+}

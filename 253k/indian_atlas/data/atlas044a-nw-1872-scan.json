@@ -1,0 +1,361 @@
+{
+  "id": "atlas044a-nw-1872",
+  "title": "Indian Atlas 044A NW \u00b7 1872",
+  "sheet": "044A",
+  "quarter": "NW",
+  "year": 1872,
+  "source": "sources/zenodo-19431985/sheets/044A NW Quarter Sheet Indian Atlas (1872).jpg",
+  "table": "data/atlas044a-nw-1872-projection.json",
+  "condition_note": "Intact northern extension quarter, mostly blank unsurveyed area with mapped mountains and routes in south. Preserve the printed blank area; do not confuse 44A with southern sheet 44.",
+  "source_identification_note": "Printed upper-right number 44A N.W.; publication May 1st 1872, southern continuation 44A S.W. Independently read graticule spans latitude about 35d49m to 36d32m.",
+  "crossing_preview_seeds": [
+    [
+      76,
+      36.5,
+      476.3,
+      226.60000000000002
+    ],
+    [
+      76.5,
+      36.5,
+      1146.2,
+      224.4
+    ],
+    [
+      77,
+      36.5,
+      1818.3000000000002,
+      222.20000000000002
+    ],
+    [
+      76,
+      36,
+      470.8,
+      1058.2
+    ],
+    [
+      76.5,
+      36,
+      1146.2,
+      1054.9
+    ],
+    [
+      77,
+      36,
+      1820.5000000000002,
+      1050.5
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      203,
+      204
+    ],
+    [
+      204,
+      218
+    ],
+    [
+      200,
+      206
+    ],
+    [
+      198,
+      190
+    ],
+    [
+      200,
+      206
+    ],
+    [
+      204,
+      200
+    ]
+  ],
+  "crossing_search_window": 14,
+  "seed_north_latitude": 36.44,
+  "tick_windows": {
+    "west": [
+      285,
+      325
+    ],
+    "east": [
+      6185,
+      6220
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 36.5,
+      "ys": [
+        228.8,
+        365.20000000000005,
+        503.80000000000007,
+        641.3000000000001,
+        779.9000000000001,
+        917.4000000000001,
+        1057.1000000000001,
+        1194.6000000000001,
+        1332.1000000000001
+      ]
+    },
+    "east": {
+      "first_latitude": 36.5,
+      "ys": [
+        222.20000000000002,
+        359.70000000000005,
+        498.30000000000007,
+        636.9000000000001,
+        773.3000000000001,
+        911.9000000000001,
+        1050.5,
+        1188.0,
+        1326.6000000000001
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      400,
+      539
+    ],
+    [
+      6110,
+      533
+    ],
+    [
+      6106,
+      4141
+    ],
+    [
+      388,
+      4149
+    ]
+  ],
+  "line_slope_bounds": {
+    "vertical": [
+      -0.03,
+      0.03
+    ],
+    "horizontal": [
+      -0.025,
+      0.025
+    ]
+  },
+  "line_slope_bounds_reason": "Native preview shows nearly horizontal parallels and vertical meridians around the 76d30m central meridian.",
+  "meridian_samples": [
+    {
+      "longitude": 76,
+      "pixel": 1445,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 76,
+      "pixel": 1428,
+      "line": 3900,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 76,
+      "pixel": 1440,
+      "line": 1800,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 76,
+      "pixel": 1434,
+      "line": 2900,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 76.5,
+      "pixel": 3488,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 76.5,
+      "pixel": 3487,
+      "line": 3900,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 76.5,
+      "pixel": 3488,
+      "line": 1800,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 76.5,
+      "pixel": 3487,
+      "line": 2900,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 77,
+      "pixel": 5535,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 77,
+      "pixel": 5543,
+      "line": 3900,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 77,
+      "pixel": 5537,
+      "line": 1800,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 77,
+      "pixel": 5540,
+      "line": 2900,
+      "role": "withheld",
+      "search_window": 12
+    }
+  ],
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified on this edition.",
+  "crop_edge_guides": {
+    "north": [
+      [
+        400,
+        539
+      ],
+      [
+        514,
+        538
+      ],
+      [
+        1828,
+        538
+      ],
+      [
+        3255,
+        534
+      ],
+      [
+        4682,
+        532
+      ],
+      [
+        5996,
+        533
+      ],
+      [
+        6110,
+        533
+      ]
+    ],
+    "east": [
+      [
+        533,
+        6110
+      ],
+      [
+        605,
+        6110
+      ],
+      [
+        1435,
+        6110
+      ],
+      [
+        2337,
+        6111
+      ],
+      [
+        3239,
+        6108
+      ],
+      [
+        4069,
+        6106
+      ],
+      [
+        4141,
+        6106
+      ]
+    ],
+    "south": [
+      [
+        388,
+        4149
+      ],
+      [
+        502,
+        4149
+      ],
+      [
+        1818,
+        4147
+      ],
+      [
+        3247,
+        4144
+      ],
+      [
+        4676,
+        4141
+      ],
+      [
+        5992,
+        4142
+      ],
+      [
+        6106,
+        4141
+      ]
+    ],
+    "west": [
+      [
+        539,
+        400
+      ],
+      [
+        611,
+        400
+      ],
+      [
+        1442,
+        397
+      ],
+      [
+        2344,
+        394
+      ],
+      [
+        3246,
+        389
+      ],
+      [
+        4077,
+        388
+      ],
+      [
+        4149,
+        388
+      ]
+    ]
+  },
+  "frame_stroke_maximum_half_width_pixels_by_edge": {
+    "west": 2,
+    "south": 2
+  },
+  "frame_stroke_width_reason": "Native SW crop review shows mountain hachures continuing into the inner frame; unrestricted dark-stroke following moved the crop 11 source pixels inward. Cap the inward stroke extension at 2 pixels on west and south before the usual four-pixel clearance, preserving adjacent mapped terrain."
+}

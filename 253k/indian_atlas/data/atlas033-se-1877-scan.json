@@ -1,0 +1,307 @@
+{
+  "id": "atlas033-se-1877",
+  "title": "Indian Atlas 033 SE \u00b7 1877 additions",
+  "sheet": "033",
+  "quarter": "SE",
+  "year": 1877,
+  "source": "sources/zenodo-19431985/sheets/033 SE Quarter Sheet Indian Atlas (1877).jpg",
+  "table": "data/atlas001-ne-1871-projection.json",
+  "condition_note": "Intact SE quarter with colored boundaries. Native publication line confirms December 1873 with additions to 1877. This scan is measured independently of the separately catalogued colored edition.",
+  "crossing_preview_seeds": [
+    [
+      75,
+      27,
+      792,
+      529
+    ],
+    [
+      75.5,
+      27,
+      1552,
+      537
+    ],
+    [
+      75,
+      26.5,
+      783,
+      1382
+    ],
+    [
+      75.5,
+      26.5,
+      1546,
+      1392
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 27.12,
+  "tick_windows": {
+    "west": [
+      325,
+      400
+    ],
+    "east": [
+      6160,
+      6225
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 27.166666666666668,
+      "ys": [
+        240,
+        383,
+        525,
+        668,
+        809,
+        950,
+        1093,
+        1236,
+        1379
+      ]
+    },
+    "east": {
+      "first_latitude": 27.166666666666668,
+      "ys": [
+        257,
+        399,
+        540,
+        683,
+        825,
+        968,
+        1110,
+        1253,
+        1394
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      437,
+      535
+    ],
+    [
+      6129,
+      537
+    ],
+    [
+      6119,
+      4206
+    ],
+    [
+      420,
+      4204
+    ]
+  ],
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native graticule crops show nearly vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified in this edition.",
+  "crossing_local_seeds": [
+    [
+      201,
+      201
+    ],
+    [
+      201,
+      202
+    ],
+    [
+      186,
+      197
+    ],
+    [
+      190,
+      187
+    ]
+  ],
+  "crossing_search_overrides": {
+    "0": {
+      "half_window": 3,
+      "reason": "Native crossing at 75/27 lies among closely spaced lake hatching. Restrict to observed parallel and meridian intersection near local 201,201."
+    }
+  },
+  "crop_edge_guides": {
+    "north": [
+      [
+        437,
+        535
+      ],
+      [
+        551,
+        535
+      ],
+      [
+        1860,
+        533
+      ],
+      [
+        3282,
+        533
+      ],
+      [
+        4705,
+        535
+      ],
+      [
+        6014,
+        537
+      ],
+      [
+        6129,
+        537
+      ]
+    ],
+    "east": [
+      [
+        537,
+        6129
+      ],
+      [
+        612,
+        6129
+      ],
+      [
+        1456,
+        6126
+      ],
+      [
+        2373,
+        6122
+      ],
+      [
+        3290,
+        6121
+      ],
+      [
+        4134,
+        6119
+      ],
+      [
+        4206,
+        6119
+      ]
+    ],
+    "south": [
+      [
+        420,
+        4204
+      ],
+      [
+        530,
+        4204
+      ],
+      [
+        1842,
+        4200
+      ],
+      [
+        3268,
+        4201
+      ],
+      [
+        4693,
+        4204
+      ],
+      [
+        6005,
+        4206
+      ],
+      [
+        6119,
+        4206
+      ]
+    ],
+    "west": [
+      [
+        535,
+        437
+      ],
+      [
+        609,
+        436
+      ],
+      [
+        1452,
+        429
+      ],
+      [
+        2368,
+        425
+      ],
+      [
+        3285,
+        422
+      ],
+      [
+        4128,
+        420
+      ],
+      [
+        4204,
+        420
+      ]
+    ]
+  },
+  "meridian_samples": [
+    {
+      "longitude": 75,
+      "pixel": 2395.7263157894736,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 2351.515789473684,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 2385.901754385965,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75,
+      "pixel": 2359.702923976608,
+      "line": 3200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4682.012109375,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4651.426171875,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4675.215234375,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4657.090234375,
+      "line": 3200,
+      "role": "withheld"
+    }
+  ],
+  "quality_note": "Native inspection confirms the graticule observations, including the crossing within lake hatching. Interior crossing residuals reach 9.55 source pixels; leave-one-observation-out RMS is 4.37 pixels and independent graticule RMS is 1.52 arcseconds. Retain the historical projection plus affine fit; these are internal grid checks, not modern ground accuracy."
+}

@@ -1,0 +1,338 @@
+{
+  "crossing_search_window": 10,
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native graticule crops show nearly vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds.",
+  "id": "atlas039-sw-1886-colored",
+  "title": "Indian Atlas 039 SW \u00b7 1886 \u00b7 colored",
+  "sheet": "039",
+  "quarter": "SW",
+  "year": 1886,
+  "source": "sources/zenodo-19431985/sheets/039 SW Quarter Sheet Indian Atlas (1886) colored.jpg",
+  "table": "data/atlas025-1854-projection.json",
+  "condition_note": "Intact colored SW quarter with dense western hill shading. Native publication August1886. Own printed frame/graticule measured; no additions-to1895 note identified in visible margins.",
+  "crossing_preview_seeds": [
+    [
+      74,
+      18.5,
+      927,
+      332
+    ],
+    [
+      74.5,
+      18.5,
+      1734,
+      343
+    ],
+    [
+      74,
+      18,
+      918,
+      1181
+    ],
+    [
+      74.5,
+      18,
+      1734,
+      1190
+    ]
+  ],
+  "seed_north_latitude": 18.5,
+  "tick_windows": {
+    "west": [
+      345,
+      410
+    ],
+    "east": [
+      6185,
+      6245
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 18.583333333333332,
+      "ys": [
+        175,
+        317,
+        458,
+        600,
+        742,
+        884,
+        1026,
+        1168,
+        1310
+      ]
+    },
+    "east": {
+      "first_latitude": 18.583333333333332,
+      "ys": [
+        201,
+        343,
+        485,
+        627,
+        769,
+        911,
+        1053,
+        1195,
+        1337
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      458,
+      514
+    ],
+    [
+      6149,
+      497
+    ],
+    [
+      6156,
+      4171
+    ],
+    [
+      449,
+      4185
+    ]
+  ],
+  "printed_longitude_note": {
+    "location": "Lower margin, Note paragraph",
+    "source_crop": "work/atlas039-sw-1886-colored/printed-longitude-note.jpg",
+    "transcription": "All Longitudes require a correction of -1\u2032-9\u2033, to reduce them to the origin of the Great Trigonometrical Survey: viz: the Madras Observatory taken as 80\u00b017\u203221\u2033, and a further correction of -2\u203230\u2033 to reduce them to the latest value 80\u00b014\u203251\u2033 of that Observatory.",
+    "atlas_to_old_gts_arcseconds": -69,
+    "old_gts_to_stated_madras_arcseconds": -150,
+    "printed_total_arcseconds": -219,
+    "applied_working_total_arcseconds": -216.18,
+    "working_minus_printed_arcseconds": 2.82
+  },
+  "longitude_convention_status": "Printed note gives -69 and -150 arcseconds (total -219). Retain user-selected working correction -216.18 arcseconds, 2.82 arcseconds east of the printed total; modern datum alignment remains provisional.",
+  "crossing_local_seeds": [
+    [
+      207,
+      189
+    ],
+    [
+      205,
+      198
+    ],
+    [
+      206,
+      196
+    ],
+    [
+      185,
+      210
+    ]
+  ],
+  "meridian_samples": [
+    {
+      "longitude": 74,
+      "pixel": 2798.879875195008,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 74,
+      "pixel": 2769.3946957878316,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 74,
+      "pixel": 2792.327613104524,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74,
+      "pixel": 2781.4071762870517,
+      "line": 2600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5228.241809672387,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5207.18096723869,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5223.561622464898,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5215.761310452418,
+      "line": 2600,
+      "role": "withheld"
+    }
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        458,
+        514
+      ],
+      [
+        575,
+        511
+      ],
+      [
+        1883,
+        503
+      ],
+      [
+        3304,
+        501
+      ],
+      [
+        4726,
+        499
+      ],
+      [
+        6034,
+        497
+      ],
+      [
+        6149,
+        497
+      ]
+    ],
+    "east": [
+      [
+        497,
+        6149
+      ],
+      [
+        571,
+        6149
+      ],
+      [
+        1419,
+        6151
+      ],
+      [
+        2340,
+        6153
+      ],
+      [
+        3262,
+        6154
+      ],
+      [
+        4110,
+        6156
+      ],
+      [
+        4171,
+        6156
+      ]
+    ],
+    "south": [
+      [
+        449,
+        4185
+      ],
+      [
+        563,
+        4185
+      ],
+      [
+        1876,
+        4178
+      ],
+      [
+        3303,
+        4175
+      ],
+      [
+        4730,
+        4175
+      ],
+      [
+        6043,
+        4171
+      ],
+      [
+        6156,
+        4171
+      ]
+    ],
+    "west": [
+      [
+        514,
+        458
+      ],
+      [
+        583,
+        458
+      ],
+      [
+        1428,
+        456
+      ],
+      [
+        2346,
+        455
+      ],
+      [
+        3265,
+        453
+      ],
+      [
+        4110,
+        449
+      ],
+      [
+        4185,
+        449
+      ]
+    ]
+  },
+  "frame_stroke_maximum_half_width_pixels_by_edge": {
+    "north": 2,
+    "east": 2,
+    "south": 2,
+    "west": 2
+  },
+  "frame_stroke_width_reason": "Native corner review shows dense hill shading and colored boundaries adjoining inner rules. Limit inward stroke expansion to two pixels before four-pixel inset.",
+  "crop_edge_manual_segments": {
+    "east": [
+      {
+        "points": [
+          [
+            6151,
+            3900
+          ],
+          [
+            6151,
+            4110
+          ],
+          [
+            6151,
+            4171
+          ]
+        ],
+        "reason": "Native southeast corner/eastern detail shows straight inner rule near6156. Colored boundary ink draws the minimum inward to6145; final segment follows rule with five-pixel clearance."
+      }
+    ]
+  }
+}

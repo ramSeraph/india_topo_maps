@@ -1,0 +1,314 @@
+{
+  "id": "atlas012-se-1881",
+  "title": "Indian Atlas 012 SE \u00b7 1881",
+  "sheet": "012",
+  "quarter": "SE",
+  "year": 1881,
+  "source": "sources/zenodo-19431985/sheets/012 SE Quarter Sheet Indian Atlas (1881) colored.jpg",
+  "table": "data/atlas012-nw-1888-projection.json",
+  "ignore_exif_orientation": true,
+  "source_orientation_note": "The stored JPEG pixels are upright (6615 \u00d7 4884); applying its EXIF orientation turns the map sideways (4884 \u00d7 6615). Measure and resample the original stored pixels, ignoring that tag; source bytes are unchanged.",
+  "crossing_preview_seeds": [
+    [
+      70,
+      22.5,
+      387,
+      675
+    ],
+    [
+      70.5,
+      22.5,
+      1172,
+      705
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      203,
+      206
+    ],
+    [
+      193,
+      222
+    ]
+  ],
+  "crossing_search_window": 10,
+  "tick_windows": {
+    "west": [
+      334,
+      406
+    ],
+    "east": [
+      6101,
+      6179
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 22.75,
+      "ys": [
+        244,
+        385,
+        526,
+        666,
+        806,
+        947,
+        1088,
+        1228,
+        1368
+      ]
+    },
+    "east": {
+      "first_latitude": 22.75,
+      "ys": [
+        322,
+        464,
+        604,
+        744,
+        885,
+        1026,
+        1166,
+        1306
+      ]
+    }
+  },
+  "seed_north_latitude": 22.7,
+  "frame_corners": [
+    [
+      434,
+      643
+    ],
+    [
+      6075,
+      627
+    ],
+    [
+      6081,
+      4248
+    ],
+    [
+      430,
+      4263
+    ]
+  ],
+  "meridian_samples": [
+    {
+      "longitude": 70,
+      "pixel": 1208,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 70,
+      "pixel": 1092,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 70,
+      "pixel": 1182,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 70,
+      "pixel": 1113,
+      "line": 3200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 3572,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 3456,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 3546,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 3478,
+      "line": 3200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 71,
+      "pixel": 5930,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 71,
+      "pixel": 5814,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 71,
+      "pixel": 5905,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 71,
+      "pixel": 5836,
+      "line": 3200,
+      "role": "withheld"
+    }
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        434,
+        643
+      ],
+      [
+        546,
+        643
+      ],
+      [
+        1845,
+        638
+      ],
+      [
+        3256,
+        636
+      ],
+      [
+        4668,
+        632
+      ],
+      [
+        5967,
+        627
+      ],
+      [
+        6075,
+        627
+      ]
+    ],
+    "east": [
+      [
+        627,
+        6075
+      ],
+      [
+        703,
+        6075
+      ],
+      [
+        1537,
+        6078
+      ],
+      [
+        2443,
+        6080
+      ],
+      [
+        3349,
+        6081
+      ],
+      [
+        4183,
+        6081
+      ],
+      [
+        4248,
+        6081
+      ]
+    ],
+    "south": [
+      [
+        430,
+        4263
+      ],
+      [
+        546,
+        4263
+      ],
+      [
+        1845,
+        4260
+      ],
+      [
+        3256,
+        4255
+      ],
+      [
+        4668,
+        4251
+      ],
+      [
+        5967,
+        4248
+      ],
+      [
+        6081,
+        4248
+      ]
+    ],
+    "west": [
+      [
+        643,
+        434
+      ],
+      [
+        715,
+        434
+      ],
+      [
+        1548,
+        434
+      ],
+      [
+        2452,
+        434
+      ],
+      [
+        3356,
+        432
+      ],
+      [
+        4189,
+        430
+      ],
+      [
+        4263,
+        430
+      ]
+    ]
+  },
+  "tick_search_overrides": {
+    "12": {
+      "initial_line": 2234,
+      "half_window": 5,
+      "reason": "Native control crop shows the broad search selected the bottom of the 22-degree numeral, above the 22-degree-30-minute rule; restrict to the actual rule."
+    }
+  },
+  "parallel_samples": [
+    {
+      "latitude": 22.5,
+      "pixel": 2500,
+      "line": 2097,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "latitude": 22.5,
+      "pixel": 4500,
+      "line": 2180,
+      "role": "withheld",
+      "search_window": 15
+    }
+  ],
+  "quality_note": "Historical projection plus affine retained. The crossing at 70\u00b030\u2032 / 22\u00b030\u2032 has an 8.42-source-pixel fitted residual; two additional withheld observations on that parallel differ by about 3 arcseconds. All 16 withheld observations have RMS 1.39 arcseconds. The model does not remove local scan or engraving distortion."
+}

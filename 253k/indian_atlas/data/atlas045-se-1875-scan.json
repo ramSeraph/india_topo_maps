@@ -1,0 +1,690 @@
+{
+  "id": "atlas045-se-1875",
+  "title": "Indian Atlas 045 SE \u00b7 1875",
+  "sheet": "045",
+  "quarter": "SE",
+  "year": 1875,
+  "source": "sources/zenodo-19431985/sheets/045 SE Quarter Sheet Indian Atlas (1875).jpg",
+  "table": "data/atlas014-1860-projection.json",
+  "condition_note": "Intact quarter sheet with dense terrain hatching and wide paper margins; no displaced panels seen in whole-sheet preview.",
+  "source_identification_note": "Printed 45 S.E.; publication October 1875. North 45 N.E.; west 45 S.W.; south 46; east 63A S.W.",
+  "crossing_preview_seeds": [
+    [
+      77.5,
+      34,
+      732,
+      846
+    ],
+    [
+      78,
+      34,
+      1338,
+      838
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      211,
+      195
+    ],
+    [
+      198,
+      201
+    ]
+  ],
+  "crossing_search_window": 8,
+  "seed_north_latitude": 34.28,
+  "tick_windows": {
+    "west": [
+      877,
+      950
+    ],
+    "east": [
+      6750,
+      6820
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 34.333333333333336,
+      "ys": [
+        374,
+        493,
+        612,
+        731,
+        850,
+        969,
+        1088,
+        1207,
+        1326
+      ]
+    },
+    "east": {
+      "first_latitude": 34.333333333333336,
+      "ys": [
+        356,
+        474,
+        593,
+        712,
+        831,
+        951,
+        1070,
+        1188,
+        1309
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      991,
+      1083
+    ],
+    [
+      6725,
+      1080
+    ],
+    [
+      6715,
+      4687
+    ],
+    [
+      972,
+      4684
+    ]
+  ],
+  "line_slope_bounds": {
+    "vertical": [
+      -0.025,
+      0.04
+    ],
+    "horizontal": [
+      -0.035,
+      0.025
+    ]
+  },
+  "line_slope_bounds_reason": "Preview shows shallow east-leaning meridians and north-sloping parallels; local native measurements will confirm.",
+  "meridian_samples": [
+    {
+      "longitude": 77.5,
+      "pixel": 2566,
+      "line": 1581,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 77.5,
+      "pixel": 2600,
+      "line": 4391,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 77.5,
+      "pixel": 2575,
+      "line": 2284,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 77.5,
+      "pixel": 2592,
+      "line": 3689,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 78,
+      "pixel": 4684,
+      "line": 1581,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 78,
+      "pixel": 4715,
+      "line": 4391,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 78,
+      "pixel": 4692,
+      "line": 2284,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 78,
+      "pixel": 4707,
+      "line": 3689,
+      "role": "withheld",
+      "search_window": 12
+    }
+  ],
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified on this edition.",
+  "frame_stroke_maximum_half_width_pixels_by_edge": {
+    "north": 2,
+    "west": 2,
+    "south": 2,
+    "east": 2
+  },
+  "frame_stroke_width_reason": "Native corners show mountain hatching touching the inner frame. Cap dark-stroke extension at two pixels before the four-pixel inset so terrain does not widen the inferred frame.",
+  "seed_provenance": "Independent 2200px preview seeds, refined from native printed lines. Fit/withheld roles assigned before fitting; two extra interior latitude checks reserved on the 34-degree parallel.",
+  "longitude_tick_samples": [
+    {
+      "side": "north",
+      "longitude": 77.16666666666667,
+      "pixel": 1163,
+      "line_window": [
+        1025,
+        1055
+      ],
+      "half_window": 10,
+      "role": "fit"
+    },
+    {
+      "side": "north",
+      "longitude": 78.33333333333333,
+      "pixel": 6071,
+      "line_window": [
+        1025,
+        1055
+      ],
+      "half_window": 10,
+      "role": "fit"
+    },
+    {
+      "side": "south",
+      "longitude": 77.16666666666667,
+      "pixel": 1187,
+      "line_window": [
+        4715,
+        4740
+      ],
+      "half_window": 10,
+      "role": "withheld"
+    },
+    {
+      "side": "south",
+      "longitude": 78.33333333333333,
+      "pixel": 6159,
+      "line_window": [
+        4715,
+        4740
+      ],
+      "half_window": 10,
+      "role": "withheld"
+    },
+    {
+      "side": "south",
+      "longitude": 78.25,
+      "pixel": 5800,
+      "line_window": [
+        4715,
+        4740
+      ],
+      "half_window": 5,
+      "role": "withheld"
+    },
+    {
+      "side": "south",
+      "longitude": 78.41666666666667,
+      "pixel": 6510,
+      "line_window": [
+        4715,
+        4740
+      ],
+      "half_window": 5,
+      "role": "withheld"
+    }
+  ],
+  "parallel_samples": [
+    {
+      "latitude": 34,
+      "pixel": 1581,
+      "line": 2979,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "latitude": 34,
+      "pixel": 5972,
+      "line": 2930,
+      "role": "withheld",
+      "search_window": 12
+    }
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        991,
+        1083
+      ],
+      [
+        1106,
+        1083
+      ],
+      [
+        2424,
+        1084
+      ],
+      [
+        3856,
+        1083
+      ],
+      [
+        5288,
+        1082
+      ],
+      [
+        6606,
+        1079
+      ],
+      [
+        6725,
+        1080
+      ]
+    ],
+    "east": [
+      [
+        1080,
+        6725
+      ],
+      [
+        1158,
+        6724
+      ],
+      [
+        1987,
+        6725
+      ],
+      [
+        2888,
+        6721
+      ],
+      [
+        3789,
+        6720
+      ],
+      [
+        4618,
+        6715
+      ],
+      [
+        4687,
+        6715
+      ]
+    ],
+    "south": [
+      [
+        972,
+        4684
+      ],
+      [
+        1092,
+        4684
+      ],
+      [
+        2413,
+        4687
+      ],
+      [
+        3849,
+        4687
+      ],
+      [
+        5285,
+        4691
+      ],
+      [
+        6606,
+        4687
+      ],
+      [
+        6715,
+        4687
+      ]
+    ],
+    "west": [
+      [
+        1083.0,
+        991.0
+      ],
+      [
+        1111.0,
+        990.997
+      ],
+      [
+        1156.0,
+        990.976
+      ],
+      [
+        1201.0,
+        990.882
+      ],
+      [
+        1246.0,
+        990.653
+      ],
+      [
+        1290.0,
+        990.346
+      ],
+      [
+        1335.0,
+        990.115
+      ],
+      [
+        1380.0,
+        990.0
+      ],
+      [
+        1425.0,
+        989.882
+      ],
+      [
+        1470.0,
+        989.629
+      ],
+      [
+        1515.0,
+        989.228
+      ],
+      [
+        1560.0,
+        988.769
+      ],
+      [
+        1605.0,
+        988.347
+      ],
+      [
+        1649.0,
+        988.003
+      ],
+      [
+        1694.0,
+        987.678
+      ],
+      [
+        1739.0,
+        987.347
+      ],
+      [
+        1784.0,
+        987.094
+      ],
+      [
+        1829.0,
+        986.906
+      ],
+      [
+        1874.0,
+        986.653
+      ],
+      [
+        1919.0,
+        986.322
+      ],
+      [
+        1964.0,
+        985.997
+      ],
+      [
+        2008.0,
+        985.653
+      ],
+      [
+        2053.0,
+        985.231
+      ],
+      [
+        2098.0,
+        984.772
+      ],
+      [
+        2143.0,
+        984.368
+      ],
+      [
+        2188.0,
+        984.097
+      ],
+      [
+        2233.0,
+        983.906
+      ],
+      [
+        2278.0,
+        983.653
+      ],
+      [
+        2323.0,
+        983.32
+      ],
+      [
+        2367.0,
+        982.976
+      ],
+      [
+        2412.0,
+        982.557
+      ],
+      [
+        2457.0,
+        981.979
+      ],
+      [
+        2502.0,
+        981.347
+      ],
+      [
+        2547.0,
+        980.793
+      ],
+      [
+        2592.0,
+        980.349
+      ],
+      [
+        2637.0,
+        980.003
+      ],
+      [
+        2682.0,
+        979.678
+      ],
+      [
+        2726.0,
+        979.346
+      ],
+      [
+        2771.0,
+        979.091
+      ],
+      [
+        2816.0,
+        978.882
+      ],
+      [
+        2861.0,
+        978.538
+      ],
+      [
+        2906.0,
+        978.0
+      ],
+      [
+        2951.0,
+        977.465
+      ],
+      [
+        2996.0,
+        977.14
+      ],
+      [
+        3041.0,
+        977.003
+      ],
+      [
+        3085.0,
+        976.885
+      ],
+      [
+        3130.0,
+        976.654
+      ],
+      [
+        3175.0,
+        976.347
+      ],
+      [
+        3220.0,
+        976.118
+      ],
+      [
+        3265.0,
+        976.024
+      ],
+      [
+        3310.0,
+        976.003
+      ],
+      [
+        3355.0,
+        976.0
+      ],
+      [
+        3400.0,
+        976.0
+      ],
+      [
+        3444.0,
+        975.997
+      ],
+      [
+        3489.0,
+        975.976
+      ],
+      [
+        3534.0,
+        975.882
+      ],
+      [
+        3579.0,
+        975.653
+      ],
+      [
+        3624.0,
+        975.347
+      ],
+      [
+        3669.0,
+        975.118
+      ],
+      [
+        3714.0,
+        975.024
+      ],
+      [
+        3759.0,
+        975.003
+      ],
+      [
+        3803.0,
+        975.0
+      ],
+      [
+        3848.0,
+        975.0
+      ],
+      [
+        3893.0,
+        975.0
+      ],
+      [
+        3938.0,
+        975.0
+      ],
+      [
+        3983.0,
+        975.0
+      ],
+      [
+        4028.0,
+        975.0
+      ],
+      [
+        4073.0,
+        974.997
+      ],
+      [
+        4118.0,
+        974.976
+      ],
+      [
+        4162.0,
+        974.882
+      ],
+      [
+        4207.0,
+        974.653
+      ],
+      [
+        4252.0,
+        974.343
+      ],
+      [
+        4297.0,
+        974.091
+      ],
+      [
+        4342.0,
+        973.882
+      ],
+      [
+        4387.0,
+        973.538
+      ],
+      [
+        4432.0,
+        973.0
+      ],
+      [
+        4477.0,
+        972.465
+      ],
+      [
+        4521.0,
+        972.143
+      ],
+      [
+        4566.0,
+        972.027
+      ],
+      [
+        4611.0,
+        972.003
+      ],
+      [
+        4656.0,
+        972.0
+      ],
+      [
+        4684.0,
+        972.0
+      ]
+    ]
+  },
+  "additional_check_reason": "Two additional withheld southern longitude ticks (78d15m and 78d25m) flank the verified 78d20m residual. Native south-east-longitude-ticks.jpg identifies all three strokes; added only for diagnosis, never to training controls.",
+  "quality_note": "Historical-projection plus affine: 17 controls and 19 withheld graticule checks, RMS 3.52 arcseconds, maximum 8.88 arcseconds. Leave-one-observation-out RMS 3.28 pixels. Three verified southern longitude ticks at 78d15m, 78d20m and 78d25m retain errors of 7.94, 8.88 and 7.48 arcseconds; local alignment refinement remains pending. Two extra southern ticks were added only as withheld diagnostics; training controls and fitted coefficients remained identical. Two withheld interior latitude checks have errors below 0.81 arcseconds.",
+  "crop_mode": "straight_corners",
+  "crop_inset_pixels": 6,
+  "crop_review_note": "Full native strips of all four edges and original unmarked corners inspected. Straight corner-to-corner crop accepted; six source pixels from frame centreline allow two pixels for frame ink plus four pixels clearance. No independent dark-ink tracing. Historical fit unchanged.",
+  "book_frame_normal_sides": [
+    "west"
+  ],
+  "book_frame_normal_tolerance_3857_m": 12.5,
+  "book_frame_measurement_note": "The all-edge fit uses the measured west inner rule. The paired-rule trace used an 18-pixel band and a 28-pixel search radius at native resolution. The other three sides retain the corner-to-corner crop."
+}

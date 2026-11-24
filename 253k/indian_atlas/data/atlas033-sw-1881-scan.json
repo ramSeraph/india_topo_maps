@@ -1,0 +1,358 @@
+{
+  "id": "atlas033-sw-1881",
+  "title": "Indian Atlas 033 SW \u00b7 1881",
+  "sheet": "033",
+  "quarter": "SW",
+  "year": 1881,
+  "source": "sources/zenodo-19431985/sheets/033 SW Quarter Sheet Indian Atlas (1881).jpg",
+  "table": "data/atlas001-ne-1871-projection.json",
+  "condition_note": "Intact SW quarter with hill shading and survey lines. Native margin confirms June 1881 and printed longitude corrections totaling -219 arcseconds; retain working -216.18.",
+  "crossing_preview_seeds": [
+    [
+      73.5,
+      27,
+      398,
+      483
+    ],
+    [
+      74,
+      27,
+      1168,
+      493
+    ],
+    [
+      74.5,
+      27,
+      1935,
+      502
+    ],
+    [
+      73.5,
+      26.5,
+      378,
+      1351
+    ],
+    [
+      74,
+      26.5,
+      1152,
+      1362
+    ],
+    [
+      74.5,
+      26.5,
+      1927,
+      1370
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 27.12,
+  "tick_windows": {
+    "west": [
+      290,
+      380
+    ],
+    "east": [
+      6135,
+      6200
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 27.166666666666668,
+      "ys": [
+        191,
+        335,
+        478,
+        624,
+        768,
+        912,
+        1057,
+        1201,
+        1346
+      ]
+    },
+    "east": {
+      "first_latitude": 27.166666666666668,
+      "ys": [
+        218,
+        361,
+        505,
+        650,
+        794,
+        939,
+        1083,
+        1228,
+        1373
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      412,
+      499
+    ],
+    [
+      6114,
+      481
+    ],
+    [
+      6114,
+      4147
+    ],
+    [
+      405,
+      4176
+    ]
+  ],
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native crossing crops show near-vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_convention_status": "The sheet explicitly prints two corrections: -69\u2033 and -150\u2033 (total -219\u2033). The user-selected working adjustment remains -216.18\u2033, 2.82\u2033 east of that printed total; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "Printed margin confirms -69 arcseconds Atlas to old GTS and states a further -150 arcseconds to Madras 80d14m51s. Retain user-selected working second correction -147.18 arcseconds, total -216.18; this differs from printed total -219 by +2.82 arcseconds. Modern datum alignment remains provisional.",
+  "printed_longitude_note": {
+    "location": "Lower right margin, Note paragraph",
+    "source_crop": "work/atlas033-sw-1881/printed-longitude-note.jpg",
+    "transcription": "All Longitudes require a correction of -1\u20329\u2033, to reduce them to the origin of the Great Trigonometrical Survey; viz: the Madras Observatory taken as 80\u00b017\u203221\u2033, and a further correction of -2\u203230\u2033 to reduce them to the latest value 80\u00b014\u203251\u2033, of that Observatory.",
+    "atlas_to_old_gts_arcseconds": -69,
+    "old_gts_to_stated_madras_arcseconds": -150,
+    "printed_total_arcseconds": -219,
+    "applied_working_total_arcseconds": -216.18,
+    "working_minus_printed_arcseconds": 2.82
+  },
+  "crossing_local_seeds": [
+    [
+      201,
+      207
+    ],
+    [
+      198,
+      202
+    ],
+    [
+      202,
+      207
+    ],
+    [
+      197,
+      199
+    ],
+    [
+      198,
+      196
+    ],
+    [
+      189,
+      199
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        412,
+        499
+      ],
+      [
+        525,
+        498
+      ],
+      [
+        1836,
+        490
+      ],
+      [
+        3261,
+        486
+      ],
+      [
+        4686,
+        484
+      ],
+      [
+        5997,
+        481
+      ],
+      [
+        6114,
+        481
+      ]
+    ],
+    "east": [
+      [
+        481,
+        6114
+      ],
+      [
+        556,
+        6113
+      ],
+      [
+        1400,
+        6109
+      ],
+      [
+        2316,
+        6109
+      ],
+      [
+        3232,
+        6111
+      ],
+      [
+        4076,
+        6114
+      ],
+      [
+        4147,
+        6114
+      ]
+    ],
+    "south": [
+      [
+        405,
+        4176
+      ],
+      [
+        522,
+        4174
+      ],
+      [
+        1834,
+        4163
+      ],
+      [
+        3260,
+        4154
+      ],
+      [
+        4685,
+        4150
+      ],
+      [
+        5997,
+        4146
+      ],
+      [
+        6114,
+        4147
+      ]
+    ],
+    "west": [
+      [
+        499,
+        412
+      ],
+      [
+        572,
+        412
+      ],
+      [
+        1417,
+        408
+      ],
+      [
+        2336,
+        406
+      ],
+      [
+        3254,
+        405
+      ],
+      [
+        4100,
+        404
+      ],
+      [
+        4176,
+        405
+      ]
+    ]
+  },
+  "meridian_samples": [
+    {
+      "longitude": 73.5,
+      "pixel": 1197.9193485847227,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 73.5,
+      "pixel": 1131.9635517642498,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 73.5,
+      "pixel": 1183.2625048468399,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 73.5,
+      "pixel": 1144.1775882124855,
+      "line": 3200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74,
+      "pixel": 3488.7678018575853,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 74,
+      "pixel": 3438.6130030959753,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 74,
+      "pixel": 3477.622291021672,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74,
+      "pixel": 3447.9009287925696,
+      "line": 3200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5777.213565891473,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5738.492635658915,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5768.608914728682,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5745.663178294573,
+      "line": 3200,
+      "role": "withheld"
+    }
+  ],
+  "frame_stroke_maximum_half_width_pixels_by_edge": {
+    "south": 2
+  },
+  "frame_stroke_width_reason": "Native southeast corner shows terrain hachures touching the southern inner frame. Cap only the southward-frame inward stroke extension at two pixels before the four-pixel inset so contiguous map shading is not treated as extra frame thickness."
+}

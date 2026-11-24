@@ -1,0 +1,198 @@
+{
+  "id": "atlas001-se-1879",
+  "title": "Indian Atlas 001 SE \u00b7 1879",
+  "sheet": "001",
+  "quarter": "SE",
+  "year": 1879,
+  "source": "sources/zenodo-19431985/sheets/001 SE Quarter Sheet Indian Atlas (1879).jpg",
+  "table": "data/atlas001-ne-1871-projection.json",
+  "crossing_local_seeds": [
+    [
+      200,
+      200
+    ],
+    [
+      200,
+      200
+    ]
+  ],
+  "tick_windows": {
+    "west": [
+      255,
+      332
+    ],
+    "east": [
+      6105,
+      6170
+    ]
+  },
+  "frame_corners": [
+    [
+      392,
+      519
+    ],
+    [
+      6074,
+      511
+    ],
+    [
+      6059,
+      4184
+    ],
+    [
+      358,
+      4192
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        392,
+        519
+      ],
+      [
+        2000,
+        517
+      ],
+      [
+        4000,
+        515
+      ],
+      [
+        6074,
+        511
+      ]
+    ],
+    "east": [
+      [
+        511,
+        6074
+      ],
+      [
+        600,
+        6072
+      ],
+      [
+        1000,
+        6066
+      ],
+      [
+        2000,
+        6061
+      ],
+      [
+        3000,
+        6059
+      ],
+      [
+        4100,
+        6059
+      ],
+      [
+        4184,
+        6059
+      ]
+    ],
+    "south": [
+      [
+        358,
+        4192
+      ],
+      [
+        2000,
+        4191
+      ],
+      [
+        4000,
+        4189
+      ],
+      [
+        6059,
+        4184
+      ]
+    ],
+    "west": [
+      [
+        519,
+        392
+      ],
+      [
+        600,
+        390
+      ],
+      [
+        1000,
+        380
+      ],
+      [
+        2000,
+        369
+      ],
+      [
+        3000,
+        362
+      ],
+      [
+        4100,
+        358
+      ],
+      [
+        4192,
+        358
+      ]
+    ]
+  },
+  "crossing_search_window": 6,
+  "meridian_samples": [
+    {
+      "longitude": 67.5,
+      "pixel": 2095.660268784401,
+      "line": 924,
+      "role": "fit"
+    },
+    {
+      "longitude": 67.5,
+      "pixel": 1877.424305011374,
+      "line": 3673,
+      "role": "fit"
+    },
+    {
+      "longitude": 68,
+      "pixel": 4387.73501174662,
+      "line": 924,
+      "role": "fit"
+    },
+    {
+      "longitude": 68,
+      "pixel": 4183.214977147274,
+      "line": 3667,
+      "role": "fit"
+    },
+    {
+      "longitude": 67.5,
+      "pixel": 2038.4083561205703,
+      "line": 1535,
+      "role": "withheld"
+    },
+    {
+      "longitude": 67.5,
+      "pixel": 1907.0965234953228,
+      "line": 3163,
+      "role": "withheld"
+    },
+    {
+      "longitude": 68,
+      "pixel": 4335.682904514601,
+      "line": 1533,
+      "role": "withheld"
+    },
+    {
+      "longitude": 68,
+      "pixel": 4213.570950306488,
+      "line": 3159,
+      "role": "withheld"
+    }
+  ],
+  "meridian_search_window": 6,
+  "seed_provenance": "Local affine image correspondences from 1873 edition initialize narrow search windows only; all geographic constraints are remeasured from 1879 printed graticule."
+}

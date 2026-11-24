@@ -1,0 +1,519 @@
+{
+  "id": "atlas031-1865",
+  "title": "Indian Atlas 031 \u00b7 1865",
+  "sheet": "031",
+  "quarter": null,
+  "year": 1865,
+  "source": "sources/zenodo-19431985/sheets/031 Sheet Indian Atlas (1865).jpg",
+  "table": "data/atlas031-1865-projection.json",
+  "condition_note": "Intact full sheet. Native publication line confirms 2 February 1865. Diagonal printed lines are map content; no panel separation identified.",
+  "crossing_preview_seeds": [
+    [
+      73.5,
+      30.5,
+      281,
+      306
+    ],
+    [
+      74,
+      30.5,
+      690,
+      312
+    ],
+    [
+      74.5,
+      30.5,
+      1095,
+      318
+    ],
+    [
+      75,
+      30.5,
+      1506,
+      322
+    ],
+    [
+      75.5,
+      30.5,
+      1913,
+      326
+    ],
+    [
+      73.5,
+      30,
+      268,
+      782
+    ],
+    [
+      74,
+      30,
+      680,
+      787
+    ],
+    [
+      74.5,
+      30,
+      1089,
+      793
+    ],
+    [
+      75,
+      30,
+      1499,
+      800
+    ],
+    [
+      75.5,
+      30,
+      1909,
+      804
+    ],
+    [
+      73.5,
+      29.5,
+      255,
+      1255
+    ],
+    [
+      74,
+      29.5,
+      669,
+      1260
+    ],
+    [
+      74.5,
+      29.5,
+      1082,
+      1266
+    ],
+    [
+      75,
+      29.5,
+      1493,
+      1271
+    ],
+    [
+      75.5,
+      29.5,
+      1905,
+      1277
+    ]
+  ],
+  "crossing_search_window": 12,
+  "seed_north_latitude": 30.6,
+  "tick_windows": {
+    "west": [
+      218,
+      265
+    ],
+    "east": [
+      11493,
+      11530
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 30.75,
+      "ys": [
+        61,
+        139,
+        218,
+        298,
+        377,
+        456,
+        535,
+        614,
+        693,
+        772,
+        851,
+        930,
+        1009,
+        1088,
+        1167,
+        1246,
+        1325,
+        1404
+      ]
+    },
+    "east": {
+      "first_latitude": 30.666666666666668,
+      "ys": [
+        170,
+        250,
+        330,
+        410,
+        490,
+        570,
+        650,
+        730,
+        810,
+        890,
+        970,
+        1050,
+        1130,
+        1210,
+        1290,
+        1370
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      314,
+      251
+    ],
+    [
+      11455,
+      262
+    ],
+    [
+      11418,
+      7526
+    ],
+    [
+      290,
+      7512
+    ]
+  ],
+  "meridian_search_window": 15,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Overview shows near-vertical meridians and gently tilted parallels; native crossing windows will verify the line measurements.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified in this edition.",
+  "meridian_samples": [
+    {
+      "longitude": 73.5,
+      "pixel": 1532,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 73.5,
+      "pixel": 1337,
+      "line": 7300,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 73.5,
+      "pixel": 1470,
+      "line": 3000,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 73.5,
+      "pixel": 1384,
+      "line": 5800,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 74,
+      "pixel": 3700,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 74,
+      "pixel": 3530,
+      "line": 7300,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 74,
+      "pixel": 3646,
+      "line": 3000,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 74,
+      "pixel": 3570,
+      "line": 5800,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5866,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5718,
+      "line": 7300,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5819,
+      "line": 3000,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5753,
+      "line": 5800,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 75,
+      "pixel": 8026,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 75,
+      "pixel": 7905,
+      "line": 7300,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 75,
+      "pixel": 7987,
+      "line": 3000,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 75,
+      "pixel": 7934,
+      "line": 5800,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 10187,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 10096,
+      "line": 7300,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 10158,
+      "line": 3000,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 10117,
+      "line": 5800,
+      "role": "withheld",
+      "search_window": 15
+    }
+  ],
+  "crossing_local_seeds": [
+    [
+      218,
+      194
+    ],
+    [
+      212,
+      193
+    ],
+    [
+      225,
+      196
+    ],
+    [
+      201,
+      204
+    ],
+    [
+      200,
+      220
+    ],
+    [
+      208,
+      179
+    ],
+    [
+      197,
+      188
+    ],
+    [
+      196,
+      194
+    ],
+    [
+      185,
+      188
+    ],
+    [
+      180,
+      200
+    ],
+    [
+      201,
+      187
+    ],
+    [
+      187,
+      192
+    ],
+    [
+      175,
+      200
+    ],
+    [
+      173,
+      204
+    ],
+    [
+      169,
+      202
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        314,
+        251
+      ],
+      [
+        523,
+        251
+      ],
+      [
+        3092,
+        242
+      ],
+      [
+        5885,
+        241
+      ],
+      [
+        8678,
+        248
+      ],
+      [
+        11247,
+        262
+      ],
+      [
+        11455,
+        262
+      ]
+    ],
+    "east": [
+      [
+        262,
+        11455
+      ],
+      [
+        395,
+        11454
+      ],
+      [
+        2068,
+        11442
+      ],
+      [
+        3885,
+        11429
+      ],
+      [
+        5702,
+        11424
+      ],
+      [
+        7375,
+        11418
+      ],
+      [
+        7526,
+        11418
+      ]
+    ],
+    "south": [
+      [
+        290,
+        7512
+      ],
+      [
+        498,
+        7512
+      ],
+      [
+        3068,
+        7506
+      ],
+      [
+        5860,
+        7508
+      ],
+      [
+        8652,
+        7515
+      ],
+      [
+        11222,
+        7526
+      ],
+      [
+        11418,
+        7526
+      ]
+    ],
+    "west": [
+      [
+        251,
+        314
+      ],
+      [
+        395,
+        314
+      ],
+      [
+        2068,
+        313
+      ],
+      [
+        3885,
+        304
+      ],
+      [
+        5702,
+        298
+      ],
+      [
+        7375,
+        290
+      ],
+      [
+        7512,
+        290
+      ]
+    ]
+  },
+  "quality_note": "Native review confirms the measured crossings and margin ticks. The historical projection plus affine fit leaves a systematic difference between interior parallel crossings and the margins: crossing residuals reach 16.13 source pixels, leave-one-observation-out RMS is 8.17 pixels, and independent graticule RMS is 4.24 arcseconds (maximum 6.53). Retain this provisional affine result and flag the internal graticule mismatch for further review; modern ground checks are not required. Across the measured 73.5\u201375.5 degree interval, printed crossings depart from straight parallel chords by at most 4.78 pixels, while the fitted table parallels bow by about 15.7\u201315.9 pixels. The historical cause is unconfirmed."
+}

@@ -1,0 +1,189 @@
+[
+  {
+    "side": "west",
+    "known_axis": "latitude",
+    "known_value": 26.916666666666668,
+    "initial_pixel": 549,
+    "initial_line": 631,
+    "crop_origin": [
+      419,
+      581
+    ]
+  },
+  {
+    "side": "west",
+    "known_axis": "latitude",
+    "known_value": 26.833333333333332,
+    "initial_pixel": 549,
+    "initial_line": 1057,
+    "crop_origin": [
+      419,
+      1007
+    ]
+  },
+  {
+    "side": "west",
+    "known_axis": "latitude",
+    "known_value": 26.75,
+    "initial_pixel": 549,
+    "initial_line": 1487,
+    "crop_origin": [
+      419,
+      1437
+    ]
+  },
+  {
+    "side": "west",
+    "known_axis": "latitude",
+    "known_value": 26.666666666666668,
+    "initial_pixel": 549,
+    "initial_line": 1909,
+    "crop_origin": [
+      419,
+      1859
+    ]
+  },
+  {
+    "side": "west",
+    "known_axis": "latitude",
+    "known_value": 26.583333333333332,
+    "initial_pixel": 549,
+    "initial_line": 2339,
+    "crop_origin": [
+      419,
+      2289
+    ]
+  },
+  {
+    "side": "west",
+    "known_axis": "latitude",
+    "known_value": 26.5,
+    "initial_pixel": 549,
+    "initial_line": 2752,
+    "crop_origin": [
+      419,
+      2702
+    ]
+  },
+  {
+    "side": "west",
+    "known_axis": "latitude",
+    "known_value": 26.416666666666668,
+    "initial_pixel": 549,
+    "initial_line": 3178,
+    "crop_origin": [
+      419,
+      3128
+    ]
+  },
+  {
+    "side": "west",
+    "known_axis": "latitude",
+    "known_value": 26.333333333333332,
+    "initial_pixel": 549,
+    "initial_line": 3608,
+    "crop_origin": [
+      419,
+      3558
+    ]
+  },
+  {
+    "side": "west",
+    "known_axis": "latitude",
+    "known_value": 26.25,
+    "initial_pixel": 549,
+    "initial_line": 4037,
+    "crop_origin": [
+      419,
+      3987
+    ]
+  },
+  {
+    "side": "east",
+    "known_axis": "latitude",
+    "known_value": 26.916666666666668,
+    "initial_pixel": 6161,
+    "initial_line": 1008,
+    "crop_origin": [
+      6031,
+      958
+    ]
+  },
+  {
+    "side": "east",
+    "known_axis": "latitude",
+    "known_value": 26.833333333333332,
+    "initial_pixel": 6161,
+    "initial_line": 1428,
+    "crop_origin": [
+      6031,
+      1378
+    ]
+  },
+  {
+    "side": "east",
+    "known_axis": "latitude",
+    "known_value": 26.75,
+    "initial_pixel": 6161,
+    "initial_line": 1851,
+    "crop_origin": [
+      6031,
+      1801
+    ]
+  },
+  {
+    "side": "east",
+    "known_axis": "latitude",
+    "known_value": 26.666666666666668,
+    "initial_pixel": 6161,
+    "initial_line": 2274,
+    "crop_origin": [
+      6031,
+      2224
+    ]
+  },
+  {
+    "side": "east",
+    "known_axis": "latitude",
+    "known_value": 26.583333333333332,
+    "initial_pixel": 6161,
+    "initial_line": 2709,
+    "crop_origin": [
+      6031,
+      2659
+    ]
+  },
+  {
+    "side": "east",
+    "known_axis": "latitude",
+    "known_value": 26.5,
+    "initial_pixel": 6161,
+    "initial_line": 3129,
+    "crop_origin": [
+      6031,
+      3079
+    ]
+  },
+  {
+    "side": "east",
+    "known_axis": "latitude",
+    "known_value": 26.416666666666668,
+    "initial_pixel": 6161,
+    "initial_line": 3562,
+    "crop_origin": [
+      6031,
+      3512
+    ]
+  },
+  {
+    "side": "east",
+    "known_axis": "latitude",
+    "known_value": 26.333333333333332,
+    "initial_pixel": 6161,
+    "initial_line": 3994,
+    "crop_origin": [
+      6031,
+      3944
+    ]
+  }
+]

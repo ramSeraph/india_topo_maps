@@ -1,0 +1,468 @@
+{
+  "crossing_search_window": 10,
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native graticule crops show nearly vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified in this edition.",
+  "id": "atlas043-1827",
+  "title": "Indian Atlas 043 \u00b7 1827",
+  "sheet": "043",
+  "quarter": null,
+  "year": 1827,
+  "source": "sources/zenodo-19431985/sheets/043 Sheet Indian Atlas (1827).jpg",
+  "table": "data/atlas043-1827-projection.json",
+  "condition_note": "Intact full sheet with central fold and broad printed sea area. Native publication confirms 1 August 1827. Own printed graticule and frame measured.",
+  "seed_north_latitude": 13.44,
+  "tick_windows": {
+    "west": [
+      220,
+      280
+    ],
+    "east": [
+      11520,
+      11580
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 13.5,
+      "ys": [
+        131.0,
+        209.2,
+        287.4,
+        365.6,
+        443.8,
+        522.0,
+        600.2,
+        678.4,
+        756.6,
+        834.8000000000001,
+        913.0,
+        991.2,
+        1069.4,
+        1147.6,
+        1225.8,
+        1304.0,
+        1382.2
+      ]
+    },
+    "east": {
+      "first_latitude": 13.5,
+      "ys": [
+        150.0,
+        228.2,
+        306.4,
+        384.6,
+        462.8,
+        541.0,
+        619.2,
+        697.4,
+        775.6,
+        853.8000000000001,
+        932.0,
+        1010.2,
+        1088.4,
+        1166.6,
+        1244.8,
+        1323.0,
+        1401.2
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      338,
+      340
+    ],
+    [
+      11473,
+      308
+    ],
+    [
+      11483,
+      7560
+    ],
+    [
+      364,
+      7575
+    ]
+  ],
+  "crossing_preview_seeds": [
+    [
+      74,
+      13.5,
+      431,
+      134
+    ],
+    [
+      74.5,
+      13.5,
+      886,
+      141
+    ],
+    [
+      75,
+      13.5,
+      1342,
+      146
+    ],
+    [
+      75.5,
+      13.5,
+      1797,
+      149
+    ],
+    [
+      74,
+      13,
+      427,
+      605
+    ],
+    [
+      74.5,
+      13,
+      883,
+      613
+    ],
+    [
+      75,
+      13,
+      1340,
+      618
+    ],
+    [
+      75.5,
+      13,
+      1793,
+      620
+    ],
+    [
+      74,
+      12.5,
+      424,
+      1075
+    ],
+    [
+      74.5,
+      12.5,
+      881,
+      1082
+    ],
+    [
+      75,
+      12.5,
+      1337,
+      1087
+    ],
+    [
+      75.5,
+      12.5,
+      1789,
+      1088
+    ]
+  ],
+  "publication_note": {
+    "publication_date": "1827-08-01",
+    "source_crop": "work/atlas043-1827/publication-note.jpg"
+  },
+  "crossing_local_seeds": [
+    [
+      203,
+      205
+    ],
+    [
+      202,
+      205
+    ],
+    [
+      187,
+      203
+    ],
+    [
+      183,
+      205
+    ],
+    [
+      201,
+      201
+    ],
+    [
+      198,
+      194
+    ],
+    [
+      188,
+      191
+    ],
+    [
+      200,
+      201
+    ],
+    [
+      202,
+      198
+    ],
+    [
+      196,
+      196
+    ],
+    [
+      189,
+      197
+    ],
+    [
+      211,
+      213
+    ]
+  ],
+  "meridian_samples": [
+    {
+      "longitude": 74,
+      "pixel": 2318.9402571711175,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 74,
+      "pixel": 2271.581206726014,
+      "line": 7300,
+      "role": "fit"
+    },
+    {
+      "longitude": 74,
+      "pixel": 2309.9194856577647,
+      "line": 2200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74,
+      "pixel": 2291.8779426310584,
+      "line": 4600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 4766.452206609934,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 4725.3083316841485,
+      "line": 7300,
+      "role": "fit"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 4758.615278052642,
+      "line": 2200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 4742.941420938057,
+      "line": 4600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7205.580779118054,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7176,
+      "line": 7300,
+      "role": "fit",
+      "search_window": 4,
+      "measurement_note": "Native southern-meridian-detail shows the printed meridian at7176, about28pixels west of prior fitted point on blank sea texture."
+    },
+    {
+      "longitude": 75,
+      "pixel": 7203.2078307296815,
+      "line": 2200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7198.461933952936,
+      "line": 4600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9648.424787507412,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9629.745206562562,
+      "line": 7300,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9644.866772089346,
+      "line": 2200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9637.750741253212,
+      "line": 4600,
+      "role": "withheld"
+    }
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        338,
+        340
+      ],
+      [
+        560,
+        339
+      ],
+      [
+        3120,
+        332
+      ],
+      [
+        5904,
+        327
+      ],
+      [
+        8687,
+        320
+      ],
+      [
+        11247,
+        308
+      ],
+      [
+        11473,
+        308
+      ]
+    ],
+    "east": [
+      [
+        308,
+        11473
+      ],
+      [
+        461,
+        11473
+      ],
+      [
+        2128,
+        11476
+      ],
+      [
+        3940,
+        11483
+      ],
+      [
+        5753,
+        11486
+      ],
+      [
+        7420,
+        11483
+      ],
+      [
+        7560,
+        11483
+      ]
+    ],
+    "south": [
+      [
+        364,
+        7575
+      ],
+      [
+        569,
+        7575
+      ],
+      [
+        3128,
+        7574
+      ],
+      [
+        5908,
+        7567
+      ],
+      [
+        8689,
+        7565
+      ],
+      [
+        11248,
+        7560
+      ],
+      [
+        11483,
+        7560
+      ]
+    ],
+    "west": [
+      [
+        340,
+        338
+      ],
+      [
+        485,
+        335
+      ],
+      [
+        2147,
+        337
+      ],
+      [
+        3954,
+        340
+      ],
+      [
+        5761,
+        344
+      ],
+      [
+        7423,
+        359
+      ],
+      [
+        7575,
+        364
+      ]
+    ]
+  },
+  "tick_search_overrides": {
+    "0": {
+      "initial_line": 696,
+      "half_window": 4,
+      "reason": "Native west13deg30min contact shows marker on the base of13 numeral about10pixels above the horizontal rule; restrict to observed rule, retaining fit role."
+    },
+    "17": {
+      "initial_line": 805,
+      "half_window": 5,
+      "reason": "Native east13deg30min contact shows marker on13 numeral about45pixels above horizontal rule; restrict to observed rule, retaining withheld role."
+    }
+  },
+  "crossing_search_overrides": {
+    "10": {
+      "half_window": 3,
+      "reason": "Native sea-crossing-detail confirms the faint meridian near7181 and parallel near5844; previous search followed sea hatching and a neighboring vertical mark. Restrict both searches around the observed crossing."
+    }
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "id": "atlas008-se-1874",
+  "title": "Indian Atlas 008 SE \u00b7 1874",
+  "sheet": "008",
+  "quarter": "SE",
+  "year": 1874,
+  "source": "sources/zenodo-19431985/sheets/008 SE Quarter Sheet Indian Atlas (1874).jpg",
+  "table": "data/atlas001a-se-1871-projection.json",
+  "crossing_preview_seeds": [
+    [
+      70,
+      28,
+      859,
+      1009
+    ],
+    [
+      70.5,
+      28,
+      1601,
+      1040
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      176,
+      192
+    ],
+    [
+      189,
+      196
+    ]
+  ],
+  "tick_windows": {
+    "west": [
+      798,
+      924
+    ],
+    "east": [
+      12261,
+      12393
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 28.416666666666668,
+      "ys": [
+        282,
+        421,
+        561,
+        700,
+        840,
+        979,
+        1119,
+        1258
+      ]
+    },
+    "east": {
+      "first_latitude": 28.5,
+      "ys": [
+        223,
+        363,
+        502,
+        641,
+        779,
+        919,
+        1059,
+        1198,
+        1337
+      ]
+    }
+  },
+  "seed_north_latitude": 28.405,
+  "frame_corners": [
+    [
+      984,
+      994
+    ],
+    [
+      12200,
+      984
+    ],
+    [
+      12213,
+      8165
+    ],
+    [
+      1005,
+      8184
+    ]
+  ],
+  "output_resolution_metres": 12.5,
+  "meridian_samples": [
+    {
+      "longitude": 70,
+      "pixel": 5333.35,
+      "line": 2000,
+      "role": "fit",
+      "search_window": 35
+    },
+    {
+      "longitude": 70,
+      "pixel": 5063.35,
+      "line": 7400,
+      "role": "fit",
+      "search_window": 35
+    },
+    {
+      "longitude": 70,
+      "pixel": 5273.35,
+      "line": 3200,
+      "role": "withheld",
+      "search_window": 35
+    },
+    {
+      "longitude": 70,
+      "pixel": 5113.35,
+      "line": 6400,
+      "role": "withheld",
+      "search_window": 35
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 9766.48,
+      "line": 2000,
+      "role": "fit",
+      "search_window": 35
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 9550.48,
+      "line": 7400,
+      "role": "fit",
+      "search_window": 35
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 9718.48,
+      "line": 3200,
+      "role": "withheld",
+      "search_window": 35
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 9590.48,
+      "line": 6400,
+      "role": "withheld",
+      "search_window": 35
+    }
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        984,
+        994
+      ],
+      [
+        1220,
+        994
+      ],
+      [
+        3796,
+        988
+      ],
+      [
+        6596,
+        990
+      ],
+      [
+        9395,
+        988
+      ],
+      [
+        11971,
+        984
+      ],
+      [
+        12200,
+        984
+      ]
+    ],
+    "east": [
+      [
+        984,
+        12200
+      ],
+      [
+        1128,
+        12200
+      ],
+      [
+        2778,
+        12200
+      ],
+      [
+        4573,
+        12207
+      ],
+      [
+        6368,
+        12210
+      ],
+      [
+        8018,
+        12213
+      ],
+      [
+        8165,
+        12213
+      ]
+    ],
+    "south": [
+      [
+        1005,
+        8184
+      ],
+      [
+        1232,
+        8184
+      ],
+      [
+        3808,
+        8176
+      ],
+      [
+        5604,
+        8155
+      ],
+      [
+        6608,
+        8160
+      ],
+      [
+        9407,
+        8160
+      ],
+      [
+        11983,
+        8165
+      ],
+      [
+        12213,
+        8165
+      ]
+    ],
+    "west": [
+      [
+        994,
+        984
+      ],
+      [
+        1140,
+        984
+      ],
+      [
+        2795,
+        989
+      ],
+      [
+        4594,
+        997
+      ],
+      [
+        6393,
+        999
+      ],
+      [
+        8048,
+        1005
+      ],
+      [
+        8184,
+        1005
+      ]
+    ]
+  },
+  "crossing_search_window": 12,
+  "crop_measurement_note": "Added native-resolution south-frame sample at (5604,8155): initial coarse guide missed the inner stroke by 11 pixels; the outer stroke is at 8190."
+}

@@ -1,0 +1,46 @@
+{
+  "source": "1902 Tables for Computing and Projecting Graticules of Sheets of Indian Atlas.pdf",
+  "central_meridian_printed_degrees": 76.5,
+  "reference_radius_fathoms": 7331657.0,
+  "summary_table_pdf_page": 9,
+  "detailed_table_pdf_pages": [
+    30,
+    31,
+    32
+  ],
+  "latitudes": [
+    21,
+    22,
+    23
+  ],
+  "radius_fathoms": [
+    7876747.4,
+    7816212.4,
+    7755670.4
+  ],
+  "angle_arcseconds_per_longitude_degree": [
+    1488.42,
+    1489.72,
+    1490.6
+  ],
+  "sine_check_longitude_offsets": [
+    8,
+    9
+  ],
+  "sine_check_fathoms": [
+    [
+      454460.3,
+      511192.6
+    ],
+    [
+      451361.3,
+      507706.4
+    ],
+    [
+      448129.3,
+      504070.8
+    ]
+  ],
+  "scope": "Latitude 21\u201323 only; no extrapolation. Historical table coordinates are not a modern datum transformation.",
+  "transcription": "Latitude 21 radius checked on original PDF page 9 summary; detailed angle 24 minutes 48.42 seconds and sine values checked on page 30. Latitude 22\u201323 retained from previously checked transcriptions. Use original detailed tables to reproduce the engraved graticule."
+}

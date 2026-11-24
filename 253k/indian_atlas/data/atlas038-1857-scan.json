@@ -1,0 +1,446 @@
+{
+  "crossing_search_window": 10,
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native graticule crops show nearly vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified in this edition.",
+  "id": "atlas038-1857",
+  "title": "Indian Atlas 038 \u00b7 1857",
+  "sheet": "038",
+  "quarter": null,
+  "year": 1857,
+  "source": "sources/zenodo-19431985/sheets/038 Sheet Indian Atlas (1857).jpg",
+  "table": "data/atlas024-1857-projection.json",
+  "condition_note": "Intact full sheet with central fold and printed unsurveyed northwest area, which is retained. Native publication confirms 15 August 1857.",
+  "seed_north_latitude": 20.62,
+  "tick_windows": {
+    "west": [
+      265,
+      315
+    ],
+    "east": [
+      11616,
+      11658
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 20.666666666666668,
+      "ys": [
+        117,
+        195,
+        274,
+        352,
+        430,
+        508,
+        586,
+        664,
+        742,
+        820,
+        898,
+        976,
+        1054,
+        1132,
+        1210,
+        1288,
+        1366
+      ]
+    },
+    "east": {
+      "first_latitude": 20.75,
+      "ys": [
+        76,
+        154,
+        232,
+        310,
+        388,
+        466,
+        544,
+        622,
+        700,
+        778,
+        856,
+        934,
+        1012,
+        1090,
+        1168,
+        1246,
+        1324,
+        1402
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      373,
+      292
+    ],
+    [
+      11560,
+      323
+    ],
+    [
+      11535,
+      7571
+    ],
+    [
+      335,
+      7537
+    ]
+  ],
+  "crossing_preview_seeds": [
+    [
+      74,
+      20.5,
+      526,
+      286
+    ],
+    [
+      74.5,
+      20.5,
+      958,
+      294
+    ],
+    [
+      75,
+      20.5,
+      1396,
+      299
+    ],
+    [
+      75.5,
+      20.5,
+      1834,
+      306
+    ],
+    [
+      74,
+      20,
+      513,
+      748
+    ],
+    [
+      74.5,
+      20,
+      951,
+      759
+    ],
+    [
+      75,
+      20,
+      1394,
+      766
+    ],
+    [
+      75.5,
+      20,
+      1831,
+      776
+    ],
+    [
+      74,
+      19.5,
+      502,
+      1220
+    ],
+    [
+      74.5,
+      19.5,
+      940,
+      1225
+    ],
+    [
+      75,
+      19.5,
+      1385,
+      1234
+    ],
+    [
+      75.5,
+      19.5,
+      1824,
+      1242
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      170,
+      179
+    ],
+    [
+      208,
+      180
+    ],
+    [
+      208,
+      191
+    ],
+    [
+      210,
+      197
+    ],
+    [
+      200,
+      220
+    ],
+    [
+      213,
+      206
+    ],
+    [
+      194,
+      207
+    ],
+    [
+      211,
+      189
+    ],
+    [
+      204,
+      207
+    ],
+    [
+      228,
+      226
+    ],
+    [
+      210,
+      214
+    ],
+    [
+      229,
+      208
+    ]
+  ],
+  "meridian_samples": [
+    {
+      "longitude": 74,
+      "pixel": 2816.6544843935203,
+      "line": 900,
+      "role": "fit"
+    },
+    {
+      "longitude": 74,
+      "pixel": 2700.2973133148953,
+      "line": 7100,
+      "role": "fit"
+    },
+    {
+      "longitude": 74,
+      "pixel": 2777.2431845120504,
+      "line": 3000,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74,
+      "pixel": 2726.571513235875,
+      "line": 5700,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5182.1115718799365,
+      "line": 900,
+      "role": "fit"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5087.83827014218,
+      "line": 7100,
+      "role": "fit"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5150.180292259084,
+      "line": 3000,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5109.1257898894155,
+      "line": 5700,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7540.914477582461,
+      "line": 900,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7471.113964052933,
+      "line": 7100,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7517.27236816117,
+      "line": 3000,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7486.875370333794,
+      "line": 5700,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9901.163140201701,
+      "line": 900,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9858.252323511964,
+      "line": 7100,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9886.628831322918,
+      "line": 3000,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9867.941862764485,
+      "line": 5700,
+      "role": "withheld"
+    }
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        373,
+        292
+      ],
+      [
+        587,
+        291
+      ],
+      [
+        3167,
+        288
+      ],
+      [
+        5970,
+        290
+      ],
+      [
+        8774,
+        308
+      ],
+      [
+        11354,
+        323
+      ],
+      [
+        11560,
+        323
+      ]
+    ],
+    "east": [
+      [
+        323,
+        11560
+      ],
+      [
+        464,
+        11560
+      ],
+      [
+        2131,
+        11559
+      ],
+      [
+        3942,
+        11558
+      ],
+      [
+        5754,
+        11547
+      ],
+      [
+        7421,
+        11536
+      ],
+      [
+        7571,
+        11535
+      ]
+    ],
+    "south": [
+      [
+        335,
+        7537
+      ],
+      [
+        545,
+        7537
+      ],
+      [
+        3126,
+        7538
+      ],
+      [
+        5930,
+        7548
+      ],
+      [
+        8734,
+        7558
+      ],
+      [
+        11315,
+        7570
+      ],
+      [
+        11535,
+        7571
+      ]
+    ],
+    "west": [
+      [
+        292,
+        373
+      ],
+      [
+        437,
+        372
+      ],
+      [
+        2106,
+        353
+      ],
+      [
+        3920,
+        346
+      ],
+      [
+        5733,
+        337
+      ],
+      [
+        7402,
+        334
+      ],
+      [
+        7537,
+        335
+      ]
+    ]
+  },
+  "quality_note": "Native inspection confirms all measured crossings, margin ticks, and meridian checks. The historical projection plus affine model retains crossing residuals up to 14.60 source pixels, leave-one-observation-out RMS of 7.44 pixels, and independent graticule RMS of 3.34 arcseconds (maximum 7.35). Retain this provisional affine result and flag the internal graticule mismatch for further review; its cause is not established. Modern ground checks are not required."
+}

@@ -1,0 +1,526 @@
+{
+  "id": "atlas030-1863",
+  "title": "Indian Atlas 030 \u00b7 1863",
+  "sheet": "030",
+  "quarter": null,
+  "year": 1863,
+  "source": "sources/zenodo-19431985/sheets/030 Sheet Indian Atlas (1863).jpg",
+  "table": "data/atlas016-1866-projection.json",
+  "condition_note": "Intact full sheet covering the Punjab plains. Long diagonal lines are printed map content; no separated panels identified in overview. Publication line confirms 21 October 1863.",
+  "crossing_preview_seeds": [
+    [
+      73.5,
+      32,
+      327,
+      262
+    ],
+    [
+      74,
+      32,
+      721,
+      267
+    ],
+    [
+      74.5,
+      32,
+      1111,
+      272
+    ],
+    [
+      75,
+      32,
+      1504,
+      277
+    ],
+    [
+      75.5,
+      32,
+      1893,
+      280
+    ],
+    [
+      73.5,
+      31.5,
+      320,
+      723
+    ],
+    [
+      74,
+      31.5,
+      711,
+      730
+    ],
+    [
+      74.5,
+      31.5,
+      1103,
+      737
+    ],
+    [
+      75,
+      31.5,
+      1499,
+      742
+    ],
+    [
+      75.5,
+      31.5,
+      1893,
+      744
+    ],
+    [
+      73.5,
+      31,
+      311,
+      1186
+    ],
+    [
+      74,
+      31,
+      701,
+      1192
+    ],
+    [
+      74.5,
+      31,
+      1096,
+      1199
+    ],
+    [
+      75,
+      31,
+      1494,
+      1204
+    ],
+    [
+      75.5,
+      31,
+      1891,
+      1206
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 32.08,
+  "tick_windows": {
+    "west": [
+      280,
+      335
+    ],
+    "east": [
+      11668,
+      11717
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 32.166666666666664,
+      "ys": [
+        105,
+        182,
+        260,
+        337,
+        414,
+        492,
+        569,
+        646,
+        724,
+        801,
+        878,
+        956,
+        1033,
+        1110,
+        1188,
+        1265,
+        1342
+      ]
+    },
+    "east": {
+      "first_latitude": 32.166666666666664,
+      "ys": [
+        125,
+        203,
+        280,
+        358,
+        436,
+        513,
+        591,
+        669,
+        746,
+        824,
+        902,
+        979,
+        1057,
+        1135,
+        1212,
+        1290,
+        1368
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      378,
+      380
+    ],
+    [
+      11631,
+      354
+    ],
+    [
+      11629,
+      7657
+    ],
+    [
+      376,
+      7678
+    ]
+  ],
+  "meridian_search_window": 15,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native inspection will refine near-vertical meridians and gently tilted parallels.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified in this edition.",
+  "crossing_local_seeds": [
+    [
+      185,
+      210
+    ],
+    [
+      176,
+      220
+    ],
+    [
+      193,
+      228
+    ],
+    [
+      194,
+      221
+    ],
+    [
+      210,
+      221
+    ],
+    [
+      158,
+      214
+    ],
+    [
+      181,
+      214
+    ],
+    [
+      200,
+      214
+    ],
+    [
+      196,
+      208
+    ],
+    [
+      198,
+      210
+    ],
+    [
+      149,
+      202
+    ],
+    [
+      187,
+      214
+    ],
+    [
+      197,
+      215
+    ],
+    [
+      194,
+      208
+    ],
+    [
+      191,
+      210
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        378,
+        380
+      ],
+      [
+        610,
+        379
+      ],
+      [
+        3196,
+        379
+      ],
+      [
+        6007,
+        374
+      ],
+      [
+        8818,
+        364
+      ],
+      [
+        11404,
+        353
+      ],
+      [
+        11631,
+        354
+      ]
+    ],
+    "east": [
+      [
+        354,
+        11631
+      ],
+      [
+        520,
+        11631
+      ],
+      [
+        2196,
+        11630
+      ],
+      [
+        4018,
+        11631
+      ],
+      [
+        5839,
+        11631
+      ],
+      [
+        7515,
+        11629
+      ],
+      [
+        7657,
+        11629
+      ]
+    ],
+    "south": [
+      [
+        376,
+        7678
+      ],
+      [
+        604,
+        7677
+      ],
+      [
+        3192,
+        7678
+      ],
+      [
+        6004,
+        7679
+      ],
+      [
+        8816,
+        7670
+      ],
+      [
+        11404,
+        7657
+      ],
+      [
+        11629,
+        7657
+      ]
+    ],
+    "west": [
+      [
+        380,
+        378
+      ],
+      [
+        536,
+        376
+      ],
+      [
+        2209,
+        373
+      ],
+      [
+        4028,
+        371
+      ],
+      [
+        5848,
+        370
+      ],
+      [
+        7521,
+        375
+      ],
+      [
+        7678,
+        376
+      ]
+    ]
+  },
+  "meridian_samples": [
+    {
+      "longitude": 73.5,
+      "pixel": 1793,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 73.5,
+      "pixel": 1636,
+      "line": 7400,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 73.5,
+      "pixel": 1744,
+      "line": 3000,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 73.5,
+      "pixel": 1676,
+      "line": 5800,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 74,
+      "pixel": 3948,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 74,
+      "pixel": 3824,
+      "line": 7400,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 74,
+      "pixel": 3910,
+      "line": 3000,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 74,
+      "pixel": 3855,
+      "line": 5800,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 6107,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 6009,
+      "line": 7400,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 6076,
+      "line": 3000,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 6033,
+      "line": 5800,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 75,
+      "pixel": 8266,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 75,
+      "pixel": 8197,
+      "line": 7400,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 75,
+      "pixel": 8244,
+      "line": 3000,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 75,
+      "pixel": 8214,
+      "line": 5800,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 10417,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 10379,
+      "line": 7400,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 10405,
+      "line": 3000,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 10389,
+      "line": 5800,
+      "role": "withheld",
+      "search_window": 15
+    }
+  ],
+  "tick_search_overrides": {
+    "25": {
+      "initial_line": 4100,
+      "half_window": 3,
+      "reason": "Sixfold native east31p5-tick-detail.jpg confirms the horizontal31d30m rule at source y4100 between the31 degree and30 minute labels. Broader search selected the upper31 numeral at y4059."
+    }
+  },
+  "quality_note": "Verified graticule observations show a systematic residual along the eastern margin, reaching 8.70 arcseconds near the north. Leave-one-observation-out RMS is 5.13 source pixels; independent graticule RMS is 3.14 arcseconds. Retain the selected historical projection plus affine model; these are internal graticule checks, not modern ground accuracy."
+}

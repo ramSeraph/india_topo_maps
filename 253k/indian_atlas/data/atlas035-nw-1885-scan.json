@@ -1,0 +1,360 @@
+{
+  "id": "atlas035-nw-1885",
+  "title": "Indian Atlas 035 NW \u00b7 1885",
+  "sheet": "035",
+  "quarter": "NW",
+  "year": 1885,
+  "source": "sources/zenodo-19431985/sheets/035 NW Quarter Sheet Indian Atlas (1885).jpg",
+  "table": "data/atlas002-se-1874-projection.json",
+  "condition_note": "Intact NW quarter with dense western and southern hill shading and colored boundaries. Native publication confirms February 1885. Own printed graticule and frame measured.",
+  "crossing_preview_seeds": [
+    [
+      73.5,
+      25,
+      323,
+      230
+    ],
+    [
+      74,
+      25,
+      1096,
+      247
+    ],
+    [
+      74.5,
+      25,
+      1861,
+      256
+    ],
+    [
+      73.5,
+      24.5,
+      298,
+      1077
+    ],
+    [
+      74,
+      24.5,
+      1086,
+      1094
+    ],
+    [
+      74.5,
+      24.5,
+      1858,
+      1108
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 24.94,
+  "tick_windows": {
+    "west": [
+      300,
+      380
+    ],
+    "east": [
+      6150,
+      6220
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 25,
+      "ys": [
+        226,
+        367,
+        509,
+        652,
+        794,
+        936,
+        1078,
+        1220,
+        1362
+      ]
+    },
+    "east": {
+      "first_latitude": 25,
+      "ys": [
+        260,
+        401,
+        543,
+        686,
+        828,
+        970,
+        1112,
+        1253
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      427,
+      503
+    ],
+    [
+      6111,
+      498
+    ],
+    [
+      6114,
+      4170
+    ],
+    [
+      408,
+      4175
+    ]
+  ],
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native graticule crops show nearly vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_convention_status": "The sheet prints corrections -69\u2033 and -150\u2033, total -219\u2033, to Madras 80\u00b014\u203251\u2033. Retain the user-selected working shift -216.18\u2033, 2.82\u2033 east of that total; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "Printed Atlas-to-old-GTS correction -69 arcseconds, then -150 arcseconds. User-selected working second correction remains -147.18 arcseconds, total -216.18 arcseconds.",
+  "meridian_samples": [
+    {
+      "longitude": 73.5,
+      "pixel": 958.5185329691767,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 73.5,
+      "pixel": 890.044088958252,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 73.5,
+      "pixel": 943.3019898556379,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 73.5,
+      "pixel": 902.7245415528678,
+      "line": 3200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74,
+      "pixel": 3294.6864506052325,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 74,
+      "pixel": 3237.7555642327216,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 74,
+      "pixel": 3282.035142522452,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74,
+      "pixel": 3248.2983209683716,
+      "line": 3200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5619.739469578783,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5579.7238689547585,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5610.847113884555,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5587.134165366615,
+      "line": 3200,
+      "role": "withheld"
+    }
+  ],
+  "printed_longitude_note": {
+    "location": "Lower margin, Note paragraph",
+    "source_crop": "work/atlas035-nw-1885/printed-longitude-note.jpg",
+    "transcription": "All Longitudes require a correction of -1\u2032-9\u2033, to reduce them to the origin of the Great Trigonometrical Survey: viz: the Madras Observatory taken as 80\u00b017\u203221\u2033, and a further correction of -2\u203230\u2033 to reduce them to the latest value 80\u00b014\u203251\u2033 of that Observatory.",
+    "atlas_to_old_gts_arcseconds": -69,
+    "old_gts_to_stated_madras_arcseconds": -150,
+    "printed_total_arcseconds": -219,
+    "applied_working_total_arcseconds": -216.18,
+    "working_minus_printed_arcseconds": 2.82
+  },
+  "crossing_local_seeds": [
+    [
+      192,
+      211
+    ],
+    [
+      195,
+      203
+    ],
+    [
+      210,
+      208
+    ],
+    [
+      202,
+      220
+    ],
+    [
+      171,
+      210
+    ],
+    [
+      181,
+      202
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        427,
+        503
+      ],
+      [
+        543,
+        503
+      ],
+      [
+        1850,
+        501
+      ],
+      [
+        3270,
+        503
+      ],
+      [
+        4691,
+        503
+      ],
+      [
+        5998,
+        498
+      ],
+      [
+        6111,
+        498
+      ]
+    ],
+    "east": [
+      [
+        498,
+        6111
+      ],
+      [
+        573,
+        6111
+      ],
+      [
+        1417,
+        6112
+      ],
+      [
+        2334,
+        6113
+      ],
+      [
+        3251,
+        6112
+      ],
+      [
+        4095,
+        6114
+      ],
+      [
+        4170,
+        6114
+      ]
+    ],
+    "south": [
+      [
+        408,
+        4175
+      ],
+      [
+        525,
+        4175
+      ],
+      [
+        1836,
+        4175
+      ],
+      [
+        3262,
+        4176
+      ],
+      [
+        4688,
+        4175
+      ],
+      [
+        5999,
+        4170
+      ],
+      [
+        6114,
+        4170
+      ]
+    ],
+    "west": [
+      [
+        503,
+        427
+      ],
+      [
+        574,
+        426
+      ],
+      [
+        1418,
+        424
+      ],
+      [
+        2334,
+        419
+      ],
+      [
+        3251,
+        414
+      ],
+      [
+        4095,
+        408
+      ],
+      [
+        4175,
+        408
+      ]
+    ]
+  },
+  "frame_stroke_maximum_half_width_pixels_by_edge": {
+    "north": 2,
+    "west": 2,
+    "south": 2,
+    "east": 2
+  },
+  "frame_stroke_width_reason": "Native crop review shows hill hachures meeting the north and west inner rules near NW, the south rule near SW/SE, and the eastern rule near SE. Limit inward dark-stroke expansion to two pixels on those edges before the four-pixel inset so map shading is not counted as extra frame width."
+}

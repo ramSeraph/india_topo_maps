@@ -1,0 +1,46 @@
+{
+  "source": "1902 Tables for Computing and Projecting Graticules of Sheets of Indian Atlas.pdf",
+  "central_meridian_printed_degrees": 76.5,
+  "reference_radius_fathoms": 7331657.0,
+  "summary_table_pdf_page": 9,
+  "detailed_table_pdf_pages": [
+    41,
+    42,
+    43
+  ],
+  "latitudes": [
+    32,
+    33,
+    34
+  ],
+  "radius_fathoms": [
+    7210433.1,
+    7149807.3,
+    7089172.1
+  ],
+  "angle_arcseconds_per_longitude_degree": [
+    1477.72,
+    1473.86,
+    1469.46
+  ],
+  "sine_check_longitude_offsets": [
+    8,
+    9
+  ],
+  "sine_check_fathoms": [
+    [
+      413029.0,
+      464590.0
+    ],
+    [
+      408487.6,
+      459482.0
+    ],
+    [
+      403815.5,
+      454227.1
+    ]
+  ],
+  "scope": "Latitude 32\u201334 only; no extrapolation. Historical table coordinates are not a modern datum transformation.",
+  "transcription": "Latitude 32 radius checked on PDF page 9 summary and against cosine plus versine in detailed page 41; detailed angle and sine values visually checked on page 41. Latitude 33\u201334 retained from checked pages 42\u201343."
+}

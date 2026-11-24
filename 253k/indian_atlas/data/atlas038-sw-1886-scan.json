@@ -1,0 +1,344 @@
+{
+  "crossing_search_window": 10,
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native graticule crops show nearly vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds.",
+  "id": "atlas038-sw-1886",
+  "title": "Indian Atlas 038 SW \u00b7 1886",
+  "sheet": "038",
+  "quarter": "SW",
+  "year": 1886,
+  "source": "sources/zenodo-19431985/sheets/038 SW Quarter Sheet Indian Atlas (1886).jpg",
+  "table": "data/atlas024-1857-projection.json",
+  "condition_note": "Intact colored SW quarter with dense western/southern hill shading. Native publication confirms September 1886. Own printed graticule and frame measured.",
+  "crossing_preview_seeds": [
+    [
+      74,
+      20,
+      947,
+      220
+    ],
+    [
+      74.5,
+      20,
+      1748,
+      230
+    ],
+    [
+      74,
+      19.5,
+      928,
+      1070
+    ],
+    [
+      74.5,
+      19.5,
+      1737,
+      1086
+    ]
+  ],
+  "seed_north_latitude": 19.93,
+  "tick_windows": {
+    "west": [
+      280,
+      340
+    ],
+    "east": [
+      6110,
+      6170
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 20,
+      "ys": [
+        203,
+        345,
+        487,
+        629,
+        771,
+        913,
+        1055,
+        1197,
+        1339
+      ]
+    },
+    "east": {
+      "first_latitude": 20,
+      "ys": [
+        234,
+        377,
+        520,
+        663,
+        806,
+        949,
+        1092,
+        1235,
+        1378
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      386,
+      522
+    ],
+    [
+      6083,
+      514
+    ],
+    [
+      6080,
+      4186
+    ],
+    [
+      374,
+      4180
+    ]
+  ],
+  "printed_longitude_note": {
+    "location": "Lower margin, Note paragraph",
+    "source_crop": "work/atlas038-sw-1886/longitude-note.jpg",
+    "transcription": "All Longitudes require a correction of -1\u2032-9\u2033, to reduce them to the origin of the Great Trigonometrical Survey: viz: the Madras Observatory taken as 80\u00b017\u203221\u2033, and a further correction of -2\u203230\u2033 to reduce them to the latest value 80\u00b014\u203251\u2033 of that Observatory.",
+    "atlas_to_old_gts_arcseconds": -69,
+    "old_gts_to_stated_madras_arcseconds": -150,
+    "printed_total_arcseconds": -219,
+    "applied_working_total_arcseconds": -216.18,
+    "working_minus_printed_arcseconds": 2.82
+  },
+  "longitude_convention_status": "Printed note gives -69 and -150 arcseconds (total -219). Retain user-selected working correction -216.18 arcseconds, 2.82 arcseconds east of the printed total; modern datum alignment remains provisional.",
+  "crossing_local_seeds": [
+    [
+      197,
+      193
+    ],
+    [
+      208,
+      201
+    ],
+    [
+      193,
+      200
+    ],
+    [
+      209,
+      196
+    ]
+  ],
+  "meridian_samples": [
+    {
+      "longitude": 74,
+      "pixel": 2832.752246971473,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 74,
+      "pixel": 2768.391168425166,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 74,
+      "pixel": 2818.4497850722937,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74,
+      "pixel": 2794.6123485736616,
+      "line": 2600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5253.157504873295,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5219.473294346979,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5245.6721247563355,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5233.19649122807,
+      "line": 2600,
+      "role": "withheld"
+    }
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        386,
+        522
+      ],
+      [
+        500,
+        520
+      ],
+      [
+        1811,
+        516
+      ],
+      [
+        3236,
+        516
+      ],
+      [
+        4662,
+        515
+      ],
+      [
+        5973,
+        514
+      ],
+      [
+        6083,
+        514
+      ]
+    ],
+    "east": [
+      [
+        514,
+        6083
+      ],
+      [
+        587,
+        6084
+      ],
+      [
+        1432,
+        6082
+      ],
+      [
+        2350,
+        6080
+      ],
+      [
+        3269,
+        6080
+      ],
+      [
+        4114,
+        6079
+      ],
+      [
+        4186,
+        6080
+      ]
+    ],
+    "south": [
+      [
+        374,
+        4180
+      ],
+      [
+        492,
+        4181
+      ],
+      [
+        1805,
+        4180
+      ],
+      [
+        3232,
+        4183
+      ],
+      [
+        4660,
+        4186
+      ],
+      [
+        5973,
+        4186
+      ],
+      [
+        6080,
+        4186
+      ]
+    ],
+    "west": [
+      [
+        522,
+        386
+      ],
+      [
+        591,
+        384
+      ],
+      [
+        1434,
+        383
+      ],
+      [
+        2351,
+        381
+      ],
+      [
+        3268,
+        376
+      ],
+      [
+        4111,
+        372
+      ],
+      [
+        4180,
+        374
+      ]
+    ]
+  },
+  "tick_search_overrides": {
+    "8": {
+      "initial_line": 4020,
+      "half_window": 7,
+      "reason": "Native control contact shows the broad search selected the printed 20-minute numeral roughly 25 pixels above its horizontal tick. Restrict the search to the visible rule near source line 4020; fitted role unchanged."
+    }
+  },
+  "frame_stroke_maximum_half_width_pixels_by_edge": {
+    "north": 2,
+    "west": 2,
+    "south": 2
+  },
+  "frame_stroke_width_reason": "Native crop review shows hill hachures merging into north and west neatlines at the northwest corner and into the southern frame near the southeast corner. Limit inward stroke extension to two pixels before the four-pixel inset to avoid trimming adjacent map shading.",
+  "crop_edge_manual_segments": {
+    "west": [
+      {
+        "points": [
+          [
+            391,
+            526
+          ],
+          [
+            390,
+            600
+          ],
+          [
+            389,
+            800
+          ]
+        ],
+        "reason": "Native northwest corner and west frame contact show the inner frame near x386 with dense hachures immediately inside. The capped automatic trace briefly enters the graduation strip. Follow the inspected inner-frame direction through y526..800 with approximately five pixels clearance; these are final crop coordinates, with no additional inset."
+      }
+    ]
+  }
+}

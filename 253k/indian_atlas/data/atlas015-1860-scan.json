@@ -1,0 +1,398 @@
+{
+  "id": "atlas015-1860",
+  "title": "Indian Atlas 015 \u00b7 1860",
+  "sheet": "015",
+  "quarter": null,
+  "year": 1860,
+  "source": "sources/zenodo-19431985/sheets/015 Sheet Indian Atlas (1860).jpg",
+  "table": "data/atlas005-ne-1866-projection.json",
+  "condition_note": "Intact full sheet; much of the eastern portion is intentionally unmapped on the printed source and will be preserved as printed.",
+  "crossing_preview_seeds": [
+    [
+      71,
+      33.5,
+      465,
+      125
+    ],
+    [
+      71.5,
+      33.5,
+      852,
+      139
+    ],
+    [
+      72.5,
+      33.5,
+      1633,
+      165
+    ],
+    [
+      73,
+      33.5,
+      2028,
+      176
+    ],
+    [
+      71,
+      33,
+      440,
+      598
+    ],
+    [
+      71.5,
+      33,
+      834,
+      610
+    ],
+    [
+      72.5,
+      33,
+      1619,
+      641
+    ],
+    [
+      73,
+      33,
+      2016,
+      653
+    ],
+    [
+      71,
+      32.5,
+      418,
+      1080
+    ],
+    [
+      71.5,
+      32.5,
+      815,
+      1093
+    ],
+    [
+      72.5,
+      32.5,
+      1603,
+      1118
+    ],
+    [
+      73,
+      32.5,
+      2001,
+      1133
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      210,
+      213
+    ],
+    [
+      240,
+      216
+    ],
+    [
+      209,
+      213
+    ],
+    [
+      213,
+      198
+    ],
+    [
+      211,
+      229
+    ],
+    [
+      209,
+      250
+    ],
+    [
+      198,
+      222
+    ],
+    [
+      202,
+      198
+    ],
+    [
+      204,
+      204
+    ],
+    [
+      199,
+      221
+    ],
+    [
+      191,
+      224
+    ],
+    [
+      202,
+      182
+    ]
+  ],
+  "crossing_search_window": 12,
+  "tick_windows": {
+    "west": [
+      138,
+      213
+    ],
+    "east": [
+      11307,
+      11376
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 33.5,
+      "ys": [
+        113,
+        192,
+        271,
+        350,
+        430,
+        509,
+        588,
+        668,
+        748,
+        827,
+        907,
+        986,
+        1066,
+        1145,
+        1224,
+        1303,
+        1382
+      ]
+    },
+    "east": {
+      "first_latitude": 33.583333333333336,
+      "ys": [
+        100,
+        179,
+        258,
+        337,
+        416,
+        495,
+        575,
+        654,
+        733,
+        812,
+        891,
+        971,
+        1050,
+        1129,
+        1208,
+        1287,
+        1367
+      ]
+    }
+  },
+  "seed_north_latitude": 33.34,
+  "frame_corners": [
+    [
+      229,
+      295
+    ],
+    [
+      11264,
+      280
+    ],
+    [
+      11292,
+      7518
+    ],
+    [
+      232,
+      7531
+    ]
+  ],
+  "meridian_samples": [
+    {
+      "longitude": 71,
+      "pixel": 2439,
+      "line": 1500,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 71,
+      "pixel": 2161,
+      "line": 7000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 71,
+      "pixel": 2389,
+      "line": 2500,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 71,
+      "pixel": 2212,
+      "line": 6000,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 73,
+      "pixel": 10772,
+      "line": 1500,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 73,
+      "pixel": 10605,
+      "line": 7000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 73,
+      "pixel": 10741,
+      "line": 2500,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 73,
+      "pixel": 10635,
+      "line": 6000,
+      "role": "withheld",
+      "search_window": 15
+    }
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        229,
+        295
+      ],
+      [
+        460,
+        295
+      ],
+      [
+        2996,
+        299
+      ],
+      [
+        5752,
+        311
+      ],
+      [
+        8508,
+        291
+      ],
+      [
+        11044,
+        280
+      ],
+      [
+        11264,
+        280
+      ]
+    ],
+    "east": [
+      [
+        280,
+        11264
+      ],
+      [
+        432,
+        11264
+      ],
+      [
+        2096,
+        11279
+      ],
+      [
+        3906,
+        11285
+      ],
+      [
+        5715,
+        11290
+      ],
+      [
+        7379,
+        11292
+      ],
+      [
+        7518,
+        11292
+      ]
+    ],
+    "south": [
+      [
+        232,
+        7531
+      ],
+      [
+        460,
+        7531
+      ],
+      [
+        3002,
+        7541
+      ],
+      [
+        5765,
+        7538
+      ],
+      [
+        8528,
+        7536
+      ],
+      [
+        11070,
+        7518
+      ],
+      [
+        11292,
+        7518
+      ]
+    ],
+    "west": [
+      [
+        295,
+        229
+      ],
+      [
+        443,
+        229
+      ],
+      [
+        2106,
+        232
+      ],
+      [
+        3914,
+        236
+      ],
+      [
+        5721,
+        234
+      ],
+      [
+        7384,
+        232
+      ],
+      [
+        7531,
+        232
+      ]
+    ]
+  },
+  "tick_search_overrides": {
+    "14": {
+      "initial_line": 6496,
+      "half_window": 4,
+      "reason": "Native contact shows the broad search selected the 20-minute numeral at y6475; the actual horizontal tick is at y6496, confirmed by the native strip intensity profile."
+    }
+  },
+  "quality_note": "Historical-projection plus affine leaves systematic interior graticule residuals, especially along the 72.5-degree meridian, despite visually verified crossings. Internal alignment refinement remains pending; margin-only errors do not describe the entire sheet."
+}

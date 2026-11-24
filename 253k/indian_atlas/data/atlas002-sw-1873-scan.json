@@ -1,0 +1,195 @@
+{
+  "id": "atlas002-sw-1873",
+  "title": "Indian Atlas 002 SW \u00b7 1873",
+  "sheet": "002",
+  "quarter": "SW",
+  "year": 1873,
+  "source": "sources/zenodo-19431985/sheets/002 SW Quarter Sheet Indian Atlas (1873) colored.jpg",
+  "table": "data/atlas002-se-1874-projection.json",
+  "crossing_preview_seeds": [
+    [
+      66.5,
+      25,
+      841,
+      914
+    ],
+    [
+      67,
+      25,
+      1583,
+      961
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      200,
+      200
+    ],
+    [
+      200,
+      200
+    ]
+  ],
+  "tick_windows": {
+    "west": [
+      393,
+      480
+    ],
+    "east": [
+      6190,
+      6260
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 25.333333333333332,
+      "ys": [
+        324,
+        460,
+        594,
+        732,
+        868,
+        1005,
+        1141,
+        1277
+      ]
+    },
+    "east": {
+      "first_latitude": 25.416666666666668,
+      "ys": [
+        312,
+        450,
+        586,
+        722,
+        858,
+        995,
+        1132,
+        1269
+      ]
+    }
+  },
+  "seed_north_latitude": 25.36,
+  "frame_corners": [
+    [
+      516,
+      566
+    ],
+    [
+      6166,
+      564
+    ],
+    [
+      6169,
+      4188
+    ],
+    [
+      517,
+      4193
+    ]
+  ],
+  "tick_search_overrides": {
+    "8": {
+      "initial_line": 970,
+      "half_window": 4,
+      "reason": "Faint printed latitude tick directly below label; narrow window excludes the dark numeral 25, which broad detection selected."
+    }
+  },
+  "crop_edge_guides": {
+    "north": [
+      [
+        516,
+        566
+      ],
+      [
+        1926,
+        567
+      ],
+      [
+        3339,
+        568
+      ],
+      [
+        4752,
+        567
+      ],
+      [
+        6166,
+        564
+      ]
+    ],
+    "east": [
+      [
+        564,
+        6166
+      ],
+      [
+        1471,
+        6164
+      ],
+      [
+        2379,
+        6165
+      ],
+      [
+        3287,
+        6167
+      ],
+      [
+        4122,
+        6169
+      ],
+      [
+        4188,
+        6169
+      ]
+    ],
+    "south": [
+      [
+        517,
+        4193
+      ],
+      [
+        1926,
+        4190
+      ],
+      [
+        3338,
+        4189
+      ],
+      [
+        4750,
+        4189
+      ],
+      [
+        6169,
+        4188
+      ]
+    ],
+    "west": [
+      [
+        566,
+        516
+      ],
+      [
+        1471,
+        511
+      ],
+      [
+        2379,
+        512
+      ],
+      [
+        3287,
+        513
+      ],
+      [
+        4122,
+        517
+      ],
+      [
+        4193,
+        517
+      ]
+    ]
+  }
+}

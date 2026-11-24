@@ -1,0 +1,241 @@
+{
+  "id": "atlas023-sw-1877-colored",
+  "title": "Indian Atlas 023 SW \u00b7 1877 \u00b7 colored",
+  "sheet": "023",
+  "quarter": "SW",
+  "year": 1877,
+  "source": "sources/zenodo-19431985/sheets/023 SW Quarter Sheet Indian Atlas (1877) colored.jpg",
+  "table": "data/atlas013-se-1885-projection.json",
+  "condition_note": "Intact southwest quarter sheet, with large sea area retained. Use its own printed graticule and inner frame.",
+  "crossing_preview_seeds": [
+    [
+      71.5,
+      21,
+      786,
+      820
+    ],
+    [
+      72,
+      21,
+      1575,
+      846
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 21.3,
+  "tick_windows": {
+    "west": [
+      348,
+      414
+    ],
+    "east": [
+      6128,
+      6191
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 21.333333333333332,
+      "ys": [
+        237,
+        378,
+        519,
+        659,
+        800,
+        941,
+        1081,
+        1222
+      ]
+    },
+    "east": {
+      "first_latitude": 21.416666666666668,
+      "ys": [
+        161,
+        301,
+        442,
+        582,
+        722,
+        862,
+        1002,
+        1142,
+        1282
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      444,
+      441
+    ],
+    [
+      6089,
+      447
+    ],
+    [
+      6094,
+      4061
+    ],
+    [
+      448,
+      4058
+    ]
+  ],
+  "meridian_search_window": 15,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.01
+    ],
+    "horizontal": [
+      -0.01,
+      0.07
+    ]
+  },
+  "line_slope_bounds_reason": "Preview meridians are nearly vertical; measure native inclinations within these bounds.",
+  "crossing_local_seeds": [
+    [
+      188,
+      204
+    ],
+    [
+      199,
+      203
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        444,
+        441
+      ],
+      [
+        560,
+        441
+      ],
+      [
+        1857,
+        444
+      ],
+      [
+        3266,
+        448
+      ],
+      [
+        4676,
+        449
+      ],
+      [
+        5973,
+        447
+      ],
+      [
+        6089,
+        447
+      ]
+    ],
+    "east": [
+      [
+        447,
+        6089
+      ],
+      [
+        522,
+        6089
+      ],
+      [
+        1351,
+        6091
+      ],
+      [
+        2252,
+        6093
+      ],
+      [
+        3154,
+        6094
+      ],
+      [
+        3983,
+        6094
+      ],
+      [
+        4061,
+        6094
+      ]
+    ],
+    "south": [
+      [
+        448,
+        4058
+      ],
+      [
+        563,
+        4058
+      ],
+      [
+        1860,
+        4060
+      ],
+      [
+        3271,
+        4064
+      ],
+      [
+        4682,
+        4064
+      ],
+      [
+        5979,
+        4061
+      ],
+      [
+        6094,
+        4061
+      ]
+    ],
+    "west": [
+      [
+        441,
+        444
+      ],
+      [
+        519,
+        443
+      ],
+      [
+        1349,
+        447
+      ],
+      [
+        2251,
+        449
+      ],
+      [
+        3153,
+        449
+      ],
+      [
+        3983,
+        448
+      ],
+      [
+        4058,
+        448
+      ]
+    ]
+  },
+  "printed_longitude_note": {
+    "location": "Lower margin, Notes paragraph",
+    "source_crop": "work/atlas023-sw-1877-colored/longitude-note.jpg",
+    "transcription": "All Longitudes require a correction of -1\u2032-9\u2033 to reduce them to the origin of the Great Trigonometrical Survey: viz: the Madras Observatory taken as 80\u00b017\u203221\u2033, and a further correction of -3\u20321\u2033.5, to reduce them to the latest value 80\u00b014\u203219\u2033.5, of that Observatory.",
+    "atlas_to_old_gts_arcseconds": -69,
+    "old_gts_to_stated_madras_arcseconds": -181.5,
+    "printed_total_arcseconds": -250.5,
+    "applied_working_total_arcseconds": -216.18,
+    "working_minus_printed_arcseconds": 34.32
+  },
+  "longitude_convention_status": "The sheet explicitly prints two corrections: -69\u2033 and -181.5\u2033 (total -250.5\u2033). The user-selected working adjustment remains -216.18\u2033, 34.32\u2033 east of that printed total; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "Printed margin confirms -69 arcseconds Atlas to old GTS and states a further -181.5 arcseconds to Madras 80d14m19.5s. Retain user-selected working second correction -147.18 arcseconds, total -216.18; this differs from printed total -250.5 by +34.32 arcseconds. Modern datum alignment remains provisional.",
+  "frame_stroke_maximum_half_width_pixels": 2,
+  "frame_stroke_width_reason": "Native northeast crop review shows coastal shading touching the east inner frame and enlarging its apparent thickness. Cap inward stroke extension before the four-pixel inset."
+}

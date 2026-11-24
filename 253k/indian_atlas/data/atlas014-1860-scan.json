@@ -1,0 +1,370 @@
+{
+  "id": "atlas014-1860",
+  "title": "Indian Atlas 014 \u00b7 1860",
+  "sheet": "014",
+  "quarter": null,
+  "year": 1860,
+  "source": "sources/zenodo-19431985/sheets/014 Sheet Indian Atlas (1860) colored.jpg",
+  "table": "data/atlas014-1860-projection.json",
+  "crossing_preview_seeds": [
+    [
+      70.5,
+      34.5,
+      158,
+      523
+    ],
+    [
+      71.5,
+      34.5,
+      929,
+      550
+    ],
+    [
+      72,
+      34.5,
+      1318,
+      563
+    ],
+    [
+      73,
+      34.5,
+      2082,
+      589
+    ],
+    [
+      70.5,
+      34,
+      137,
+      988
+    ],
+    [
+      71.5,
+      34,
+      911,
+      1016
+    ],
+    [
+      72,
+      34,
+      1300,
+      1030
+    ],
+    [
+      73,
+      34,
+      2071,
+      1055
+    ],
+    [
+      72,
+      35,
+      1330,
+      96
+    ],
+    [
+      73,
+      35,
+      2097,
+      120
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      201,
+      204
+    ],
+    [
+      181,
+      214
+    ],
+    [
+      145,
+      207
+    ],
+    [
+      170,
+      194
+    ],
+    [
+      156,
+      202
+    ],
+    [
+      146,
+      210
+    ],
+    [
+      133,
+      203
+    ],
+    [
+      141,
+      191
+    ],
+    [
+      196,
+      216
+    ],
+    [
+      170,
+      215
+    ]
+  ],
+  "crossing_search_window": 12,
+  "tick_windows": {
+    "west": [
+      272,
+      354
+    ],
+    "east": [
+      11638,
+      11714
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 34.916666666666664,
+      "ys": [
+        136,
+        214,
+        291,
+        369,
+        445,
+        521,
+        599,
+        676,
+        754,
+        831,
+        908,
+        985,
+        1062,
+        1139,
+        1216,
+        1294,
+        1371
+      ]
+    },
+    "east": {
+      "first_latitude": 35,
+      "ys": [
+        125,
+        202,
+        280,
+        357,
+        434,
+        511,
+        588,
+        666,
+        743,
+        821,
+        898,
+        976,
+        1054,
+        1131,
+        1209,
+        1286,
+        1364
+      ]
+    }
+  },
+  "seed_north_latitude": 34.77,
+  "frame_corners": [
+    [
+      388,
+      353
+    ],
+    [
+      11603,
+      348
+    ],
+    [
+      11608,
+      7608
+    ],
+    [
+      372,
+      7611
+    ]
+  ],
+  "meridian_samples": [
+    {
+      "longitude": 70.5,
+      "pixel": 946,
+      "line": 1500,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 600,
+      "line": 7000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 883,
+      "line": 2500,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 663,
+      "line": 6000,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 73,
+      "pixel": 11368,
+      "line": 1500,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 73,
+      "pixel": 11174,
+      "line": 7000,
+      "role": "fit",
+      "search_window": 4,
+      "measurement_note": "Native 4\u00d7 crop shows the faint straight meridian near x11174; broad search selected darker terrain hatching to its west. Restrict the search to the visible graticule."
+    },
+    {
+      "longitude": 73,
+      "pixel": 11333,
+      "line": 2500,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 73,
+      "pixel": 11210,
+      "line": 6000,
+      "role": "withheld",
+      "search_window": 15
+    }
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        388,
+        353
+      ],
+      [
+        611,
+        353
+      ],
+      [
+        3192,
+        344
+      ],
+      [
+        5996,
+        340
+      ],
+      [
+        8800,
+        342
+      ],
+      [
+        11381,
+        348
+      ],
+      [
+        11603,
+        348
+      ]
+    ],
+    "east": [
+      [
+        348,
+        11603
+      ],
+      [
+        499,
+        11603
+      ],
+      [
+        2166,
+        11606
+      ],
+      [
+        3978,
+        11611
+      ],
+      [
+        5790,
+        11610
+      ],
+      [
+        7457,
+        11608
+      ],
+      [
+        7608,
+        11608
+      ]
+    ],
+    "south": [
+      [
+        372,
+        7611
+      ],
+      [
+        605,
+        7611
+      ],
+      [
+        3186,
+        7604
+      ],
+      [
+        5990,
+        7603
+      ],
+      [
+        8795,
+        7606
+      ],
+      [
+        11376,
+        7608
+      ],
+      [
+        11608,
+        7608
+      ]
+    ],
+    "west": [
+      [
+        353,
+        388
+      ],
+      [
+        499,
+        387
+      ],
+      [
+        2166,
+        379
+      ],
+      [
+        3978,
+        379
+      ],
+      [
+        5790,
+        374
+      ],
+      [
+        7457,
+        372
+      ],
+      [
+        7611,
+        372
+      ]
+    ]
+  }
+}

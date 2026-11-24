@@ -1,0 +1,240 @@
+{
+  "id": "atlas035-se-1884",
+  "title": "Indian Atlas 035 SE \u00b7 1881, additions 1884",
+  "sheet": "035",
+  "quarter": "SE",
+  "year": 1884,
+  "source": "sources/zenodo-19431985/sheets/035 SE Quarter Sheet Indian Atlas (1884).jpg",
+  "table": "data/atlas003-nw-1871-projection.json",
+  "condition_note": "Intact SE quarter with colored boundaries and western/southern hill shading. Native publication confirms August 1881 with additions to 1884. Own printed graticule and frame measured.",
+  "crossing_preview_seeds": [
+    [
+      75,
+      24,
+      730,
+      759
+    ],
+    [
+      75.5,
+      24,
+      1504,
+      765
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 24.25,
+  "tick_windows": {
+    "west": [
+      295,
+      375
+    ],
+    "east": [
+      6140,
+      6200
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 24.333333333333332,
+      "ys": [
+        187,
+        329,
+        471,
+        612,
+        754,
+        895,
+        1035,
+        1176,
+        1317
+      ]
+    },
+    "east": {
+      "first_latitude": 24.333333333333332,
+      "ys": [
+        202,
+        343,
+        485,
+        627,
+        768,
+        909,
+        1051,
+        1193,
+        1334
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      413,
+      530
+    ],
+    [
+      6102,
+      528
+    ],
+    [
+      6105,
+      4196
+    ],
+    [
+      400,
+      4200
+    ]
+  ],
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native graticule crops show nearly vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_convention_status": "The sheet prints corrections -69\u2033 and -150\u2033, total -219\u2033, to Madras 80\u00b014\u203251\u2033. Retain the user-selected working shift -216.18\u2033, 2.82\u2033 east of that total; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "Printed Atlas-to-old-GTS correction -69 arcseconds, then -150 arcseconds. User-selected working second correction remains -147.18 arcseconds, total -216.18 arcseconds.",
+  "printed_longitude_note": {
+    "location": "Lower margin, Note paragraph",
+    "source_crop": "work/atlas035-se-1884/printed-longitude-note.jpg",
+    "transcription": "All Longitudes require a correction of -1\u2032-9\u2033, to reduce them to the origin of the Great Trigonometrical Survey: viz: the Madras Observatory taken as 80\u00b017\u203221\u2033, and a further correction of -2\u203230\u2033 to reduce them to the latest value 80\u00b014\u203251\u2033 of that Observatory.",
+    "atlas_to_old_gts_arcseconds": -69,
+    "old_gts_to_stated_madras_arcseconds": -150,
+    "printed_total_arcseconds": -219,
+    "applied_working_total_arcseconds": -216.18,
+    "working_minus_printed_arcseconds": 2.82
+  },
+  "crossing_local_seeds": [
+    [
+      192,
+      198
+    ],
+    [
+      205,
+      204
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        413,
+        530
+      ],
+      [
+        530,
+        530
+      ],
+      [
+        1838,
+        528
+      ],
+      [
+        3260,
+        529
+      ],
+      [
+        4683,
+        530
+      ],
+      [
+        5991,
+        528
+      ],
+      [
+        6102,
+        528
+      ]
+    ],
+    "east": [
+      [
+        528,
+        6102
+      ],
+      [
+        602,
+        6102
+      ],
+      [
+        1446,
+        6101
+      ],
+      [
+        2362,
+        6101
+      ],
+      [
+        3279,
+        6103
+      ],
+      [
+        4123,
+        6105
+      ],
+      [
+        4196,
+        6105
+      ]
+    ],
+    "south": [
+      [
+        400,
+        4200
+      ],
+      [
+        520,
+        4200
+      ],
+      [
+        1831,
+        4197
+      ],
+      [
+        3256,
+        4197
+      ],
+      [
+        4681,
+        4199
+      ],
+      [
+        5992,
+        4196
+      ],
+      [
+        6105,
+        4196
+      ]
+    ],
+    "west": [
+      [
+        530,
+        413
+      ],
+      [
+        602,
+        413
+      ],
+      [
+        1446,
+        411
+      ],
+      [
+        2362,
+        408
+      ],
+      [
+        3279,
+        405
+      ],
+      [
+        4123,
+        400
+      ],
+      [
+        4200,
+        400
+      ]
+    ]
+  }
+}

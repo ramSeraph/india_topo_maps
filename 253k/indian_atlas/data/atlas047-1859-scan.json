@@ -1,0 +1,4752 @@
+{
+  "id": "atlas047-1859",
+  "title": "Indian Atlas 047 \u00b7 1859",
+  "sheet": "047",
+  "quarter": null,
+  "year": 1859,
+  "source": "sources/zenodo-19431985/sheets/047 Sheet Indian Atlas (1859).jpg",
+  "table": "data/atlas016-1866-projection.json",
+  "frame_corners": [
+    [
+      351,
+      407
+    ],
+    [
+      11812,
+      388
+    ],
+    [
+      11836,
+      7696
+    ],
+    [
+      355,
+      7726
+    ]
+  ],
+  "crop_mode": "measured_frame",
+  "crop_inset_pixels": 0,
+  "condition_note": "Continuous full-sheet engraving with an intact map border. No exposed panel gaps identified.",
+  "source_identification_note": "Printed number 47 at the upper right. Edition year follows the source catalogue.",
+  "longitude_correction_basis": "Project working shift of -216.18 arcseconds.",
+  "longitude_tick_samples": [
+    {
+      "side": "north",
+      "longitude": 75.83333333333333,
+      "pixel": 608,
+      "line_window": [
+        335,
+        360
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "north",
+      "longitude": 75.91666666666667,
+      "pixel": 956,
+      "line_window": [
+        334,
+        359
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "north",
+      "longitude": 76.0,
+      "pixel": 1306,
+      "line_window": [
+        308,
+        333
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "north",
+      "longitude": 76.08333333333333,
+      "pixel": 1664,
+      "line_window": [
+        302,
+        327
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "north",
+      "longitude": 76.16666666666667,
+      "pixel": 2022,
+      "line_window": [
+        304,
+        329
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "north",
+      "longitude": 76.25,
+      "pixel": 2382,
+      "line_window": [
+        301,
+        326
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "north",
+      "longitude": 76.33333333333333,
+      "pixel": 2739,
+      "line_window": [
+        300,
+        325
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "north",
+      "longitude": 76.41666666666667,
+      "pixel": 3099,
+      "line_window": [
+        298,
+        323
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "north",
+      "longitude": 76.5,
+      "pixel": 3459,
+      "line_window": [
+        329,
+        354
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "north",
+      "longitude": 76.58333333333333,
+      "pixel": 3820,
+      "line_window": [
+        296,
+        321
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "north",
+      "longitude": 76.66666666666667,
+      "pixel": 4169,
+      "line_window": [
+        322,
+        347
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "north",
+      "longitude": 76.75,
+      "pixel": 4539,
+      "line_window": [
+        347,
+        372
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "north",
+      "longitude": 76.83333333333333,
+      "pixel": 4900,
+      "line_window": [
+        346,
+        371
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "north",
+      "longitude": 76.91666666666667,
+      "pixel": 5259,
+      "line_window": [
+        300,
+        325
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "north",
+      "longitude": 77.0,
+      "pixel": 5619,
+      "line_window": [
+        315,
+        340
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "north",
+      "longitude": 77.08333333333333,
+      "pixel": 5979,
+      "line_window": [
+        295,
+        320
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "north",
+      "longitude": 77.16666666666667,
+      "pixel": 6336,
+      "line_window": [
+        296,
+        321
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "north",
+      "longitude": 77.25,
+      "pixel": 6693,
+      "line_window": [
+        317,
+        342
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "north",
+      "longitude": 77.33333333333333,
+      "pixel": 7054,
+      "line_window": [
+        298,
+        323
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "north",
+      "longitude": 77.41666666666667,
+      "pixel": 7412,
+      "line_window": [
+        291,
+        316
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "north",
+      "longitude": 77.5,
+      "pixel": 7772,
+      "line_window": [
+        338,
+        363
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "north",
+      "longitude": 77.58333333333333,
+      "pixel": 8132,
+      "line_window": [
+        292,
+        317
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "north",
+      "longitude": 77.66666666666667,
+      "pixel": 8490,
+      "line_window": [
+        341,
+        366
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "north",
+      "longitude": 77.75,
+      "pixel": 8848,
+      "line_window": [
+        291,
+        316
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "north",
+      "longitude": 77.83333333333333,
+      "pixel": 9205,
+      "line_window": [
+        293,
+        318
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "north",
+      "longitude": 77.91666666666667,
+      "pixel": 9565,
+      "line_window": [
+        295,
+        320
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "north",
+      "longitude": 78.0,
+      "pixel": 9923,
+      "line_window": [
+        292,
+        317
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "north",
+      "longitude": 78.08333333333333,
+      "pixel": 10283,
+      "line_window": [
+        338,
+        363
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "north",
+      "longitude": 78.16666666666667,
+      "pixel": 10630,
+      "line_window": [
+        317,
+        342
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "north",
+      "longitude": 78.25,
+      "pixel": 10986,
+      "line_window": [
+        315,
+        340
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "north",
+      "longitude": 78.33333333333333,
+      "pixel": 11368,
+      "line_window": [
+        310,
+        335
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "north",
+      "longitude": 78.41666666666667,
+      "pixel": 11715,
+      "line_window": [
+        293,
+        318
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "south",
+      "longitude": 75.83333333333333,
+      "pixel": 552,
+      "line_window": [
+        7797,
+        7822
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "south",
+      "longitude": 75.91666666666667,
+      "pixel": 917,
+      "line_window": [
+        7799,
+        7824
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "south",
+      "longitude": 76.0,
+      "pixel": 1281,
+      "line_window": [
+        7752,
+        7777
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "south",
+      "longitude": 76.08333333333333,
+      "pixel": 1646,
+      "line_window": [
+        7751,
+        7776
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "south",
+      "longitude": 76.16666666666667,
+      "pixel": 2009,
+      "line_window": [
+        7789,
+        7814
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "south",
+      "longitude": 76.25,
+      "pixel": 2374,
+      "line_window": [
+        7787,
+        7812
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "south",
+      "longitude": 76.33333333333333,
+      "pixel": 2736,
+      "line_window": [
+        7785,
+        7810
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "south",
+      "longitude": 76.41666666666667,
+      "pixel": 3100,
+      "line_window": [
+        7792,
+        7817
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "south",
+      "longitude": 76.5,
+      "pixel": 3465,
+      "line_window": [
+        7746,
+        7771
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "south",
+      "longitude": 76.58333333333333,
+      "pixel": 3830,
+      "line_window": [
+        7789,
+        7814
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "south",
+      "longitude": 77.41666666666667,
+      "pixel": 7481,
+      "line_window": [
+        7777,
+        7802
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "south",
+      "longitude": 77.5,
+      "pixel": 7846,
+      "line_window": [
+        7734,
+        7759
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "south",
+      "longitude": 77.58333333333333,
+      "pixel": 8212,
+      "line_window": [
+        7733,
+        7758
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "south",
+      "longitude": 77.66666666666667,
+      "pixel": 8575,
+      "line_window": [
+        7774,
+        7799
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "south",
+      "longitude": 77.75,
+      "pixel": 8938,
+      "line_window": [
+        7771,
+        7796
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "south",
+      "longitude": 77.83333333333333,
+      "pixel": 9303,
+      "line_window": [
+        7765,
+        7790
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "south",
+      "longitude": 77.91666666666667,
+      "pixel": 9668,
+      "line_window": [
+        7730,
+        7755
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "south",
+      "longitude": 78.0,
+      "pixel": 10031,
+      "line_window": [
+        7729,
+        7754
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "south",
+      "longitude": 78.08333333333333,
+      "pixel": 10395,
+      "line_window": [
+        7764,
+        7789
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "south",
+      "longitude": 78.16666666666667,
+      "pixel": 10758,
+      "line_window": [
+        7767,
+        7792
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    },
+    {
+      "side": "south",
+      "longitude": 78.25,
+      "pixel": 11122,
+      "line_window": [
+        7768,
+        7793
+      ],
+      "half_window": 4,
+      "role": "fit"
+    },
+    {
+      "side": "south",
+      "longitude": 78.33333333333333,
+      "pixel": 11487,
+      "line_window": [
+        7775,
+        7800
+      ],
+      "half_window": 4,
+      "role": "withheld"
+    }
+  ],
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 32.166666666666664,
+      "ys": [
+        138.1214561590928,
+        214.5944613361821,
+        291.4290410058345,
+        368.2636206754869,
+        444.91741309885776,
+        521.7519927685101,
+        598.5865724381625,
+        673.9748541375627,
+        752.0749445311858,
+        828.9095242008382,
+        905.563316624209,
+        982.5786835401431,
+        1057.60539074698,
+        1136.0670556331663,
+        1212.720848056537,
+        1289.374640479908,
+        1364.5821349330265
+      ]
+    },
+    "east": {
+      "first_latitude": 32.166666666666664,
+      "ys": [
+        117.87328457556086,
+        194.70786424521324,
+        271.54244391486566,
+        346.7499383679842,
+        423.2229435450736,
+        501.5038211849782,
+        575.8073794066892,
+        653.9074698003122,
+        732.3691346864985,
+        809.0229271098693,
+        885.6767195332402,
+        962.5112992028926,
+        1039.345878872545,
+        1116.1804585421974,
+        1192.472676473005,
+        1269.126468896376,
+        1345.5994740734654
+      ]
+    }
+  },
+  "tick_search_overrides": {
+    "0": {
+      "initial_line": 764,
+      "half_window": 4,
+      "pixel_window": [
+        246,
+        271
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "1": {
+      "initial_line": 1187,
+      "half_window": 4,
+      "pixel_window": [
+        248,
+        273
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "2": {
+      "initial_line": 1612,
+      "half_window": 4,
+      "pixel_window": [
+        244,
+        269
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "3": {
+      "initial_line": 2037,
+      "half_window": 4,
+      "pixel_window": [
+        248,
+        273
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "4": {
+      "initial_line": 2461,
+      "half_window": 4,
+      "pixel_window": [
+        244,
+        269
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "5": {
+      "initial_line": 2886,
+      "half_window": 4,
+      "pixel_window": [
+        244,
+        269
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "6": {
+      "initial_line": 3311,
+      "half_window": 4,
+      "pixel_window": [
+        245,
+        270
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "7": {
+      "initial_line": 3728,
+      "half_window": 4,
+      "pixel_window": [
+        266,
+        291
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "8": {
+      "initial_line": 4160,
+      "half_window": 4,
+      "pixel_window": [
+        245,
+        270
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "9": {
+      "initial_line": 4585,
+      "half_window": 4,
+      "pixel_window": [
+        294,
+        319
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "10": {
+      "initial_line": 5009,
+      "half_window": 4,
+      "pixel_window": [
+        298,
+        323
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "11": {
+      "initial_line": 5435,
+      "half_window": 4,
+      "pixel_window": [
+        246,
+        271
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "12": {
+      "initial_line": 5850,
+      "half_window": 4,
+      "pixel_window": [
+        262,
+        287
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "13": {
+      "initial_line": 6284,
+      "half_window": 4,
+      "pixel_window": [
+        246,
+        271
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "14": {
+      "initial_line": 6708,
+      "half_window": 4,
+      "pixel_window": [
+        246,
+        271
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "15": {
+      "initial_line": 7132,
+      "half_window": 4,
+      "pixel_window": [
+        251,
+        276
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "16": {
+      "initial_line": 7548,
+      "half_window": 4,
+      "pixel_window": [
+        256,
+        281
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "17": {
+      "initial_line": 652,
+      "half_window": 4,
+      "pixel_window": [
+        11872,
+        11897
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "18": {
+      "initial_line": 1077,
+      "half_window": 4,
+      "pixel_window": [
+        11888,
+        11913
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "19": {
+      "initial_line": 1502,
+      "half_window": 4,
+      "pixel_window": [
+        11844,
+        11869
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "20": {
+      "initial_line": 1918,
+      "half_window": 4,
+      "pixel_window": [
+        11877,
+        11902
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "21": {
+      "initial_line": 2341,
+      "half_window": 4,
+      "pixel_window": [
+        11846,
+        11871
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "22": {
+      "initial_line": 2774,
+      "half_window": 4,
+      "pixel_window": [
+        11894,
+        11919
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "23": {
+      "initial_line": 3185,
+      "half_window": 4,
+      "pixel_window": [
+        11861,
+        11886
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "24": {
+      "initial_line": 3617,
+      "half_window": 4,
+      "pixel_window": [
+        11867,
+        11892
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "25": {
+      "initial_line": 4051,
+      "half_window": 4,
+      "pixel_window": [
+        11852,
+        11877
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "26": {
+      "initial_line": 4475,
+      "half_window": 4,
+      "pixel_window": [
+        11903,
+        11928
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "27": {
+      "initial_line": 4899,
+      "half_window": 4,
+      "pixel_window": [
+        11910,
+        11935
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "28": {
+      "initial_line": 5324,
+      "half_window": 4,
+      "pixel_window": [
+        11911,
+        11936
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "29": {
+      "initial_line": 5749,
+      "half_window": 4,
+      "pixel_window": [
+        11913,
+        11938
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "30": {
+      "initial_line": 6174,
+      "half_window": 4,
+      "pixel_window": [
+        11914,
+        11939
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "31": {
+      "initial_line": 6596,
+      "half_window": 4,
+      "pixel_window": [
+        11860,
+        11885
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "32": {
+      "initial_line": 7020,
+      "half_window": 4,
+      "pixel_window": [
+        11870,
+        11895
+      ],
+      "reason": "Native numbered rule located on the margin."
+    },
+    "33": {
+      "initial_line": 7443,
+      "half_window": 4,
+      "pixel_window": [
+        11911,
+        11936
+      ],
+      "reason": "Native numbered rule located on the margin."
+    }
+  },
+  "crossing_preview_seeds": [
+    [
+      76,
+      31,
+      232.31161147177255,
+      1212.1784863176924
+    ],
+    [
+      76.5,
+      31,
+      626.2470211192374,
+      1210.7321883474403
+    ],
+    [
+      77,
+      31,
+      1022.1710904757991,
+      1205.1277837127127
+    ],
+    [
+      77.5,
+      31,
+      1417.7335853397979,
+      1200.6081025556743
+    ],
+    [
+      78,
+      31,
+      1812.0305694798258,
+      1195.7268469060728
+    ],
+    [
+      76,
+      31.5,
+      234.84263291971402,
+      752.0749445311858
+    ],
+    [
+      76.5,
+      31.5,
+      626.2470211192374,
+      751.1710082997781
+    ],
+    [
+      77,
+      31.5,
+      1020.3632180129838,
+      744.8434546799244
+    ],
+    [
+      77.5,
+      31.5,
+      1413.7562659216042,
+      739.962199030323
+    ],
+    [
+      76,
+      32,
+      234.48105842715097,
+      291.9714027446791
+    ],
+    [
+      76.5,
+      32,
+      625.7046593803929,
+      290.8866792669899
+    ],
+    [
+      77,
+      32,
+      1013.4933026542855,
+      285.6438491248254
+    ],
+    [
+      77.5,
+      32,
+      1407.9710740405949,
+      280.22023173637933
+    ],
+    [
+      78,
+      32,
+      1798.1099515161477,
+      275.7005505793409
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      200,
+      200
+    ],
+    [
+      200,
+      200
+    ],
+    [
+      200,
+      200
+    ],
+    [
+      200,
+      200
+    ],
+    [
+      200,
+      200
+    ],
+    [
+      200,
+      200
+    ],
+    [
+      200,
+      200
+    ],
+    [
+      200,
+      200
+    ],
+    [
+      200,
+      200
+    ],
+    [
+      200,
+      200
+    ],
+    [
+      200,
+      200
+    ],
+    [
+      200,
+      200
+    ],
+    [
+      200,
+      200
+    ],
+    [
+      200,
+      200
+    ]
+  ],
+  "crossing_search_window": 4,
+  "affine_initialization": {
+    "approximate_positions": [
+      {
+        "longitude": 76,
+        "latitude": 31,
+        "pixel": 1285,
+        "line": 6705
+      },
+      {
+        "longitude": 76.5,
+        "latitude": 31,
+        "pixel": 3464,
+        "line": 6697
+      },
+      {
+        "longitude": 77,
+        "latitude": 31,
+        "pixel": 5654,
+        "line": 6666
+      },
+      {
+        "longitude": 77.5,
+        "latitude": 31,
+        "pixel": 7842,
+        "line": 6641
+      },
+      {
+        "longitude": 78,
+        "latitude": 31,
+        "pixel": 10023,
+        "line": 6614
+      },
+      {
+        "longitude": 76,
+        "latitude": 31.5,
+        "pixel": 1299,
+        "line": 4160
+      },
+      {
+        "longitude": 76.5,
+        "latitude": 31.5,
+        "pixel": 3464,
+        "line": 4155
+      },
+      {
+        "longitude": 77,
+        "latitude": 31.5,
+        "pixel": 5644,
+        "line": 4120
+      },
+      {
+        "longitude": 77.5,
+        "latitude": 31.5,
+        "pixel": 7820,
+        "line": 4093
+      },
+      {
+        "longitude": 76,
+        "latitude": 32,
+        "pixel": 1297,
+        "line": 1615
+      },
+      {
+        "longitude": 76.5,
+        "latitude": 32,
+        "pixel": 3461,
+        "line": 1609
+      },
+      {
+        "longitude": 77,
+        "latitude": 32,
+        "pixel": 5606,
+        "line": 1580
+      },
+      {
+        "longitude": 77.5,
+        "latitude": 32,
+        "pixel": 7788,
+        "line": 1550
+      },
+      {
+        "longitude": 78,
+        "latitude": 32,
+        "pixel": 9946,
+        "line": 1525
+      }
+    ],
+    "reason": "Initial map positions from the labelled half-degree crossings."
+  },
+  "meridian_samples": [
+    {
+      "longitude": 76,
+      "pixel": 1292,
+      "line": 5426,
+      "search_window": 5,
+      "role": "withheld"
+    },
+    {
+      "longitude": 76.5,
+      "pixel": 3464,
+      "line": 5405,
+      "search_window": 5,
+      "role": "withheld"
+    },
+    {
+      "longitude": 77,
+      "pixel": 5649,
+      "line": 5384,
+      "search_window": 5,
+      "role": "withheld"
+    },
+    {
+      "longitude": 77.5,
+      "pixel": 7834,
+      "line": 5363,
+      "search_window": 5,
+      "role": "withheld"
+    },
+    {
+      "longitude": 78,
+      "pixel": 10008,
+      "line": 5342,
+      "search_window": 5,
+      "role": "withheld"
+    },
+    {
+      "longitude": 76,
+      "pixel": 1296,
+      "line": 2877,
+      "search_window": 5,
+      "role": "withheld"
+    },
+    {
+      "longitude": 76.5,
+      "pixel": 3460,
+      "line": 2856,
+      "search_window": 5,
+      "role": "withheld"
+    },
+    {
+      "longitude": 77,
+      "pixel": 5630,
+      "line": 2834,
+      "search_window": 5,
+      "role": "withheld"
+    },
+    {
+      "longitude": 77.5,
+      "pixel": 7804,
+      "line": 2813,
+      "search_window": 5,
+      "role": "withheld"
+    },
+    {
+      "longitude": 78,
+      "pixel": 9970,
+      "line": 2792,
+      "search_window": 5,
+      "role": "withheld"
+    }
+  ],
+  "parallel_samples": [
+    {
+      "latitude": 31,
+      "pixel": 2375,
+      "line": 6701,
+      "search_window": 5,
+      "role": "withheld"
+    },
+    {
+      "latitude": 31,
+      "pixel": 6742,
+      "line": 6653,
+      "search_window": 5,
+      "role": "withheld"
+    },
+    {
+      "latitude": 31,
+      "pixel": 8925,
+      "line": 6627,
+      "search_window": 5,
+      "role": "withheld"
+    },
+    {
+      "latitude": 31.5,
+      "pixel": 2378,
+      "line": 4158,
+      "search_window": 5,
+      "role": "withheld"
+    },
+    {
+      "latitude": 31.5,
+      "pixel": 6722,
+      "line": 4106,
+      "search_window": 5,
+      "role": "withheld"
+    },
+    {
+      "latitude": 31.5,
+      "pixel": 8893,
+      "line": 4083,
+      "search_window": 5,
+      "role": "withheld"
+    },
+    {
+      "latitude": 32,
+      "pixel": 2381,
+      "line": 1612,
+      "search_window": 5,
+      "role": "withheld"
+    },
+    {
+      "latitude": 32,
+      "pixel": 6702,
+      "line": 1563,
+      "search_window": 5,
+      "role": "withheld"
+    },
+    {
+      "latitude": 32,
+      "pixel": 8862,
+      "line": 1538,
+      "search_window": 5,
+      "role": "withheld"
+    }
+  ],
+  "seed_provenance": "Numbered five-minute rulers on this edition and long continuous interior graticule strokes. Alternating numbered rules and additional interior line observations withheld. Scale-obscured labels omitted.",
+  "line_slope_bounds": {
+    "vertical": [
+      -0.055,
+      0.055
+    ],
+    "horizontal": [
+      -0.055,
+      0.055
+    ]
+  },
+  "omitted_crossing_note": "At 78 degrees east, 31.5 degrees north the engraved parallel is legible, but dense hachuring obscures the meridian at the putative crossing. Excluded from two-coordinate controls. Other independent meridian observations retained.",
+  "crop_edge_guides": {
+    "north": [
+      [
+        351.0,
+        407.0
+      ],
+      [
+        379.0,
+        407.347
+      ],
+      [
+        424.0,
+        407.653
+      ],
+      [
+        469.0,
+        407.882
+      ],
+      [
+        514.0,
+        407.976
+      ],
+      [
+        559.0,
+        408.0
+      ],
+      [
+        604.0,
+        408.024
+      ],
+      [
+        648.0,
+        408.115
+      ],
+      [
+        693.0,
+        408.322
+      ],
+      [
+        738.0,
+        408.535
+      ],
+      [
+        783.0,
+        408.535
+      ],
+      [
+        828.0,
+        408.322
+      ],
+      [
+        873.0,
+        408.115
+      ],
+      [
+        918.0,
+        408.024
+      ],
+      [
+        963.0,
+        408.003
+      ],
+      [
+        1008.0,
+        408.0
+      ],
+      [
+        1053.0,
+        408.0
+      ],
+      [
+        1097.0,
+        408.0
+      ],
+      [
+        1142.0,
+        408.0
+      ],
+      [
+        1187.0,
+        408.0
+      ],
+      [
+        1232.0,
+        408.0
+      ],
+      [
+        1277.0,
+        408.0
+      ],
+      [
+        1322.0,
+        408.0
+      ],
+      [
+        1367.0,
+        408.0
+      ],
+      [
+        1412.0,
+        408.0
+      ],
+      [
+        1457.0,
+        408.0
+      ],
+      [
+        1502.0,
+        408.0
+      ],
+      [
+        1546.0,
+        408.0
+      ],
+      [
+        1591.0,
+        408.0
+      ],
+      [
+        1636.0,
+        408.0
+      ],
+      [
+        1681.0,
+        407.997
+      ],
+      [
+        1726.0,
+        407.976
+      ],
+      [
+        1771.0,
+        407.882
+      ],
+      [
+        1816.0,
+        407.653
+      ],
+      [
+        1861.0,
+        407.347
+      ],
+      [
+        1906.0,
+        407.118
+      ],
+      [
+        1951.0,
+        407.024
+      ],
+      [
+        1995.0,
+        407.003
+      ],
+      [
+        2040.0,
+        407.0
+      ],
+      [
+        2085.0,
+        407.0
+      ],
+      [
+        2130.0,
+        406.997
+      ],
+      [
+        2175.0,
+        406.976
+      ],
+      [
+        2220.0,
+        406.882
+      ],
+      [
+        2265.0,
+        406.653
+      ],
+      [
+        2310.0,
+        406.347
+      ],
+      [
+        2355.0,
+        406.118
+      ],
+      [
+        2400.0,
+        406.024
+      ],
+      [
+        2444.0,
+        406.003
+      ],
+      [
+        2489.0,
+        405.997
+      ],
+      [
+        2534.0,
+        405.976
+      ],
+      [
+        2579.0,
+        405.882
+      ],
+      [
+        2624.0,
+        405.653
+      ],
+      [
+        2669.0,
+        405.347
+      ],
+      [
+        2714.0,
+        405.118
+      ],
+      [
+        2759.0,
+        405.021
+      ],
+      [
+        2804.0,
+        404.979
+      ],
+      [
+        2849.0,
+        404.882
+      ],
+      [
+        2893.0,
+        404.653
+      ],
+      [
+        2938.0,
+        404.347
+      ],
+      [
+        2983.0,
+        404.118
+      ],
+      [
+        3028.0,
+        404.024
+      ],
+      [
+        3073.0,
+        404.0
+      ],
+      [
+        3118.0,
+        403.976
+      ],
+      [
+        3163.0,
+        403.882
+      ],
+      [
+        3208.0,
+        403.653
+      ],
+      [
+        3253.0,
+        403.347
+      ],
+      [
+        3298.0,
+        403.118
+      ],
+      [
+        3343.0,
+        403.024
+      ],
+      [
+        3387.0,
+        403.0
+      ],
+      [
+        3432.0,
+        402.976
+      ],
+      [
+        3477.0,
+        402.882
+      ],
+      [
+        3522.0,
+        402.653
+      ],
+      [
+        3567.0,
+        402.347
+      ],
+      [
+        3612.0,
+        402.118
+      ],
+      [
+        3657.0,
+        402.024
+      ],
+      [
+        3702.0,
+        402.003
+      ],
+      [
+        3747.0,
+        402.0
+      ],
+      [
+        3792.0,
+        401.997
+      ],
+      [
+        3836.0,
+        401.976
+      ],
+      [
+        3881.0,
+        401.882
+      ],
+      [
+        3926.0,
+        401.653
+      ],
+      [
+        3971.0,
+        401.347
+      ],
+      [
+        4016.0,
+        401.118
+      ],
+      [
+        4061.0,
+        401.024
+      ],
+      [
+        4106.0,
+        401.003
+      ],
+      [
+        4151.0,
+        401.0
+      ],
+      [
+        4196.0,
+        400.997
+      ],
+      [
+        4241.0,
+        400.976
+      ],
+      [
+        4285.0,
+        400.882
+      ],
+      [
+        4330.0,
+        400.653
+      ],
+      [
+        4375.0,
+        400.347
+      ],
+      [
+        4420.0,
+        400.118
+      ],
+      [
+        4465.0,
+        400.024
+      ],
+      [
+        4510.0,
+        400.003
+      ],
+      [
+        4555.0,
+        400.0
+      ],
+      [
+        4600.0,
+        400.0
+      ],
+      [
+        4645.0,
+        400.0
+      ],
+      [
+        4690.0,
+        400.0
+      ],
+      [
+        4734.0,
+        400.0
+      ],
+      [
+        4779.0,
+        400.0
+      ],
+      [
+        4824.0,
+        400.0
+      ],
+      [
+        4869.0,
+        400.0
+      ],
+      [
+        4914.0,
+        400.0
+      ],
+      [
+        4959.0,
+        400.0
+      ],
+      [
+        5004.0,
+        400.0
+      ],
+      [
+        5049.0,
+        400.0
+      ],
+      [
+        5094.0,
+        400.0
+      ],
+      [
+        5139.0,
+        400.0
+      ],
+      [
+        5183.0,
+        400.0
+      ],
+      [
+        5228.0,
+        400.0
+      ],
+      [
+        5273.0,
+        400.0
+      ],
+      [
+        5318.0,
+        400.0
+      ],
+      [
+        5363.0,
+        400.0
+      ],
+      [
+        5408.0,
+        400.0
+      ],
+      [
+        5453.0,
+        400.0
+      ],
+      [
+        5498.0,
+        400.0
+      ],
+      [
+        5543.0,
+        400.0
+      ],
+      [
+        5588.0,
+        400.0
+      ],
+      [
+        5632.0,
+        400.0
+      ],
+      [
+        5677.0,
+        400.0
+      ],
+      [
+        5722.0,
+        400.0
+      ],
+      [
+        5767.0,
+        400.0
+      ],
+      [
+        5812.0,
+        400.0
+      ],
+      [
+        5857.0,
+        400.0
+      ],
+      [
+        5902.0,
+        399.997
+      ],
+      [
+        5947.0,
+        399.976
+      ],
+      [
+        5992.0,
+        399.882
+      ],
+      [
+        6037.0,
+        399.653
+      ],
+      [
+        6082.0,
+        399.347
+      ],
+      [
+        6126.0,
+        399.118
+      ],
+      [
+        6171.0,
+        399.024
+      ],
+      [
+        6216.0,
+        399.003
+      ],
+      [
+        6261.0,
+        399.0
+      ],
+      [
+        6306.0,
+        399.0
+      ],
+      [
+        6351.0,
+        399.0
+      ],
+      [
+        6396.0,
+        398.997
+      ],
+      [
+        6441.0,
+        398.976
+      ],
+      [
+        6486.0,
+        398.882
+      ],
+      [
+        6531.0,
+        398.653
+      ],
+      [
+        6575.0,
+        398.347
+      ],
+      [
+        6620.0,
+        398.118
+      ],
+      [
+        6665.0,
+        398.024
+      ],
+      [
+        6710.0,
+        398.003
+      ],
+      [
+        6755.0,
+        398.0
+      ],
+      [
+        6800.0,
+        398.0
+      ],
+      [
+        6845.0,
+        398.0
+      ],
+      [
+        6890.0,
+        398.0
+      ],
+      [
+        6935.0,
+        397.997
+      ],
+      [
+        6980.0,
+        397.976
+      ],
+      [
+        7024.0,
+        397.882
+      ],
+      [
+        7069.0,
+        397.653
+      ],
+      [
+        7114.0,
+        397.347
+      ],
+      [
+        7159.0,
+        397.118
+      ],
+      [
+        7204.0,
+        397.024
+      ],
+      [
+        7249.0,
+        397.003
+      ],
+      [
+        7294.0,
+        397.0
+      ],
+      [
+        7339.0,
+        397.0
+      ],
+      [
+        7384.0,
+        397.0
+      ],
+      [
+        7429.0,
+        397.0
+      ],
+      [
+        7473.0,
+        397.0
+      ],
+      [
+        7518.0,
+        397.0
+      ],
+      [
+        7563.0,
+        397.0
+      ],
+      [
+        7608.0,
+        397.0
+      ],
+      [
+        7653.0,
+        397.0
+      ],
+      [
+        7698.0,
+        397.0
+      ],
+      [
+        7743.0,
+        397.0
+      ],
+      [
+        7788.0,
+        397.0
+      ],
+      [
+        7833.0,
+        397.0
+      ],
+      [
+        7878.0,
+        397.0
+      ],
+      [
+        7922.0,
+        397.0
+      ],
+      [
+        7967.0,
+        397.0
+      ],
+      [
+        8012.0,
+        397.0
+      ],
+      [
+        8057.0,
+        397.0
+      ],
+      [
+        8102.0,
+        397.0
+      ],
+      [
+        8147.0,
+        397.0
+      ],
+      [
+        8192.0,
+        397.0
+      ],
+      [
+        8237.0,
+        397.0
+      ],
+      [
+        8282.0,
+        397.0
+      ],
+      [
+        8327.0,
+        397.0
+      ],
+      [
+        8371.0,
+        397.0
+      ],
+      [
+        8416.0,
+        397.0
+      ],
+      [
+        8461.0,
+        397.0
+      ],
+      [
+        8506.0,
+        397.0
+      ],
+      [
+        8551.0,
+        397.0
+      ],
+      [
+        8596.0,
+        397.0
+      ],
+      [
+        8641.0,
+        397.0
+      ],
+      [
+        8686.0,
+        397.0
+      ],
+      [
+        8731.0,
+        397.0
+      ],
+      [
+        8776.0,
+        397.0
+      ],
+      [
+        8820.0,
+        397.0
+      ],
+      [
+        8865.0,
+        397.0
+      ],
+      [
+        8910.0,
+        397.0
+      ],
+      [
+        8955.0,
+        397.0
+      ],
+      [
+        9000.0,
+        397.0
+      ],
+      [
+        9045.0,
+        397.0
+      ],
+      [
+        9090.0,
+        397.0
+      ],
+      [
+        9135.0,
+        397.0
+      ],
+      [
+        9180.0,
+        397.0
+      ],
+      [
+        9225.0,
+        397.0
+      ],
+      [
+        9270.0,
+        397.0
+      ],
+      [
+        9314.0,
+        397.0
+      ],
+      [
+        9359.0,
+        397.0
+      ],
+      [
+        9404.0,
+        397.0
+      ],
+      [
+        9449.0,
+        397.0
+      ],
+      [
+        9494.0,
+        397.0
+      ],
+      [
+        9539.0,
+        397.0
+      ],
+      [
+        9584.0,
+        397.0
+      ],
+      [
+        9629.0,
+        397.0
+      ],
+      [
+        9674.0,
+        397.0
+      ],
+      [
+        9719.0,
+        397.0
+      ],
+      [
+        9763.0,
+        397.0
+      ],
+      [
+        9808.0,
+        397.0
+      ],
+      [
+        9853.0,
+        396.997
+      ],
+      [
+        9898.0,
+        396.976
+      ],
+      [
+        9943.0,
+        396.882
+      ],
+      [
+        9988.0,
+        396.653
+      ],
+      [
+        10033.0,
+        396.347
+      ],
+      [
+        10078.0,
+        396.118
+      ],
+      [
+        10123.0,
+        396.021
+      ],
+      [
+        10168.0,
+        395.979
+      ],
+      [
+        10212.0,
+        395.882
+      ],
+      [
+        10257.0,
+        395.653
+      ],
+      [
+        10302.0,
+        395.344
+      ],
+      [
+        10347.0,
+        395.094
+      ],
+      [
+        10392.0,
+        394.906
+      ],
+      [
+        10437.0,
+        394.653
+      ],
+      [
+        10482.0,
+        394.322
+      ],
+      [
+        10527.0,
+        394.0
+      ],
+      [
+        10572.0,
+        393.675
+      ],
+      [
+        10617.0,
+        393.325
+      ],
+      [
+        10661.0,
+        393.0
+      ],
+      [
+        10706.0,
+        392.678
+      ],
+      [
+        10751.0,
+        392.347
+      ],
+      [
+        10796.0,
+        392.094
+      ],
+      [
+        10841.0,
+        391.906
+      ],
+      [
+        10886.0,
+        391.653
+      ],
+      [
+        10931.0,
+        391.322
+      ],
+      [
+        10976.0,
+        391.0
+      ],
+      [
+        11021.0,
+        390.678
+      ],
+      [
+        11066.0,
+        390.347
+      ],
+      [
+        11110.0,
+        390.094
+      ],
+      [
+        11155.0,
+        389.906
+      ],
+      [
+        11200.0,
+        389.656
+      ],
+      [
+        11245.0,
+        389.344
+      ],
+      [
+        11290.0,
+        389.094
+      ],
+      [
+        11335.0,
+        388.906
+      ],
+      [
+        11380.0,
+        388.656
+      ],
+      [
+        11425.0,
+        388.347
+      ],
+      [
+        11470.0,
+        388.118
+      ],
+      [
+        11515.0,
+        388.024
+      ],
+      [
+        11559.0,
+        388.0
+      ],
+      [
+        11604.0,
+        387.976
+      ],
+      [
+        11649.0,
+        387.882
+      ],
+      [
+        11694.0,
+        387.653
+      ],
+      [
+        11739.0,
+        387.347
+      ],
+      [
+        11784.0,
+        387.118
+      ],
+      [
+        11812.0,
+        388.0
+      ]
+    ],
+    "east": [
+      [
+        388.0,
+        11812.0
+      ],
+      [
+        416.0,
+        11812.0
+      ],
+      [
+        461.0,
+        11812.0
+      ],
+      [
+        506.0,
+        11812.0
+      ],
+      [
+        551.0,
+        11812.0
+      ],
+      [
+        596.0,
+        11812.0
+      ],
+      [
+        641.0,
+        11812.0
+      ],
+      [
+        686.0,
+        11812.0
+      ],
+      [
+        731.0,
+        11811.997
+      ],
+      [
+        776.0,
+        11811.976
+      ],
+      [
+        821.0,
+        11811.882
+      ],
+      [
+        866.0,
+        11811.653
+      ],
+      [
+        911.0,
+        11811.347
+      ],
+      [
+        957.0,
+        11811.118
+      ],
+      [
+        1002.0,
+        11811.024
+      ],
+      [
+        1047.0,
+        11811.003
+      ],
+      [
+        1092.0,
+        11811.0
+      ],
+      [
+        1137.0,
+        11811.0
+      ],
+      [
+        1182.0,
+        11811.0
+      ],
+      [
+        1227.0,
+        11811.0
+      ],
+      [
+        1272.0,
+        11811.0
+      ],
+      [
+        1317.0,
+        11811.0
+      ],
+      [
+        1362.0,
+        11811.0
+      ],
+      [
+        1407.0,
+        11811.0
+      ],
+      [
+        1452.0,
+        11811.0
+      ],
+      [
+        1497.0,
+        11810.997
+      ],
+      [
+        1542.0,
+        11810.976
+      ],
+      [
+        1587.0,
+        11810.888
+      ],
+      [
+        1632.0,
+        11810.702
+      ],
+      [
+        1677.0,
+        11810.583
+      ],
+      [
+        1722.0,
+        11810.812
+      ],
+      [
+        1767.0,
+        11811.334
+      ],
+      [
+        1812.0,
+        11811.791
+      ],
+      [
+        1857.0,
+        11812.07
+      ],
+      [
+        1902.0,
+        11812.341
+      ],
+      [
+        1947.0,
+        11812.653
+      ],
+      [
+        1993.0,
+        11812.882
+      ],
+      [
+        2038.0,
+        11812.979
+      ],
+      [
+        2083.0,
+        11813.021
+      ],
+      [
+        2128.0,
+        11813.118
+      ],
+      [
+        2173.0,
+        11813.347
+      ],
+      [
+        2218.0,
+        11813.656
+      ],
+      [
+        2263.0,
+        11813.906
+      ],
+      [
+        2308.0,
+        11814.094
+      ],
+      [
+        2353.0,
+        11814.344
+      ],
+      [
+        2398.0,
+        11814.653
+      ],
+      [
+        2443.0,
+        11814.882
+      ],
+      [
+        2488.0,
+        11814.976
+      ],
+      [
+        2533.0,
+        11815.0
+      ],
+      [
+        2578.0,
+        11815.024
+      ],
+      [
+        2623.0,
+        11815.118
+      ],
+      [
+        2668.0,
+        11815.347
+      ],
+      [
+        2713.0,
+        11815.653
+      ],
+      [
+        2758.0,
+        11815.882
+      ],
+      [
+        2803.0,
+        11815.979
+      ],
+      [
+        2848.0,
+        11816.021
+      ],
+      [
+        2893.0,
+        11816.118
+      ],
+      [
+        2938.0,
+        11816.347
+      ],
+      [
+        2983.0,
+        11816.656
+      ],
+      [
+        3029.0,
+        11816.906
+      ],
+      [
+        3074.0,
+        11817.094
+      ],
+      [
+        3119.0,
+        11817.347
+      ],
+      [
+        3164.0,
+        11817.678
+      ],
+      [
+        3209.0,
+        11818.0
+      ],
+      [
+        3254.0,
+        11818.322
+      ],
+      [
+        3299.0,
+        11818.653
+      ],
+      [
+        3344.0,
+        11818.906
+      ],
+      [
+        3389.0,
+        11819.094
+      ],
+      [
+        3434.0,
+        11819.344
+      ],
+      [
+        3479.0,
+        11819.656
+      ],
+      [
+        3524.0,
+        11819.906
+      ],
+      [
+        3569.0,
+        11820.094
+      ],
+      [
+        3614.0,
+        11820.347
+      ],
+      [
+        3659.0,
+        11820.678
+      ],
+      [
+        3704.0,
+        11821.0
+      ],
+      [
+        3749.0,
+        11821.325
+      ],
+      [
+        3794.0,
+        11821.675
+      ],
+      [
+        3839.0,
+        11822.0
+      ],
+      [
+        3884.0,
+        11822.325
+      ],
+      [
+        3929.0,
+        11822.675
+      ],
+      [
+        3974.0,
+        11823.0
+      ],
+      [
+        4019.0,
+        11823.325
+      ],
+      [
+        4065.0,
+        11823.675
+      ],
+      [
+        4110.0,
+        11824.0
+      ],
+      [
+        4155.0,
+        11824.322
+      ],
+      [
+        4200.0,
+        11824.651
+      ],
+      [
+        4245.0,
+        11824.882
+      ],
+      [
+        4290.0,
+        11824.979
+      ],
+      [
+        4335.0,
+        11825.021
+      ],
+      [
+        4380.0,
+        11825.118
+      ],
+      [
+        4425.0,
+        11825.349
+      ],
+      [
+        4470.0,
+        11825.678
+      ],
+      [
+        4515.0,
+        11826.0
+      ],
+      [
+        4560.0,
+        11826.325
+      ],
+      [
+        4605.0,
+        11826.675
+      ],
+      [
+        4650.0,
+        11827.0
+      ],
+      [
+        4695.0,
+        11827.322
+      ],
+      [
+        4740.0,
+        11827.651
+      ],
+      [
+        4785.0,
+        11827.882
+      ],
+      [
+        4830.0,
+        11827.979
+      ],
+      [
+        4875.0,
+        11828.021
+      ],
+      [
+        4920.0,
+        11828.118
+      ],
+      [
+        4965.0,
+        11828.347
+      ],
+      [
+        5010.0,
+        11828.653
+      ],
+      [
+        5055.0,
+        11828.882
+      ],
+      [
+        5101.0,
+        11828.976
+      ],
+      [
+        5146.0,
+        11828.997
+      ],
+      [
+        5191.0,
+        11829.0
+      ],
+      [
+        5236.0,
+        11829.0
+      ],
+      [
+        5281.0,
+        11829.0
+      ],
+      [
+        5326.0,
+        11829.0
+      ],
+      [
+        5371.0,
+        11829.0
+      ],
+      [
+        5416.0,
+        11829.0
+      ],
+      [
+        5461.0,
+        11829.0
+      ],
+      [
+        5506.0,
+        11829.0
+      ],
+      [
+        5551.0,
+        11829.0
+      ],
+      [
+        5596.0,
+        11829.0
+      ],
+      [
+        5641.0,
+        11829.0
+      ],
+      [
+        5686.0,
+        11829.0
+      ],
+      [
+        5731.0,
+        11829.0
+      ],
+      [
+        5776.0,
+        11829.0
+      ],
+      [
+        5821.0,
+        11829.0
+      ],
+      [
+        5866.0,
+        11829.0
+      ],
+      [
+        5911.0,
+        11829.0
+      ],
+      [
+        5956.0,
+        11829.0
+      ],
+      [
+        6001.0,
+        11829.0
+      ],
+      [
+        6046.0,
+        11829.0
+      ],
+      [
+        6091.0,
+        11829.0
+      ],
+      [
+        6137.0,
+        11829.0
+      ],
+      [
+        6182.0,
+        11829.003
+      ],
+      [
+        6227.0,
+        11829.024
+      ],
+      [
+        6272.0,
+        11829.118
+      ],
+      [
+        6317.0,
+        11829.347
+      ],
+      [
+        6362.0,
+        11829.656
+      ],
+      [
+        6407.0,
+        11829.906
+      ],
+      [
+        6452.0,
+        11830.094
+      ],
+      [
+        6497.0,
+        11830.344
+      ],
+      [
+        6542.0,
+        11830.653
+      ],
+      [
+        6587.0,
+        11830.885
+      ],
+      [
+        6632.0,
+        11831.0
+      ],
+      [
+        6677.0,
+        11831.115
+      ],
+      [
+        6722.0,
+        11831.346
+      ],
+      [
+        6767.0,
+        11831.653
+      ],
+      [
+        6812.0,
+        11831.882
+      ],
+      [
+        6857.0,
+        11831.976
+      ],
+      [
+        6902.0,
+        11831.997
+      ],
+      [
+        6947.0,
+        11832.0
+      ],
+      [
+        6992.0,
+        11832.0
+      ],
+      [
+        7037.0,
+        11832.003
+      ],
+      [
+        7082.0,
+        11832.024
+      ],
+      [
+        7127.0,
+        11832.118
+      ],
+      [
+        7173.0,
+        11832.347
+      ],
+      [
+        7218.0,
+        11832.656
+      ],
+      [
+        7263.0,
+        11832.906
+      ],
+      [
+        7308.0,
+        11833.094
+      ],
+      [
+        7353.0,
+        11833.344
+      ],
+      [
+        7398.0,
+        11833.656
+      ],
+      [
+        7443.0,
+        11833.906
+      ],
+      [
+        7488.0,
+        11834.094
+      ],
+      [
+        7533.0,
+        11834.344
+      ],
+      [
+        7578.0,
+        11834.653
+      ],
+      [
+        7623.0,
+        11834.882
+      ],
+      [
+        7668.0,
+        11834.976
+      ],
+      [
+        7696.0,
+        11836.0
+      ]
+    ],
+    "south": [
+      [
+        355.0,
+        7726.0
+      ],
+      [
+        383.0,
+        7724.879
+      ],
+      [
+        428.0,
+        7724.629
+      ],
+      [
+        473.0,
+        7724.225
+      ],
+      [
+        518.0,
+        7723.747
+      ],
+      [
+        563.0,
+        7723.252
+      ],
+      [
+        608.0,
+        7722.772
+      ],
+      [
+        653.0,
+        7722.347
+      ],
+      [
+        698.0,
+        7722.0
+      ],
+      [
+        743.0,
+        7721.653
+      ],
+      [
+        788.0,
+        7721.228
+      ],
+      [
+        833.0,
+        7720.748
+      ],
+      [
+        878.0,
+        7720.253
+      ],
+      [
+        923.0,
+        7719.775
+      ],
+      [
+        968.0,
+        7719.371
+      ],
+      [
+        1013.0,
+        7719.121
+      ],
+      [
+        1058.0,
+        7719.022
+      ],
+      [
+        1103.0,
+        7718.979
+      ],
+      [
+        1148.0,
+        7718.882
+      ],
+      [
+        1193.0,
+        7718.653
+      ],
+      [
+        1238.0,
+        7718.344
+      ],
+      [
+        1283.0,
+        7718.094
+      ],
+      [
+        1328.0,
+        7717.906
+      ],
+      [
+        1373.0,
+        7717.656
+      ],
+      [
+        1418.0,
+        7717.347
+      ],
+      [
+        1463.0,
+        7717.115
+      ],
+      [
+        1508.0,
+        7717.0
+      ],
+      [
+        1552.0,
+        7716.885
+      ],
+      [
+        1597.0,
+        7716.654
+      ],
+      [
+        1642.0,
+        7716.347
+      ],
+      [
+        1687.0,
+        7716.118
+      ],
+      [
+        1732.0,
+        7716.021
+      ],
+      [
+        1777.0,
+        7715.979
+      ],
+      [
+        1822.0,
+        7715.882
+      ],
+      [
+        1867.0,
+        7715.653
+      ],
+      [
+        1912.0,
+        7715.347
+      ],
+      [
+        1957.0,
+        7715.118
+      ],
+      [
+        2002.0,
+        7715.024
+      ],
+      [
+        2047.0,
+        7715.0
+      ],
+      [
+        2092.0,
+        7714.976
+      ],
+      [
+        2137.0,
+        7714.882
+      ],
+      [
+        2182.0,
+        7714.653
+      ],
+      [
+        2227.0,
+        7714.347
+      ],
+      [
+        2272.0,
+        7714.118
+      ],
+      [
+        2317.0,
+        7714.024
+      ],
+      [
+        2362.0,
+        7714.003
+      ],
+      [
+        2407.0,
+        7714.0
+      ],
+      [
+        2452.0,
+        7714.0
+      ],
+      [
+        2497.0,
+        7714.0
+      ],
+      [
+        2542.0,
+        7714.0
+      ],
+      [
+        2587.0,
+        7714.0
+      ],
+      [
+        2632.0,
+        7714.0
+      ],
+      [
+        2677.0,
+        7714.0
+      ],
+      [
+        2722.0,
+        7714.0
+      ],
+      [
+        2767.0,
+        7714.0
+      ],
+      [
+        2812.0,
+        7714.0
+      ],
+      [
+        2857.0,
+        7714.0
+      ],
+      [
+        2902.0,
+        7714.0
+      ],
+      [
+        2947.0,
+        7714.0
+      ],
+      [
+        2992.0,
+        7714.0
+      ],
+      [
+        3037.0,
+        7714.0
+      ],
+      [
+        3082.0,
+        7714.0
+      ],
+      [
+        3127.0,
+        7714.0
+      ],
+      [
+        3172.0,
+        7714.0
+      ],
+      [
+        3217.0,
+        7714.0
+      ],
+      [
+        3262.0,
+        7714.0
+      ],
+      [
+        3307.0,
+        7714.0
+      ],
+      [
+        3352.0,
+        7714.0
+      ],
+      [
+        3397.0,
+        7714.0
+      ],
+      [
+        3442.0,
+        7714.0
+      ],
+      [
+        3487.0,
+        7714.0
+      ],
+      [
+        3532.0,
+        7714.0
+      ],
+      [
+        3577.0,
+        7714.0
+      ],
+      [
+        3622.0,
+        7714.0
+      ],
+      [
+        3667.0,
+        7714.0
+      ],
+      [
+        3712.0,
+        7714.0
+      ],
+      [
+        3757.0,
+        7714.0
+      ],
+      [
+        3802.0,
+        7714.0
+      ],
+      [
+        3846.0,
+        7714.0
+      ],
+      [
+        3891.0,
+        7714.0
+      ],
+      [
+        3936.0,
+        7714.0
+      ],
+      [
+        3981.0,
+        7714.0
+      ],
+      [
+        4026.0,
+        7714.0
+      ],
+      [
+        4071.0,
+        7714.0
+      ],
+      [
+        4116.0,
+        7713.997
+      ],
+      [
+        4161.0,
+        7713.976
+      ],
+      [
+        4206.0,
+        7713.882
+      ],
+      [
+        4251.0,
+        7713.653
+      ],
+      [
+        4296.0,
+        7713.347
+      ],
+      [
+        4341.0,
+        7713.118
+      ],
+      [
+        4386.0,
+        7713.024
+      ],
+      [
+        4431.0,
+        7713.003
+      ],
+      [
+        4476.0,
+        7713.0
+      ],
+      [
+        4521.0,
+        7713.0
+      ],
+      [
+        4566.0,
+        7713.0
+      ],
+      [
+        4611.0,
+        7712.997
+      ],
+      [
+        4656.0,
+        7712.976
+      ],
+      [
+        4701.0,
+        7712.882
+      ],
+      [
+        4746.0,
+        7712.653
+      ],
+      [
+        4791.0,
+        7712.346
+      ],
+      [
+        4836.0,
+        7712.115
+      ],
+      [
+        4881.0,
+        7712.0
+      ],
+      [
+        4926.0,
+        7711.885
+      ],
+      [
+        4971.0,
+        7711.654
+      ],
+      [
+        5016.0,
+        7711.347
+      ],
+      [
+        5061.0,
+        7711.118
+      ],
+      [
+        5106.0,
+        7711.021
+      ],
+      [
+        5151.0,
+        7710.979
+      ],
+      [
+        5196.0,
+        7710.882
+      ],
+      [
+        5241.0,
+        7710.653
+      ],
+      [
+        5286.0,
+        7710.347
+      ],
+      [
+        5331.0,
+        7710.118
+      ],
+      [
+        5376.0,
+        7710.021
+      ],
+      [
+        5421.0,
+        7709.979
+      ],
+      [
+        5466.0,
+        7709.882
+      ],
+      [
+        5511.0,
+        7709.653
+      ],
+      [
+        5556.0,
+        7709.344
+      ],
+      [
+        5601.0,
+        7709.094
+      ],
+      [
+        5646.0,
+        7708.906
+      ],
+      [
+        5691.0,
+        7708.656
+      ],
+      [
+        5736.0,
+        7708.344
+      ],
+      [
+        5781.0,
+        7708.094
+      ],
+      [
+        5826.0,
+        7707.906
+      ],
+      [
+        5871.0,
+        7707.656
+      ],
+      [
+        5916.0,
+        7707.344
+      ],
+      [
+        5961.0,
+        7707.094
+      ],
+      [
+        6006.0,
+        7706.906
+      ],
+      [
+        6051.0,
+        7706.656
+      ],
+      [
+        6096.0,
+        7706.344
+      ],
+      [
+        6140.0,
+        7706.094
+      ],
+      [
+        6185.0,
+        7705.906
+      ],
+      [
+        6230.0,
+        7705.656
+      ],
+      [
+        6275.0,
+        7705.347
+      ],
+      [
+        6320.0,
+        7705.118
+      ],
+      [
+        6365.0,
+        7705.024
+      ],
+      [
+        6410.0,
+        7705.003
+      ],
+      [
+        6455.0,
+        7705.0
+      ],
+      [
+        6500.0,
+        7705.0
+      ],
+      [
+        6545.0,
+        7705.0
+      ],
+      [
+        6590.0,
+        7705.0
+      ],
+      [
+        6635.0,
+        7705.0
+      ],
+      [
+        6680.0,
+        7705.0
+      ],
+      [
+        6725.0,
+        7705.0
+      ],
+      [
+        6770.0,
+        7705.0
+      ],
+      [
+        6815.0,
+        7705.0
+      ],
+      [
+        6860.0,
+        7705.0
+      ],
+      [
+        6905.0,
+        7705.0
+      ],
+      [
+        6950.0,
+        7705.0
+      ],
+      [
+        6995.0,
+        7705.0
+      ],
+      [
+        7040.0,
+        7705.0
+      ],
+      [
+        7085.0,
+        7705.0
+      ],
+      [
+        7130.0,
+        7705.003
+      ],
+      [
+        7175.0,
+        7705.024
+      ],
+      [
+        7220.0,
+        7705.118
+      ],
+      [
+        7265.0,
+        7705.347
+      ],
+      [
+        7310.0,
+        7705.653
+      ],
+      [
+        7355.0,
+        7705.882
+      ],
+      [
+        7400.0,
+        7705.976
+      ],
+      [
+        7445.0,
+        7705.997
+      ],
+      [
+        7490.0,
+        7706.0
+      ],
+      [
+        7535.0,
+        7706.0
+      ],
+      [
+        7580.0,
+        7706.0
+      ],
+      [
+        7625.0,
+        7706.0
+      ],
+      [
+        7670.0,
+        7706.0
+      ],
+      [
+        7715.0,
+        7706.0
+      ],
+      [
+        7760.0,
+        7706.0
+      ],
+      [
+        7805.0,
+        7706.0
+      ],
+      [
+        7850.0,
+        7706.0
+      ],
+      [
+        7895.0,
+        7705.997
+      ],
+      [
+        7940.0,
+        7705.976
+      ],
+      [
+        7985.0,
+        7705.882
+      ],
+      [
+        8030.0,
+        7705.653
+      ],
+      [
+        8075.0,
+        7705.347
+      ],
+      [
+        8120.0,
+        7705.118
+      ],
+      [
+        8165.0,
+        7705.024
+      ],
+      [
+        8210.0,
+        7705.0
+      ],
+      [
+        8255.0,
+        7704.976
+      ],
+      [
+        8300.0,
+        7704.882
+      ],
+      [
+        8345.0,
+        7704.653
+      ],
+      [
+        8389.0,
+        7704.346
+      ],
+      [
+        8434.0,
+        7704.115
+      ],
+      [
+        8479.0,
+        7704.0
+      ],
+      [
+        8524.0,
+        7703.885
+      ],
+      [
+        8569.0,
+        7703.653
+      ],
+      [
+        8614.0,
+        7703.344
+      ],
+      [
+        8659.0,
+        7703.094
+      ],
+      [
+        8704.0,
+        7702.906
+      ],
+      [
+        8749.0,
+        7702.656
+      ],
+      [
+        8794.0,
+        7702.344
+      ],
+      [
+        8839.0,
+        7702.094
+      ],
+      [
+        8884.0,
+        7701.906
+      ],
+      [
+        8929.0,
+        7701.653
+      ],
+      [
+        8974.0,
+        7701.322
+      ],
+      [
+        9019.0,
+        7701.0
+      ],
+      [
+        9064.0,
+        7700.678
+      ],
+      [
+        9109.0,
+        7700.347
+      ],
+      [
+        9154.0,
+        7700.094
+      ],
+      [
+        9199.0,
+        7699.906
+      ],
+      [
+        9244.0,
+        7699.656
+      ],
+      [
+        9289.0,
+        7699.344
+      ],
+      [
+        9334.0,
+        7699.094
+      ],
+      [
+        9379.0,
+        7698.906
+      ],
+      [
+        9424.0,
+        7698.656
+      ],
+      [
+        9469.0,
+        7698.344
+      ],
+      [
+        9514.0,
+        7698.094
+      ],
+      [
+        9559.0,
+        7697.906
+      ],
+      [
+        9604.0,
+        7697.656
+      ],
+      [
+        9649.0,
+        7697.344
+      ],
+      [
+        9694.0,
+        7697.094
+      ],
+      [
+        9739.0,
+        7696.906
+      ],
+      [
+        9784.0,
+        7696.656
+      ],
+      [
+        9829.0,
+        7696.344
+      ],
+      [
+        9874.0,
+        7696.094
+      ],
+      [
+        9919.0,
+        7695.906
+      ],
+      [
+        9964.0,
+        7695.656
+      ],
+      [
+        10009.0,
+        7695.347
+      ],
+      [
+        10054.0,
+        7695.118
+      ],
+      [
+        10099.0,
+        7695.024
+      ],
+      [
+        10144.0,
+        7695.003
+      ],
+      [
+        10189.0,
+        7695.0
+      ],
+      [
+        10234.0,
+        7694.997
+      ],
+      [
+        10279.0,
+        7694.976
+      ],
+      [
+        10324.0,
+        7694.882
+      ],
+      [
+        10369.0,
+        7694.653
+      ],
+      [
+        10414.0,
+        7694.347
+      ],
+      [
+        10459.0,
+        7694.118
+      ],
+      [
+        10504.0,
+        7694.024
+      ],
+      [
+        10549.0,
+        7694.003
+      ],
+      [
+        10594.0,
+        7694.0
+      ],
+      [
+        10639.0,
+        7694.0
+      ],
+      [
+        10683.0,
+        7694.0
+      ],
+      [
+        10728.0,
+        7694.0
+      ],
+      [
+        10773.0,
+        7694.0
+      ],
+      [
+        10818.0,
+        7694.0
+      ],
+      [
+        10863.0,
+        7694.0
+      ],
+      [
+        10908.0,
+        7694.003
+      ],
+      [
+        10953.0,
+        7694.024
+      ],
+      [
+        10998.0,
+        7694.118
+      ],
+      [
+        11043.0,
+        7694.347
+      ],
+      [
+        11088.0,
+        7694.653
+      ],
+      [
+        11133.0,
+        7694.882
+      ],
+      [
+        11178.0,
+        7694.976
+      ],
+      [
+        11223.0,
+        7694.997
+      ],
+      [
+        11268.0,
+        7695.0
+      ],
+      [
+        11313.0,
+        7695.0
+      ],
+      [
+        11358.0,
+        7695.003
+      ],
+      [
+        11403.0,
+        7695.024
+      ],
+      [
+        11448.0,
+        7695.118
+      ],
+      [
+        11493.0,
+        7695.347
+      ],
+      [
+        11538.0,
+        7695.653
+      ],
+      [
+        11583.0,
+        7695.882
+      ],
+      [
+        11628.0,
+        7695.976
+      ],
+      [
+        11673.0,
+        7695.997
+      ],
+      [
+        11718.0,
+        7696.0
+      ],
+      [
+        11763.0,
+        7696.0
+      ],
+      [
+        11808.0,
+        7696.0
+      ],
+      [
+        11836.0,
+        7696.0
+      ]
+    ],
+    "west": [
+      [
+        407.0,
+        351.0
+      ],
+      [
+        435.0,
+        351.118
+      ],
+      [
+        480.0,
+        351.347
+      ],
+      [
+        525.0,
+        351.653
+      ],
+      [
+        570.0,
+        351.882
+      ],
+      [
+        614.0,
+        351.976
+      ],
+      [
+        659.0,
+        351.997
+      ],
+      [
+        704.0,
+        351.997
+      ],
+      [
+        749.0,
+        351.976
+      ],
+      [
+        794.0,
+        351.882
+      ],
+      [
+        838.0,
+        351.653
+      ],
+      [
+        883.0,
+        351.347
+      ],
+      [
+        928.0,
+        351.118
+      ],
+      [
+        973.0,
+        351.024
+      ],
+      [
+        1018.0,
+        351.003
+      ],
+      [
+        1063.0,
+        351.0
+      ],
+      [
+        1108.0,
+        351.0
+      ],
+      [
+        1152.0,
+        351.0
+      ],
+      [
+        1197.0,
+        351.0
+      ],
+      [
+        1242.0,
+        351.0
+      ],
+      [
+        1287.0,
+        351.0
+      ],
+      [
+        1332.0,
+        350.997
+      ],
+      [
+        1376.0,
+        350.976
+      ],
+      [
+        1421.0,
+        350.882
+      ],
+      [
+        1466.0,
+        350.653
+      ],
+      [
+        1511.0,
+        350.347
+      ],
+      [
+        1556.0,
+        350.118
+      ],
+      [
+        1601.0,
+        350.024
+      ],
+      [
+        1646.0,
+        350.006
+      ],
+      [
+        1690.0,
+        350.024
+      ],
+      [
+        1735.0,
+        350.118
+      ],
+      [
+        1780.0,
+        350.347
+      ],
+      [
+        1825.0,
+        350.653
+      ],
+      [
+        1870.0,
+        350.882
+      ],
+      [
+        1914.0,
+        350.976
+      ],
+      [
+        1959.0,
+        350.997
+      ],
+      [
+        2004.0,
+        351.0
+      ],
+      [
+        2049.0,
+        351.0
+      ],
+      [
+        2094.0,
+        351.0
+      ],
+      [
+        2139.0,
+        351.0
+      ],
+      [
+        2184.0,
+        351.0
+      ],
+      [
+        2228.0,
+        351.0
+      ],
+      [
+        2273.0,
+        351.0
+      ],
+      [
+        2318.0,
+        351.0
+      ],
+      [
+        2363.0,
+        351.0
+      ],
+      [
+        2408.0,
+        351.0
+      ],
+      [
+        2452.0,
+        351.0
+      ],
+      [
+        2497.0,
+        350.997
+      ],
+      [
+        2542.0,
+        350.976
+      ],
+      [
+        2587.0,
+        350.882
+      ],
+      [
+        2632.0,
+        350.656
+      ],
+      [
+        2677.0,
+        350.371
+      ],
+      [
+        2722.0,
+        350.234
+      ],
+      [
+        2766.0,
+        350.347
+      ],
+      [
+        2811.0,
+        350.538
+      ],
+      [
+        2856.0,
+        350.535
+      ],
+      [
+        2901.0,
+        350.322
+      ],
+      [
+        2946.0,
+        350.115
+      ],
+      [
+        2990.0,
+        350.024
+      ],
+      [
+        3035.0,
+        350.003
+      ],
+      [
+        3080.0,
+        350.0
+      ],
+      [
+        3125.0,
+        350.003
+      ],
+      [
+        3170.0,
+        350.024
+      ],
+      [
+        3215.0,
+        350.118
+      ],
+      [
+        3260.0,
+        350.347
+      ],
+      [
+        3304.0,
+        350.653
+      ],
+      [
+        3349.0,
+        350.882
+      ],
+      [
+        3394.0,
+        350.976
+      ],
+      [
+        3439.0,
+        350.997
+      ],
+      [
+        3484.0,
+        351.0
+      ],
+      [
+        3528.0,
+        351.0
+      ],
+      [
+        3573.0,
+        351.003
+      ],
+      [
+        3618.0,
+        351.024
+      ],
+      [
+        3663.0,
+        351.118
+      ],
+      [
+        3708.0,
+        351.347
+      ],
+      [
+        3753.0,
+        351.654
+      ],
+      [
+        3798.0,
+        351.885
+      ],
+      [
+        3842.0,
+        352.0
+      ],
+      [
+        3887.0,
+        352.115
+      ],
+      [
+        3932.0,
+        352.346
+      ],
+      [
+        3977.0,
+        352.653
+      ],
+      [
+        4022.0,
+        352.882
+      ],
+      [
+        4066.0,
+        352.976
+      ],
+      [
+        4111.0,
+        352.997
+      ],
+      [
+        4156.0,
+        353.0
+      ],
+      [
+        4201.0,
+        353.0
+      ],
+      [
+        4246.0,
+        353.0
+      ],
+      [
+        4291.0,
+        353.003
+      ],
+      [
+        4336.0,
+        353.024
+      ],
+      [
+        4380.0,
+        353.118
+      ],
+      [
+        4425.0,
+        353.347
+      ],
+      [
+        4470.0,
+        353.653
+      ],
+      [
+        4515.0,
+        353.882
+      ],
+      [
+        4560.0,
+        353.976
+      ],
+      [
+        4604.0,
+        353.997
+      ],
+      [
+        4649.0,
+        354.0
+      ],
+      [
+        4694.0,
+        354.0
+      ],
+      [
+        4739.0,
+        354.0
+      ],
+      [
+        4784.0,
+        353.997
+      ],
+      [
+        4829.0,
+        353.976
+      ],
+      [
+        4874.0,
+        353.882
+      ],
+      [
+        4918.0,
+        353.653
+      ],
+      [
+        4963.0,
+        353.347
+      ],
+      [
+        5008.0,
+        353.118
+      ],
+      [
+        5053.0,
+        353.024
+      ],
+      [
+        5098.0,
+        353.003
+      ],
+      [
+        5142.0,
+        353.0
+      ],
+      [
+        5187.0,
+        353.0
+      ],
+      [
+        5232.0,
+        353.0
+      ],
+      [
+        5277.0,
+        353.0
+      ],
+      [
+        5322.0,
+        353.0
+      ],
+      [
+        5367.0,
+        353.0
+      ],
+      [
+        5412.0,
+        352.997
+      ],
+      [
+        5456.0,
+        352.976
+      ],
+      [
+        5501.0,
+        352.882
+      ],
+      [
+        5546.0,
+        352.653
+      ],
+      [
+        5591.0,
+        352.347
+      ],
+      [
+        5636.0,
+        352.118
+      ],
+      [
+        5680.0,
+        352.024
+      ],
+      [
+        5725.0,
+        352.003
+      ],
+      [
+        5770.0,
+        352.0
+      ],
+      [
+        5815.0,
+        352.0
+      ],
+      [
+        5860.0,
+        352.0
+      ],
+      [
+        5905.0,
+        352.0
+      ],
+      [
+        5950.0,
+        352.0
+      ],
+      [
+        5994.0,
+        352.0
+      ],
+      [
+        6039.0,
+        352.0
+      ],
+      [
+        6084.0,
+        352.0
+      ],
+      [
+        6129.0,
+        352.0
+      ],
+      [
+        6174.0,
+        352.0
+      ],
+      [
+        6218.0,
+        351.997
+      ],
+      [
+        6263.0,
+        351.976
+      ],
+      [
+        6308.0,
+        351.885
+      ],
+      [
+        6353.0,
+        351.678
+      ],
+      [
+        6398.0,
+        351.465
+      ],
+      [
+        6443.0,
+        351.465
+      ],
+      [
+        6488.0,
+        351.678
+      ],
+      [
+        6532.0,
+        351.885
+      ],
+      [
+        6577.0,
+        351.976
+      ],
+      [
+        6622.0,
+        351.997
+      ],
+      [
+        6667.0,
+        352.0
+      ],
+      [
+        6712.0,
+        352.0
+      ],
+      [
+        6756.0,
+        352.0
+      ],
+      [
+        6801.0,
+        352.0
+      ],
+      [
+        6846.0,
+        352.0
+      ],
+      [
+        6891.0,
+        352.0
+      ],
+      [
+        6936.0,
+        352.0
+      ],
+      [
+        6981.0,
+        352.0
+      ],
+      [
+        7026.0,
+        352.003
+      ],
+      [
+        7070.0,
+        352.024
+      ],
+      [
+        7115.0,
+        352.118
+      ],
+      [
+        7160.0,
+        352.347
+      ],
+      [
+        7205.0,
+        352.653
+      ],
+      [
+        7250.0,
+        352.882
+      ],
+      [
+        7294.0,
+        352.979
+      ],
+      [
+        7339.0,
+        353.021
+      ],
+      [
+        7384.0,
+        353.118
+      ],
+      [
+        7429.0,
+        353.347
+      ],
+      [
+        7474.0,
+        353.654
+      ],
+      [
+        7519.0,
+        353.885
+      ],
+      [
+        7564.0,
+        354.0
+      ],
+      [
+        7608.0,
+        354.115
+      ],
+      [
+        7653.0,
+        354.346
+      ],
+      [
+        7698.0,
+        354.653
+      ],
+      [
+        7726.0,
+        355.0
+      ]
+    ]
+  },
+  "crop_review_note": "Zero inward offset at the engraved inner frame. All four corners and sides inspected.",
+  "book_frame_normal_sides": [
+    "east"
+  ],
+  "book_frame_normal_tolerance_3857_m": 12.5
+}

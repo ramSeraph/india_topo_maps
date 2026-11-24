@@ -1,0 +1,249 @@
+{
+  "id": "atlas032-nw-1884",
+  "title": "Indian Atlas 032 NW \u00b7 1884",
+  "sheet": "032",
+  "quarter": "NW",
+  "year": 1884,
+  "source": "sources/zenodo-19431985/sheets/032 NW Quarter Sheet Indian Atlas (1884).jpg",
+  "table": "data/atlas008-ne-1866-projection.json",
+  "condition_note": "Intact NW quarter with dense dune shading and survey lines. Native margin confirms February 1884 and printed longitude corrections totaling -219 arcseconds; retain working -216.18.",
+  "crossing_preview_seeds": [
+    [
+      73.5,
+      29,
+      480,
+      740
+    ],
+    [
+      74,
+      29,
+      1230,
+      750
+    ],
+    [
+      74.5,
+      29,
+      1980,
+      760
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 29.2,
+  "tick_windows": {
+    "west": [
+      320,
+      383
+    ],
+    "east": [
+      6150,
+      6215
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 29.25,
+      "ys": [
+        310,
+        453,
+        596,
+        738,
+        881,
+        1024,
+        1166,
+        1310
+      ]
+    },
+    "east": {
+      "first_latitude": 29.333333333333332,
+      "ys": [
+        198,
+        340,
+        483,
+        626,
+        768,
+        911,
+        1054,
+        1196,
+        1339
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      420,
+      529
+    ],
+    [
+      6116,
+      520
+    ],
+    [
+      6114,
+      4189
+    ],
+    [
+      418,
+      4197
+    ]
+  ],
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native inspection will refine near-vertical meridians and gently tilted parallels.",
+  "longitude_convention_status": "The sheet explicitly prints two corrections: -69\u2033 and -150\u2033 (total -219\u2033). The user-selected working adjustment remains -216.18\u2033, 2.82\u2033 east of that printed total; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "Printed margin confirms -69 arcseconds Atlas to old GTS and states a further -150 arcseconds to Madras 80d14m51s. Retain user-selected working second correction -147.18 arcseconds, total -216.18; this differs from printed total -219 by +2.82 arcseconds. Modern datum alignment remains provisional.",
+  "printed_longitude_note": {
+    "location": "Lower right margin, Note paragraph",
+    "source_crop": "work/atlas032-nw-1884/printed-longitude-note.jpg",
+    "transcription": "All Longitudes require a correction of -1\u20329\u2033, to reduce them to the origin of the Great Trigonometrical Survey; viz: the Madras Observatory taken as 80\u00b017\u203221\u2033, and a further correction of -2\u203230\u2033 to reduce them to the latest value 80\u00b014\u203251\u2033, of that Observatory.",
+    "atlas_to_old_gts_arcseconds": -69,
+    "old_gts_to_stated_madras_arcseconds": -150,
+    "printed_total_arcseconds": -219,
+    "applied_working_total_arcseconds": -216.18,
+    "working_minus_printed_arcseconds": 2.82
+  },
+  "crossing_local_seeds": [
+    [
+      205,
+      197
+    ],
+    [
+      206,
+      204
+    ],
+    [
+      209,
+      209
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        420,
+        529
+      ],
+      [
+        528,
+        529
+      ],
+      [
+        1840,
+        523
+      ],
+      [
+        3267,
+        521
+      ],
+      [
+        4694,
+        521
+      ],
+      [
+        6006,
+        520
+      ],
+      [
+        6116,
+        520
+      ]
+    ],
+    "east": [
+      [
+        520,
+        6116
+      ],
+      [
+        593,
+        6116
+      ],
+      [
+        1441,
+        6113
+      ],
+      [
+        2362,
+        6113
+      ],
+      [
+        3284,
+        6112
+      ],
+      [
+        4132,
+        6114
+      ],
+      [
+        4189,
+        6114
+      ]
+    ],
+    "south": [
+      [
+        418,
+        4197
+      ],
+      [
+        525,
+        4197
+      ],
+      [
+        1838,
+        4197
+      ],
+      [
+        3266,
+        4196
+      ],
+      [
+        4693,
+        4193
+      ],
+      [
+        6006,
+        4189
+      ],
+      [
+        6114,
+        4189
+      ]
+    ],
+    "west": [
+      [
+        529,
+        420
+      ],
+      [
+        596,
+        418
+      ],
+      [
+        1445,
+        417
+      ],
+      [
+        2368,
+        418
+      ],
+      [
+        3292,
+        417
+      ],
+      [
+        4141,
+        417
+      ],
+      [
+        4197,
+        418
+      ]
+    ]
+  }
+}

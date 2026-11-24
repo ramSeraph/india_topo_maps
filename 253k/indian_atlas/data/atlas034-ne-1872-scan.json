@@ -1,0 +1,286 @@
+{
+  "id": "atlas034-ne-1872",
+  "title": "Indian Atlas 034 NE \u00b7 1872",
+  "sheet": "034",
+  "quarter": "NE",
+  "year": 1872,
+  "source": "sources/zenodo-19431985/sheets/034 NE Quarter Sheet Indian Atlas (1872).jpg",
+  "table": "data/atlas002-ne-1875-projection.json",
+  "condition_note": "Intact NE quarter with a large blank northwestern map area and colored boundaries. Printed graticule and frame remain continuous. Native publication confirms December 1872.",
+  "crossing_preview_seeds": [
+    [
+      75,
+      26,
+      782,
+      1005
+    ],
+    [
+      75.5,
+      26,
+      1550,
+      1008
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 26.4,
+  "tick_windows": {
+    "west": [
+      335,
+      410
+    ],
+    "east": [
+      6185,
+      6250
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 26.416666666666668,
+      "ys": [
+        294,
+        435,
+        576,
+        717,
+        859,
+        1000,
+        1142,
+        1283
+      ]
+    },
+    "east": {
+      "first_latitude": 26.416666666666668,
+      "ys": [
+        306,
+        447,
+        588,
+        728,
+        869,
+        1011,
+        1152,
+        1293
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      449,
+      521
+    ],
+    [
+      6160,
+      513
+    ],
+    [
+      6153,
+      4174
+    ],
+    [
+      432,
+      4191
+    ]
+  ],
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native graticule crops show nearly vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified in this edition.",
+  "crossing_local_seeds": [
+    [
+      200,
+      198
+    ],
+    [
+      191,
+      202
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        449,
+        521
+      ],
+      [
+        560,
+        521
+      ],
+      [
+        1875,
+        518
+      ],
+      [
+        3304,
+        515
+      ],
+      [
+        4732,
+        512
+      ],
+      [
+        6047,
+        512
+      ],
+      [
+        6160,
+        513
+      ]
+    ],
+    "east": [
+      [
+        513,
+        6160
+      ],
+      [
+        582,
+        6162
+      ],
+      [
+        1426,
+        6156
+      ],
+      [
+        2343,
+        6154
+      ],
+      [
+        3260,
+        6153
+      ],
+      [
+        4104,
+        6153
+      ],
+      [
+        4174,
+        6153
+      ]
+    ],
+    "south": [
+      [
+        432,
+        4191
+      ],
+      [
+        548,
+        4191
+      ],
+      [
+        1864,
+        4184
+      ],
+      [
+        3293,
+        4181
+      ],
+      [
+        4722,
+        4178
+      ],
+      [
+        6038,
+        4174
+      ],
+      [
+        6153,
+        4174
+      ]
+    ],
+    "west": [
+      [
+        521,
+        449
+      ],
+      [
+        598,
+        448
+      ],
+      [
+        1440,
+        443
+      ],
+      [
+        2356,
+        438
+      ],
+      [
+        3271,
+        435
+      ],
+      [
+        4113,
+        432
+      ],
+      [
+        4191,
+        432
+      ]
+    ]
+  },
+  "meridian_samples": [
+    {
+      "longitude": 75,
+      "pixel": 2385.0,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 2347.0,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 2376.5555555555557,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75,
+      "pixel": 2354.037037037037,
+      "line": 3200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4692.0,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4659.0,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4684.666666666667,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4665.111111111111,
+      "line": 3200,
+      "role": "withheld"
+    }
+  ],
+  "meridian_seed_reason": "Native control contact showed the extrapolated 75-degree seed at line 1000 missed the faint printed meridian by about 27 pixels in the blank map area. Explicit independently inspected meridian seeds keep each search on the printed rule; fitted and withheld roles are unchanged.",
+  "frame_maximum_stroke_intensity": 210,
+  "frame_intensity_limit_reason": "Native review of the eastern frame at source x6155,y1893 confirms a faint inner rule in a white checker interval. The weakest sampled median is 203/255. Retain the observed frame and allow intensity below 210; evidence work/atlas034-ne-1872/east-frame-0.jpg and neighboring frame crops.",
+  "frame_stroke_maximum_half_width_pixels_by_edge": {
+    "east": 2,
+    "south": 2
+  },
+  "frame_stroke_width_reason": "Native southeast crop shows colored boundary ink touching the eastern and southern inner rules. Limit inward frame-stroke extension to two pixels on those edges before the four-pixel inset so touching map content is not counted as frame thickness."
+}

@@ -1,0 +1,498 @@
+{
+  "id": "atlas024-1857",
+  "title": "Indian Atlas 024 \u00b7 1857",
+  "sheet": "024",
+  "quarter": null,
+  "year": 1857,
+  "source": "sources/zenodo-19431985/sheets/024 Sheet Indian Atlas (1857).jpg",
+  "table": "data/atlas024-1857-projection.json",
+  "condition_note": "Full sheet with a crease or tear in the sea area; native inspection shows the 19d30m parallel continues across it without a separated panel. Preserve sea and unsurveyed areas. Publication line confirms July 1st 1857.",
+  "crossing_preview_seeds": [
+    [
+      71.5,
+      20.5,
+      395,
+      227
+    ],
+    [
+      72,
+      20.5,
+      832,
+      243
+    ],
+    [
+      72.5,
+      20.5,
+      1268,
+      258
+    ],
+    [
+      73,
+      20.5,
+      1705,
+      269
+    ],
+    [
+      71.5,
+      20,
+      380,
+      697
+    ],
+    [
+      72,
+      20,
+      819,
+      713
+    ],
+    [
+      72.5,
+      20,
+      1259,
+      727
+    ],
+    [
+      73,
+      20,
+      1697,
+      737
+    ],
+    [
+      71.5,
+      19.5,
+      366,
+      1166
+    ],
+    [
+      72,
+      19.5,
+      808,
+      1182
+    ],
+    [
+      72.5,
+      19.5,
+      1249,
+      1195
+    ],
+    [
+      73,
+      19.5,
+      1690,
+      1206
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 20.6,
+  "tick_windows": {
+    "west": [
+      216,
+      280
+    ],
+    "east": [
+      11521,
+      11591
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 20.583333333333332,
+      "ys": [
+        134,
+        212,
+        290,
+        368,
+        447,
+        525,
+        603,
+        681,
+        760,
+        838,
+        916,
+        994,
+        1072,
+        1151,
+        1229,
+        1307,
+        1385
+      ]
+    },
+    "east": {
+      "first_latitude": 20.666666666666668,
+      "ys": [
+        121,
+        199,
+        277,
+        355,
+        433,
+        511,
+        589,
+        667,
+        745,
+        823,
+        902,
+        980,
+        1058,
+        1136,
+        1214,
+        1292,
+        1370
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      325,
+      310
+    ],
+    [
+      11479,
+      312
+    ],
+    [
+      11494,
+      7549
+    ],
+    [
+      307,
+      7548
+    ]
+  ],
+  "meridian_search_window": 15,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native inspection will refine nearly vertical meridians and gently inclined parallels within these bounds.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in the visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified on this edition.",
+  "crossing_local_seeds": [
+    [
+      200,
+      208
+    ],
+    [
+      198,
+      204
+    ],
+    [
+      203,
+      202
+    ],
+    [
+      207,
+      201
+    ],
+    [
+      201,
+      200
+    ],
+    [
+      206,
+      198
+    ],
+    [
+      197,
+      202
+    ],
+    [
+      202,
+      205
+    ],
+    [
+      201,
+      190
+    ],
+    [
+      195,
+      191
+    ],
+    [
+      190,
+      205
+    ],
+    [
+      204,
+      200
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        325,
+        310
+      ],
+      [
+        541,
+        310
+      ],
+      [
+        3106,
+        320
+      ],
+      [
+        5895,
+        320
+      ],
+      [
+        8684,
+        323
+      ],
+      [
+        11249,
+        312
+      ],
+      [
+        11479,
+        312
+      ]
+    ],
+    "east": [
+      [
+        312,
+        11479
+      ],
+      [
+        462,
+        11479
+      ],
+      [
+        2124,
+        11490
+      ],
+      [
+        3929,
+        11494
+      ],
+      [
+        5734,
+        11499
+      ],
+      [
+        7396,
+        11493
+      ],
+      [
+        7549,
+        11494
+      ]
+    ],
+    "south": [
+      [
+        307,
+        7548
+      ],
+      [
+        531,
+        7548
+      ],
+      [
+        3101,
+        7559
+      ],
+      [
+        5895,
+        7572
+      ],
+      [
+        8689,
+        7564
+      ],
+      [
+        11259,
+        7549
+      ],
+      [
+        11494,
+        7549
+      ]
+    ],
+    "west": [
+      [
+        310,
+        325
+      ],
+      [
+        462,
+        323
+      ],
+      [
+        2124,
+        312
+      ],
+      [
+        3929,
+        302
+      ],
+      [
+        5734,
+        303
+      ],
+      [
+        7396,
+        306
+      ],
+      [
+        7548,
+        307
+      ]
+    ]
+  },
+  "meridian_samples": [
+    {
+      "longitude": 71.5,
+      "pixel": 2137,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 71.5,
+      "pixel": 1941,
+      "line": 7400,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 71.5,
+      "pixel": 2076,
+      "line": 3000,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 71.5,
+      "pixel": 1990,
+      "line": 5800,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 72,
+      "pixel": 4494,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 72,
+      "pixel": 4326,
+      "line": 7400,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 72,
+      "pixel": 4442,
+      "line": 3000,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 72,
+      "pixel": 4368,
+      "line": 5800,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 72.5,
+      "pixel": 6851,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 72.5,
+      "pixel": 6705,
+      "line": 7400,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 72.5,
+      "pixel": 6805,
+      "line": 3000,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 72.5,
+      "pixel": 6742,
+      "line": 5800,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 73,
+      "pixel": 9211,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 73,
+      "pixel": 9104,
+      "line": 7400,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 73,
+      "pixel": 9177,
+      "line": 3000,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 73,
+      "pixel": 9131,
+      "line": 5800,
+      "role": "withheld",
+      "search_window": 12
+    }
+  ],
+  "tick_search_overrides": {
+    "31": {
+      "initial_line": 6556,
+      "half_window": 1.5,
+      "reason": "Eightfold native enlargement confirms the horizontal east19d30m rule at y6556 between the19 degree numeral and30 minute numeral. Restrict search to that rule; broader searches select either numeral."
+    }
+  },
+  "parallel_samples": [
+    {
+      "latitude": 20.5,
+      "pixel": 5600,
+      "line": 1352,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "latitude": 20,
+      "pixel": 5600,
+      "line": 3883,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "latitude": 19.5,
+      "pixel": 5600,
+      "line": 6410,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "latitude": 19.5,
+      "pixel": 6400,
+      "line": 6438,
+      "role": "withheld",
+      "search_window": 12
+    }
+  ],
+  "quality_note": "Verified interior graticule crossings retain residuals up to about 20 source pixels under historical-projection plus affine. Four additional interior parallel observations, including locations on either side of the sea-area crease, are withheld from fitting. Internal alignment refinement remains pending."
+}

@@ -1,0 +1,217 @@
+{
+  "id": "atlas009-nw-1874",
+  "title": "Indian Atlas 009 NW \u00b7 1874",
+  "sheet": "009",
+  "quarter": "NW",
+  "year": 1874,
+  "source": "sources/zenodo-19431985/sheets/009 NW Quarter Sheet Indian Atlas (1874) colored.jpg",
+  "table": "data/atlas001-ne-1871-projection.json",
+  "crossing_preview_seeds": [
+    [
+      68.5,
+      27.5,
+      430,
+      574
+    ],
+    [
+      69,
+      27.5,
+      1165,
+      611
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      214,
+      194
+    ],
+    [
+      185,
+      194
+    ]
+  ],
+  "crossing_search_window": 10,
+  "tick_windows": {
+    "west": [
+      436,
+      510
+    ],
+    "east": [
+      6223,
+      6301
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 27.666666666666668,
+      "ys": [
+        284,
+        421,
+        558,
+        695,
+        831,
+        969,
+        1103,
+        1238,
+        1375
+      ]
+    },
+    "east": {
+      "first_latitude": 27.75,
+      "ys": [
+        245,
+        382,
+        519,
+        657,
+        793,
+        931,
+        1067,
+        1203,
+        1341
+      ]
+    }
+  },
+  "seed_north_latitude": 27.65,
+  "frame_corners": [
+    [
+      540,
+      666
+    ],
+    [
+      6189,
+      657
+    ],
+    [
+      6195,
+      4297
+    ],
+    [
+      548,
+      4302
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        540,
+        666
+      ],
+      [
+        654,
+        665
+      ],
+      [
+        1952,
+        662
+      ],
+      [
+        3363,
+        661
+      ],
+      [
+        4774,
+        659
+      ],
+      [
+        6072,
+        657
+      ],
+      [
+        6189,
+        657
+      ]
+    ],
+    "east": [
+      [
+        657,
+        6189
+      ],
+      [
+        729,
+        6189
+      ],
+      [
+        1567,
+        6191
+      ],
+      [
+        2478,
+        6193
+      ],
+      [
+        3389,
+        6195
+      ],
+      [
+        4227,
+        6195
+      ],
+      [
+        4297,
+        6195
+      ]
+    ],
+    "south": [
+      [
+        548,
+        4302
+      ],
+      [
+        664,
+        4302
+      ],
+      [
+        1960,
+        4299
+      ],
+      [
+        3370,
+        4298
+      ],
+      [
+        4780,
+        4298
+      ],
+      [
+        6076,
+        4297
+      ],
+      [
+        6195,
+        4297
+      ]
+    ],
+    "west": [
+      [
+        666,
+        540
+      ],
+      [
+        742,
+        540
+      ],
+      [
+        1577,
+        542
+      ],
+      [
+        2484,
+        545
+      ],
+      [
+        3392,
+        547
+      ],
+      [
+        4227,
+        548
+      ],
+      [
+        4302,
+        548
+      ]
+    ]
+  },
+  "frame_maximum_stroke_intensity": 195,
+  "frame_intensity_limit_reason": "One faint southern inner-frame sample at source x839, y4301 has median intensity 190/255. Native-resolution work/atlas009-nw-1874/south-frame-detail.jpg confirms the correct inner rule; the separate outer rule is below it. Permit this faint stroke while retaining the four-pixel inward inset."
+}

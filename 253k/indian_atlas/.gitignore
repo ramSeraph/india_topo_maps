@@ -1,0 +1,14 @@
+.local/
+__pycache__/
+.ruff_cache/
+web/**/node_modules/
+/sources/
+/output/
+/*.pdf
+/work/*
+!/work/intake_*.py
+!/work/atlas-intake/
+/work/atlas-intake/*
+!/work/atlas-intake/queue.json
+# The parent repository ignores data/. Only selected input configurations and
+# tables are versioned. Generated per-scan configurations can be rebuilt.

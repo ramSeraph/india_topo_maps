@@ -1,0 +1,314 @@
+{
+  "id": "atlas037-ne-1880",
+  "title": "Indian Atlas 037 NE \u00b7 1880",
+  "sheet": "037",
+  "quarter": "NE",
+  "year": 1880,
+  "source": "sources/zenodo-19431985/sheets/037 NE Quarter Sheet Indian Atlas (1880).jpg",
+  "table": "data/atlas012-sw-1885-projection.json",
+  "condition_note": "Intact NE quarter with western/southern hill shading and colored boundaries. Native publication confirms September 1880. Own printed graticule and frame measured.",
+  "crossing_preview_seeds": [
+    [
+      75,
+      22,
+      697,
+      500
+    ],
+    [
+      75.5,
+      22,
+      1489,
+      504
+    ],
+    [
+      75,
+      21.5,
+      690,
+      1358
+    ],
+    [
+      75.5,
+      21.5,
+      1487,
+      1362
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 22.1,
+  "tick_windows": {
+    "west": [
+      295,
+      375
+    ],
+    "east": [
+      6140,
+      6210
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 22.166666666666668,
+      "ys": [
+        214,
+        356,
+        499,
+        641,
+        784,
+        927,
+        1070,
+        1213,
+        1357
+      ]
+    },
+    "east": {
+      "first_latitude": 22.166666666666668,
+      "ys": [
+        224,
+        366,
+        508,
+        651,
+        793,
+        936,
+        1078,
+        1221,
+        1363
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      414,
+      524
+    ],
+    [
+      6112,
+      504
+    ],
+    [
+      6113,
+      4169
+    ],
+    [
+      403,
+      4200
+    ]
+  ],
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native graticule crops show nearly vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified in this edition.",
+  "meridian_samples": [
+    {
+      "longitude": 75,
+      "pixel": 2101.502145922747,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 2066.738197424893,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 2093.776824034335,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75,
+      "pixel": 2073.175965665236,
+      "line": 3200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4476.230078125,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4464.628515625,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4473.651953125,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4466.776953125,
+      "line": 3200,
+      "role": "withheld"
+    }
+  ],
+  "crossing_local_seeds": [
+    [
+      202,
+      203
+    ],
+    [
+      202,
+      205
+    ],
+    [
+      190,
+      190
+    ],
+    [
+      197,
+      189
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        414,
+        524
+      ],
+      [
+        528,
+        523
+      ],
+      [
+        1838,
+        517
+      ],
+      [
+        3262,
+        511
+      ],
+      [
+        4685,
+        507
+      ],
+      [
+        5995,
+        504
+      ],
+      [
+        6112,
+        504
+      ]
+    ],
+    "east": [
+      [
+        504,
+        6112
+      ],
+      [
+        574,
+        6112
+      ],
+      [
+        1418,
+        6110
+      ],
+      [
+        2335,
+        6110
+      ],
+      [
+        3252,
+        6110
+      ],
+      [
+        4096,
+        6113
+      ],
+      [
+        4169,
+        6113
+      ]
+    ],
+    "south": [
+      [
+        403,
+        4200
+      ],
+      [
+        519,
+        4200
+      ],
+      [
+        1831,
+        4188
+      ],
+      [
+        3257,
+        4181
+      ],
+      [
+        4683,
+        4175
+      ],
+      [
+        5995,
+        4169
+      ],
+      [
+        6113,
+        4169
+      ]
+    ],
+    "west": [
+      [
+        524,
+        414
+      ],
+      [
+        603,
+        414
+      ],
+      [
+        1448,
+        411
+      ],
+      [
+        2368,
+        409
+      ],
+      [
+        3288,
+        405
+      ],
+      [
+        4133,
+        403
+      ],
+      [
+        4200,
+        403
+      ]
+    ]
+  },
+  "tick_search_overrides": {
+    "2": {
+      "initial_line": 1499,
+      "half_window": 7,
+      "reason": "Native control contact shows the broad search selected the lower part of the printed 22-degree label about 14 pixels above its horizontal margin tick. Restrict the search to the visible horizontal rule near line 1499; fitted role unchanged."
+    }
+  },
+  "frame_maximum_stroke_intensity": 210,
+  "frame_intensity_limit_reason": "Native weakest-frame contact confirms the west inner neatline is faint at source pixel 413,884 (median intensity 201), with the intact line distinct from the outer frame and nearby map ink. Permit intensity up to 210 while retaining measured inner-frame guides and four-pixel inset.",
+  "frame_stroke_maximum_half_width_pixels_by_edge": {
+    "west": 2,
+    "south": 2
+  },
+  "frame_stroke_width_reason": "Native crop review shows adjacent map lettering and hill hachures extending the detected stroke inward on west and south edges (especially southwest). Cap inward stroke extension at two pixels before the four-pixel inset, preserving the measured inner neatline."
+}

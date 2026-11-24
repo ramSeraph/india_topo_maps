@@ -1,0 +1,230 @@
+{
+  "id": "atlas018-nw-1880",
+  "title": "Indian Atlas 018 NW \u00b7 1880",
+  "sheet": "018",
+  "quarter": "NW",
+  "year": 1880,
+  "source": "sources/zenodo-19431985/sheets/018 NW Quarter Sheet Indian Atlas (1880).jpg",
+  "table": "data/atlas008-ne-1866-projection.json",
+  "condition_note": "Intact northwest quarter sheet; measure its own printed graticule and inner frame.",
+  "crossing_preview_seeds": [
+    [
+      71,
+      29,
+      526,
+      628
+    ],
+    [
+      71.5,
+      29,
+      1270,
+      657
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      194,
+      201
+    ],
+    [
+      198,
+      207
+    ]
+  ],
+  "crossing_search_window": 8,
+  "seed_north_latitude": 29.18,
+  "tick_windows": {
+    "west": [
+      301,
+      364
+    ],
+    "east": [
+      6110,
+      6170
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 29.25,
+      "ys": [
+        187,
+        330,
+        472,
+        614,
+        756,
+        898,
+        1040,
+        1182,
+        1324
+      ]
+    },
+    "east": {
+      "first_latitude": 29.25,
+      "ys": [
+        262,
+        404,
+        546,
+        688,
+        830,
+        972,
+        1114,
+        1256
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      407,
+      557
+    ],
+    [
+      6084,
+      548
+    ],
+    [
+      6083,
+      4174
+    ],
+    [
+      385,
+      4183
+    ]
+  ],
+  "meridian_search_window": 15,
+  "crop_edge_guides": {
+    "north": [
+      [
+        407,
+        557
+      ],
+      [
+        520,
+        556
+      ],
+      [
+        1824,
+        554
+      ],
+      [
+        3242,
+        554
+      ],
+      [
+        4660,
+        551
+      ],
+      [
+        5964,
+        548
+      ],
+      [
+        6084,
+        548
+      ]
+    ],
+    "east": [
+      [
+        548,
+        6084
+      ],
+      [
+        624,
+        6084
+      ],
+      [
+        1458,
+        6083
+      ],
+      [
+        2366,
+        6083
+      ],
+      [
+        3273,
+        6083
+      ],
+      [
+        4107,
+        6083
+      ],
+      [
+        4174,
+        6083
+      ]
+    ],
+    "south": [
+      [
+        385,
+        4183
+      ],
+      [
+        499,
+        4183
+      ],
+      [
+        1809,
+        4181
+      ],
+      [
+        3232,
+        4176
+      ],
+      [
+        4656,
+        4174
+      ],
+      [
+        5966,
+        4174
+      ],
+      [
+        6083,
+        4174
+      ]
+    ],
+    "west": [
+      [
+        557,
+        407
+      ],
+      [
+        630,
+        406
+      ],
+      [
+        1464,
+        401
+      ],
+      [
+        2372,
+        394
+      ],
+      [
+        3279,
+        389
+      ],
+      [
+        4113,
+        385
+      ],
+      [
+        4183,
+        385
+      ]
+    ]
+  },
+  "printed_longitude_note": {
+    "location": "Lower right margin, Note paragraph",
+    "source_crop": "work/atlas018-nw-1880/longitude-note.jpg",
+    "transcription": "All Longitudes require a correction of -1\u20329\u2033, to reduce them to the origin of the Great Trigonometrical Survey; viz: the Madras Observatory taken as 80\u00b017\u203221\u2033, and a further correction of -2\u203230\u2033 to reduce them to the latest value 80\u00b014\u203251\u2033, of that Observatory.",
+    "atlas_to_old_gts_arcseconds": -69,
+    "old_gts_to_stated_madras_arcseconds": -150,
+    "printed_total_arcseconds": -219,
+    "applied_working_total_arcseconds": -216.18,
+    "working_minus_printed_arcseconds": 2.82
+  },
+  "longitude_convention_status": "The sheet explicitly prints two corrections: -69\u2033 and -150\u2033 (total -219\u2033). The user-selected working adjustment remains -216.18\u2033, 2.82\u2033 east of that printed total; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "Printed margin confirms -69 arcseconds Atlas to old GTS and states a further -150 arcseconds to Madras 80d14m51s. Retain user-selected working second correction -147.18 arcseconds, total -216.18; this differs from printed total -219 by +2.82 arcseconds. Modern datum alignment remains provisional.",
+  "frame_stroke_maximum_half_width_pixels": 2,
+  "frame_stroke_width_reason": "Native southeast crop shows dune hachures touching the southern inner frame. Cap inward stroke extension to avoid treating terrain shading as extra border thickness."
+}

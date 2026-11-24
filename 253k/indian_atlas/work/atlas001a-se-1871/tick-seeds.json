@@ -1,0 +1,110 @@
+[
+  {
+    "side": "west",
+    "known_axis": "latitude",
+    "known_value": 28.333333333333332,
+    "initial_line": 539
+  },
+  {
+    "side": "west",
+    "known_axis": "latitude",
+    "known_value": 28.25,
+    "initial_line": 961
+  },
+  {
+    "side": "west",
+    "known_axis": "latitude",
+    "known_value": 28.166666666666664,
+    "initial_line": 1377
+  },
+  {
+    "side": "west",
+    "known_axis": "latitude",
+    "known_value": 28.083333333333332,
+    "initial_line": 1800
+  },
+  {
+    "side": "west",
+    "known_axis": "latitude",
+    "known_value": 28.0,
+    "initial_line": 2219
+  },
+  {
+    "side": "west",
+    "known_axis": "latitude",
+    "known_value": 27.916666666666664,
+    "initial_line": 2638
+  },
+  {
+    "side": "west",
+    "known_axis": "latitude",
+    "known_value": 27.833333333333332,
+    "initial_line": 3060
+  },
+  {
+    "side": "west",
+    "known_axis": "latitude",
+    "known_value": 27.75,
+    "initial_line": 3480
+  },
+  {
+    "side": "west",
+    "known_axis": "latitude",
+    "known_value": 27.666666666666664,
+    "initial_line": 3899
+  },
+  {
+    "side": "east",
+    "known_axis": "latitude",
+    "known_value": 28.416666666666668,
+    "initial_line": 464
+  },
+  {
+    "side": "east",
+    "known_axis": "latitude",
+    "known_value": 28.333333333333336,
+    "initial_line": 886
+  },
+  {
+    "side": "east",
+    "known_axis": "latitude",
+    "known_value": 28.25,
+    "initial_line": 1306
+  },
+  {
+    "side": "east",
+    "known_axis": "latitude",
+    "known_value": 28.166666666666668,
+    "initial_line": 1725
+  },
+  {
+    "side": "east",
+    "known_axis": "latitude",
+    "known_value": 28.083333333333336,
+    "initial_line": 2147
+  },
+  {
+    "side": "east",
+    "known_axis": "latitude",
+    "known_value": 28.0,
+    "initial_line": 2566
+  },
+  {
+    "side": "east",
+    "known_axis": "latitude",
+    "known_value": 27.916666666666668,
+    "initial_line": 2989
+  },
+  {
+    "side": "east",
+    "known_axis": "latitude",
+    "known_value": 27.833333333333336,
+    "initial_line": 3408
+  },
+  {
+    "side": "east",
+    "known_axis": "latitude",
+    "known_value": 27.75,
+    "initial_line": 3830
+  }
+]

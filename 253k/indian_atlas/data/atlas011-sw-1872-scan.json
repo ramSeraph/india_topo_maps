@@ -1,0 +1,291 @@
+{
+  "id": "atlas011-sw-1872",
+  "title": "Indian Atlas 011 SW \u00b7 1872",
+  "sheet": "011",
+  "quarter": "SW",
+  "year": 1872,
+  "source": "sources/zenodo-19431985/sheets/011 SW Quarter Sheet Indian Atlas (1872) colored.jpg",
+  "table": "data/atlas003-nw-1871-projection.json",
+  "crossing_preview_seeds": [
+    [
+      69,
+      24,
+      849,
+      431
+    ],
+    [
+      69.5,
+      24,
+      1596,
+      473
+    ],
+    [
+      69,
+      23.5,
+      800,
+      1244
+    ],
+    [
+      69.5,
+      23.5,
+      1553,
+      1284
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      202,
+      200
+    ],
+    [
+      201,
+      200
+    ],
+    [
+      202,
+      199
+    ],
+    [
+      188,
+      203
+    ]
+  ],
+  "crossing_search_window": 10,
+  "tick_windows": {
+    "west": [
+      480,
+      552
+    ],
+    "east": [
+      6261,
+      6339
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 24.083333333333332,
+      "ys": [
+        254,
+        392,
+        529,
+        664,
+        800,
+        936,
+        1072,
+        1208
+      ]
+    },
+    "east": {
+      "first_latitude": 24.166666666666668,
+      "ys": [
+        227,
+        362,
+        496,
+        631,
+        766,
+        901,
+        1036,
+        1171,
+        1306
+      ]
+    }
+  },
+  "seed_north_latitude": 24.067,
+  "frame_corners": [
+    [
+      580,
+      544
+    ],
+    [
+      6232,
+      554
+    ],
+    [
+      6210,
+      4174
+    ],
+    [
+      567,
+      4173
+    ]
+  ],
+  "meridian_samples": [
+    {
+      "longitude": 69,
+      "pixel": 2668,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 69,
+      "pixel": 2514,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 69,
+      "pixel": 2634,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 69,
+      "pixel": 2543,
+      "line": 3200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 69.5,
+      "pixel": 5006,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 69.5,
+      "pixel": 4852,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 69.5,
+      "pixel": 4972,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 69.5,
+      "pixel": 4881,
+      "line": 3200,
+      "role": "withheld"
+    }
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        580,
+        544
+      ],
+      [
+        693,
+        544
+      ],
+      [
+        1992,
+        549
+      ],
+      [
+        3405,
+        548
+      ],
+      [
+        4818,
+        548
+      ],
+      [
+        6117,
+        554
+      ],
+      [
+        6232,
+        554
+      ]
+    ],
+    "east": [
+      [
+        554,
+        6232
+      ],
+      [
+        627,
+        6232
+      ],
+      [
+        1458,
+        6230
+      ],
+      [
+        2362,
+        6226
+      ],
+      [
+        3265,
+        6218
+      ],
+      [
+        4096,
+        6211
+      ],
+      [
+        4174,
+        6210
+      ]
+    ],
+    "south": [
+      [
+        567,
+        4173
+      ],
+      [
+        684,
+        4173
+      ],
+      [
+        1981,
+        4174
+      ],
+      [
+        3391,
+        4175
+      ],
+      [
+        4801,
+        4176
+      ],
+      [
+        6098,
+        4174
+      ],
+      [
+        6210,
+        4174
+      ]
+    ],
+    "west": [
+      [
+        544,
+        580
+      ],
+      [
+        618,
+        580
+      ],
+      [
+        1452,
+        576
+      ],
+      [
+        2357,
+        575
+      ],
+      [
+        3262,
+        571
+      ],
+      [
+        4096,
+        567
+      ],
+      [
+        4173,
+        567
+      ]
+    ]
+  },
+  "tick_search_overrides": {
+    "16": {
+      "initial_line": 4074,
+      "half_window": 6,
+      "reason": "Native control crop shows the broad search selected the 23-degree numeral above the 23-degree-30-minute rule; restrict to the printed horizontal rule."
+    }
+  }
+}

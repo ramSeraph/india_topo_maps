@@ -1,0 +1,228 @@
+{
+  "id": "atlas019-ne-1885",
+  "title": "Indian Atlas 019 NE \u00b7 1885",
+  "sheet": "019",
+  "quarter": "NE",
+  "year": 1885,
+  "source": "sources/zenodo-19431985/sheets/019 NE Quarter Sheet Indian Atlas (1885).jpg",
+  "table": "data/atlas001a-se-1871-projection.json",
+  "condition_note": "Intact northeast quarter sheet; use its own printed graticule and inner frame.",
+  "crossing_preview_seeds": [
+    [
+      72.5,
+      27.5,
+      794,
+      810
+    ],
+    [
+      73,
+      27.5,
+      1549,
+      833
+    ]
+  ],
+  "crossing_search_window": 8,
+  "seed_north_latitude": 27.77,
+  "tick_windows": {
+    "west": [
+      316,
+      382
+    ],
+    "east": [
+      6133,
+      6199
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 27.833333333333332,
+      "ys": [
+        224,
+        366,
+        509,
+        651,
+        793,
+        935,
+        1078,
+        1220,
+        1363
+      ]
+    },
+    "east": {
+      "first_latitude": 27.833333333333332,
+      "ys": [
+        279,
+        421,
+        563,
+        705,
+        847,
+        989,
+        1131,
+        1273
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      420,
+      498
+    ],
+    [
+      6109,
+      495
+    ],
+    [
+      6105,
+      4159
+    ],
+    [
+      404,
+      4164
+    ]
+  ],
+  "meridian_search_window": 15,
+  "crossing_local_seeds": [
+    [
+      202,
+      203
+    ],
+    [
+      202,
+      200
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        420,
+        498
+      ],
+      [
+        535,
+        498
+      ],
+      [
+        1842,
+        496
+      ],
+      [
+        3264,
+        495
+      ],
+      [
+        4685,
+        496
+      ],
+      [
+        5992,
+        495
+      ],
+      [
+        6109,
+        495
+      ]
+    ],
+    "east": [
+      [
+        495,
+        6109
+      ],
+      [
+        569,
+        6109
+      ],
+      [
+        1411,
+        6106
+      ],
+      [
+        2326,
+        6106
+      ],
+      [
+        3242,
+        6105
+      ],
+      [
+        4084,
+        6105
+      ],
+      [
+        4159,
+        6105
+      ]
+    ],
+    "south": [
+      [
+        404,
+        4164
+      ],
+      [
+        520,
+        4164
+      ],
+      [
+        1830,
+        4160
+      ],
+      [
+        3253,
+        4160
+      ],
+      [
+        4676,
+        4161
+      ],
+      [
+        5986,
+        4159
+      ],
+      [
+        6105,
+        4159
+      ]
+    ],
+    "west": [
+      [
+        498,
+        420
+      ],
+      [
+        572,
+        419
+      ],
+      [
+        1414,
+        417
+      ],
+      [
+        2330,
+        414
+      ],
+      [
+        3245,
+        409
+      ],
+      [
+        4087,
+        404
+      ],
+      [
+        4164,
+        404
+      ]
+    ]
+  },
+  "printed_longitude_note": {
+    "location": "Lower right margin, Note paragraph",
+    "source_crop": "work/atlas019-ne-1885/longitude-note.jpg",
+    "transcription": "All Longitudes require a correction of -1\u20329\u2033, to reduce them to the origin of the Great Trigonometrical Survey; viz: the Madras Observatory taken as 80\u00b017\u203221\u2033, and a further correction of -2\u203230\u2033 to reduce them to the latest value 80\u00b014\u203251\u2033, of that Observatory.",
+    "atlas_to_old_gts_arcseconds": -69,
+    "old_gts_to_stated_madras_arcseconds": -150,
+    "printed_total_arcseconds": -219,
+    "applied_working_total_arcseconds": -216.18,
+    "working_minus_printed_arcseconds": 2.82
+  },
+  "longitude_convention_status": "The sheet explicitly prints two corrections: -69\u2033 and -150\u2033 (total -219\u2033). The user-selected working adjustment remains -216.18\u2033, 2.82\u2033 east of that printed total; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "Printed margin confirms -69 arcseconds Atlas to old GTS and states a further -150 arcseconds to Madras 80d14m51s. Retain user-selected working second correction -147.18 arcseconds, total -216.18; this differs from printed total -219 by +2.82 arcseconds. Modern datum alignment remains provisional."
+}

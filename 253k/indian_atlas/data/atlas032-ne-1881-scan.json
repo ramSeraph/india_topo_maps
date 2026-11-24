@@ -1,0 +1,234 @@
+{
+  "id": "atlas032-ne-1881",
+  "title": "Indian Atlas 032 NE \u00b7 1881 additions",
+  "sheet": "032",
+  "quarter": "NE",
+  "book_edge_max_departure_3857_m": 25,
+  "year": 1881,
+  "source": "sources/zenodo-19431985/sheets/032 NE Quarter Sheet Indian Atlas (1881).jpg",
+  "table": "data/atlas008-ne-1866-projection.json",
+  "condition_note": "Intact NE quarter scan with colored boundaries. Native margin states December 1872 with additions to 1881, matching the publication/additions dates of the separately catalogued colored scan; this source is measured independently.",
+  "crossing_preview_seeds": [
+    [
+      75,
+      29,
+      834,
+      766
+    ],
+    [
+      75.5,
+      29,
+      1588,
+      772
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 29.25,
+  "tick_windows": {
+    "west": [
+      285,
+      350
+    ],
+    "east": [
+      6140,
+      6205
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 29.333333333333332,
+      "ys": [
+        186,
+        330,
+        475,
+        619,
+        764,
+        909,
+        1054,
+        1198,
+        1343
+      ]
+    },
+    "east": {
+      "first_latitude": 29.333333333333332,
+      "ys": [
+        198,
+        342,
+        487,
+        632,
+        777,
+        922,
+        1067,
+        1212,
+        1357
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      397,
+      496
+    ],
+    [
+      6103,
+      473
+    ],
+    [
+      6105,
+      4148
+    ],
+    [
+      403,
+      4168
+    ]
+  ],
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native inspection will refine near-vertical meridians and gently tilted parallels.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified in this edition.",
+  "crossing_local_seeds": [
+    [
+      201,
+      197
+    ],
+    [
+      205,
+      197
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        397,
+        496
+      ],
+      [
+        516,
+        496
+      ],
+      [
+        1829,
+        486
+      ],
+      [
+        3256,
+        481
+      ],
+      [
+        4683,
+        478
+      ],
+      [
+        5996,
+        473
+      ],
+      [
+        6103,
+        473
+      ]
+    ],
+    "east": [
+      [
+        473,
+        6103
+      ],
+      [
+        548,
+        6103
+      ],
+      [
+        1395,
+        6103
+      ],
+      [
+        2316,
+        6104
+      ],
+      [
+        3237,
+        6104
+      ],
+      [
+        4084,
+        6105
+      ],
+      [
+        4148,
+        6105
+      ]
+    ],
+    "south": [
+      [
+        403,
+        4168
+      ],
+      [
+        514,
+        4168
+      ],
+      [
+        1826,
+        4159
+      ],
+      [
+        3252,
+        4153
+      ],
+      [
+        4679,
+        4149
+      ],
+      [
+        5991,
+        4148
+      ],
+      [
+        6105,
+        4148
+      ]
+    ],
+    "west": [
+      [
+        496,
+        397
+      ],
+      [
+        569,
+        397
+      ],
+      [
+        1414,
+        397
+      ],
+      [
+        2334,
+        399
+      ],
+      [
+        3254,
+        400
+      ],
+      [
+        4099,
+        403
+      ],
+      [
+        4168,
+        403
+      ]
+    ]
+  },
+  "quality_note": "Native inspection confirms the measured graticule controls. Interior crossing residuals reach 9.66 source pixels; leave-one-observation-out RMS is 5.39 pixels and independent graticule RMS is 1.54 arcseconds. Retain the selected historical projection plus affine fit; these checks measure agreement with the printed grid, not modern ground accuracy.",
+  "frame_maximum_stroke_intensity": 205,
+  "frame_intensity_limit_reason": "Native south-frame-2.jpg confirms a faint continuous inner rule at source x2591, y4155. Its 41-pixel median minimum is 202/255, compared with adjacent paper about 214\u2013219. This is a weaker rendering of the southern-frame area also faint in the separately fitted colored scan. Raise the explicit maximum to 205 for this source; retain the four-pixel inward inset."
+}

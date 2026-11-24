@@ -1,0 +1,324 @@
+{
+  "id": "atlas022-ne-1891",
+  "title": "Indian Atlas 022 NE \u00b7 1891",
+  "sheet": "022",
+  "quarter": "NE",
+  "year": 1891,
+  "source": "sources/zenodo-19431985/sheets/022 NE Quarter Sheet Indian Atlas (1891).jpg",
+  "table": "data/atlas012-nw-1888-projection.json",
+  "condition_note": "Intact northeast quarter sheet; use its own printed graticule and inner frame.",
+  "crossing_preview_seeds": [
+    [
+      72.5,
+      23.5,
+      606,
+      297
+    ],
+    [
+      73,
+      23.5,
+      1377,
+      315
+    ],
+    [
+      72.5,
+      23,
+      587,
+      1129
+    ],
+    [
+      73,
+      23,
+      1350,
+      1149
+    ]
+  ],
+  "crossing_search_window": 8,
+  "seed_north_latitude": 23.48,
+  "tick_windows": {
+    "west": [
+      406,
+      477
+    ],
+    "east": [
+      6223,
+      6291
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 23.5,
+      "ys": [
+        285,
+        425,
+        564,
+        704,
+        844,
+        983,
+        1123,
+        1263
+      ]
+    },
+    "east": {
+      "first_latitude": 23.583333333333332,
+      "ys": [
+        194,
+        333,
+        473,
+        613,
+        752,
+        892,
+        1032,
+        1171,
+        1311
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      511,
+      499
+    ],
+    [
+      6195,
+      485
+    ],
+    [
+      6207,
+      4152
+    ],
+    [
+      507,
+      4165
+    ]
+  ],
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native graticule geometry includes nearly vertical meridians; allow shallow slopes without the old fixed lower limit in magnitude.",
+  "crossing_local_seeds": [
+    [
+      201,
+      198
+    ],
+    [
+      183,
+      206
+    ],
+    [
+      185,
+      202
+    ],
+    [
+      204,
+      198
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        511,
+        499
+      ],
+      [
+        624,
+        499
+      ],
+      [
+        1931,
+        491
+      ],
+      [
+        3352,
+        490
+      ],
+      [
+        4774,
+        489
+      ],
+      [
+        6081,
+        485
+      ],
+      [
+        6195,
+        485
+      ]
+    ],
+    "east": [
+      [
+        485,
+        6195
+      ],
+      [
+        568,
+        6195
+      ],
+      [
+        1412,
+        6199
+      ],
+      [
+        2329,
+        6202
+      ],
+      [
+        3246,
+        6204
+      ],
+      [
+        4090,
+        6206
+      ],
+      [
+        4152,
+        6207
+      ]
+    ],
+    "south": [
+      [
+        507,
+        4165
+      ],
+      [
+        621,
+        4166
+      ],
+      [
+        1930,
+        4160
+      ],
+      [
+        3354,
+        4158
+      ],
+      [
+        4778,
+        4156
+      ],
+      [
+        6087,
+        4152
+      ],
+      [
+        6207,
+        4152
+      ]
+    ],
+    "west": [
+      [
+        499,
+        511
+      ],
+      [
+        577,
+        510
+      ],
+      [
+        1420,
+        511
+      ],
+      [
+        2336,
+        510
+      ],
+      [
+        3253,
+        509
+      ],
+      [
+        4096,
+        507
+      ],
+      [
+        4165,
+        507
+      ]
+    ]
+  },
+  "meridian_samples": [
+    {
+      "longitude": 72.5,
+      "pixel": 1861,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 72.5,
+      "pixel": 1783,
+      "line": 3700,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 72.5,
+      "pixel": 1844,
+      "line": 1600,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 72.5,
+      "pixel": 1798,
+      "line": 3200,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 73,
+      "pixel": 4216,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 73,
+      "pixel": 4151,
+      "line": 3700,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 73,
+      "pixel": 4202,
+      "line": 1600,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 73,
+      "pixel": 4163,
+      "line": 3200,
+      "role": "withheld",
+      "search_window": 12
+    }
+  ],
+  "printed_longitude_note": {
+    "location": "Lower right margin, Note paragraph",
+    "source_crop": "work/atlas022-ne-1891/longitude-note.jpg",
+    "transcription": "All Longitudes require a correction of -1\u20329\u2033, to reduce them to the origin of the Great Trigonometrical Survey; viz: the Madras Observatory taken as 80\u00b017\u203221\u2033, and a further correction of -2\u203230\u2033 to reduce them to the latest value 80\u00b014\u203251\u2033, of that Observatory.",
+    "atlas_to_old_gts_arcseconds": -69,
+    "old_gts_to_stated_madras_arcseconds": -150,
+    "printed_total_arcseconds": -219,
+    "applied_working_total_arcseconds": -216.18,
+    "working_minus_printed_arcseconds": 2.82
+  },
+  "longitude_convention_status": "The sheet explicitly prints two corrections: -69\u2033 and -150\u2033 (total -219\u2033). The user-selected working adjustment remains -216.18\u2033, 2.82\u2033 east of that printed total; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "Printed margin confirms -69 arcseconds Atlas to old GTS and states a further -150 arcseconds to Madras 80d14m51s. Retain user-selected working second correction -147.18 arcseconds, total -216.18; this differs from printed total -219 by +2.82 arcseconds. Modern datum alignment remains provisional.",
+  "tick_search_overrides": {
+    "16": {
+      "initial_line": 4012,
+      "reason": "Native east 22d55m tick is faint at about y4012; unrestricted search selected the 55 numeral above it. Restrict search to the printed horizontal rule.",
+      "half_window": 4
+    }
+  }
+}

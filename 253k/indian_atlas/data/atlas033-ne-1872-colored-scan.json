@@ -1,0 +1,234 @@
+{
+  "id": "atlas033-ne-1872-colored",
+  "title": "Indian Atlas 033 NE \u00b7 1872, additions to 1879, colored",
+  "sheet": "033",
+  "quarter": "NE",
+  "year": 1872,
+  "source": "sources/zenodo-19431985/sheets/033 NE Quarter Sheet Indian Atlas (1872) colored.jpg",
+  "table": "data/atlas001a-se-1871-projection.json",
+  "condition_note": "Intact colored NE quarter. Native publication line confirms December 1872 with additions to 1879. Own printed coordinates and frame used.",
+  "crossing_preview_seeds": [
+    [
+      75,
+      27.5,
+      806,
+      885
+    ],
+    [
+      75.5,
+      27.5,
+      1522,
+      891
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 27.85,
+  "tick_windows": {
+    "west": [
+      463,
+      535
+    ],
+    "east": [
+      6225,
+      6290
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 27.916666666666668,
+      "ys": [
+        207,
+        341,
+        476,
+        611,
+        745,
+        879,
+        1014,
+        1148,
+        1283
+      ]
+    },
+    "east": {
+      "first_latitude": 27.916666666666668,
+      "ys": [
+        222,
+        356,
+        490,
+        625,
+        759,
+        893,
+        1028,
+        1162,
+        1296
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      569,
+      634
+    ],
+    [
+      6194,
+      625
+    ],
+    [
+      6211,
+      4238
+    ],
+    [
+      578,
+      4252
+    ]
+  ],
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native graticule crops show nearly vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified in this edition.",
+  "crossing_local_seeds": [
+    [
+      203,
+      200
+    ],
+    [
+      213,
+      203
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        569,
+        634
+      ],
+      [
+        680,
+        634
+      ],
+      [
+        1974,
+        632
+      ],
+      [
+        3380,
+        631
+      ],
+      [
+        4785,
+        628
+      ],
+      [
+        6079,
+        625
+      ],
+      [
+        6194,
+        625
+      ]
+    ],
+    "east": [
+      [
+        625,
+        6194
+      ],
+      [
+        696,
+        6194
+      ],
+      [
+        1528,
+        6197
+      ],
+      [
+        2432,
+        6204
+      ],
+      [
+        3335,
+        6208
+      ],
+      [
+        4167,
+        6211
+      ],
+      [
+        4238,
+        6211
+      ]
+    ],
+    "south": [
+      [
+        578,
+        4252
+      ],
+      [
+        690,
+        4252
+      ],
+      [
+        1986,
+        4251
+      ],
+      [
+        3395,
+        4249
+      ],
+      [
+        4804,
+        4247
+      ],
+      [
+        6100,
+        4238
+      ],
+      [
+        6211,
+        4238
+      ]
+    ],
+    "west": [
+      [
+        634,
+        569
+      ],
+      [
+        703,
+        569
+      ],
+      [
+        1536,
+        572
+      ],
+      [
+        2442,
+        575
+      ],
+      [
+        3347,
+        577
+      ],
+      [
+        4180,
+        578
+      ],
+      [
+        4252,
+        578
+      ]
+    ]
+  },
+  "frame_stroke_maximum_half_width_pixels_by_edge": {
+    "east": 2
+  },
+  "frame_stroke_width_reason": "Native northeast crop review shows dense Babaji Hills hachures touching the eastern inner rule. Cap only eastern stroke half-width at two source pixels to avoid treating hill ink as extra frame width; keep the four-pixel inset and observed rule."
+}

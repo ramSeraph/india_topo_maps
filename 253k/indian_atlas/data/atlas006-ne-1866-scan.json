@@ -1,0 +1,221 @@
+{
+  "id": "atlas006-ne-1866",
+  "title": "Indian Atlas 006 NE \u00b7 1866",
+  "sheet": "006",
+  "quarter": "NE",
+  "year": 1866,
+  "source": "sources/zenodo-19431985/sheets/006 NE Quarter Sheet Indian Atlas (1866).jpg",
+  "table": "data/atlas006-ne-1866-projection.json",
+  "crossing_preview_seeds": [
+    [
+      69.5,
+      31.5,
+      459,
+      1138
+    ],
+    [
+      70.5,
+      31.5,
+      1880,
+      1208
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      199,
+      195
+    ],
+    [
+      233,
+      200
+    ]
+  ],
+  "tick_windows": {
+    "west": [
+      428,
+      490
+    ],
+    "east": [
+      6195,
+      6260
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 32,
+      "ys": [
+        292,
+        428,
+        566,
+        704,
+        842,
+        980,
+        1120,
+        1257
+      ]
+    },
+    "east": {
+      "first_latitude": 32.083333333333336,
+      "ys": [
+        243,
+        379,
+        517,
+        656,
+        795,
+        934,
+        1073,
+        1213,
+        1353
+      ]
+    }
+  },
+  "seed_north_latitude": 31.99,
+  "frame_corners": [
+    [
+      528,
+      487
+    ],
+    [
+      6181,
+      500
+    ],
+    [
+      6155,
+      4149
+    ],
+    [
+      515,
+      4135
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        528,
+        487
+      ],
+      [
+        646,
+        487
+      ],
+      [
+        1944,
+        491
+      ],
+      [
+        3356,
+        494
+      ],
+      [
+        4768,
+        496
+      ],
+      [
+        6066,
+        500
+      ],
+      [
+        6181,
+        500
+      ]
+    ],
+    "east": [
+      [
+        500,
+        6181
+      ],
+      [
+        575,
+        6181
+      ],
+      [
+        1410,
+        6177
+      ],
+      [
+        2318,
+        6172
+      ],
+      [
+        3225,
+        6164
+      ],
+      [
+        4060,
+        6155
+      ],
+      [
+        4149,
+        6154
+      ]
+    ],
+    "south": [
+      [
+        515,
+        4135
+      ],
+      [
+        627,
+        4135
+      ],
+      [
+        1922,
+        4137
+      ],
+      [
+        3331,
+        4144
+      ],
+      [
+        4740,
+        4146
+      ],
+      [
+        6035,
+        4149
+      ],
+      [
+        6155,
+        4149
+      ]
+    ],
+    "west": [
+      [
+        487,
+        528
+      ],
+      [
+        569,
+        528
+      ],
+      [
+        1403,
+        525
+      ],
+      [
+        2310,
+        522
+      ],
+      [
+        3217,
+        518
+      ],
+      [
+        4051,
+        515
+      ],
+      [
+        4135,
+        515
+      ]
+    ]
+  },
+  "crossing_search_window": 10,
+  "tick_search_overrides": {
+    "4": {
+      "initial_line": 2565,
+      "half_window": 5,
+      "reason": "Native crop shows the 40-minute rule below its numeral; narrow window excludes the printed digits."
+    }
+  }
+}

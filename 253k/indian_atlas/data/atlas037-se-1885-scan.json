@@ -1,0 +1,240 @@
+{
+  "id": "atlas037-se-1885",
+  "title": "Indian Atlas 037 SE \u00b7 1885",
+  "sheet": "037",
+  "quarter": "SE",
+  "year": 1885,
+  "source": "sources/zenodo-19431985/sheets/037 SE Quarter Sheet Indian Atlas (1885).jpg",
+  "table": "data/atlas013-se-1885-projection.json",
+  "condition_note": "Intact SE quarter with dense northern/eastern hill shading. Native publication confirms August 1885. Own printed graticule and frame measured.",
+  "crossing_preview_seeds": [
+    [
+      75,
+      21,
+      671,
+      976
+    ],
+    [
+      75.5,
+      21,
+      1467,
+      983
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 21.38,
+  "tick_windows": {
+    "west": [
+      260,
+      330
+    ],
+    "east": [
+      6110,
+      6180
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 21.416666666666668,
+      "ys": [
+        265,
+        407,
+        549,
+        692,
+        834,
+        976,
+        1118,
+        1260
+      ]
+    },
+    "east": {
+      "first_latitude": 21.416666666666668,
+      "ys": [
+        285,
+        427,
+        569,
+        711,
+        853,
+        995,
+        1137,
+        1279
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      382,
+      506
+    ],
+    [
+      6077,
+      518
+    ],
+    [
+      6056,
+      4190
+    ],
+    [
+      363,
+      4178
+    ]
+  ],
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native graticule crops show nearly vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_convention_status": "Printed note gives -69 and -150 arcseconds (total -219). Retain user-selected working correction -216.18 arcseconds, 2.82 arcseconds east of the printed total; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds.",
+  "crossing_local_seeds": [
+    [
+      180,
+      207
+    ],
+    [
+      191,
+      216
+    ]
+  ],
+  "printed_longitude_note": {
+    "location": "Lower margin, Note paragraph",
+    "source_crop": "work/atlas037-se-1885/longitude-note.jpg",
+    "transcription": "All Longitudes require a correction of -1\u2032-9\u2033, to reduce them to the origin of the Great Trigonometrical Survey: viz: the Madras Observatory taken as 80\u00b017\u203221\u2033, and a further correction of -2\u203230\u2033 to reduce them to the latest value 80\u00b014\u203251\u2033 of that Observatory.",
+    "atlas_to_old_gts_arcseconds": -69,
+    "old_gts_to_stated_madras_arcseconds": -150,
+    "printed_total_arcseconds": -219,
+    "applied_working_total_arcseconds": -216.18,
+    "working_minus_printed_arcseconds": 2.82
+  },
+  "crop_edge_guides": {
+    "north": [
+      [
+        382,
+        506
+      ],
+      [
+        490,
+        506
+      ],
+      [
+        1802,
+        505
+      ],
+      [
+        3229,
+        505
+      ],
+      [
+        4656,
+        512
+      ],
+      [
+        5968,
+        518
+      ],
+      [
+        6077,
+        518
+      ]
+    ],
+    "east": [
+      [
+        518,
+        6077
+      ],
+      [
+        589,
+        6078
+      ],
+      [
+        1432,
+        6069
+      ],
+      [
+        2348,
+        6063
+      ],
+      [
+        3264,
+        6061
+      ],
+      [
+        4107,
+        6058
+      ],
+      [
+        4190,
+        6056
+      ]
+    ],
+    "south": [
+      [
+        363,
+        4178
+      ],
+      [
+        475,
+        4178
+      ],
+      [
+        1787,
+        4174
+      ],
+      [
+        3213,
+        4176
+      ],
+      [
+        4639,
+        4183
+      ],
+      [
+        5951,
+        4190
+      ],
+      [
+        6056,
+        4190
+      ]
+    ],
+    "west": [
+      [
+        506,
+        382
+      ],
+      [
+        578,
+        382
+      ],
+      [
+        1423,
+        375
+      ],
+      [
+        2342,
+        370
+      ],
+      [
+        3260,
+        366
+      ],
+      [
+        4105,
+        363
+      ],
+      [
+        4178,
+        363
+      ]
+    ]
+  },
+  "frame_maximum_stroke_intensity": 200,
+  "frame_intensity_limit_reason": "Native weakest-frame contact confirms faint but intact southern inner neatline at source pixel 543,4178 (median intensity 193), clearly separated from the outer graduated frame. Permit intensity up to 200 while retaining measured inner-frame guides and four-pixel inset."
+}

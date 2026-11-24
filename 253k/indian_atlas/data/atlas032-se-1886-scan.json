@@ -1,0 +1,302 @@
+{
+  "id": "atlas032-se-1886",
+  "title": "Indian Atlas 032 SE \u00b7 1886 additions",
+  "sheet": "032",
+  "quarter": "SE",
+  "year": 1886,
+  "source": "sources/zenodo-19431985/sheets/032 SE Quarter Sheet Indian Atlas (1886).jpg",
+  "table": "data/atlas001a-se-1871-projection.json",
+  "condition_note": "Intact SE quarter with colored boundaries. Native margin confirms December 1872 with additions to 1886. Measure this scan independently.",
+  "crossing_preview_seeds": [
+    [
+      75,
+      28.5,
+      830,
+      397
+    ],
+    [
+      75.5,
+      28.5,
+      1576,
+      409
+    ],
+    [
+      75,
+      28,
+      811,
+      1259
+    ],
+    [
+      75.5,
+      28,
+      1560,
+      1266
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 28.55,
+  "tick_windows": {
+    "west": [
+      340,
+      414
+    ],
+    "east": [
+      6180,
+      6245
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 28.583333333333332,
+      "ys": [
+        246,
+        389,
+        532,
+        675,
+        818,
+        960,
+        1102,
+        1246
+      ]
+    },
+    "east": {
+      "first_latitude": 28.583333333333332,
+      "ys": [
+        272,
+        416,
+        557,
+        699,
+        842,
+        984,
+        1126,
+        1269
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      450,
+      482
+    ],
+    [
+      6150,
+      498
+    ],
+    [
+      6119,
+      4162
+    ],
+    [
+      416,
+      4155
+    ]
+  ],
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native crossing crops show near-vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified in this edition.",
+  "meridian_samples": [
+    {
+      "longitude": 75,
+      "pixel": 2495.1558463636366,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 2433.0558463636366,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 2481.3558463636364,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75,
+      "pixel": 2444.5558463636366,
+      "line": 3200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4755.525420000001,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4706.9254200000005,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4744.725420000001,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4715.9254200000005,
+      "line": 3200,
+      "role": "withheld"
+    }
+  ],
+  "crossing_local_seeds": [
+    [
+      200,
+      201
+    ],
+    [
+      222,
+      196
+    ],
+    [
+      199,
+      194
+    ],
+    [
+      221,
+      202
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        450,
+        482
+      ],
+      [
+        562,
+        482
+      ],
+      [
+        1874,
+        486
+      ],
+      [
+        3300,
+        489
+      ],
+      [
+        4725,
+        492
+      ],
+      [
+        6037,
+        497
+      ],
+      [
+        6150,
+        498
+      ]
+    ],
+    "east": [
+      [
+        498,
+        6150
+      ],
+      [
+        572,
+        6149
+      ],
+      [
+        1414,
+        6140
+      ],
+      [
+        2330,
+        6131
+      ],
+      [
+        3246,
+        6124
+      ],
+      [
+        4088,
+        6120
+      ],
+      [
+        4162,
+        6119
+      ]
+    ],
+    "south": [
+      [
+        416,
+        4155
+      ],
+      [
+        528,
+        4155
+      ],
+      [
+        1840,
+        4156
+      ],
+      [
+        3267,
+        4159
+      ],
+      [
+        4694,
+        4161
+      ],
+      [
+        6006,
+        4162
+      ],
+      [
+        6119,
+        4162
+      ]
+    ],
+    "west": [
+      [
+        482,
+        450
+      ],
+      [
+        555,
+        450
+      ],
+      [
+        1400,
+        443
+      ],
+      [
+        2319,
+        432
+      ],
+      [
+        3238,
+        422
+      ],
+      [
+        4083,
+        416
+      ],
+      [
+        4155,
+        416
+      ]
+    ]
+  },
+  "frame_stroke_maximum_half_width_pixels_by_edge": {
+    "east": 2
+  },
+  "frame_stroke_width_reason": "Native crop-corner review shows hill hachures touching the inner eastern rule near the southeast corner. Uncapped dark-run expansion moves the crop about eleven pixels inside the observed rule. Cap only eastern stroke half-width at two source pixels, retaining the four-pixel inset and measured inner rule; other edges retain measured stroke widths."
+}

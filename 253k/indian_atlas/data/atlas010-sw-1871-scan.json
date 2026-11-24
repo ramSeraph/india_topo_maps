@@ -1,0 +1,313 @@
+{
+  "id": "atlas010-sw-1871",
+  "title": "Indian Atlas 010 SW \u00b7 1871",
+  "sheet": "010",
+  "quarter": "SW",
+  "year": 1871,
+  "source": "sources/zenodo-19431985/sheets/010 SW Quarter Sheet Indian Atlas (1871) colored.jpg",
+  "table": "data/atlas002-se-1874-projection.json",
+  "crossing_preview_seeds": [
+    [
+      69,
+      25.5,
+      995,
+      392
+    ],
+    [
+      69.5,
+      25.5,
+      1743,
+      435
+    ],
+    [
+      69,
+      25,
+      946,
+      1216
+    ],
+    [
+      69.5,
+      25,
+      1694,
+      1260
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      199,
+      190
+    ],
+    [
+      212,
+      194
+    ],
+    [
+      184,
+      212
+    ],
+    [
+      209,
+      214
+    ]
+  ],
+  "crossing_search_window": 10,
+  "tick_windows": {
+    "west": [
+      451,
+      521
+    ],
+    "east": [
+      6262,
+      6342
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 25.5,
+      "ys": [
+        343,
+        482,
+        621,
+        760,
+        900,
+        1039,
+        1178,
+        1317
+      ]
+    },
+    "east": {
+      "first_latitude": 25.583333333333332,
+      "ys": [
+        311,
+        450,
+        589,
+        728,
+        868,
+        1007,
+        1145,
+        1284
+      ]
+    }
+  },
+  "seed_north_latitude": 25.54,
+  "frame_corners": [
+    [
+      561,
+      705
+    ],
+    [
+      6236,
+      718
+    ],
+    [
+      6220,
+      4383
+    ],
+    [
+      541,
+      4368
+    ]
+  ],
+  "meridian_samples": [
+    {
+      "longitude": 69,
+      "pixel": 3063,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 69,
+      "pixel": 2904,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 69,
+      "pixel": 3028,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 69,
+      "pixel": 2934,
+      "line": 3200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 69.5,
+      "pixel": 5365,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 69.5,
+      "pixel": 5206,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 69.5,
+      "pixel": 5330,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 69.5,
+      "pixel": 5235,
+      "line": 3200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 68.5,
+      "pixel": 689,
+      "line": 1700,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 68.5,
+      "pixel": 648,
+      "line": 2300,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 68.5,
+      "pixel": 600,
+      "line": 3000,
+      "role": "withheld",
+      "search_window": 15
+    }
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        561,
+        705
+      ],
+      [
+        677,
+        705
+      ],
+      [
+        1980,
+        708
+      ],
+      [
+        3396,
+        712
+      ],
+      [
+        4813,
+        713
+      ],
+      [
+        6116,
+        718
+      ],
+      [
+        6236,
+        718
+      ]
+    ],
+    "east": [
+      [
+        718,
+        6236
+      ],
+      [
+        791,
+        6236
+      ],
+      [
+        1632,
+        6235
+      ],
+      [
+        2546,
+        6232
+      ],
+      [
+        3459,
+        6227
+      ],
+      [
+        4300,
+        6220
+      ],
+      [
+        4383,
+        6220
+      ]
+    ],
+    "south": [
+      [
+        541,
+        4368
+      ],
+      [
+        657,
+        4368
+      ],
+      [
+        1962,
+        4370
+      ],
+      [
+        3382,
+        4374
+      ],
+      [
+        4801,
+        4378
+      ],
+      [
+        6106,
+        4383
+      ],
+      [
+        6220,
+        4383
+      ]
+    ],
+    "west": [
+      [
+        705,
+        561
+      ],
+      [
+        778,
+        561
+      ],
+      [
+        1620,
+        557
+      ],
+      [
+        2536,
+        553
+      ],
+      [
+        3452,
+        547
+      ],
+      [
+        4294,
+        541
+      ],
+      [
+        4368,
+        541
+      ]
+    ]
+  },
+  "tick_search_overrides": {
+    "7": {
+      "initial_line": 4021,
+      "half_window": 5,
+      "reason": "The native withheld-observation crop shows the search selected the 55 numeral, about 22 source pixels above the visible rule. Recenter on the rule and retain this independent check."
+    }
+  },
+  "frame_stroke_maximum_half_width_pixels": 2,
+  "frame_stroke_width_cap_note": "At the northwest corner, the pink boundary and dark map detail touch the inner frame. Profiles show frame minima at y705 and x562 with the adjoining map still below intensity 180. Limit inward stroke extension to two pixels before the four-pixel inset, avoiding unnecessary removal of map content."
+}

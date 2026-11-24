@@ -1,0 +1,412 @@
+{
+  "id": "atlas027-part",
+  "title": "Indian Atlas 027 \u00b7 undated fragment",
+  "sheet": "027",
+  "quarter": null,
+  "year": null,
+  "source": "sources/zenodo-19431985/sheets/27 Sheet Indian Atlas (part).jpg",
+  "table": "data/atlas027-part-projection.json",
+  "condition_note": "Narrow surviving map strip with north, west and south frame. The eastern edge follows the ungraduated boundary. No displaced panels identified. No publication date identified; library receipt stamp is not publication year.",
+  "crossing_preview_seeds": [
+    [
+      73.5,
+      16,
+      1562,
+      2591
+    ],
+    [
+      73.5,
+      15.5,
+      1500,
+      5093
+    ]
+  ],
+  "crossing_search_window": 12,
+  "seed_north_latitude": 16.3,
+  "tick_windows": {
+    "west": [
+      330,
+      350
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 16.416666666666668,
+      "ys": [
+        458,
+        872,
+        1286,
+        1700,
+        2118,
+        2543,
+        2953,
+        3363,
+        3777,
+        4199,
+        4613,
+        5030,
+        5448,
+        5858,
+        6276,
+        6687,
+        7101,
+        7515
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      429,
+      431
+    ],
+    [
+      1898,
+      442
+    ],
+    [
+      1838,
+      7700
+    ],
+    [
+      374,
+      7682
+    ]
+  ],
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Near-vertical graticule and gently tilted parallels visible in native strip.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in surviving margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified in this fragment.",
+  "meridian_samples": [
+    {
+      "longitude": 73.5,
+      "pixel": 1625,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 73.5,
+      "pixel": 1485,
+      "line": 7200,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 73.5,
+      "pixel": 1560,
+      "line": 3800,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 73.5,
+      "pixel": 1500,
+      "line": 6200,
+      "role": "withheld",
+      "search_window": 15
+    }
+  ],
+  "longitude_tick_samples": [
+    {
+      "side": "north",
+      "longitude": 73.33333333333333,
+      "pixel": 815,
+      "line_window": [
+        320,
+        345
+      ],
+      "role": "fit",
+      "half_window": 12
+    },
+    {
+      "side": "north",
+      "longitude": 73.41666666666667,
+      "pixel": 1220,
+      "line_window": [
+        320,
+        345
+      ],
+      "role": "withheld",
+      "half_window": 12
+    },
+    {
+      "side": "north",
+      "longitude": 73.5,
+      "pixel": 1626,
+      "line_window": [
+        320,
+        345
+      ],
+      "role": "fit",
+      "half_window": 12
+    },
+    {
+      "side": "south",
+      "longitude": 73.33333333333333,
+      "pixel": 661,
+      "line_window": [
+        7780,
+        7800
+      ],
+      "role": "fit",
+      "half_window": 12
+    },
+    {
+      "side": "south",
+      "longitude": 73.41666666666667,
+      "pixel": 1068,
+      "line_window": [
+        7780,
+        7800
+      ],
+      "role": "withheld",
+      "half_window": 12
+    },
+    {
+      "side": "south",
+      "longitude": 73.5,
+      "pixel": 1474,
+      "line_window": [
+        7780,
+        7800
+      ],
+      "role": "fit",
+      "half_window": 12
+    }
+  ],
+  "affine_initialization": {
+    "reason": "All surviving full crossings lie on73d30m. These approximate noncollinear positions initialize the optimizer only and are not controls; the fitted coefficients use measured partial and full graticule observations.",
+    "approximate_positions": [
+      {
+        "longitude": 73.33333333333333,
+        "latitude": 16.45,
+        "pixel": 815,
+        "line": 435
+      },
+      {
+        "longitude": 73.5,
+        "latitude": 16.45,
+        "pixel": 1626,
+        "line": 435
+      },
+      {
+        "longitude": 73.5,
+        "latitude": 15,
+        "pixel": 1475,
+        "line": 7674
+      }
+    ]
+  },
+  "crossing_local_seeds": [
+    [
+      203,
+      210
+    ],
+    [
+      209,
+      191
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        429,
+        431
+      ],
+      [
+        458,
+        430
+      ],
+      [
+        796,
+        434
+      ],
+      [
+        1164,
+        437
+      ],
+      [
+        1531,
+        440
+      ],
+      [
+        1869,
+        441
+      ],
+      [
+        1898,
+        442
+      ]
+    ],
+    "south": [
+      [
+        374,
+        7682
+      ],
+      [
+        403,
+        7683
+      ],
+      [
+        740,
+        7687
+      ],
+      [
+        1106,
+        7691
+      ],
+      [
+        1472,
+        7695
+      ],
+      [
+        1809,
+        7700
+      ],
+      [
+        1838,
+        7700
+      ]
+    ],
+    "west": [
+      [
+        431,
+        431
+      ],
+      [
+        576,
+        430
+      ],
+      [
+        2244,
+        418
+      ],
+      [
+        4056,
+        403
+      ],
+      [
+        5869,
+        389
+      ],
+      [
+        7537,
+        374
+      ],
+      [
+        7682,
+        373
+      ]
+    ]
+  },
+  "crop_edge_manual_segments": {
+    "east": [
+      {
+        "points": [
+          [
+            1892,
+            448
+          ],
+          [
+            1882,
+            2256
+          ],
+          [
+            1869,
+            4071
+          ],
+          [
+            1854,
+            5886
+          ],
+          [
+            1836,
+            7555
+          ],
+          [
+            1834,
+            7695
+          ]
+        ],
+        "reason": "Trace the observed eastern boundary with approximately four source pixels of inward clearance."
+      }
+    ],
+    "south": [
+      {
+        "points": [
+          [
+            380,
+            7678
+          ],
+          [
+            403,
+            7679
+          ],
+          [
+            740,
+            7683
+          ],
+          [
+            1106,
+            7687
+          ],
+          [
+            1472,
+            7691
+          ],
+          [
+            1809,
+            7696
+          ],
+          [
+            1834,
+            7696
+          ]
+        ],
+        "reason": "Native faint-south-frame.jpg shows the upper edge of alternating hatched and white scale blocks. Several white intervals have no continuous inked inner rule; the darkest-pixel search there selects paper variation (up to219/255). Trace the observed tops of the adjoining hatched blocks and interpolate across the white intervals, with four source pixels of inward clearance already included in these final coordinates. This is an observed border crop, not an inferred geographic rectangle."
+      }
+    ]
+  },
+  "seed_provenance": "Native graticule crops and printed margin labels. The 15-degree parallel approaches the south frame at the surviving meridian, so that ambiguous crossing is not used; west margin latitude and north/south longitude ticks constrain the southern end.",
+  "parallel_samples": [
+    {
+      "latitude": 15,
+      "pixel": 700,
+      "line": 7667,
+      "role": "withheld",
+      "search_window": 8
+    },
+    {
+      "latitude": 15.5,
+      "pixel": 800,
+      "line": 5160,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "latitude": 16,
+      "pixel": 800,
+      "line": 2620,
+      "role": "withheld",
+      "search_window": 12
+    }
+  ],
+  "tick_search_overrides": {
+    "1": {
+      "initial_line": 901,
+      "half_window": 3,
+      "reason": "Sixfold native enlargement confirms the west16d20m tick at y901. Broader search selected the lower stroke of the20 numeral at y892. See work/atlas027-part/west20-tick-detail.jpg."
+    }
+  },
+  "quality_note": "Narrow surviving fragment; longitude is constrained by measured north/south margin ticks and the single surviving meridian. Verified interior crossing residual reaches about10.3 source pixels under historical-projection plus affine, so internal alignment refinement remains pending. The eastern crop follows the ungraduated boundary.",
+  "crop_mode": "legacy_profile"
+}

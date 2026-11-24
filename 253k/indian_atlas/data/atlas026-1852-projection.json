@@ -1,0 +1,46 @@
+{
+  "source": "1902 Tables for Computing and Projecting Graticules of Sheets of Indian Atlas.pdf",
+  "central_meridian_printed_degrees": 76.5,
+  "reference_radius_fathoms": 7331657.0,
+  "summary_table_pdf_page": 9,
+  "detailed_table_pdf_pages": [
+    25,
+    26,
+    27
+  ],
+  "latitudes": [
+    16,
+    17,
+    18
+  ],
+  "radius_fathoms": [
+    8179325.8,
+    8118822.0,
+    8058312.6
+  ],
+  "angle_arcseconds_per_longitude_degree": [
+    1475.6,
+    1478.98,
+    1481.96
+  ],
+  "sine_check_longitude_offsets": [
+    7,
+    8
+  ],
+  "sine_check_fathoms": [
+    [
+      409427.9,
+      467857.8
+    ],
+    [
+      407329.4,
+      465459.5
+    ],
+    [
+      405107.6,
+      462920.4
+    ]
+  ],
+  "scope": "Latitude 16\u201318 only; no extrapolation. Historical table coordinates are not a modern datum transformation.",
+  "transcription": "Radii checked in original PDF page 9; detailed angles and sine values checked on PDF pages 25\u201327. Offset 9 is blank for latitude 16, so checks use printed offsets 7 and 8. Latitude 17 sine at offset 8 is 465459.5, verified in enlarged source crop."
+}

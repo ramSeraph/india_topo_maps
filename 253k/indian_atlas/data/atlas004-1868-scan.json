@@ -1,0 +1,339 @@
+{
+  "id": "atlas004-1868",
+  "title": "Indian Atlas 004 \u00b7 1868",
+  "sheet": "004",
+  "quarter": null,
+  "year": 1868,
+  "source": "sources/zenodo-19431985/sheets/004 Sheet Indian Atlas (1868).jpg",
+  "table": "data/atlas004-projection.json",
+  "crossing_preview_seeds": [
+    [
+      68,
+      34.5,
+      290,
+      451
+    ],
+    [
+      68.5,
+      34.5,
+      678,
+      460
+    ],
+    [
+      69.5,
+      34.5,
+      1454,
+      485
+    ],
+    [
+      70,
+      34.5,
+      1842,
+      504
+    ],
+    [
+      68,
+      34,
+      250,
+      922
+    ],
+    [
+      68.5,
+      34,
+      641,
+      932
+    ],
+    [
+      69.5,
+      34,
+      1426,
+      956
+    ],
+    [
+      70,
+      34,
+      1814,
+      978
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      202,
+      201
+    ],
+    [
+      202,
+      208
+    ],
+    [
+      193,
+      206
+    ],
+    [
+      192,
+      210
+    ],
+    [
+      199,
+      198
+    ],
+    [
+      198,
+      208
+    ],
+    [
+      174,
+      213
+    ],
+    [
+      189,
+      193
+    ]
+  ],
+  "crossing_search_window": 8,
+  "meridian_samples": [
+    {
+      "longitude": 68,
+      "pixel": 1709,
+      "line": 800,
+      "role": "fit"
+    },
+    {
+      "longitude": 68,
+      "pixel": 1159,
+      "line": 7000,
+      "role": "fit"
+    },
+    {
+      "longitude": 68,
+      "pixel": 1624,
+      "line": 1800,
+      "role": "withheld"
+    },
+    {
+      "longitude": 68,
+      "pixel": 1230,
+      "line": 6200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 70,
+      "pixel": 9954,
+      "line": 800,
+      "role": "fit"
+    },
+    {
+      "longitude": 70,
+      "pixel": 9585,
+      "line": 7000,
+      "role": "fit"
+    },
+    {
+      "longitude": 70,
+      "pixel": 9894,
+      "line": 1800,
+      "role": "withheld"
+    },
+    {
+      "longitude": 70,
+      "pixel": 9633,
+      "line": 6200,
+      "role": "withheld"
+    }
+  ],
+  "parallel_samples": [
+    {
+      "latitude": 33.5,
+      "pixel": 600,
+      "line": 7415,
+      "role": "fit"
+    },
+    {
+      "latitude": 34.5,
+      "pixel": 650,
+      "line": 2383,
+      "role": "withheld"
+    },
+    {
+      "latitude": 34.5,
+      "pixel": 11000,
+      "line": 2757,
+      "role": "withheld"
+    },
+    {
+      "latitude": 34,
+      "pixel": 650,
+      "line": 4905,
+      "role": "withheld"
+    },
+    {
+      "latitude": 34,
+      "pixel": 11000,
+      "line": 5295,
+      "role": "withheld"
+    },
+    {
+      "latitude": 33.5,
+      "pixel": 1800,
+      "line": 7443,
+      "role": "withheld"
+    }
+  ],
+  "seed_north_latitude": 34.83,
+  "frame_corners": [
+    [
+      297,
+      333
+    ],
+    [
+      11417,
+      303
+    ],
+    [
+      11446,
+      7534
+    ],
+    [
+      293,
+      7549
+    ]
+  ],
+  "condition_note": "Appears intact in full-sheet preview; no displaced cut panels.",
+  "crop_edge_guides": {
+    "north": [
+      [
+        297,
+        333
+      ],
+      [
+        521,
+        331
+      ],
+      [
+        3076,
+        309
+      ],
+      [
+        5853,
+        299
+      ],
+      [
+        8630,
+        303
+      ],
+      [
+        11185,
+        303
+      ],
+      [
+        11417,
+        303
+      ]
+    ],
+    "east": [
+      [
+        303,
+        11417
+      ],
+      [
+        459,
+        11417
+      ],
+      [
+        2117,
+        11430
+      ],
+      [
+        3919,
+        11439
+      ],
+      [
+        5721,
+        11444
+      ],
+      [
+        7379,
+        11446
+      ],
+      [
+        7534,
+        11446
+      ]
+    ],
+    "south": [
+      [
+        293,
+        7549
+      ],
+      [
+        522,
+        7548
+      ],
+      [
+        3082,
+        7540
+      ],
+      [
+        5866,
+        7534
+      ],
+      [
+        8650,
+        7533
+      ],
+      [
+        11210,
+        7534
+      ],
+      [
+        11446,
+        7534
+      ]
+    ],
+    "west": [
+      [
+        333,
+        297
+      ],
+      [
+        486,
+        297
+      ],
+      [
+        2140,
+        290
+      ],
+      [
+        3938,
+        292
+      ],
+      [
+        5735,
+        290
+      ],
+      [
+        7389,
+        293
+      ],
+      [
+        7549,
+        293
+      ]
+    ]
+  },
+  "seed_provenance": "Search windows inspected at native resolution; narrowed to eight pixels around the printed intersections to exclude adjacent hachures and the river near 70 degrees, 34.5 degrees.",
+  "quality_note": "Systematic curvature residuals remain under the historical-projection plus affine model. Internal graticule alignment is less precise than on the completed quarter sheets; see the reported errors and diagnostic overlay.",
+  "crossing_line_exclusions": {
+    "3": {
+      "horizontal": [
+        [
+          100,
+          300
+        ]
+      ],
+      "reason": "River banks closely approach the parallel in the middle of this native-resolution patch; measure the uninterrupted straight rule in the outer portions."
+    }
+  },
+  "frame_maximum_stroke_intensity": 205,
+  "frame_intensity_limit_reason": "Southern inner frame at source x=9464, y=7534 is faint (median minimum 198/255). Native-resolution inspection confirms the traced line continues through neighboring samples; retain the four-pixel inset. Diagnostic: work/atlas004-1868/south-frame-review.jpg."
+}

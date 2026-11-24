@@ -1,0 +1,649 @@
+{
+  "crossing_search_window": 10,
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native graticule crops show nearly vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified in this edition.",
+  "id": "atlas040-1852",
+  "title": "Indian Atlas 040 \u00b7 1852",
+  "sheet": "040",
+  "quarter": null,
+  "year": 1852,
+  "source": "sources/zenodo-19431985/sheets/040 Sheet Indian Atlas (1852).jpg",
+  "table": "data/atlas026-1852-projection.json",
+  "condition_note": "Intact full sheet with central fold. Native publication confirms31 May1852. Own printed graticule and frame measured.",
+  "seed_north_latitude": 17.74,
+  "tick_windows": {
+    "west": [
+      245,
+      300
+    ],
+    "east": [
+      11540,
+      11600
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 17.833333333333332,
+      "ys": [
+        97,
+        175,
+        253,
+        331,
+        409,
+        487,
+        565,
+        643,
+        721,
+        799,
+        877,
+        955,
+        1033,
+        1111,
+        1189,
+        1267,
+        1345
+      ]
+    },
+    "east": {
+      "first_latitude": 17.833333333333332,
+      "ys": [
+        120,
+        198,
+        276,
+        354,
+        432,
+        510,
+        588,
+        666,
+        744,
+        822,
+        900,
+        978,
+        1056,
+        1134,
+        1212,
+        1290,
+        1368
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      349,
+      349
+    ],
+    [
+      11504,
+      320
+    ],
+    [
+      11516,
+      7559
+    ],
+    [
+      330,
+      7586
+    ]
+  ],
+  "crossing_preview_seeds": [
+    [
+      74,
+      17.5,
+      478,
+      416
+    ],
+    [
+      74.5,
+      17.5,
+      922,
+      422
+    ],
+    [
+      75,
+      17.5,
+      1365,
+      426
+    ],
+    [
+      75.5,
+      17.5,
+      1804,
+      429
+    ],
+    [
+      74,
+      17,
+      472,
+      884
+    ],
+    [
+      74.5,
+      17,
+      916,
+      889
+    ],
+    [
+      75,
+      17,
+      1359,
+      892
+    ],
+    [
+      75.5,
+      17,
+      1800,
+      896
+    ],
+    [
+      74,
+      16.5,
+      466,
+      1350
+    ],
+    [
+      74.5,
+      16.5,
+      910,
+      1355
+    ],
+    [
+      75,
+      16.5,
+      1352,
+      1359
+    ],
+    [
+      75.5,
+      16.5,
+      1795,
+      1364
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      190.18294488203034,
+      195.21575945344196
+    ],
+    [
+      196,
+      197
+    ],
+    [
+      204,
+      195
+    ],
+    [
+      234,
+      206
+    ],
+    [
+      178.98491286812128,
+      197.9394286075307
+    ],
+    [
+      196,
+      203
+    ],
+    [
+      218,
+      209
+    ],
+    [
+      250,
+      209
+    ],
+    [
+      169.1903451795596,
+      208.2407376654996
+    ],
+    [
+      194,
+      215
+    ],
+    [
+      229,
+      216
+    ],
+    [
+      260,
+      213
+    ]
+  ],
+  "meridian_samples": [
+    {
+      "longitude": 74,
+      "pixel": 2594.7348122866892,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 5,
+      "measurement_note": "Search window follows74E margin ticks and verified interior crossings, replacing terrain-feature seed; original fit/withheld role retained."
+    },
+    {
+      "longitude": 74,
+      "pixel": 2488.086348122867,
+      "line": 7300,
+      "role": "fit",
+      "search_window": 5,
+      "measurement_note": "Search window follows74E margin ticks and verified interior crossings, replacing terrain-feature seed; original fit/withheld role retained."
+    },
+    {
+      "longitude": 74,
+      "pixel": 2560.878156996587,
+      "line": 3000,
+      "role": "withheld",
+      "search_window": 5,
+      "measurement_note": "Search window follows74E margin ticks and verified interior crossings, replacing terrain-feature seed; original fit/withheld role retained."
+    },
+    {
+      "longitude": 74,
+      "pixel": 2515.171672354949,
+      "line": 5700,
+      "role": "withheld",
+      "search_window": 5,
+      "measurement_note": "Search window follows74E margin ticks and verified interior crossings, replacing terrain-feature seed; original fit/withheld role retained."
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 4991.905675301562,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 4908.437215740558,
+      "line": 7300,
+      "role": "fit"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 4965.407751631402,
+      "line": 3000,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 4929.635554676685,
+      "line": 5700,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7387.784147064637,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7330.5000988337615,
+      "line": 7300,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7369.598734927851,
+      "line": 3000,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7345.04842854319,
+      "line": 5700,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9781.756724683544,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9754.34375,
+      "line": 7300,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9773.054193037975,
+      "line": 3000,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9761.305775316456,
+      "line": 5700,
+      "role": "withheld"
+    }
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        349,
+        349
+      ],
+      [
+        558,
+        349
+      ],
+      [
+        3127,
+        333
+      ],
+      [
+        5919,
+        316
+      ],
+      [
+        8711,
+        316
+      ],
+      [
+        11280,
+        320
+      ],
+      [
+        11504,
+        320
+      ]
+    ],
+    "east": [
+      [
+        320,
+        11504
+      ],
+      [
+        458,
+        11504
+      ],
+      [
+        2126,
+        11514
+      ],
+      [
+        3939,
+        11523
+      ],
+      [
+        5752,
+        11523
+      ],
+      [
+        7420,
+        11516
+      ],
+      [
+        7559,
+        11516
+      ]
+    ],
+    "south": [
+      [
+        330,
+        7586
+      ],
+      [
+        558,
+        7586
+      ],
+      [
+        3128,
+        7575
+      ],
+      [
+        5922,
+        7570
+      ],
+      [
+        8715,
+        7564
+      ],
+      [
+        11285,
+        7559
+      ],
+      [
+        11516,
+        7559
+      ]
+    ],
+    "west": [
+      [
+        349,
+        349
+      ],
+      [
+        496,
+        346
+      ],
+      [
+        2159,
+        334
+      ],
+      [
+        3967,
+        333
+      ],
+      [
+        5775,
+        329
+      ],
+      [
+        7438,
+        330
+      ],
+      [
+        7586,
+        330
+      ]
+    ]
+  },
+  "tick_search_overrides": {
+    "4": {
+      "initial_line": 2216,
+      "half_window": 6,
+      "reason": "Native fitted west17deg30min contact shows marker on17 numeral roughly43pixels above rule; restrict to visible horizontal rule near2216, retaining fit role."
+    },
+    "21": {
+      "initial_line": 2330,
+      "half_window": 5,
+      "reason": "Native withheld east17deg30min contact shows marker on17 numeral roughly43pixels above rule; restrict to rule near2330, retaining withheld role."
+    },
+    "33": {
+      "initial_line": 7386,
+      "half_window": 3,
+      "reason": "Native withheld east16deg30min contact shows marker on base of numeral about6pixels above faint horizontal rule; restrict to rule near7386, retaining withheld role."
+    }
+  },
+  "quality_note": "Corrected seven 74\u00b0E meridian observations that previously followed hill shading, after tracing the faint rule from native margin ticks. Original fit/withheld assignments retained; twelve additional north/south longitude ticks are withheld checks. Leave-one-out RMS 6.60 pixels; 37 withheld checks RMS 4.71 arcseconds, maximum 11.71 arcseconds. Residual internal alignment refinement remains pending.",
+  "internal_alignment_refinement_pending": true,
+  "frame_maximum_stroke_intensity": 225,
+  "frame_intensity_limit_reason": "Native weakest-frame contacts show faint but identifiable inner rules on north at3518,331 (215), south1649,7582 (213), west343,1732 (217). All remain distinct from the outer graduation border. Permit intensity up to225 and inspect actual final crop.",
+  "frame_stroke_maximum_half_width_pixels_by_edge": {
+    "north": 2,
+    "south": 2,
+    "west": 2
+  },
+  "frame_stroke_width_reason": "Native corners show dense hill hachures merging into faint inner rules; cap inward stroke expansion to avoid treating map ink as additional frame width.",
+  "crop_edge_manual_segments": {
+    "west": [
+      {
+        "points": [
+          [
+            354,
+            349
+          ],
+          [
+            351,
+            496
+          ],
+          [
+            349,
+            800
+          ]
+        ],
+        "reason": "Native northwest corner and upper west detail show inner rule near349 atcorner,346 at496, gently shifting west below. Automatic detection is drawn into adjacent hill ink; final short segment follows rule with about five-pixel clearance."
+      }
+    ]
+  },
+  "crossing_search_overrides": {
+    "0": {
+      "half_window": 3,
+      "reason": "Native meridian audit traced the faint74E graticule using its north/south printed ticks. Prior seed selected hill shading; corrected visible rule, preserving crossing role."
+    },
+    "4": {
+      "half_window": 3,
+      "reason": "Native meridian audit traced the faint74E graticule using its north/south printed ticks. Prior seed selected hill shading; corrected visible rule, preserving crossing role."
+    },
+    "8": {
+      "half_window": 3,
+      "reason": "Native meridian audit traced the faint74E graticule using its north/south printed ticks. Prior seed selected hill shading; corrected visible rule, preserving crossing role."
+    }
+  },
+  "longitude_tick_samples": [
+    {
+      "side": "north",
+      "longitude": 73.58333333333333,
+      "pixel": 608.5,
+      "line_window": [
+        295,
+        315
+      ],
+      "role": "withheld",
+      "half_window": 3
+    },
+    {
+      "side": "north",
+      "longitude": 73.66666666666667,
+      "pixel": 1010.5,
+      "line_window": [
+        295,
+        315
+      ],
+      "role": "withheld",
+      "half_window": 3
+    },
+    {
+      "side": "north",
+      "longitude": 73.75,
+      "pixel": 1411.5,
+      "line_window": [
+        295,
+        315
+      ],
+      "role": "withheld",
+      "half_window": 3
+    },
+    {
+      "side": "north",
+      "longitude": 73.83333333333333,
+      "pixel": 1808.5,
+      "line_window": [
+        295,
+        315
+      ],
+      "role": "withheld",
+      "half_window": 3
+    },
+    {
+      "side": "north",
+      "longitude": 73.91666666666667,
+      "pixel": 2207.5,
+      "line_window": [
+        295,
+        315
+      ],
+      "role": "withheld",
+      "half_window": 3
+    },
+    {
+      "side": "north",
+      "longitude": 74.0,
+      "pixel": 2606.5,
+      "line_window": [
+        295,
+        315
+      ],
+      "role": "withheld",
+      "half_window": 3
+    },
+    {
+      "side": "south",
+      "longitude": 73.58333333333333,
+      "pixel": 469.5,
+      "line_window": [
+        7620,
+        7640
+      ],
+      "role": "withheld",
+      "half_window": 3
+    },
+    {
+      "side": "south",
+      "longitude": 73.66666666666667,
+      "pixel": 869.5,
+      "line_window": [
+        7620,
+        7640
+      ],
+      "role": "withheld",
+      "half_window": 3
+    },
+    {
+      "side": "south",
+      "longitude": 73.75,
+      "pixel": 1272.5,
+      "line_window": [
+        7620,
+        7640
+      ],
+      "role": "withheld",
+      "half_window": 3
+    },
+    {
+      "side": "south",
+      "longitude": 73.83333333333333,
+      "pixel": 1676.5,
+      "line_window": [
+        7620,
+        7640
+      ],
+      "role": "withheld",
+      "half_window": 3
+    },
+    {
+      "side": "south",
+      "longitude": 73.91666666666667,
+      "pixel": 2078.5,
+      "line_window": [
+        7620,
+        7640
+      ],
+      "role": "withheld",
+      "half_window": 3
+    },
+    {
+      "side": "south",
+      "longitude": 74.0,
+      "pixel": 2482.5,
+      "line_window": [
+        7620,
+        7640
+      ],
+      "role": "withheld",
+      "half_window": 3
+    }
+  ],
+  "control_correction_evidence": "work/atlas-continuity-audit/040-control-trial-comparison.json;040-trial-controls-0.jpg;040-trial-controls-1.jpg"
+}

@@ -1,0 +1,393 @@
+{
+  "id": "atlas016-1866",
+  "title": "Indian Atlas 016 \u00b7 1866",
+  "sheet": "016",
+  "quarter": null,
+  "year": 1866,
+  "source": "sources/zenodo-19431985/sheets/016 Sheet Indian Atlas (1866).jpg",
+  "table": "data/atlas016-1866-projection.json",
+  "condition_note": "Intact full sheet; measure its own printed graticule and inner frame.",
+  "crossing_preview_seeds": [
+    [
+      71,
+      32,
+      410,
+      201
+    ],
+    [
+      71.5,
+      32,
+      806,
+      215
+    ],
+    [
+      72.5,
+      32,
+      1606,
+      240
+    ],
+    [
+      73,
+      32,
+      2008,
+      251
+    ],
+    [
+      71,
+      31.5,
+      387,
+      673
+    ],
+    [
+      71.5,
+      31.5,
+      785,
+      687
+    ],
+    [
+      72.5,
+      31.5,
+      1589,
+      711
+    ],
+    [
+      73,
+      31.5,
+      1992,
+      724
+    ],
+    [
+      71,
+      31,
+      362,
+      1147
+    ],
+    [
+      71.5,
+      31,
+      765,
+      1160
+    ],
+    [
+      72.5,
+      31,
+      1571,
+      1183
+    ],
+    [
+      73,
+      31,
+      1978,
+      1196
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      192,
+      190
+    ],
+    [
+      200,
+      206
+    ],
+    [
+      170,
+      211
+    ],
+    [
+      143,
+      194
+    ],
+    [
+      180,
+      181
+    ],
+    [
+      198,
+      195
+    ],
+    [
+      174,
+      196
+    ],
+    [
+      158,
+      181
+    ],
+    [
+      186,
+      152
+    ],
+    [
+      188,
+      178
+    ],
+    [
+      178,
+      195
+    ],
+    [
+      154,
+      168
+    ]
+  ],
+  "crossing_search_window": 12,
+  "tick_windows": {
+    "west": [
+      209,
+      268
+    ],
+    "east": [
+      11486,
+      11556
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 32.083333333333336,
+      "ys": [
+        107,
+        186,
+        264,
+        343,
+        422,
+        501,
+        580,
+        659,
+        738,
+        817,
+        896,
+        975,
+        1054,
+        1132,
+        1211,
+        1290,
+        1369
+      ]
+    },
+    "east": {
+      "first_latitude": 32.166666666666664,
+      "ys": [
+        98,
+        177,
+        256,
+        335,
+        414,
+        493,
+        572,
+        651,
+        730,
+        809,
+        888,
+        967,
+        1046,
+        1125,
+        1204,
+        1283,
+        1362
+      ]
+    }
+  },
+  "seed_north_latitude": 31.91,
+  "frame_corners": [
+    [
+      319,
+      330
+    ],
+    [
+      11447,
+      320
+    ],
+    [
+      11464,
+      7588
+    ],
+    [
+      300,
+      7578
+    ]
+  ],
+  "meridian_samples": [
+    {
+      "longitude": 71,
+      "pixel": 2170,
+      "line": 1500,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 71,
+      "pixel": 1882,
+      "line": 7000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 71,
+      "pixel": 2118,
+      "line": 2500,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 71,
+      "pixel": 1935,
+      "line": 6000,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 73,
+      "pixel": 10715,
+      "line": 1500,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 73,
+      "pixel": 10552,
+      "line": 7000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 73,
+      "pixel": 10686,
+      "line": 2500,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 73,
+      "pixel": 10582,
+      "line": 6000,
+      "role": "withheld",
+      "search_window": 15
+    }
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        319,
+        330
+      ],
+      [
+        540,
+        330
+      ],
+      [
+        3098,
+        339
+      ],
+      [
+        5880,
+        341
+      ],
+      [
+        8662,
+        337
+      ],
+      [
+        11220,
+        320
+      ],
+      [
+        11447,
+        320
+      ]
+    ],
+    "east": [
+      [
+        320,
+        11447
+      ],
+      [
+        483,
+        11447
+      ],
+      [
+        2152,
+        11456
+      ],
+      [
+        3966,
+        11464
+      ],
+      [
+        5781,
+        11467
+      ],
+      [
+        7450,
+        11464
+      ],
+      [
+        7588,
+        11464
+      ]
+    ],
+    "south": [
+      [
+        300,
+        7578
+      ],
+      [
+        513,
+        7578
+      ],
+      [
+        3081,
+        7598
+      ],
+      [
+        5872,
+        7612
+      ],
+      [
+        8663,
+        7605
+      ],
+      [
+        11231,
+        7588
+      ],
+      [
+        11464,
+        7588
+      ]
+    ],
+    "west": [
+      [
+        330,
+        319
+      ],
+      [
+        483,
+        318
+      ],
+      [
+        2152,
+        313
+      ],
+      [
+        3966,
+        308
+      ],
+      [
+        5781,
+        301
+      ],
+      [
+        7450,
+        300
+      ],
+      [
+        7578,
+        300
+      ]
+    ]
+  },
+  "quality_note": "Historical-projection plus affine leaves systematic interior residuals of about 11\u201312 pixels along the verified 71.5- and 72.5-degree crossings. Internal alignment refinement remains pending; the separate withheld-check RMS does not describe every interior position.",
+  "frame_stroke_maximum_half_width_pixels": 2,
+  "frame_stroke_width_reason": "Native corner and border crops show dense vegetation and river detail touching the inner frame. Limit inferred inward stroke thickness before applying the four-source-pixel inset."
+}

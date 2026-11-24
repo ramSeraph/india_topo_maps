@@ -1,0 +1,277 @@
+{
+  "id": "atlas011-se-1871",
+  "title": "Indian Atlas 011 SE \u00b7 1871",
+  "sheet": "011",
+  "quarter": "SE",
+  "year": 1871,
+  "source": "sources/zenodo-19431985/sheets/011 SE Quarter Sheet Indian Atlas (1871).jpg",
+  "table": "data/atlas003-nw-1871-projection.json",
+  "crossing_preview_seeds": [
+    [
+      70,
+      24,
+      514,
+      499
+    ],
+    [
+      70.5,
+      24,
+      1302,
+      537
+    ],
+    [
+      70,
+      23.5,
+      467,
+      1355
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      199,
+      202
+    ],
+    [
+      200,
+      203
+    ],
+    [
+      205,
+      201
+    ]
+  ],
+  "crossing_search_window": 10,
+  "tick_windows": {
+    "west": [
+      339,
+      410
+    ],
+    "east": [
+      6107,
+      6180
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 24.166666666666668,
+      "ys": [
+        196,
+        339,
+        482,
+        626,
+        768,
+        911,
+        1054,
+        1196,
+        1339
+      ]
+    },
+    "east": {
+      "first_latitude": 24.25,
+      "ys": [
+        143,
+        288,
+        430,
+        574,
+        717,
+        859,
+        1003,
+        1146,
+        1290
+      ]
+    }
+  },
+  "seed_north_latitude": 24.093,
+  "frame_corners": [
+    [
+      452,
+      431
+    ],
+    [
+      6084,
+      428
+    ],
+    [
+      6069,
+      4051
+    ],
+    [
+      426,
+      4051
+    ]
+  ],
+  "meridian_samples": [
+    {
+      "longitude": 70,
+      "pixel": 1541,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 70,
+      "pixel": 1392,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 70,
+      "pixel": 1508,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 70,
+      "pixel": 1420,
+      "line": 3200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 3869,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 3721,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 3836,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 3748,
+      "line": 3200,
+      "role": "withheld"
+    }
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        452,
+        431
+      ],
+      [
+        567,
+        431
+      ],
+      [
+        1860,
+        434
+      ],
+      [
+        3267,
+        433
+      ],
+      [
+        4674,
+        431
+      ],
+      [
+        5967,
+        428
+      ],
+      [
+        6084,
+        428
+      ]
+    ],
+    "east": [
+      [
+        428,
+        6084
+      ],
+      [
+        508,
+        6084
+      ],
+      [
+        1340,
+        6082
+      ],
+      [
+        2243,
+        6079
+      ],
+      [
+        3146,
+        6075
+      ],
+      [
+        3978,
+        6069
+      ],
+      [
+        4051,
+        6069
+      ]
+    ],
+    "south": [
+      [
+        426,
+        4051
+      ],
+      [
+        543,
+        4051
+      ],
+      [
+        1839,
+        4056
+      ],
+      [
+        3248,
+        4057
+      ],
+      [
+        4656,
+        4055
+      ],
+      [
+        5952,
+        4051
+      ],
+      [
+        6069,
+        4051
+      ]
+    ],
+    "west": [
+      [
+        431,
+        452
+      ],
+      [
+        508,
+        451
+      ],
+      [
+        1340,
+        444
+      ],
+      [
+        2243,
+        438
+      ],
+      [
+        3146,
+        433
+      ],
+      [
+        3978,
+        427
+      ],
+      [
+        4051,
+        426
+      ]
+    ]
+  },
+  "frame_stroke_maximum_half_width_pixels": 2,
+  "frame_stroke_width_cap_note": "Native southeast corner review shows terrain hatching touching the southern frame; cap the frame half-width at two pixels so hatching does not enlarge the four-pixel inset."
+}

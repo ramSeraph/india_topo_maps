@@ -1,0 +1,363 @@
+{
+  "id": "atlas045-ne-1875",
+  "title": "Indian Atlas 045 NE \u00b7 1875",
+  "sheet": "045",
+  "quarter": "NE",
+  "year": 1875,
+  "source": "sources/zenodo-19431985/sheets/045 NE Quarter Sheet Indian Atlas (1875).jpg",
+  "table": "data/atlas014-1860-projection.json",
+  "condition_note": "Intact uncoloured quarter sheet with dense mountain hatching; no displaced panels seen in whole-sheet preview.",
+  "source_identification_note": "Printed 45 N.E., published October 1875. Northern continuation 44A S.E.; west 45 N.W.; south 45 S.E.; east 63A N.W.",
+  "crossing_preview_seeds": [
+    [
+      77.5,
+      35,
+      655,
+      373
+    ],
+    [
+      78,
+      35,
+      1330,
+      364
+    ],
+    [
+      78.5,
+      35,
+      1997,
+      353
+    ],
+    [
+      77.5,
+      34.5,
+      675,
+      1178
+    ],
+    [
+      78,
+      34.5,
+      1348,
+      1170
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      227,
+      200
+    ],
+    [
+      210,
+      200
+    ],
+    [
+      216,
+      204
+    ],
+    [
+      199,
+      195
+    ],
+    [
+      202,
+      196
+    ]
+  ],
+  "crossing_search_window": 8,
+  "seed_north_latitude": 35.05,
+  "tick_windows": {
+    "west": [
+      425,
+      480
+    ],
+    "east": [
+      6285,
+      6330
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 35.083333333333336,
+      "ys": [
+        234,
+        370,
+        505,
+        640,
+        775,
+        910,
+        1045,
+        1180,
+        1315
+      ]
+    },
+    "east": {
+      "first_latitude": 35.083333333333336,
+      "ys": [
+        222,
+        355,
+        488,
+        621,
+        756,
+        889,
+        1022,
+        1157,
+        1290
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      515,
+      680
+    ],
+    [
+      6239,
+      659
+    ],
+    [
+      6259,
+      4264
+    ],
+    [
+      546,
+      4283
+    ]
+  ],
+  "line_slope_bounds": {
+    "vertical": [
+      -0.035,
+      0.05
+    ],
+    "horizontal": [
+      -0.035,
+      0.025
+    ]
+  },
+  "line_slope_bounds_reason": "Preview shows slightly east-leaning meridians and shallow north-sloping parallels on this quarter sheet.",
+  "meridian_samples": [
+    {
+      "longitude": 77.5,
+      "pixel": 2060,
+      "line": 903,
+      "role": "fit",
+      "search_window": 3,
+      "measurement_note": "Corrected from native meridian strip; original fit/withheld role retained. Initial preview seed was west of the engraved meridian."
+    },
+    {
+      "longitude": 77.5,
+      "pixel": 2107,
+      "line": 4046,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 77.5,
+      "pixel": 2075,
+      "line": 1712,
+      "role": "withheld",
+      "search_window": 3,
+      "measurement_note": "Corrected from native meridian strip; original fit/withheld role retained. Initial preview seed was west of the engraved meridian."
+    },
+    {
+      "longitude": 77.5,
+      "pixel": 2080,
+      "line": 2957,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 78,
+      "pixel": 4138,
+      "line": 903,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 78,
+      "pixel": 4201,
+      "line": 4046,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 78,
+      "pixel": 4154,
+      "line": 1712,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 78,
+      "pixel": 4179,
+      "line": 2957,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 78.5,
+      "pixel": 6229,
+      "line": 903,
+      "role": "fit",
+      "search_window": 3,
+      "measurement_note": "Corrected from native meridian strip; original fit/withheld role retained. Initial preview seed was west of the engraved meridian."
+    },
+    {
+      "longitude": 78.5,
+      "pixel": 6238,
+      "line": 1338,
+      "role": "withheld",
+      "search_window": 3,
+      "measurement_note": "Corrected from native meridian strip; original fit/withheld role retained. Initial preview seed was west of the engraved meridian."
+    }
+  ],
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified on this edition.",
+  "frame_stroke_maximum_half_width_pixels_by_edge": {
+    "north": 2,
+    "west": 2,
+    "south": 2,
+    "east": 2
+  },
+  "frame_stroke_width_reason": "Native corners show mountain hatching touching the inner frame. Cap dark-stroke extension at two pixels before the four-pixel inset so terrain does not widen the inferred frame.",
+  "seed_provenance": "Native crossings and latitude ticks inspected. Four meridian search windows corrected from meridian77p5-native.jpg and meridian78p5-native.jpg with original fit/withheld roles retained. Two southern 78d30m observations excluded because the printed meridian merges into/leaves the inner frame; their original specifications and reasons are retained in unmeasurable_meridian_observations.",
+  "crop_edge_guides": {
+    "north": [
+      [
+        515,
+        680
+      ],
+      [
+        631,
+        678
+      ],
+      [
+        1947,
+        673
+      ],
+      [
+        3377,
+        672
+      ],
+      [
+        4807,
+        667
+      ],
+      [
+        6123,
+        660
+      ],
+      [
+        6239,
+        659
+      ]
+    ],
+    "east": [
+      [
+        659,
+        6239
+      ],
+      [
+        738,
+        6240
+      ],
+      [
+        1566,
+        6246
+      ],
+      [
+        2466,
+        6253
+      ],
+      [
+        3367,
+        6257
+      ],
+      [
+        4195,
+        6259
+      ],
+      [
+        4264,
+        6259
+      ]
+    ],
+    "south": [
+      [
+        546,
+        4283
+      ],
+      [
+        662,
+        4282
+      ],
+      [
+        1976,
+        4277
+      ],
+      [
+        3404,
+        4276
+      ],
+      [
+        4831,
+        4272
+      ],
+      [
+        6145,
+        4265
+      ],
+      [
+        6259,
+        4264
+      ]
+    ],
+    "west": [
+      [
+        680,
+        515
+      ],
+      [
+        754,
+        515
+      ],
+      [
+        1581,
+        523
+      ],
+      [
+        2480,
+        532
+      ],
+      [
+        3380,
+        541
+      ],
+      [
+        4207,
+        547
+      ],
+      [
+        4283,
+        546
+      ]
+    ]
+  },
+  "unmeasurable_meridian_observations": [
+    {
+      "longitude": 78.5,
+      "pixel": 6217,
+      "line": 1867,
+      "role": "fit",
+      "search_window": 15,
+      "reason": "Native meridian78p5-native.jpg shows this meridian merging with and then leaving the content-side frame. No separately readable graticule stroke at this row; initial search selected mountain hatching."
+    },
+    {
+      "longitude": 78.5,
+      "pixel": 6227,
+      "line": 2334,
+      "role": "withheld",
+      "search_window": 15,
+      "reason": "Native meridian78p5-native.jpg shows this meridian merging with and then leaving the content-side frame. No separately readable graticule stroke at this row; initial search selected mountain hatching."
+    }
+  ],
+  "quality_note": "Historical-projection plus affine: 19 control observations and 14 withheld graticule checks, RMS 2.32 arcseconds (maximum 5.15 arcseconds). Leave-one-observation-out RMS 5.34 pixels; verified 77d30m/35d crossing retains a 12.04-pixel residual. Internal alignment refinement remains pending. Four meridian searches corrected from native evidence; two unreadable southern 78d30m observations excluded because the line merges with/leaves the map frame. Original roles and exclusion evidence retained in scan configuration."
+}

@@ -1,0 +1,453 @@
+{
+  "crossing_search_window": 8,
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native graticule crops show nearly vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified in this edition.",
+  "id": "atlas041-1852-colored",
+  "title": "Indian Atlas 041 \u00b7 1852 \u00b7 colored (railway corrections to 1889)",
+  "sheet": "041",
+  "quarter": null,
+  "year": 1852,
+  "source": "sources/zenodo-19431985/sheets/041 Sheet Indian Atlas (1852) colored.jpg",
+  "table": "data/atlas027-part-projection.json",
+  "condition_note": "Intact full sheet with central fold. Published31 May1852; printed railway corrections to1889. Native central fold inspected without displaced panels.",
+  "seed_north_latitude": 16.3,
+  "tick_windows": {
+    "west": [
+      342,
+      364
+    ],
+    "east": [
+      11700,
+      11722
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 16.416666666666668,
+      "ys": [
+        85.0,
+        162.5,
+        240.0,
+        317.5,
+        395.0,
+        472.5,
+        550.0,
+        627.5,
+        705.0,
+        782.5,
+        860.0,
+        937.5,
+        1015.0,
+        1092.5,
+        1170.0,
+        1247.5,
+        1325.0
+      ]
+    },
+    "east": {
+      "first_latitude": 16.416666666666668,
+      "ys": [
+        112.0,
+        189.5,
+        267.0,
+        344.5,
+        422.0,
+        499.5,
+        577.0,
+        654.5,
+        732.0,
+        809.5,
+        887.0,
+        964.5,
+        1042.0,
+        1119.5,
+        1197.0,
+        1274.5,
+        1352.0
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      402,
+      377
+    ],
+    [
+      11675,
+      371
+    ],
+    [
+      11668,
+      7657
+    ],
+    [
+      399,
+      7671
+    ]
+  ],
+  "crossing_preview_seeds": [
+    [
+      74,
+      16,
+      469,
+      478
+    ],
+    [
+      74.5,
+      16,
+      914,
+      485
+    ],
+    [
+      75,
+      16,
+      1357,
+      491
+    ],
+    [
+      75.5,
+      16,
+      1799,
+      496
+    ],
+    [
+      74,
+      15.5,
+      465,
+      941
+    ],
+    [
+      74.5,
+      15.5,
+      908,
+      948
+    ],
+    [
+      75,
+      15.5,
+      1354,
+      952
+    ],
+    [
+      75.5,
+      15.5,
+      1796,
+      955
+    ]
+  ],
+  "publication_note": {
+    "publication_date": "1852-05-31",
+    "revision": "With corrections to Railways up to 1889.",
+    "source_crop": "work/atlas041-1852-colored/revision-note.jpg"
+  },
+  "crossing_local_seeds": [
+    [
+      174,
+      217
+    ],
+    [
+      188,
+      218
+    ],
+    [
+      195,
+      212
+    ],
+    [
+      224,
+      214
+    ],
+    [
+      167,
+      224
+    ],
+    [
+      189,
+      222
+    ],
+    [
+      199,
+      227
+    ],
+    [
+      229,
+      237
+    ]
+  ],
+  "meridian_samples": [
+    {
+      "longitude": 74,
+      "pixel": 2563.664833005894,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 74,
+      "pixel": 2491.8770137524557,
+      "line": 7300,
+      "role": "fit"
+    },
+    {
+      "longitude": 74,
+      "pixel": 2540.8750491159135,
+      "line": 3000,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74,
+      "pixel": 2510.10884086444,
+      "line": 5700,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5020.102634683445,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 4940.826189539914,
+      "line": 7300,
+      "role": "fit"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 4994.935509241054,
+      "line": 3000,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 4960.959889893827,
+      "line": 5700,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7443.040896578844,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7413.31222965002,
+      "line": 7300,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7433.603224537947,
+      "line": 3000,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7420.862367282737,
+      "line": 5700,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9894.505118110235,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9867.221653543307,
+      "line": 7300,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9885.843700787402,
+      "line": 3000,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9874.150787401575,
+      "line": 5700,
+      "role": "withheld"
+    }
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        402,
+        377
+      ],
+      [
+        626,
+        377
+      ],
+      [
+        3221,
+        380
+      ],
+      [
+        6042,
+        376
+      ],
+      [
+        8864,
+        376
+      ],
+      [
+        11459,
+        374
+      ],
+      [
+        11675,
+        371
+      ]
+    ],
+    "east": [
+      [
+        371,
+        11675
+      ],
+      [
+        513,
+        11675
+      ],
+      [
+        2193,
+        11677
+      ],
+      [
+        4018,
+        11679
+      ],
+      [
+        5844,
+        11676
+      ],
+      [
+        7524,
+        11667
+      ],
+      [
+        7657,
+        11668
+      ]
+    ],
+    "south": [
+      [
+        399,
+        7671
+      ],
+      [
+        615,
+        7671
+      ],
+      [
+        3212,
+        7665
+      ],
+      [
+        6034,
+        7661
+      ],
+      [
+        8857,
+        7658
+      ],
+      [
+        11454,
+        7657
+      ],
+      [
+        11668,
+        7657
+      ]
+    ],
+    "west": [
+      [
+        377,
+        402
+      ],
+      [
+        524,
+        401
+      ],
+      [
+        2202,
+        385
+      ],
+      [
+        4026,
+        385
+      ],
+      [
+        5851,
+        386
+      ],
+      [
+        7529,
+        397
+      ],
+      [
+        7671,
+        399
+      ]
+    ]
+  },
+  "tick_window_reason": "Native contacts show many short, faint latitude rules near the graduation strip; prior wide margin windows included numerals. Narrow windows sample the rules just outside the strip and preserve original fit/withheld roles.",
+  "crossing_measurement_note": "At75.5E16N the initial seed followed a curved river west of the thin straight meridian; moved seed to printed rule after native inspection.",
+  "unmeasurable_tick_observations": {
+    "17": "Native margin contacts and east-faint-ticks.jpg show the label and graduation block, but no distinct horizontal rule across the measurement window. Excluded as unmeasurable; original fit/withheld role retained in audit metadata.",
+    "18": "Native margin contacts and east-faint-ticks.jpg show the label and graduation block, but no distinct horizontal rule across the measurement window. Excluded as unmeasurable; original fit/withheld role retained in audit metadata.",
+    "19": "Native margin contacts and east-faint-ticks.jpg show the label and graduation block, but no distinct horizontal rule across the measurement window. Excluded as unmeasurable; original fit/withheld role retained in audit metadata.",
+    "20": "Native margin contacts and east-faint-ticks.jpg show the label and graduation block, but no distinct horizontal rule across the measurement window. Excluded as unmeasurable; original fit/withheld role retained in audit metadata.",
+    "21": "Native margin contacts and east-faint-ticks.jpg show the label and graduation block, but no distinct horizontal rule across the measurement window. Excluded as unmeasurable; original fit/withheld role retained in audit metadata.",
+    "23": "Native margin contacts and east-faint-ticks.jpg show the label and graduation block, but no distinct horizontal rule across the measurement window. Excluded as unmeasurable; original fit/withheld role retained in audit metadata.",
+    "24": "Native margin contacts and east-faint-ticks.jpg show the label and graduation block, but no distinct horizontal rule across the measurement window. Excluded as unmeasurable; original fit/withheld role retained in audit metadata.",
+    "30": "Native margin contacts and east-faint-ticks.jpg show the label and graduation block, but no distinct horizontal rule across the measurement window. Excluded as unmeasurable; original fit/withheld role retained in audit metadata.",
+    "31": "Native margin contacts and east-faint-ticks.jpg show the label and graduation block, but no distinct horizontal rule across the measurement window. Excluded as unmeasurable; original fit/withheld role retained in audit metadata.",
+    "32": "Native margin contacts and east-faint-ticks.jpg show the label and graduation block, but no distinct horizontal rule across the measurement window. Excluded as unmeasurable; original fit/withheld role retained in audit metadata.",
+    "33": "Native margin contacts and east-faint-ticks.jpg show the label and graduation block, but no distinct horizontal rule across the measurement window. Excluded as unmeasurable; original fit/withheld role retained in audit metadata."
+  },
+  "tick_search_overrides": {
+    "0": {
+      "initial_line": 476,
+      "half_window": 4,
+      "reason": "Native west16deg25min contact shows a short horizontal rule17pixels below the mistaken numeral measurement."
+    },
+    "7": {
+      "initial_line": 3443,
+      "half_window": 5,
+      "reason": "Native west15deg50min contact shows faint rule roughly44pixels above the spurious lower measurement."
+    },
+    "22": {
+      "initial_line": 2738,
+      "half_window": 5,
+      "reason": "Native east16degree crop confirms graticule continuation below the numeral; prior near-frame search picked stroke above the actual rule."
+    }
+  },
+  "quality_note": "Eleven eastern margin tick rules could not be distinguished reliably in native-resolution crops and were excluded with reasons recorded in the fit report. The fit uses 28 measured controls and 19 separate checks; original fit/check assignments were preserved.",
+  "frame_maximum_stroke_intensity": 215,
+  "frame_intensity_limit_reason": "Native weakest-frame contact verifies faint inner rules at east11674,6362 (intensity211) and west387,1383 (intensity200), distinct from the outer graduation strip; permit215 with measured guides and inspect the resulting crop.",
+  "frame_stroke_maximum_half_width_pixels_by_edge": {
+    "west": 2,
+    "south": 2
+  },
+  "frame_stroke_width_reason": "Native crop corners show dense hill shading and colored boundaries touching the western inner rule, plus map ink at the southeast southern rule. Cap inward stroke expansion at two pixels to avoid clipping those adjoining features.",
+  "book_frame_normal_sides": [
+    "west"
+  ],
+  "book_frame_normal_tolerance_3857_m": 10
+}

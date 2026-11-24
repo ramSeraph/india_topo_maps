@@ -1,0 +1,298 @@
+{
+  "id": "atlas032-se-1872-colored",
+  "title": "Indian Atlas 032 SE \u00b7 1872, additions to 1880, colored",
+  "sheet": "032",
+  "quarter": "SE",
+  "year": 1872,
+  "source": "sources/zenodo-19431985/sheets/032 SE Quarter Sheet Indian Atlas (1872) colored.jpg",
+  "table": "data/atlas001a-se-1871-projection.json",
+  "condition_note": "Intact colored SE quarter. Native publication line confirms December 1872 with additions to 1880. No displaced panels or explicit longitude-correction note identified.",
+  "crossing_preview_seeds": [
+    [
+      75,
+      28.5,
+      823,
+      424
+    ],
+    [
+      75.5,
+      28.5,
+      1529,
+      432
+    ],
+    [
+      75,
+      28,
+      810,
+      1245
+    ],
+    [
+      75.5,
+      28,
+      1520,
+      1253
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 28.55,
+  "tick_windows": {
+    "west": [
+      423,
+      495
+    ],
+    "east": [
+      6175,
+      6240
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 28.583333333333332,
+      "ys": [
+        279,
+        416,
+        552,
+        690,
+        827,
+        963,
+        1100,
+        1238
+      ]
+    },
+    "east": {
+      "first_latitude": 28.583333333333332,
+      "ys": [
+        299,
+        437,
+        574,
+        710,
+        847,
+        984,
+        1120,
+        1256
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      525,
+      611
+    ],
+    [
+      6151,
+      612
+    ],
+    [
+      6145,
+      4218
+    ],
+    [
+      519,
+      4217
+    ]
+  ],
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native crossing crops show near-vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified in this edition.",
+  "meridian_samples": [
+    {
+      "longitude": 75,
+      "pixel": 2542.374941818182,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 2499.1749418181817,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 2532.7749418181816,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75,
+      "pixel": 2507.1749418181817,
+      "line": 3200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4775.8362799999995,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4746.13628,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4769.236279999999,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4751.63628,
+      "line": 3200,
+      "role": "withheld"
+    }
+  ],
+  "crossing_local_seeds": [
+    [
+      202,
+      198
+    ],
+    [
+      258,
+      197
+    ],
+    [
+      205,
+      201
+    ],
+    [
+      258,
+      201
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        525,
+        611
+      ],
+      [
+        637,
+        611
+      ],
+      [
+        1930,
+        612
+      ],
+      [
+        3337,
+        613
+      ],
+      [
+        4744,
+        611
+      ],
+      [
+        6037,
+        612
+      ],
+      [
+        6151,
+        612
+      ]
+    ],
+    "east": [
+      [
+        612,
+        6151
+      ],
+      [
+        682,
+        6151
+      ],
+      [
+        1512,
+        6148
+      ],
+      [
+        2414,
+        6147
+      ],
+      [
+        3316,
+        6146
+      ],
+      [
+        4146,
+        6145
+      ],
+      [
+        4218,
+        6145
+      ]
+    ],
+    "south": [
+      [
+        519,
+        4217
+      ],
+      [
+        632,
+        4217
+      ],
+      [
+        1926,
+        4217
+      ],
+      [
+        3332,
+        4218
+      ],
+      [
+        4738,
+        4218
+      ],
+      [
+        6032,
+        4218
+      ],
+      [
+        6145,
+        4218
+      ]
+    ],
+    "west": [
+      [
+        611,
+        525
+      ],
+      [
+        682,
+        525
+      ],
+      [
+        1512,
+        521
+      ],
+      [
+        2414,
+        519
+      ],
+      [
+        3316,
+        518
+      ],
+      [
+        4146,
+        519
+      ],
+      [
+        4217,
+        519
+      ]
+    ]
+  }
+}

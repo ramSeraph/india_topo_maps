@@ -1,0 +1,16 @@
+{
+  "id": "atlas001-se-1873",
+  "title": "Indian Atlas 001 SE · 1873",
+  "sheet": "001",
+  "quarter": "SE",
+  "year": 1873,
+  "source": "sources/zenodo-19431985/sheets/001 SE Quarter Sheet Indian Atlas (1873).jpg",
+  "table": "data/atlas001-ne-1871-projection.json",
+  "frame_corners": [[547,601],[6162,593],[6164,4207],[547,4198]],
+  "crop_edge_guides": {
+    "north": [[547,601],[2000,600],[4000,598],[6162,593]],
+    "east": [[593,6162],[2000,6164],[4207,6164]],
+    "south": [[547,4198],[2000,4209],[4000,4212],[6164,4207]],
+    "west": [[601,547],[2000,547],[3000,548],[4198,547]]
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "id": "atlas045-nw-1868",
+  "title": "Indian Atlas 045 NW \u00b7 1868",
+  "sheet": "045",
+  "quarter": "NW",
+  "year": 1868,
+  "source": "sources/zenodo-19431985/sheets/045 NW Quarter Sheet Indian Atlas (1868).jpg",
+  "table": "data/atlas014-1860-projection.json",
+  "condition_note": "Intact coloured quarter sheet with dense mountain hatching; no displaced panels seen in whole-sheet preview.",
+  "source_identification_note": "Printed 45 N.W., publication July 15th 1868. North 44A S.W.; west 28; east 45 N.E.; south 45 S.W.",
+  "crossing_preview_seeds": [
+    [
+      76,
+      35,
+      472,
+      327
+    ],
+    [
+      76.5,
+      35,
+      1176,
+      328
+    ],
+    [
+      77,
+      35,
+      1881,
+      322
+    ],
+    [
+      76,
+      34.5,
+      467,
+      1181
+    ],
+    [
+      76.5,
+      34.5,
+      1177,
+      1185
+    ],
+    [
+      77,
+      34.5,
+      1882,
+      1179
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      186,
+      205
+    ],
+    [
+      199,
+      214
+    ],
+    [
+      203,
+      206
+    ],
+    [
+      196,
+      201
+    ],
+    [
+      197,
+      201
+    ],
+    [
+      210,
+      197
+    ]
+  ],
+  "crossing_search_window": 8,
+  "seed_north_latitude": 35.03,
+  "tick_windows": {
+    "west": [
+      250,
+      320
+    ],
+    "east": [
+      6120,
+      6170
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 35.083333333333336,
+      "ys": [
+        183,
+        325,
+        468,
+        610,
+        752,
+        894,
+        1036,
+        1178,
+        1320
+      ]
+    },
+    "east": {
+      "first_latitude": 35.083333333333336,
+      "ys": [
+        179,
+        321,
+        464,
+        605,
+        748,
+        890,
+        1031,
+        1174,
+        1317
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      362,
+      474
+    ],
+    [
+      6074,
+      471
+    ],
+    [
+      6076,
+      4068
+    ],
+    [
+      365,
+      4072
+    ]
+  ],
+  "line_slope_bounds": {
+    "vertical": [
+      -0.025,
+      0.025
+    ],
+    "horizontal": [
+      -0.025,
+      0.025
+    ]
+  },
+  "line_slope_bounds_reason": "Native printed meridians are nearly vertical and parallels nearly horizontal; narrow bounds allow observed local scan curvature.",
+  "meridian_samples": [
+    {
+      "longitude": 76,
+      "pixel": 1374,
+      "line": 794,
+      "role": "fit",
+      "search_window": 10
+    },
+    {
+      "longitude": 76,
+      "pixel": 1370,
+      "line": 3706,
+      "role": "fit",
+      "search_window": 10
+    },
+    {
+      "longitude": 76,
+      "pixel": 1373,
+      "line": 1471,
+      "role": "withheld",
+      "search_window": 10
+    },
+    {
+      "longitude": 76,
+      "pixel": 1371,
+      "line": 2794,
+      "role": "withheld",
+      "search_window": 10
+    },
+    {
+      "longitude": 76.5,
+      "pixel": 3458,
+      "line": 794,
+      "role": "fit",
+      "search_window": 10
+    },
+    {
+      "longitude": 76.5,
+      "pixel": 3459,
+      "line": 3706,
+      "role": "fit",
+      "search_window": 10
+    },
+    {
+      "longitude": 76.5,
+      "pixel": 3458,
+      "line": 1471,
+      "role": "withheld",
+      "search_window": 10
+    },
+    {
+      "longitude": 76.5,
+      "pixel": 3459,
+      "line": 2794,
+      "role": "withheld",
+      "search_window": 10
+    },
+    {
+      "longitude": 77,
+      "pixel": 5535,
+      "line": 794,
+      "role": "fit",
+      "search_window": 10
+    },
+    {
+      "longitude": 77,
+      "pixel": 5547,
+      "line": 3706,
+      "role": "fit",
+      "search_window": 10
+    },
+    {
+      "longitude": 77,
+      "pixel": 5538,
+      "line": 1471,
+      "role": "withheld",
+      "search_window": 10
+    },
+    {
+      "longitude": 77,
+      "pixel": 5543,
+      "line": 2794,
+      "role": "withheld",
+      "search_window": 10
+    }
+  ],
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified on this edition.",
+  "frame_stroke_maximum_half_width_pixels_by_edge": {
+    "north": 2,
+    "west": 2,
+    "south": 2,
+    "east": 2
+  },
+  "frame_stroke_width_reason": "Native corners show mountain hatching touching the inner frame. Cap dark-stroke extension at two pixels before the four-pixel inset so terrain does not widen the inferred frame.",
+  "seed_provenance": "Search windows independently read from this scan at 2200px preview width. Six crossings and partial meridian/latitude tick observations to be checked against native strokes; fit/withheld roles assigned before fitting. Native review corrected eastern 35-degree tick search from numeral to actual horizontal rule. Central crossings independently confirmed in central-north-wide.jpg and central-south-wide.jpg.",
+  "crop_edge_guides": {
+    "north": [
+      [
+        362,
+        474
+      ],
+      [
+        476,
+        474
+      ],
+      [
+        1790,
+        473
+      ],
+      [
+        3218,
+        473
+      ],
+      [
+        4646,
+        473
+      ],
+      [
+        5960,
+        471
+      ],
+      [
+        6074,
+        471
+      ]
+    ],
+    "east": [
+      [
+        471,
+        6074
+      ],
+      [
+        543,
+        6074
+      ],
+      [
+        1370,
+        6076
+      ],
+      [
+        2268,
+        6077
+      ],
+      [
+        3166,
+        6077
+      ],
+      [
+        3993,
+        6076
+      ],
+      [
+        4068,
+        6076
+      ]
+    ],
+    "south": [
+      [
+        365,
+        4072
+      ],
+      [
+        479,
+        4072
+      ],
+      [
+        1793,
+        4071
+      ],
+      [
+        3221,
+        4067
+      ],
+      [
+        4649,
+        4068
+      ],
+      [
+        5963,
+        4068
+      ],
+      [
+        6076,
+        4068
+      ]
+    ],
+    "west": [
+      [
+        474,
+        362
+      ],
+      [
+        546,
+        362
+      ],
+      [
+        1373,
+        362
+      ],
+      [
+        2272,
+        364
+      ],
+      [
+        3172,
+        364
+      ],
+      [
+        3999,
+        365
+      ],
+      [
+        4072,
+        365
+      ]
+    ]
+  },
+  "tick_search_overrides": {
+    "10": {
+      "initial_line": 942,
+      "half_window": 5,
+      "reason": "Native east35-tick-native.jpg shows the 35-degree horizontal tick at row about 942. The initial broad search selected the printed numeral near row 904; original fit role retained."
+    }
+  },
+  "quality_note": "Historical-projection plus affine: 21 controls and 15 withheld printed-graticule checks, RMS 3.19 arcseconds (maximum 4.92 arcseconds). Leave-one-observation-out RMS 8.25 pixels. Verified central crossings retain residuals of 20.38 and 17.73 source pixels; internal alignment refinement remains pending. Eastern 35-degree tick search corrected from printed numeral to actual rule using native evidence; fit/withheld roles retained.",
+  "crop_mode": "straight_corners",
+  "crop_inset_pixels": 6,
+  "crop_review_note": "Full native strips of all four edges and original unmarked corners inspected. Straight corner-to-corner crop accepted; six source pixels from frame centreline allow two pixels for frame ink plus four pixels clearance. No independent dark-ink tracing. Historical fit unchanged."
+}

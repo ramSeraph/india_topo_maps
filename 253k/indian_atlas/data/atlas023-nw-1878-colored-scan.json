@@ -1,0 +1,307 @@
+{
+  "id": "atlas023-nw-1878-colored",
+  "title": "Indian Atlas 023 NW \u00b7 1878 \u00b7 colored",
+  "sheet": "023",
+  "quarter": "NW",
+  "year": 1878,
+  "source": "sources/zenodo-19431985/sheets/023 NW Quarter Sheet Indian Atlas (1878) colored.jpg",
+  "table": "data/atlas012-sw-1885-projection.json",
+  "condition_note": "Intact northwest quarter sheet; use its own printed graticule and inner frame.",
+  "crossing_preview_seeds": [
+    [
+      71.5,
+      22,
+      839,
+      384
+    ],
+    [
+      72,
+      22,
+      1614,
+      403
+    ],
+    [
+      71.5,
+      21.5,
+      816,
+      1210
+    ],
+    [
+      72,
+      21.5,
+      1590,
+      1231
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 22.03,
+  "tick_windows": {
+    "west": [
+      404,
+      478
+    ],
+    "east": [
+      6184,
+      6254
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 22.083333333333332,
+      "ys": [
+        227,
+        365,
+        503,
+        641,
+        779,
+        916,
+        1054,
+        1192,
+        1330
+      ]
+    },
+    "east": {
+      "first_latitude": 22.083333333333332,
+      "ys": [
+        283,
+        420,
+        558,
+        696,
+        834,
+        972,
+        1110,
+        1248
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      509,
+      603
+    ],
+    [
+      6152,
+      584
+    ],
+    [
+      6155,
+      4198
+    ],
+    [
+      517,
+      4214
+    ]
+  ],
+  "meridian_search_window": 15,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.01
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Preview meridians are nearly vertical; measure native inclinations within these bounds.",
+  "crossing_local_seeds": [
+    [
+      199,
+      211
+    ],
+    [
+      188,
+      218
+    ],
+    [
+      191,
+      200
+    ],
+    [
+      192,
+      204
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        509,
+        603
+      ],
+      [
+        621,
+        603
+      ],
+      [
+        1918,
+        599
+      ],
+      [
+        3328,
+        592
+      ],
+      [
+        4737,
+        588
+      ],
+      [
+        6034,
+        584
+      ],
+      [
+        6152,
+        584
+      ]
+    ],
+    "east": [
+      [
+        584,
+        6152
+      ],
+      [
+        657,
+        6152
+      ],
+      [
+        1487,
+        6151
+      ],
+      [
+        2390,
+        6152
+      ],
+      [
+        3292,
+        6154
+      ],
+      [
+        4122,
+        6155
+      ],
+      [
+        4198,
+        6155
+      ]
+    ],
+    "south": [
+      [
+        517,
+        4214
+      ],
+      [
+        630,
+        4214
+      ],
+      [
+        1925,
+        4206
+      ],
+      [
+        3334,
+        4202
+      ],
+      [
+        4742,
+        4201
+      ],
+      [
+        6037,
+        4198
+      ],
+      [
+        6155,
+        4198
+      ]
+    ],
+    "west": [
+      [
+        603,
+        509
+      ],
+      [
+        675,
+        509
+      ],
+      [
+        1505,
+        507
+      ],
+      [
+        2408,
+        507
+      ],
+      [
+        3310,
+        511
+      ],
+      [
+        4140,
+        516
+      ],
+      [
+        4214,
+        517
+      ]
+    ]
+  },
+  "meridian_samples": [
+    {
+      "longitude": 71.5,
+      "pixel": 2573,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 71.5,
+      "pixel": 2489,
+      "line": 3700,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 71.5,
+      "pixel": 2554,
+      "line": 1600,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 71.5,
+      "pixel": 2505,
+      "line": 3200,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 72,
+      "pixel": 4936,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 72,
+      "pixel": 4862,
+      "line": 3700,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 72,
+      "pixel": 4919,
+      "line": 1600,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 72,
+      "pixel": 4876,
+      "line": 3200,
+      "role": "withheld",
+      "search_window": 12
+    }
+  ],
+  "longitude_convention_status": "No longitude-correction statement identified in the visible margins of this edition. Retain user-selected working adjustment -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No explicit correction note identified in this scan."
+}

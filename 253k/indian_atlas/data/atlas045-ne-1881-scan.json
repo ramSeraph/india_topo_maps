@@ -1,0 +1,366 @@
+{
+  "id": "atlas045-ne-1881",
+  "title": "Indian Atlas 045 NE \u00b7 1881",
+  "sheet": "045",
+  "quarter": "NE",
+  "year": 1881,
+  "source": "sources/zenodo-19431985/sheets/045 NE Quarter Sheet Indian Atlas (1881).jpg",
+  "table": "data/atlas014-1860-projection.json",
+  "condition_note": "Intact coloured quarter sheet; no displaced panels seen in whole-sheet preview.",
+  "source_identification_note": "Printed 45 N.E.; second edition October 1881, retaining original October 1875 publication line. North 44A S.E.; west 45 N.W.; south 45 S.E.; east 63A N.W.",
+  "crossing_preview_seeds": [
+    [
+      77.5,
+      35,
+      654,
+      327
+    ],
+    [
+      78,
+      35,
+      1344,
+      320
+    ],
+    [
+      77.5,
+      34.5,
+      661,
+      1157
+    ],
+    [
+      78,
+      34.5,
+      1350,
+      1150
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      209,
+      205
+    ],
+    [
+      198,
+      201
+    ],
+    [
+      198,
+      204
+    ],
+    [
+      205,
+      200
+    ]
+  ],
+  "crossing_search_window": 8,
+  "seed_north_latitude": 35.05,
+  "tick_windows": {
+    "west": [
+      340,
+      405
+    ],
+    "east": [
+      6305,
+      6355
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 35.083333333333336,
+      "ys": [
+        185,
+        325,
+        463,
+        602,
+        741,
+        880,
+        1020,
+        1159,
+        1298
+      ]
+    },
+    "east": {
+      "first_latitude": 35.083333333333336,
+      "ys": [
+        174,
+        313,
+        451,
+        590,
+        729,
+        868,
+        1006,
+        1144,
+        1282
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      458,
+      515
+    ],
+    [
+      6271,
+      513
+    ],
+    [
+      6264,
+      4202
+    ],
+    [
+      443,
+      4207
+    ]
+  ],
+  "line_slope_bounds": {
+    "vertical": [
+      -0.025,
+      0.035
+    ],
+    "horizontal": [
+      -0.025,
+      0.025
+    ]
+  },
+  "line_slope_bounds_reason": "Preview shows slightly east-leaning meridians and shallow north-sloping parallels on this quarter sheet.",
+  "meridian_samples": [
+    {
+      "longitude": 77.5,
+      "pixel": 2017,
+      "line": 864,
+      "role": "fit",
+      "search_window": 10
+    },
+    {
+      "longitude": 77.5,
+      "pixel": 2037,
+      "line": 3948,
+      "role": "fit",
+      "search_window": 10
+    },
+    {
+      "longitude": 77.5,
+      "pixel": 2021,
+      "line": 1542,
+      "role": "withheld",
+      "search_window": 10
+    },
+    {
+      "longitude": 77.5,
+      "pixel": 2030,
+      "line": 2930,
+      "role": "withheld",
+      "search_window": 10
+    },
+    {
+      "longitude": 78,
+      "pixel": 4145,
+      "line": 864,
+      "role": "fit",
+      "search_window": 10
+    },
+    {
+      "longitude": 78,
+      "pixel": 4166,
+      "line": 3948,
+      "role": "fit",
+      "search_window": 10
+    },
+    {
+      "longitude": 78,
+      "pixel": 4149,
+      "line": 1542,
+      "role": "withheld",
+      "search_window": 10
+    },
+    {
+      "longitude": 78,
+      "pixel": 4159,
+      "line": 2930,
+      "role": "withheld",
+      "search_window": 10
+    }
+  ],
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified on this edition.",
+  "frame_stroke_maximum_half_width_pixels_by_edge": {
+    "north": 2,
+    "west": 2,
+    "south": 2,
+    "east": 2
+  },
+  "frame_stroke_width_reason": "Native corners show mountain hatching touching the inner frame. Cap dark-stroke extension at two pixels before the four-pixel inset so terrain does not widen the inferred frame.",
+  "seed_provenance": "Search windows independently read from this scan at 2200px preview width. Four full crossings, meridians, latitude ticks, and north/south longitude ticks to be checked on native strokes. Fit/withheld roles assigned before fitting.",
+  "longitude_tick_samples": [
+    {
+      "side": "north",
+      "longitude": 77.16666666666667,
+      "pixel": 611,
+      "line_window": [
+        410,
+        475
+      ],
+      "half_window": 10,
+      "role": "fit"
+    },
+    {
+      "side": "north",
+      "longitude": 78.33333333333333,
+      "pixel": 5552,
+      "line_window": [
+        410,
+        475
+      ],
+      "half_window": 10,
+      "role": "fit"
+    },
+    {
+      "side": "south",
+      "longitude": 77.16666666666667,
+      "pixel": 614,
+      "line_window": [
+        4232,
+        4260
+      ],
+      "half_window": 10,
+      "role": "withheld"
+    },
+    {
+      "side": "south",
+      "longitude": 78.33333333333333,
+      "pixel": 5608,
+      "line_window": [
+        4232,
+        4260
+      ],
+      "half_window": 10,
+      "role": "withheld"
+    }
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        458,
+        515
+      ],
+      [
+        573,
+        515
+      ],
+      [
+        1909,
+        513
+      ],
+      [
+        3361,
+        514
+      ],
+      [
+        4813,
+        513
+      ],
+      [
+        6149,
+        513
+      ],
+      [
+        6271,
+        513
+      ]
+    ],
+    "east": [
+      [
+        513,
+        6271
+      ],
+      [
+        589,
+        6271
+      ],
+      [
+        1436,
+        6268
+      ],
+      [
+        2358,
+        6267
+      ],
+      [
+        3280,
+        6265
+      ],
+      [
+        4127,
+        6264
+      ],
+      [
+        4202,
+        6264
+      ]
+    ],
+    "south": [
+      [
+        443,
+        4207
+      ],
+      [
+        560,
+        4206
+      ],
+      [
+        1898,
+        4203
+      ],
+      [
+        3353,
+        4202
+      ],
+      [
+        4808,
+        4202
+      ],
+      [
+        6146,
+        4202
+      ],
+      [
+        6264,
+        4202
+      ]
+    ],
+    "west": [
+      [
+        515,
+        458
+      ],
+      [
+        589,
+        457
+      ],
+      [
+        1437,
+        455
+      ],
+      [
+        2360,
+        452
+      ],
+      [
+        3282,
+        448
+      ],
+      [
+        4130,
+        444
+      ],
+      [
+        4207,
+        443
+      ]
+    ]
+  },
+  "quality_note": "Historical-projection plus affine: 19 controls and 15 withheld printed-graticule checks, RMS 2.59 arcseconds (maximum 5.47 arcseconds). Leave-one-observation-out RMS 6.08 pixels. Verified 77d30m/35d crossing retains a 12.49-pixel residual; internal alignment refinement remains pending. Native control/check contact sheets and unmarked inner-frame corners reviewed.",
+  "crop_mode": "straight_corners",
+  "crop_inset_pixels": 6,
+  "crop_review_note": "Full native strips of all four edges and original unmarked corners inspected. Straight corner-to-corner crop accepted; six source pixels from frame centreline allow two pixels for frame ink plus four pixels clearance. No independent dark-ink tracing. Historical fit unchanged."
+}

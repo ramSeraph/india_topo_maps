@@ -1,0 +1,352 @@
+{
+  "id": "atlas018-se-1886",
+  "title": "Indian Atlas 018 SE \u00b7 1886 \u00b7 colored",
+  "sheet": "018",
+  "quarter": "SE",
+  "year": 1886,
+  "source": "sources/zenodo-19431985/sheets/018 SE Quarter Sheet Indian Atlas (1886) colored.jpg",
+  "table": "data/atlas001a-se-1871-projection.json",
+  "condition_note": "Intact southeast quarter sheet; use its own printed graticule and inner frame.",
+  "crossing_preview_seeds": [
+    [
+      72.5,
+      28.5,
+      836,
+      287
+    ],
+    [
+      73,
+      28.5,
+      1598,
+      305
+    ],
+    [
+      72.5,
+      28,
+      805,
+      1160
+    ],
+    [
+      73,
+      28,
+      1574,
+      1180
+    ]
+  ],
+  "crossing_search_window": 8,
+  "seed_north_latitude": 28.47,
+  "tick_windows": {
+    "west": [
+      192,
+      256
+    ],
+    "east": [
+      5968,
+      6038
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 28.583333333333332,
+      "ys": [
+        124,
+        269,
+        414,
+        559,
+        704,
+        849,
+        994,
+        1139,
+        1284
+      ]
+    },
+    "east": {
+      "first_latitude": 28.583333333333332,
+      "ys": [
+        168,
+        314,
+        459,
+        604,
+        750,
+        896,
+        1041,
+        1187,
+        1333
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      300,
+      354
+    ],
+    [
+      5945,
+      338
+    ],
+    [
+      5948,
+      3965
+    ],
+    [
+      303,
+      3980
+    ]
+  ],
+  "meridian_search_window": 15,
+  "crossing_local_seeds": [
+    [
+      188,
+      216
+    ],
+    [
+      201,
+      203
+    ],
+    [
+      198,
+      208
+    ],
+    [
+      199,
+      199
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        300,
+        354
+      ],
+      [
+        413,
+        353
+      ],
+      [
+        1712,
+        351
+      ],
+      [
+        3124,
+        348
+      ],
+      [
+        4536,
+        343
+      ],
+      [
+        5835,
+        339
+      ],
+      [
+        5945,
+        338
+      ]
+    ],
+    "east": [
+      [
+        338,
+        5945
+      ],
+      [
+        413,
+        5945
+      ],
+      [
+        1247,
+        5946
+      ],
+      [
+        2153,
+        5948
+      ],
+      [
+        3059,
+        5948
+      ],
+      [
+        3893,
+        5948
+      ],
+      [
+        3965,
+        5948
+      ]
+    ],
+    "south": [
+      [
+        303,
+        3980
+      ],
+      [
+        413,
+        3980
+      ],
+      [
+        1712,
+        3979
+      ],
+      [
+        3124,
+        3976
+      ],
+      [
+        4536,
+        3971
+      ],
+      [
+        5835,
+        3965
+      ],
+      [
+        5948,
+        3965
+      ]
+    ],
+    "west": [
+      [
+        354,
+        300
+      ],
+      [
+        428,
+        300
+      ],
+      [
+        1261,
+        303
+      ],
+      [
+        2168,
+        305
+      ],
+      [
+        3074,
+        305
+      ],
+      [
+        3908,
+        303
+      ],
+      [
+        3980,
+        303
+      ]
+    ]
+  },
+  "meridian_samples": [
+    {
+      "longitude": 72.5,
+      "pixel": 2417,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 72.5,
+      "pixel": 2332,
+      "line": 3700,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 72.5,
+      "pixel": 2398,
+      "line": 1600,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 72.5,
+      "pixel": 2348,
+      "line": 3200,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 73,
+      "pixel": 4650,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 73,
+      "pixel": 4573,
+      "line": 3700,
+      "role": "fit",
+      "search_window": 12
+    },
+    {
+      "longitude": 73,
+      "pixel": 4633,
+      "line": 1600,
+      "role": "withheld",
+      "search_window": 12
+    },
+    {
+      "longitude": 73,
+      "pixel": 4588,
+      "line": 3200,
+      "role": "withheld",
+      "search_window": 12
+    }
+  ],
+  "printed_longitude_note": {
+    "location": "Lower right margin, Note paragraph",
+    "source_crop": "work/atlas018-se-1886/longitude-note.jpg",
+    "transcription": "All Longitudes require a correction of -1\u20329\u2033, to reduce them to the origin of the Great Trigonometrical Survey; viz: the Madras Observatory taken as 80\u00b017\u203221\u2033, and a further correction of -2\u203230\u2033 to reduce them to the latest value 80\u00b014\u203251\u2033, of that Observatory.",
+    "atlas_to_old_gts_arcseconds": -69,
+    "old_gts_to_stated_madras_arcseconds": -150,
+    "printed_total_arcseconds": -219,
+    "applied_working_total_arcseconds": -216.18,
+    "working_minus_printed_arcseconds": 2.82
+  },
+  "longitude_convention_status": "The sheet explicitly prints two corrections: -69\u2033 and -150\u2033 (total -219\u2033). The user-selected working adjustment remains -216.18\u2033, 2.82\u2033 east of that printed total; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "Printed margin confirms -69 arcseconds Atlas to old GTS and states a further -150 arcseconds to Madras 80d14m51s. Retain user-selected working second correction -147.18 arcseconds, total -216.18; this differs from printed total -219 by +2.82 arcseconds. Modern datum alignment remains provisional.",
+  "tick_search_overrides": {
+    "1": {
+      "initial_line": 783,
+      "half_window": 3,
+      "reason": "Native enlarged crop shows true west 28d30m tick beneath the bold degree numeral; unrestricted search selected the numeral baseline."
+    },
+    "7": {
+      "initial_line": 3312,
+      "half_window": 3,
+      "reason": "Native enlarged crop shows true west 28d00m tick beneath the bold degree numeral; unrestricted search selected the numeral baseline."
+    }
+  },
+  "parallel_samples": [
+    {
+      "latitude": 28.5,
+      "pixel": 3300,
+      "line": 867,
+      "role": "withheld",
+      "search_window": 8
+    },
+    {
+      "latitude": 28.5,
+      "pixel": 5500,
+      "line": 906,
+      "role": "withheld",
+      "search_window": 8
+    },
+    {
+      "latitude": 28,
+      "pixel": 3300,
+      "line": 3410,
+      "role": "withheld",
+      "search_window": 8
+    },
+    {
+      "latitude": 28,
+      "pixel": 5500,
+      "line": 3454,
+      "role": "withheld",
+      "search_window": 8
+    }
+  ],
+  "quality_note": "The verified northwestern interior crossing retains a 10.6-pixel residual under historical-projection plus affine. Four additional interior parallel observations are withheld from fitting; all 17 withheld checks have RMS 3.32 arcseconds. Internal alignment refinement remains pending.",
+  "frame_stroke_maximum_half_width_pixels": 2,
+  "frame_stroke_width_reason": "Native northern corner review shows dense dune hachures touching the inner frame. Cap inward stroke extension so the crop does not follow terrain shading into map content."
+}

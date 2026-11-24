@@ -1,0 +1,371 @@
+{
+  "book_frame_normal_tolerance_3857_m": 12.5,
+  "book_frame_normal_sides": ["south"],
+  "id": "atlas004-1862",
+  "title": "Indian Atlas 004 \u00b7 1862",
+  "sheet": "004",
+  "quarter": null,
+  "year": 1862,
+  "source": "sources/zenodo-19431985/sheets/004 Sheet Indian Atlas (1862).jpg",
+  "table": "data/atlas004-projection.json",
+  "crossing_preview_seeds": [
+    [
+      68,
+      34.5,
+      274,
+      450
+    ],
+    [
+      68.5,
+      34.5,
+      666,
+      463
+    ],
+    [
+      69.5,
+      34.5,
+      1450,
+      487
+    ],
+    [
+      70,
+      34.5,
+      1840,
+      504
+    ],
+    [
+      68,
+      34,
+      235,
+      928
+    ],
+    [
+      68.5,
+      34,
+      627,
+      941
+    ],
+    [
+      69.5,
+      34,
+      1418,
+      962
+    ],
+    [
+      70,
+      34,
+      1810,
+      983
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      196,
+      195
+    ],
+    [
+      198,
+      178
+    ],
+    [
+      183,
+      190
+    ],
+    [
+      190,
+      214
+    ],
+    [
+      200,
+      194
+    ],
+    [
+      203,
+      180
+    ],
+    [
+      175,
+      208
+    ],
+    [
+      190,
+      211
+    ]
+  ],
+  "crossing_search_window": 12,
+  "meridian_samples": [
+    {
+      "longitude": 68,
+      "pixel": 1567,
+      "line": 800,
+      "role": "fit"
+    },
+    {
+      "longitude": 68,
+      "pixel": 1080,
+      "line": 7000,
+      "role": "fit"
+    },
+    {
+      "longitude": 68,
+      "pixel": 1488,
+      "line": 1800,
+      "role": "withheld"
+    },
+    {
+      "longitude": 68,
+      "pixel": 1143,
+      "line": 6200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 70,
+      "pixel": 9866,
+      "line": 800,
+      "role": "fit"
+    },
+    {
+      "longitude": 70,
+      "pixel": 9432,
+      "line": 7000,
+      "role": "fit",
+      "search_window": 8,
+      "measurement_note": "Printed meridian visually located in native-resolution crop; narrow window excludes adjacent hill hachures."
+    },
+    {
+      "longitude": 70,
+      "pixel": 9802,
+      "line": 1800,
+      "role": "withheld"
+    },
+    {
+      "longitude": 70,
+      "pixel": 9483,
+      "line": 6200,
+      "role": "withheld",
+      "search_window": 8,
+      "measurement_note": "Printed meridian visually located in native-resolution crop; narrow window excludes adjacent hill hachures."
+    }
+  ],
+  "parallel_samples": [
+    {
+      "latitude": 33.5,
+      "pixel": 600,
+      "line": 7434,
+      "role": "fit"
+    },
+    {
+      "latitude": 34.5,
+      "pixel": 650,
+      "line": 2356,
+      "role": "withheld"
+    },
+    {
+      "latitude": 34.5,
+      "pixel": 11000,
+      "line": 2732,
+      "role": "withheld"
+    },
+    {
+      "latitude": 34,
+      "pixel": 650,
+      "line": 4887,
+      "role": "withheld"
+    },
+    {
+      "latitude": 34,
+      "pixel": 11000,
+      "line": 5284,
+      "role": "withheld"
+    },
+    {
+      "latitude": 33.5,
+      "pixel": 1800,
+      "line": 7460,
+      "role": "withheld"
+    }
+  ],
+  "seed_north_latitude": 34.83,
+  "frame_corners": [
+    [
+      195,
+      286
+    ],
+    [
+      11368,
+      294
+    ],
+    [
+      11331,
+      7552
+    ],
+    [
+      228,
+      7548
+    ]
+  ],
+  "condition_note": "Central fold has a narrow tear; inspected graticule lines remain continuous, without displaced cut panels.",
+  "crop_edge_guides": {
+    "north": [
+      [
+        195,
+        288
+      ],
+      [
+        424,
+        286
+      ],
+      [
+        993,
+        282
+      ],
+      [
+        1791,
+        276
+      ],
+      [
+        2589,
+        267
+      ],
+      [
+        3387,
+        262
+      ],
+      [
+        4185,
+        256
+      ],
+      [
+        4983,
+        251
+      ],
+      [
+        5782,
+        259
+      ],
+      [
+        6580,
+        254
+      ],
+      [
+        7378,
+        257
+      ],
+      [
+        8176,
+        265
+      ],
+      [
+        8974,
+        271
+      ],
+      [
+        9772,
+        280
+      ],
+      [
+        10570,
+        289
+      ],
+      [
+        11139,
+        293
+      ],
+      [
+        11368,
+        295
+      ]
+    ],
+    "east": [
+      [
+        295,
+        11368
+      ],
+      [
+        447,
+        11368
+      ],
+      [
+        2109,
+        11366
+      ],
+      [
+        3916,
+        11354
+      ],
+      [
+        5722,
+        11345
+      ],
+      [
+        7384,
+        11331
+      ],
+      [
+        7552,
+        11330
+      ]
+    ],
+    "south": [
+      [
+        228,
+        7549
+      ],
+      [
+        460,
+        7548
+      ],
+      [
+        3011,
+        7526
+      ],
+      [
+        5784,
+        7500
+      ],
+      [
+        8557,
+        7531
+      ],
+      [
+        11108,
+        7552
+      ],
+      [
+        11331,
+        7553
+      ]
+    ],
+    "west": [
+      [
+        286,
+        195
+      ],
+      [
+        436,
+        195
+      ],
+      [
+        2104,
+        200
+      ],
+      [
+        3918,
+        208
+      ],
+      [
+        5732,
+        216
+      ],
+      [
+        7400,
+        228
+      ],
+      [
+        7548,
+        228
+      ]
+    ]
+  },
+  "quality_note": "Systematic curvature residuals remain under the historical-projection plus affine model. Internal graticule alignment is less precise than on the completed quarter sheets; see the reported errors and diagnostic overlay."
+}

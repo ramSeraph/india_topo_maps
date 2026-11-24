@@ -1,0 +1,221 @@
+{
+  "id": "atlas008-sw-1871",
+  "title": "Indian Atlas 008 SW \u00b7 1871",
+  "sheet": "008",
+  "quarter": "SW",
+  "year": 1871,
+  "source": "sources/zenodo-19431985/sheets/008 SW Quarter Sheet Indian Atlas (1871).jpg",
+  "table": "data/atlas001a-se-1871-projection.json",
+  "crossing_preview_seeds": [
+    [
+      68.5,
+      28,
+      464,
+      905
+    ],
+    [
+      69,
+      28,
+      1242,
+      947
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      211,
+      200
+    ],
+    [
+      193,
+      200
+    ]
+  ],
+  "tick_windows": {
+    "west": [
+      294,
+      360
+    ],
+    "east": [
+      6052,
+      6125
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 28.416666666666668,
+      "ys": [
+        166,
+        311,
+        456,
+        601,
+        744,
+        888,
+        1031,
+        1175,
+        1319
+      ]
+    },
+    "east": {
+      "first_latitude": 28.416666666666668,
+      "ys": [
+        274,
+        418,
+        562,
+        707,
+        851,
+        995,
+        1139,
+        1282
+      ]
+    }
+  },
+  "seed_north_latitude": 28.32,
+  "frame_corners": [
+    [
+      397,
+      433
+    ],
+    [
+      6027,
+      436
+    ],
+    [
+      6009,
+      4039
+    ],
+    [
+      377,
+      4038
+    ]
+  ],
+  "crossing_search_window": 10,
+  "crop_edge_guides": {
+    "north": [
+      [
+        397,
+        433
+      ],
+      [
+        513,
+        433
+      ],
+      [
+        1805,
+        432
+      ],
+      [
+        3209,
+        434
+      ],
+      [
+        4613,
+        434
+      ],
+      [
+        5905,
+        436
+      ],
+      [
+        6027,
+        436
+      ]
+    ],
+    "east": [
+      [
+        436,
+        6027
+      ],
+      [
+        505,
+        6027
+      ],
+      [
+        1334,
+        6023
+      ],
+      [
+        2234,
+        6019
+      ],
+      [
+        3134,
+        6014
+      ],
+      [
+        3963,
+        6009
+      ],
+      [
+        4039,
+        6009
+      ]
+    ],
+    "south": [
+      [
+        377,
+        4038
+      ],
+      [
+        491,
+        4038
+      ],
+      [
+        1786,
+        4036
+      ],
+      [
+        3193,
+        4034
+      ],
+      [
+        4600,
+        4037
+      ],
+      [
+        5895,
+        4039
+      ],
+      [
+        6009,
+        4039
+      ]
+    ],
+    "west": [
+      [
+        433,
+        397
+      ],
+      [
+        505,
+        397
+      ],
+      [
+        1333,
+        392
+      ],
+      [
+        2232,
+        388
+      ],
+      [
+        3132,
+        383
+      ],
+      [
+        3960,
+        377
+      ],
+      [
+        4038,
+        377
+      ]
+    ]
+  },
+  "tick_search_overrides": {
+    "8": {
+      "initial_line": 3837,
+      "half_window": 5,
+      "reason": "Native control crop shows the 45-minute rule below its numeral. The unrestricted search picked the digits; recenter on the printed rule."
+    }
+  }
+}

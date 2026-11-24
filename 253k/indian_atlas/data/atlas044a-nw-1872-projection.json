@@ -1,0 +1,46 @@
+{
+  "source": "1902 Tables for Computing and Projecting Graticules of Sheets of Indian Atlas.pdf",
+  "central_meridian_printed_degrees": 76.5,
+  "reference_radius_fathoms": 7331657.0,
+  "summary_table_pdf_page": 9,
+  "detailed_table_pdf_pages": [
+    44,
+    45,
+    46
+  ],
+  "latitudes": [
+    35,
+    36,
+    37
+  ],
+  "radius_fathoms": [
+    7028527.3,
+    6967872.8,
+    6907208.4
+  ],
+  "angle_arcseconds_per_longitude_degree": [
+    1464.56,
+    1459.1,
+    1453.1
+  ],
+  "sine_check_longitude_offsets": [
+    8,
+    9
+  ],
+  "sine_check_fathoms": [
+    [
+      399027.5,
+      448841.7
+    ],
+    [
+      394110.7,
+      443311.7
+    ],
+    [
+      389074.6,
+      437647.5
+    ]
+  ],
+  "scope": "Latitude 35\u201337 only; no extrapolation. Historical table coordinates are not a modern datum transformation.",
+  "transcription": "Latitude 35\u201336 retained from verified atlas014 table. Latitude 37 radius 6907208.4 visually checked on summary PDF page 9 (work/atlas044a-nw-1872/radius37.png); detailed angle 24 minutes 13.10 seconds and sine checks at offsets 8 and 9 visually checked on PDF page 46 (latitude37-detail.png)."
+}

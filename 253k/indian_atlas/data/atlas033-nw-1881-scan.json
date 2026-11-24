@@ -1,0 +1,240 @@
+{
+  "id": "atlas033-nw-1881",
+  "title": "Indian Atlas 033 NW \u00b7 1881",
+  "sheet": "033",
+  "quarter": "NW",
+  "year": 1881,
+  "source": "sources/zenodo-19431985/sheets/033 NW Quarter Sheet Indian Atlas (1881).jpg",
+  "table": "data/atlas001a-se-1871-projection.json",
+  "condition_note": "Intact NW quarter with colored boundary annotations. Native margin confirms March 1881. Own printed graticule and frame used; no explicit longitude-correction note identified.",
+  "crossing_preview_seeds": [
+    [
+      73.5,
+      27.5,
+      447,
+      840
+    ],
+    [
+      74,
+      27.5,
+      1187,
+      851
+    ],
+    [
+      74.5,
+      27.5,
+      1926,
+      860
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 27.8,
+  "tick_windows": {
+    "west": [
+      447,
+      518
+    ],
+    "east": [
+      6260,
+      6320
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 27.833333333333332,
+      "ys": [
+        282,
+        419,
+        557,
+        696,
+        835,
+        973,
+        1111,
+        1250
+      ]
+    },
+    "east": {
+      "first_latitude": 27.833333333333332,
+      "ys": [
+        310,
+        448,
+        587,
+        725,
+        864,
+        1002,
+        1141,
+        1279
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      549,
+      551
+    ],
+    [
+      6210,
+      542
+    ],
+    [
+      6225,
+      4175
+    ],
+    [
+      552,
+      4186
+    ]
+  ],
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native graticule crops show nearly vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified in this edition.",
+  "crossing_local_seeds": [
+    [
+      200,
+      198
+    ],
+    [
+      198,
+      199
+    ],
+    [
+      197,
+      206
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        549,
+        551
+      ],
+      [
+        666,
+        551
+      ],
+      [
+        1967,
+        550
+      ],
+      [
+        3380,
+        548
+      ],
+      [
+        4794,
+        547
+      ],
+      [
+        6095,
+        542
+      ],
+      [
+        6210,
+        542
+      ]
+    ],
+    "east": [
+      [
+        542,
+        6210
+      ],
+      [
+        617,
+        6210
+      ],
+      [
+        1452,
+        6213
+      ],
+      [
+        2359,
+        6216
+      ],
+      [
+        3266,
+        6220
+      ],
+      [
+        4101,
+        6225
+      ],
+      [
+        4175,
+        6225
+      ]
+    ],
+    "south": [
+      [
+        552,
+        4186
+      ],
+      [
+        666,
+        4186
+      ],
+      [
+        1972,
+        4183
+      ],
+      [
+        3390,
+        4178
+      ],
+      [
+        4808,
+        4176
+      ],
+      [
+        6114,
+        4175
+      ],
+      [
+        6225,
+        4175
+      ]
+    ],
+    "west": [
+      [
+        551,
+        549
+      ],
+      [
+        623,
+        549
+      ],
+      [
+        1458,
+        546
+      ],
+      [
+        2365,
+        546
+      ],
+      [
+        3272,
+        548
+      ],
+      [
+        4107,
+        552
+      ],
+      [
+        4186,
+        552
+      ]
+    ]
+  },
+  "frame_maximum_stroke_intensity": 210,
+  "frame_intensity_limit_reason": "Native east-frame-0.jpg through east-frame-2.jpg confirm a faint continuous inner rule. The weakest sampled section is x6210,y681 with median intensity 207/255 against nearby paper 220-226; other weak sections reach 192 and 190. Raise the explicit limit to 210 for this scan; retain measured rule position and four-pixel inset."
+}

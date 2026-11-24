@@ -1,0 +1,245 @@
+{
+  "id": "atlas015-sw-1887",
+  "title": "Indian Atlas 015 SW \u00b7 1887",
+  "sheet": "015",
+  "quarter": "SW",
+  "year": 1887,
+  "source": "sources/zenodo-19431985/sheets/015 SW Quarter Sheet Indian Atlas (1887).jpg",
+  "table": "data/atlas005-ne-1866-projection.json",
+  "condition_note": "Intact southwest quarter sheet; use its own printed graticule and inner frame.",
+  "crossing_preview_seeds": [
+    [
+      71,
+      32.5,
+      820,
+      766
+    ],
+    [
+      71.5,
+      32.5,
+      1534,
+      796
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      194,
+      215
+    ],
+    [
+      211,
+      199
+    ]
+  ],
+  "crossing_search_window": 8,
+  "tick_windows": {
+    "west": [
+      313,
+      373
+    ],
+    "east": [
+      6121,
+      6184
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 32.833333333333336,
+      "ys": [
+        177,
+        320,
+        463,
+        606,
+        749,
+        891,
+        1034,
+        1176,
+        1318
+      ]
+    },
+    "east": {
+      "first_latitude": 32.833333333333336,
+      "ys": [
+        244,
+        387,
+        529,
+        672,
+        815,
+        957,
+        1100,
+        1242
+      ]
+    }
+  },
+  "seed_north_latitude": 32.74,
+  "frame_corners": [
+    [
+      414,
+      499
+    ],
+    [
+      6098,
+      476
+    ],
+    [
+      6104,
+      4139
+    ],
+    [
+      400,
+      4163
+    ]
+  ],
+  "printed_longitude_note": {
+    "location": "Lower right margin, Note paragraph",
+    "source_crop": "work/atlas015-sw-1887/longitude-note.jpg",
+    "transcription": "All Longitudes require a correction of -1\u20329\u2033, to reduce them to the origin of the Great Trigonometrical Survey; viz: the Madras Observatory taken as 80\u00b017\u203221\u2033, and a further correction of -2\u203230\u2033 to reduce them to the latest value 80\u00b014\u203251\u2033, of that Observatory.",
+    "atlas_to_old_gts_arcseconds": -69,
+    "old_gts_to_stated_madras_arcseconds": -150,
+    "printed_total_arcseconds": -219,
+    "applied_working_total_arcseconds": -216.18,
+    "working_minus_printed_arcseconds": 2.82
+  },
+  "longitude_convention_status": "The sheet explicitly prints two corrections: -69\u2033 and -150\u2033 (total -219\u2033). The user-selected working adjustment remains -216.18\u2033, 2.82\u2033 east of that printed total; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "Printed margin confirms -69 arcseconds Atlas to old GTS and states a further -150 arcseconds to Madras 80d14m51s. Retain user-selected working second correction -147.18 arcseconds, total -216.18; this differs from printed total -219 by +2.82 arcseconds. Modern datum alignment remains provisional.",
+  "crossing_measurement_note": "Enlarged native eastern crossing shows the true 32.5-degree parallel through the island at local y199; the initial y217 seed targeted a riverbank. Corrected before accepting the fit.",
+  "crop_edge_guides": {
+    "north": [
+      [
+        414,
+        499
+      ],
+      [
+        520,
+        498
+      ],
+      [
+        1828,
+        493
+      ],
+      [
+        3250,
+        486
+      ],
+      [
+        4672,
+        481
+      ],
+      [
+        5980,
+        476
+      ],
+      [
+        6098,
+        476
+      ]
+    ],
+    "east": [
+      [
+        476,
+        6098
+      ],
+      [
+        548,
+        6098
+      ],
+      [
+        1393,
+        6097
+      ],
+      [
+        2312,
+        6097
+      ],
+      [
+        3230,
+        6099
+      ],
+      [
+        4075,
+        6104
+      ],
+      [
+        4139,
+        6104
+      ]
+    ],
+    "south": [
+      [
+        400,
+        4163
+      ],
+      [
+        511,
+        4163
+      ],
+      [
+        1824,
+        4155
+      ],
+      [
+        3252,
+        4150
+      ],
+      [
+        4679,
+        4147
+      ],
+      [
+        5992,
+        4139
+      ],
+      [
+        6104,
+        4139
+      ]
+    ],
+    "west": [
+      [
+        499,
+        414
+      ],
+      [
+        566,
+        412
+      ],
+      [
+        1410,
+        407
+      ],
+      [
+        2326,
+        402
+      ],
+      [
+        3243,
+        403
+      ],
+      [
+        4087,
+        399
+      ],
+      [
+        4163,
+        400
+      ]
+    ]
+  },
+  "parallel_samples": [
+    {
+      "latitude": 32.5,
+      "pixel": 3500,
+      "line": 2355,
+      "role": "withheld",
+      "search_window": 8
+    },
+    {
+      "latitude": 32.5,
+      "pixel": 5500,
+      "line": 2422,
+      "role": "withheld",
+      "search_window": 8
+    }
+  ],
+  "quality_note": "After correcting an eastern crossing initially confused with a riverbank, verified interior crossings still differ by about 7\u201311 pixels under historical-projection plus affine. Two additional interior parallel checks are withheld from fitting. Internal alignment refinement remains pending."
+}

@@ -1,0 +1,225 @@
+{
+  "id": "atlas012-nw-1888",
+  "title": "Indian Atlas 012 NW \u00b7 1888",
+  "sheet": "012",
+  "quarter": "NW",
+  "year": 1888,
+  "source": "sources/zenodo-19431985/sheets/012 NW Quarter Sheet Indian Atlas (1888).jpg",
+  "table": "data/atlas012-nw-1888-projection.json",
+  "crossing_preview_seeds": [
+    [
+      69,
+      23,
+      748,
+      916
+    ],
+    [
+      69.5,
+      23,
+      1526,
+      955
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      199,
+      198
+    ],
+    [
+      228,
+      201
+    ]
+  ],
+  "crossing_search_window": 10,
+  "tick_windows": {
+    "west": [
+      325,
+      391
+    ],
+    "east": [
+      6163,
+      6235
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 23.333333333333332,
+      "ys": [
+        310,
+        453,
+        598,
+        741,
+        885,
+        1027,
+        1168,
+        1311
+      ]
+    },
+    "east": {
+      "first_latitude": 23.416666666666668,
+      "ys": [
+        260,
+        404,
+        548,
+        691,
+        836,
+        980,
+        1123,
+        1267
+      ]
+    }
+  },
+  "seed_north_latitude": 23.333,
+  "frame_corners": [
+    [
+      426,
+      476
+    ],
+    [
+      6140,
+      457
+    ],
+    [
+      6132,
+      4121
+    ],
+    [
+      413,
+      4143
+    ]
+  ],
+  "printed_longitude_note": {
+    "location": "Lower margin, Notes paragraph",
+    "source_crop": "work/atlas012-nw-1888/longitude-note.jpg",
+    "transcription": "All Longitudes require a correction of -1\u20329\u2033, to reduce them to the origin of the Great Trigonometrical Survey; viz: the Madras Observatory taken as 80\u00b017\u203221\u2033, and a further correction of -2\u203230\u2033 to reduce them to the latest value 80\u00b014\u203251\u2033, of that Observatory.",
+    "atlas_to_old_gts_arcseconds": -69,
+    "old_gts_to_stated_madras_arcseconds": -150,
+    "printed_total_arcseconds": -219,
+    "applied_working_total_arcseconds": -216.18,
+    "working_minus_printed_arcseconds": 2.82
+  },
+  "longitude_convention_status": "The sheet explicitly prints two corrections: -69\u2033 and -150\u2033 (total -219\u2033). The user-selected working adjustment remains -216.18\u2033, 2.82\u2033 east of that printed total; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "Printed margin confirms -69 arcseconds Atlas to old GTS and states a further -150 arcseconds to Madras 80d14m51s. Retain user-selected working second correction -147.18 arcseconds, total -216.18; this differs from printed total -219 by +2.82 arcseconds. Modern datum alignment remains provisional.",
+  "crop_edge_guides": {
+    "north": [
+      [
+        426,
+        476
+      ],
+      [
+        535,
+        476
+      ],
+      [
+        1850,
+        470
+      ],
+      [
+        3278,
+        466
+      ],
+      [
+        4707,
+        461
+      ],
+      [
+        6022,
+        457
+      ],
+      [
+        6140,
+        457
+      ]
+    ],
+    "east": [
+      [
+        457,
+        6140
+      ],
+      [
+        531,
+        6140
+      ],
+      [
+        1377,
+        6138
+      ],
+      [
+        2296,
+        6135
+      ],
+      [
+        3216,
+        6132
+      ],
+      [
+        4062,
+        6132
+      ],
+      [
+        4121,
+        6132
+      ]
+    ],
+    "south": [
+      [
+        413,
+        4143
+      ],
+      [
+        529,
+        4142
+      ],
+      [
+        1845,
+        4134
+      ],
+      [
+        3276,
+        4128
+      ],
+      [
+        4706,
+        4126
+      ],
+      [
+        6022,
+        4121
+      ],
+      [
+        6132,
+        4121
+      ]
+    ],
+    "west": [
+      [
+        476,
+        426
+      ],
+      [
+        548,
+        426
+      ],
+      [
+        1392,
+        424
+      ],
+      [
+        2310,
+        421
+      ],
+      [
+        3228,
+        415
+      ],
+      [
+        4072,
+        413
+      ],
+      [
+        4143,
+        413
+      ]
+    ]
+  }
+}

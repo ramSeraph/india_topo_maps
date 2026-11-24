@@ -1,0 +1,374 @@
+{
+  "id": "atlas013-ne-1883",
+  "title": "Indian Atlas 013 NE \u00b7 1883",
+  "sheet": "013",
+  "quarter": "NE",
+  "year": 1883,
+  "source": "sources/zenodo-19431985/sheets/013 NE Quarter Sheet Indian Atlas (1883).jpg",
+  "table": "data/atlas012-sw-1885-projection.json",
+  "crossing_preview_seeds": [
+    [
+      70,
+      22,
+      345,
+      275
+    ],
+    [
+      70.5,
+      22,
+      1135,
+      309
+    ],
+    [
+      71,
+      22,
+      1925,
+      343
+    ],
+    [
+      70,
+      21.5,
+      310,
+      1124
+    ],
+    [
+      70.5,
+      21.5,
+      1101,
+      1160
+    ],
+    [
+      71,
+      21.5,
+      1897,
+      1193
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      200,
+      200
+    ],
+    [
+      195,
+      201
+    ],
+    [
+      193,
+      192
+    ],
+    [
+      176,
+      199
+    ],
+    [
+      182,
+      195
+    ],
+    [
+      176,
+      193
+    ]
+  ],
+  "crossing_search_window": 10,
+  "tick_windows": {
+    "west": [
+      301,
+      367
+    ],
+    "east": [
+      6108,
+      6180
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 22,
+      "ys": [
+        263,
+        405,
+        548,
+        690,
+        833,
+        976,
+        1119,
+        1261
+      ]
+    },
+    "east": {
+      "first_latitude": 22.083333333333332,
+      "ys": [
+        204,
+        346,
+        489,
+        633,
+        776,
+        919,
+        1062,
+        1206,
+        1348
+      ]
+    }
+  },
+  "seed_north_latitude": 21.967,
+  "frame_corners": [
+    [
+      410,
+      517
+    ],
+    [
+      6096,
+      510
+    ],
+    [
+      6080,
+      4182
+    ],
+    [
+      382,
+      4193
+    ]
+  ],
+  "meridian_samples": [
+    {
+      "longitude": 70,
+      "pixel": 1030,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 70,
+      "pixel": 894,
+      "line": 3700,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 70,
+      "pixel": 1000,
+      "line": 1600,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 70,
+      "pixel": 919,
+      "line": 3200,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 3410,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 3289,
+      "line": 3700,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 3383,
+      "line": 1600,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 70.5,
+      "pixel": 3311,
+      "line": 3200,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 71,
+      "pixel": 5792,
+      "line": 1000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 71,
+      "pixel": 5684,
+      "line": 3700,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 71,
+      "pixel": 5768,
+      "line": 1600,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 71,
+      "pixel": 5704,
+      "line": 3200,
+      "role": "withheld",
+      "search_window": 15
+    }
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        410,
+        517
+      ],
+      [
+        524,
+        517
+      ],
+      [
+        1832,
+        516
+      ],
+      [
+        3253,
+        514
+      ],
+      [
+        4674,
+        511
+      ],
+      [
+        5982,
+        510
+      ],
+      [
+        6096,
+        510
+      ]
+    ],
+    "east": [
+      [
+        510,
+        6096
+      ],
+      [
+        582,
+        6095
+      ],
+      [
+        1427,
+        6087
+      ],
+      [
+        2344,
+        6082
+      ],
+      [
+        3262,
+        6079
+      ],
+      [
+        4107,
+        6080
+      ],
+      [
+        4182,
+        6080
+      ]
+    ],
+    "south": [
+      [
+        382,
+        4193
+      ],
+      [
+        500,
+        4193
+      ],
+      [
+        1810,
+        4189
+      ],
+      [
+        3234,
+        4187
+      ],
+      [
+        4657,
+        4185
+      ],
+      [
+        5967,
+        4182
+      ],
+      [
+        6080,
+        4182
+      ]
+    ],
+    "west": [
+      [
+        517,
+        410
+      ],
+      [
+        595,
+        409
+      ],
+      [
+        1440,
+        404
+      ],
+      [
+        2360,
+        396
+      ],
+      [
+        3279,
+        388
+      ],
+      [
+        4124,
+        383
+      ],
+      [
+        4193,
+        382
+      ]
+    ]
+  },
+  "printed_longitude_note": {
+    "location": "Lower margin, Notes paragraph",
+    "source_crop": "work/atlas013-ne-1883/longitude-note.jpg",
+    "transcription": "All Longitudes require a correction of -1\u20329\u2033, to reduce them to the origin of the Great Trigonometrical Survey; viz: the Madras Observatory taken as 80\u00b017\u203221\u2033, and a further correction of -2\u203230\u2033 to reduce them to the latest value 80\u00b014\u203251\u2033, of that Observatory.",
+    "atlas_to_old_gts_arcseconds": -69,
+    "old_gts_to_stated_madras_arcseconds": -150,
+    "printed_total_arcseconds": -219,
+    "applied_working_total_arcseconds": -216.18,
+    "working_minus_printed_arcseconds": 2.82
+  },
+  "longitude_convention_status": "The sheet explicitly prints two corrections: -69\u2033 and -150\u2033 (total -219\u2033). The user-selected working adjustment remains -216.18\u2033, 2.82\u2033 east of that printed total; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "Printed margin confirms -69 arcseconds Atlas to old GTS and states a further -150 arcseconds to Madras 80d14m51s. Retain user-selected working second correction -147.18 arcseconds, total -216.18; this differs from printed total -219 by +2.82 arcseconds. Modern datum alignment remains provisional.",
+  "tick_search_overrides": {
+    "1": {
+      "initial_line": 1224,
+      "half_window": 4,
+      "reason": "Native enlarged coordinate-labelled crop confirms a faint latitude rule below the numeral; restrict measurement to that printed rule."
+    },
+    "2": {
+      "initial_line": 1650,
+      "half_window": 4,
+      "reason": "Native enlarged coordinate-labelled crop confirms a faint latitude rule below the numeral; restrict measurement to that printed rule."
+    },
+    "5": {
+      "initial_line": 2930,
+      "half_window": 4,
+      "reason": "Native enlarged coordinate-labelled crop confirms a faint latitude rule below the numeral; restrict measurement to that printed rule."
+    },
+    "7": {
+      "initial_line": 3790,
+      "half_window": 2,
+      "reason": "Native enlarged crop and clear-paper intensity profile at x355:377 show the faint 25-minute rule at y3791; centre the measurement at y3790 in the margin window, below the numeral."
+    }
+  }
+}

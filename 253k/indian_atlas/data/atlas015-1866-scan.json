@@ -1,0 +1,400 @@
+{
+  "id": "atlas015-1866",
+  "title": "Indian Atlas 015 \u00b7 1866",
+  "sheet": "015",
+  "quarter": null,
+  "year": 1866,
+  "source": "sources/zenodo-19431985/sheets/015 Sheet Indian Atlas (1866).jpg",
+  "table": "data/atlas005-ne-1866-projection.json",
+  "condition_note": "Intact full sheet; inspect independent native graticule and frame measurements.",
+  "crossing_preview_seeds": [
+    [
+      71,
+      33.5,
+      490,
+      126
+    ],
+    [
+      71.5,
+      33.5,
+      879,
+      140
+    ],
+    [
+      72.5,
+      33.5,
+      1659,
+      166
+    ],
+    [
+      73,
+      33.5,
+      2055,
+      178
+    ],
+    [
+      71,
+      33,
+      466,
+      599
+    ],
+    [
+      71.5,
+      33,
+      859,
+      614
+    ],
+    [
+      72.5,
+      33,
+      1643,
+      636
+    ],
+    [
+      73,
+      33,
+      2040,
+      647
+    ],
+    [
+      71,
+      32.5,
+      440,
+      1076
+    ],
+    [
+      71.5,
+      32.5,
+      837,
+      1089
+    ],
+    [
+      72.5,
+      32.5,
+      1628,
+      1114
+    ],
+    [
+      73,
+      32.5,
+      2026,
+      1125
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      175,
+      216
+    ],
+    [
+      190,
+      222
+    ],
+    [
+      205,
+      223
+    ],
+    [
+      184,
+      205
+    ],
+    [
+      157,
+      203
+    ],
+    [
+      170,
+      213
+    ],
+    [
+      188,
+      230
+    ],
+    [
+      177,
+      212
+    ],
+    [
+      169,
+      176
+    ],
+    [
+      167,
+      194
+    ],
+    [
+      166,
+      190
+    ],
+    [
+      167,
+      171
+    ]
+  ],
+  "crossing_search_window": 12,
+  "tick_windows": {
+    "west": [
+      209,
+      273
+    ],
+    "east": [
+      11482,
+      11546
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 33.5,
+      "ys": [
+        111,
+        190,
+        269,
+        347,
+        426,
+        505,
+        584,
+        663,
+        742,
+        821,
+        900,
+        979,
+        1058,
+        1136,
+        1215,
+        1294,
+        1373
+      ]
+    },
+    "east": {
+      "first_latitude": 33.583333333333336,
+      "ys": [
+        104,
+        183,
+        262,
+        341,
+        420,
+        499,
+        578,
+        657,
+        736,
+        815,
+        894,
+        973,
+        1052,
+        1131,
+        1210,
+        1289,
+        1368
+      ]
+    }
+  },
+  "seed_north_latitude": 33.34,
+  "frame_corners": [
+    [
+      321,
+      304
+    ],
+    [
+      11460,
+      307
+    ],
+    [
+      11455,
+      7504
+    ],
+    [
+      299,
+      7513
+    ]
+  ],
+  "meridian_samples": [
+    {
+      "longitude": 71,
+      "pixel": 2555,
+      "line": 1500,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 71,
+      "pixel": 2256,
+      "line": 7000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 71,
+      "pixel": 2501,
+      "line": 2500,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 71,
+      "pixel": 2311,
+      "line": 6000,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 73,
+      "pixel": 10970,
+      "line": 1500,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 73,
+      "pixel": 10783,
+      "line": 7000,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 73,
+      "pixel": 10936,
+      "line": 2500,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 73,
+      "pixel": 10817,
+      "line": 6000,
+      "role": "withheld",
+      "search_window": 15
+    }
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        321,
+        304
+      ],
+      [
+        528,
+        304
+      ],
+      [
+        3094,
+        315
+      ],
+      [
+        5883,
+        320
+      ],
+      [
+        8672,
+        317
+      ],
+      [
+        11238,
+        308
+      ],
+      [
+        11460,
+        307
+      ]
+    ],
+    "east": [
+      [
+        307,
+        11460
+      ],
+      [
+        449,
+        11460
+      ],
+      [
+        2107,
+        11465
+      ],
+      [
+        3910,
+        11463
+      ],
+      [
+        5712,
+        11462
+      ],
+      [
+        7370,
+        11455
+      ],
+      [
+        7504,
+        11455
+      ]
+    ],
+    "south": [
+      [
+        299,
+        7513
+      ],
+      [
+        508,
+        7513
+      ],
+      [
+        3078,
+        7526
+      ],
+      [
+        5872,
+        7531
+      ],
+      [
+        8667,
+        7517
+      ],
+      [
+        11237,
+        7504
+      ],
+      [
+        11455,
+        7504
+      ]
+    ],
+    "west": [
+      [
+        304,
+        321
+      ],
+      [
+        449,
+        320
+      ],
+      [
+        2110,
+        309
+      ],
+      [
+        3914,
+        299
+      ],
+      [
+        5719,
+        298
+      ],
+      [
+        7380,
+        299
+      ],
+      [
+        7513,
+        299
+      ]
+    ]
+  },
+  "tick_search_overrides": {
+    "33": {
+      "initial_line": 7265,
+      "half_window": 4,
+      "reason": "Native overlay shows the initial preview seed placed the true eastern 15-minute tick outside the search window. Its native line is y7265, visually checked and confirmed by the strip intensity profile."
+    }
+  },
+  "quality_note": "Historical-projection plus affine leaves residual interior distortion: several verified crossings differ by about 10 pixels, with one near 17 pixels. Internal alignment refinement remains pending; edge-check RMS alone does not describe the full sheet.",
+  "frame_stroke_maximum_half_width_pixels": 2,
+  "frame_stroke_width_reason": "Native northeast crop shows terrain hachures touching the inner frame; cap inward stroke extension at two pixels before the four-pixel inset so dark map detail is not treated as frame thickness."
+}

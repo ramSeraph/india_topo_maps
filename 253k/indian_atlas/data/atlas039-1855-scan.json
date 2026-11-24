@@ -1,0 +1,477 @@
+{
+  "crossing_search_window": 10,
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native graticule crops show nearly vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified in this edition.",
+  "id": "atlas039-1855",
+  "title": "Indian Atlas 039 \u00b7 1855",
+  "sheet": "039",
+  "quarter": null,
+  "year": 1855,
+  "source": "sources/zenodo-19431985/sheets/039 Sheet Indian Atlas (1855).jpg",
+  "table": "data/atlas025-1854-projection.json",
+  "condition_note": "Intact full sheet with central fold and no displaced cut panels identified. Native publication confirms 1 November 1855. Own printed graticule and frame measured.",
+  "seed_north_latitude": 19.18,
+  "tick_windows": {
+    "west": [
+      285,
+      345
+    ],
+    "east": [
+      11640,
+      11678
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 19.25,
+      "ys": [
+        120,
+        198,
+        276,
+        354,
+        432,
+        510,
+        588,
+        666,
+        744,
+        822,
+        900,
+        978,
+        1056,
+        1134,
+        1212,
+        1290,
+        1368
+      ]
+    },
+    "east": {
+      "first_latitude": 19.25,
+      "ys": [
+        135,
+        213,
+        291,
+        369,
+        447,
+        525,
+        603,
+        681,
+        759,
+        837,
+        915,
+        993,
+        1071,
+        1149,
+        1227,
+        1305,
+        1383
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      368,
+      397
+    ],
+    [
+      11555,
+      341
+    ],
+    [
+      11610,
+      7585
+    ],
+    [
+      419,
+      7642
+    ]
+  ],
+  "crossing_preview_seeds": [
+    [
+      74,
+      19,
+      500,
+      361
+    ],
+    [
+      74.5,
+      19,
+      940,
+      366
+    ],
+    [
+      75,
+      19,
+      1386,
+      370
+    ],
+    [
+      75.5,
+      19,
+      1826,
+      373
+    ],
+    [
+      74,
+      18.5,
+      499,
+      827
+    ],
+    [
+      74.5,
+      18.5,
+      940,
+      833
+    ],
+    [
+      75,
+      18.5,
+      1385,
+      837
+    ],
+    [
+      75.5,
+      18.5,
+      1826,
+      840
+    ],
+    [
+      74,
+      18,
+      498,
+      1294
+    ],
+    [
+      74.5,
+      18,
+      940,
+      1300
+    ],
+    [
+      75,
+      18,
+      1385,
+      1303
+    ],
+    [
+      75.5,
+      18,
+      1826,
+      1308
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      199,
+      198
+    ],
+    [
+      211,
+      198
+    ],
+    [
+      186,
+      193
+    ],
+    [
+      197,
+      196
+    ],
+    [
+      195,
+      207
+    ],
+    [
+      207,
+      200
+    ],
+    [
+      203,
+      194
+    ],
+    [
+      217,
+      195
+    ],
+    [
+      187,
+      209
+    ],
+    [
+      199,
+      208
+    ],
+    [
+      197,
+      202
+    ],
+    [
+      217,
+      192
+    ]
+  ],
+  "meridian_samples": [
+    {
+      "longitude": 74,
+      "pixel": 2705.130985358132,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 74,
+      "pixel": 2677.707162643451,
+      "line": 7300,
+      "role": "fit"
+    },
+    {
+      "longitude": 74,
+      "pixel": 2696.425009893154,
+      "line": 3000,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74,
+      "pixel": 2684.6719430154335,
+      "line": 5700,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5094.315539739027,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5079.368920521945,
+      "line": 7300,
+      "role": "fit"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5089.570581257414,
+      "line": 3000,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5083.164887307236,
+      "line": 5700,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7475.820665083135,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7483.302850356295,
+      "line": 7300,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7478.1959619952495,
+      "line": 3000,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75,
+      "pixel": 7481.402612826603,
+      "line": 5700,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9862.992079207921,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9887.942574257426,
+      "line": 7300,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9870.912871287128,
+      "line": 3000,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 9881.60594059406,
+      "line": 5700,
+      "role": "withheld"
+    }
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        368,
+        397
+      ],
+      [
+        599,
+        396
+      ],
+      [
+        3172,
+        369
+      ],
+      [
+        5970,
+        351
+      ],
+      [
+        8768,
+        348
+      ],
+      [
+        11341,
+        343
+      ],
+      [
+        11555,
+        341
+      ]
+    ],
+    "east": [
+      [
+        341,
+        11555
+      ],
+      [
+        476,
+        11556
+      ],
+      [
+        2150,
+        11572
+      ],
+      [
+        3970,
+        11591
+      ],
+      [
+        5790,
+        11602
+      ],
+      [
+        7464,
+        11610
+      ],
+      [
+        7585,
+        11610
+      ]
+    ],
+    "south": [
+      [
+        419,
+        7642
+      ],
+      [
+        625,
+        7642
+      ],
+      [
+        3203,
+        7617
+      ],
+      [
+        6006,
+        7600
+      ],
+      [
+        8808,
+        7590
+      ],
+      [
+        11386,
+        7585
+      ],
+      [
+        11610,
+        7585
+      ]
+    ],
+    "west": [
+      [
+        397,
+        368
+      ],
+      [
+        535,
+        368
+      ],
+      [
+        2205,
+        374
+      ],
+      [
+        4020,
+        390
+      ],
+      [
+        5835,
+        403
+      ],
+      [
+        7505,
+        417
+      ],
+      [
+        7642,
+        419
+      ]
+    ]
+  },
+  "tick_search_overrides": {
+    "3": {
+      "initial_line": 1929,
+      "half_window": 7,
+      "reason": "Native independent-check contact shows the broad search selected the printed 19-degree numeral about 29 pixels above its horizontal tick. Restrict search to the visible rule near source line1929; observation remains withheld."
+    }
+  },
+  "quality_note": "Native inspection confirms the fitted crossings, margin ticks and meridian observations. Crossing residuals reach 9.19 source pixels and leave-one-observation-out RMS is 5.64 pixels. Retain the selected historical projection plus affine model and expose the remaining internal mismatch; its cause is not established.",
+  "frame_stroke_maximum_half_width_pixels_by_edge": {
+    "south": 2
+  },
+  "frame_stroke_width_reason": "Native southwest crop shows hill hachures touching the southern inner frame and being treated as additional frame width. Cap southern stroke expansion at two pixels before the four-pixel inset.",
+  "crop_edge_manual_segments": {
+    "south": [
+      {
+        "points": [
+          [
+            419,
+            7637
+          ],
+          [
+            625,
+            7636
+          ],
+          [
+            1140,
+            7631
+          ]
+        ],
+        "reason": "Native southwest detail at source origin340,7520 shows the true inner southern rule near line7642 at the corner,7641 near625 and7636 near1140. Dark hill hachures attract the automatic search upward. These final crop points follow the rule with about five pixels clearance."
+      }
+    ]
+  }
+}

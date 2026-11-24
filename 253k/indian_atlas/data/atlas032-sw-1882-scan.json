@@ -1,0 +1,361 @@
+{
+  "id": "atlas032-sw-1882",
+  "title": "Indian Atlas 032 SW \u00b7 1882",
+  "sheet": "032",
+  "quarter": "SW",
+  "year": 1882,
+  "source": "sources/zenodo-19431985/sheets/032 SW Quarter Sheet Indian Atlas (1882).jpg",
+  "table": "data/atlas001a-se-1871-projection.json",
+  "condition_note": "Intact SW quarter with dense dune shading and survey lines. Native margin confirms April 1882 and printed longitude corrections totaling -219 arcseconds; retain working -216.18.",
+  "crossing_preview_seeds": [
+    [
+      73.5,
+      28.5,
+      462,
+      346
+    ],
+    [
+      74,
+      28.5,
+      1216,
+      357
+    ],
+    [
+      74.5,
+      28.5,
+      1966,
+      367
+    ],
+    [
+      73.5,
+      28,
+      439,
+      1206
+    ],
+    [
+      74,
+      28,
+      1195,
+      1218
+    ],
+    [
+      74.5,
+      28,
+      1951,
+      1227
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 28.55,
+  "tick_windows": {
+    "west": [
+      320,
+      390
+    ],
+    "east": [
+      6160,
+      6220
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 28.583333333333332,
+      "ys": [
+        198,
+        342,
+        485,
+        629,
+        771,
+        914,
+        1057,
+        1201,
+        1345
+      ]
+    },
+    "east": {
+      "first_latitude": 28.583333333333332,
+      "ys": [
+        226,
+        370,
+        512,
+        656,
+        799,
+        941,
+        1085,
+        1228,
+        1371
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      441,
+      470
+    ],
+    [
+      6129,
+      446
+    ],
+    [
+      6130,
+      4121
+    ],
+    [
+      429,
+      4142
+    ]
+  ],
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native crossing crops show near-vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_convention_status": "The sheet explicitly prints two corrections: -69\u2033 and -150\u2033 (total -219\u2033). The user-selected working adjustment remains -216.18\u2033, 2.82\u2033 east of that printed total; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "Printed margin confirms -69 arcseconds Atlas to old GTS and states a further -150 arcseconds to Madras 80d14m51s. Retain user-selected working second correction -147.18 arcseconds, total -216.18; this differs from printed total -219 by +2.82 arcseconds. Modern datum alignment remains provisional.",
+  "printed_longitude_note": {
+    "location": "Lower right margin, Note paragraph",
+    "source_crop": "work/atlas032-sw-1882/printed-longitude-note.jpg",
+    "transcription": "All Longitudes require a correction of -1\u20329\u2033, to reduce them to the origin of the Great Trigonometrical Survey; viz: the Madras Observatory taken as 80\u00b017\u203221\u2033, and a further correction of -2\u203230\u2033 to reduce them to the latest value 80\u00b014\u203251\u2033, of that Observatory.",
+    "atlas_to_old_gts_arcseconds": -69,
+    "old_gts_to_stated_madras_arcseconds": -150,
+    "printed_total_arcseconds": -219,
+    "applied_working_total_arcseconds": -216.18,
+    "working_minus_printed_arcseconds": 2.82
+  },
+  "meridian_samples": [
+    {
+      "longitude": 73.5,
+      "pixel": 1387.4544927272727,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 73.5,
+      "pixel": 1314.5544927272729,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 73.5,
+      "pixel": 1371.2544927272727,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 73.5,
+      "pixel": 1328.0544927272729,
+      "line": 3200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74,
+      "pixel": 3650.8172436363634,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 74,
+      "pixel": 3586.0172436363637,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 74,
+      "pixel": 3636.4172436363638,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74,
+      "pixel": 3598.0172436363637,
+      "line": 3200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5901.509944545454,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5855.609944545455,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5891.3099445454545,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 74.5,
+      "pixel": 5864.109944545455,
+      "line": 3200,
+      "role": "withheld"
+    }
+  ],
+  "crossing_local_seeds": [
+    [
+      205,
+      200
+    ],
+    [
+      201,
+      199
+    ],
+    [
+      209,
+      205
+    ],
+    [
+      206,
+      200
+    ],
+    [
+      208,
+      199
+    ],
+    [
+      206,
+      201
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        441,
+        470
+      ],
+      [
+        555,
+        470
+      ],
+      [
+        1863,
+        462
+      ],
+      [
+        3284,
+        457
+      ],
+      [
+        4706,
+        451
+      ],
+      [
+        6014,
+        446
+      ],
+      [
+        6129,
+        446
+      ]
+    ],
+    "east": [
+      [
+        446,
+        6129
+      ],
+      [
+        521,
+        6129
+      ],
+      [
+        1366,
+        6126
+      ],
+      [
+        2284,
+        6127
+      ],
+      [
+        3202,
+        6128
+      ],
+      [
+        4047,
+        6130
+      ],
+      [
+        4121,
+        6130
+      ]
+    ],
+    "south": [
+      [
+        429,
+        4142
+      ],
+      [
+        545,
+        4142
+      ],
+      [
+        1856,
+        4139
+      ],
+      [
+        3280,
+        4134
+      ],
+      [
+        4704,
+        4128
+      ],
+      [
+        6015,
+        4121
+      ],
+      [
+        6130,
+        4121
+      ]
+    ],
+    "west": [
+      [
+        470,
+        441
+      ],
+      [
+        543,
+        441
+      ],
+      [
+        1388,
+        438
+      ],
+      [
+        2305,
+        434
+      ],
+      [
+        3222,
+        430
+      ],
+      [
+        4067,
+        429
+      ],
+      [
+        4142,
+        429
+      ]
+    ]
+  },
+  "tick_search_overrides": {
+    "7": {
+      "initial_line": 3604,
+      "half_window": 3,
+      "reason": "Native withheld contact shows the broad search selected the bottom of the 28-degree numeral at line 3594.55 instead of the horizontal graticule rule approximately nine pixels below. Restrict to the observed rule near line 3604; retain this observation as withheld."
+    }
+  }
+}

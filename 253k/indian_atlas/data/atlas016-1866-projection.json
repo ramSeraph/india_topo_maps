@@ -1,0 +1,54 @@
+{
+  "source": "1902 Tables for Computing and Projecting Graticules of Sheets of Indian Atlas.pdf",
+  "central_meridian_printed_degrees": 76.5,
+  "reference_radius_fathoms": 7331657.0,
+  "summary_table_pdf_page": 9,
+  "detailed_table_pdf_pages": [
+    39,
+    40,
+    41,
+    42
+  ],
+  "latitudes": [
+    30,
+    31,
+    32,
+    33
+  ],
+  "radius_fathoms": [
+    7331657.0,
+    7271049.6,
+    7210433.1,
+    7149807.3
+  ],
+  "angle_arcseconds_per_longitude_degree": [
+    1483.96,
+    1481.1,
+    1477.72,
+    1473.86
+  ],
+  "sine_check_longitude_offsets": [
+    8,
+    9
+  ],
+  "sine_check_fathoms": [
+    [
+      421744.5,
+      474393.0
+    ],
+    [
+      417452.9,
+      469565.9
+    ],
+    [
+      413029.0,
+      464590.0
+    ],
+    [
+      408487.6,
+      459482.0
+    ]
+  ],
+  "scope": "Latitude 30\u201333 only; no extrapolation. Historical table coordinates are not a modern datum transformation.",
+  "transcription": "Combines already visually checked latitude 30\u201332 values from atlas006-se-1866-projection.json with latitude 33 from atlas006-ne-1866-projection.json. Detailed pages 39\u201342; radius summary page 9. Overlapping latitude 31\u201332 entries agree."
+}

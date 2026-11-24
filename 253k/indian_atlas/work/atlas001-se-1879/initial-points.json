@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "longitude": 67.5,
+    "latitude": 26.5,
+    "crop_origin": [
+      1730,
+      2598
+    ]
+  },
+  {
+    "id": 1,
+    "longitude": 68,
+    "latitude": 26.5,
+    "crop_origin": [
+      4027,
+      2745
+    ]
+  }
+]

@@ -1,0 +1,305 @@
+{
+  "id": "atlas035-ne-1879-colored",
+  "title": "Indian Atlas 035 NE \u00b7 1879 \u00b7 colored",
+  "sheet": "035",
+  "quarter": "NE",
+  "year": 1879,
+  "source": "sources/zenodo-19431985/sheets/035 NE Quarter Sheet Indian Atlas (1879) colored.jpg",
+  "table": "data/atlas002-se-1874-projection.json",
+  "condition_note": "Intact NE quarter with colored boundaries and dense hill shading. Native publication confirms May 1879. Own printed graticule and frame measured.",
+  "crossing_preview_seeds": [
+    [
+      75,
+      25,
+      755,
+      268
+    ],
+    [
+      75.5,
+      25,
+      1518,
+      270
+    ],
+    [
+      75,
+      24.5,
+      746,
+      1106
+    ],
+    [
+      75.5,
+      24.5,
+      1514,
+      1105
+    ]
+  ],
+  "crossing_search_window": 10,
+  "seed_north_latitude": 24.96,
+  "tick_windows": {
+    "west": [
+      350,
+      425
+    ],
+    "east": [
+      6160,
+      6225
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 25,
+      "ys": [
+        264,
+        404,
+        544,
+        684,
+        824,
+        963,
+        1103,
+        1243
+      ]
+    },
+    "east": {
+      "first_latitude": 25,
+      "ys": [
+        268,
+        408,
+        547,
+        686,
+        826,
+        966,
+        1106,
+        1246
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      460,
+      526
+    ],
+    [
+      6100,
+      481
+    ],
+    [
+      6129,
+      4104
+    ],
+    [
+      474,
+      4147
+    ]
+  ],
+  "meridian_search_window": 12,
+  "line_slope_bounds": {
+    "vertical": [
+      -0.06,
+      0.015
+    ],
+    "horizontal": [
+      -0.01,
+      0.06
+    ]
+  },
+  "line_slope_bounds_reason": "Native graticule crops show nearly vertical meridians and gently tilted parallels within these bounds.",
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified in this edition.",
+  "meridian_samples": [
+    {
+      "longitude": 75,
+      "pixel": 2283.9766890557094,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 2269.0418806795733,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 75,
+      "pixel": 2280.657842749901,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75,
+      "pixel": 2271.807585934413,
+      "line": 3200,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4591.929221035983,
+      "line": 1000,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4590.8616053776195,
+      "line": 3700,
+      "role": "fit"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4591.691973111902,
+      "line": 1600,
+      "role": "withheld"
+    },
+    {
+      "longitude": 75.5,
+      "pixel": 4591.05931198102,
+      "line": 3200,
+      "role": "withheld"
+    }
+  ],
+  "crossing_local_seeds": [
+    [
+      198,
+      203
+    ],
+    [
+      195,
+      203
+    ],
+    [
+      212,
+      196
+    ],
+    [
+      206,
+      203
+    ]
+  ],
+  "crop_edge_guides": {
+    "north": [
+      [
+        460,
+        526
+      ],
+      [
+        575,
+        525
+      ],
+      [
+        1872,
+        518
+      ],
+      [
+        3283,
+        508
+      ],
+      [
+        4694,
+        496
+      ],
+      [
+        5991,
+        482
+      ],
+      [
+        6100,
+        481
+      ]
+    ],
+    "east": [
+      [
+        481,
+        6100
+      ],
+      [
+        558,
+        6101
+      ],
+      [
+        1391,
+        6109
+      ],
+      [
+        2296,
+        6116
+      ],
+      [
+        3200,
+        6123
+      ],
+      [
+        4033,
+        6128
+      ],
+      [
+        4104,
+        6129
+      ]
+    ],
+    "south": [
+      [
+        474,
+        4147
+      ],
+      [
+        587,
+        4146
+      ],
+      [
+        1887,
+        4136
+      ],
+      [
+        3300,
+        4126
+      ],
+      [
+        4712,
+        4115
+      ],
+      [
+        6012,
+        4105
+      ],
+      [
+        6129,
+        4104
+      ]
+    ],
+    "west": [
+      [
+        526,
+        460
+      ],
+      [
+        599,
+        460
+      ],
+      [
+        1432,
+        463
+      ],
+      [
+        2336,
+        467
+      ],
+      [
+        3240,
+        470
+      ],
+      [
+        4073,
+        473
+      ],
+      [
+        4147,
+        474
+      ]
+    ]
+  },
+  "tick_search_overrides": {
+    "13": {
+      "initial_line": 2926,
+      "half_window": 8,
+      "reason": "Native withheld-check contact shows the broad search selected the printed 35-minute label about 24 pixels above the horizontal tick. Restrict the search to the visibly distinct horizontal tick at source line about 2926; keep this observation withheld."
+    }
+  }
+}

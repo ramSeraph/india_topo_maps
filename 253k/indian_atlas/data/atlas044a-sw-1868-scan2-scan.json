@@ -1,0 +1,333 @@
+{
+  "id": "atlas044a-sw-1868-scan2",
+  "title": "Indian Atlas 044A SW \u00b7 1868 \u00b7 scan 2",
+  "sheet": "044A",
+  "quarter": "SW",
+  "year": 1868,
+  "source": "sources/zenodo-19431985/sheets/044A SW Quarter Sheet Indian Atlas (1868) 2.jpg",
+  "table": "data/atlas044a-nw-1872-projection.json",
+  "condition_note": "Intact uncoloured second scan of northern extension quarter; dense mountain hatching. Independent scan measurements.",
+  "source_identification_note": "Printed 44A S.W.; publication July 15th 1868. Northern continuation 44A N.W., eastern continuation 44A S.E., southern continuation 45 N.W.",
+  "crossing_preview_seeds": [
+    [
+      76,
+      35.5,
+      489,
+      695
+    ],
+    [
+      76.5,
+      35.5,
+      1174,
+      697
+    ],
+    [
+      77,
+      35.5,
+      1860,
+      685
+    ]
+  ],
+  "crossing_local_seeds": [
+    [
+      192,
+      201
+    ],
+    [
+      199,
+      200
+    ],
+    [
+      202,
+      205
+    ]
+  ],
+  "crossing_search_window": 8,
+  "seed_north_latitude": 35.7,
+  "tick_windows": {
+    "west": [
+      330,
+      405
+    ],
+    "east": [
+      6255,
+      6330
+    ]
+  },
+  "tick_preview_seeds": {
+    "west": {
+      "first_latitude": 35.75,
+      "ys": [
+        279,
+        417,
+        557,
+        695,
+        833,
+        973,
+        1112,
+        1251
+      ]
+    },
+    "east": {
+      "first_latitude": 35.75,
+      "ys": [
+        269,
+        407,
+        546,
+        685,
+        824,
+        961,
+        1100,
+        1238
+      ]
+    }
+  },
+  "frame_corners": [
+    [
+      455,
+      522
+    ],
+    [
+      6231,
+      503
+    ],
+    [
+      6228,
+      4151
+    ],
+    [
+      436,
+      4183
+    ]
+  ],
+  "line_slope_bounds": {
+    "vertical": [
+      -0.03,
+      0.03
+    ],
+    "horizontal": [
+      -0.025,
+      0.025
+    ]
+  },
+  "line_slope_bounds_reason": "Native preview shows nearly vertical meridians and almost horizontal parallels on this northern extension near the central meridian.",
+  "meridian_samples": [
+    {
+      "longitude": 76,
+      "pixel": 1494,
+      "line": 1037,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 76,
+      "pixel": 1478,
+      "line": 3872,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 76,
+      "pixel": 1491,
+      "line": 1616,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 76,
+      "pixel": 1481,
+      "line": 3202,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 76.5,
+      "pixel": 3586,
+      "line": 1037,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 76.5,
+      "pixel": 3572,
+      "line": 3872,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 76.5,
+      "pixel": 3583,
+      "line": 1616,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 76.5,
+      "pixel": 3575,
+      "line": 3202,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 77,
+      "pixel": 5673,
+      "line": 1037,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 77,
+      "pixel": 5680,
+      "line": 3872,
+      "role": "fit",
+      "search_window": 15
+    },
+    {
+      "longitude": 77,
+      "pixel": 5674,
+      "line": 1616,
+      "role": "withheld",
+      "search_window": 15
+    },
+    {
+      "longitude": 77,
+      "pixel": 5678,
+      "line": 3202,
+      "role": "withheld",
+      "search_window": 15
+    }
+  ],
+  "longitude_convention_status": "No explicit longitude-correction note identified in visible margins. Retain user-selected working correction -216.18 arcseconds; modern datum alignment remains provisional.",
+  "longitude_correction_basis": "User-selected two-correction working hypothesis: -69 arcseconds Atlas to old GTS, then -147.18 arcseconds. No correction note identified on this edition.",
+  "frame_stroke_maximum_half_width_pixels_by_edge": {
+    "north": 2,
+    "west": 2,
+    "south": 2,
+    "east": 2
+  },
+  "frame_stroke_width_reason": "Native corners show mountain hatching touching the inner frame. Cap dark-stroke extension at two pixels before the four-pixel inset so terrain does not widen the inferred frame.",
+  "seed_provenance": "Search windows independently read from this scan at 2200px preview width, to be confirmed on native printed strokes; fit/withheld roles assigned before fitting.",
+  "crop_edge_guides": {
+    "north": [
+      [
+        455,
+        522
+      ],
+      [
+        570,
+        522
+      ],
+      [
+        1898,
+        519
+      ],
+      [
+        3343,
+        513
+      ],
+      [
+        4788,
+        508
+      ],
+      [
+        6116,
+        504
+      ],
+      [
+        6231,
+        503
+      ]
+    ],
+    "east": [
+      [
+        503,
+        6231
+      ],
+      [
+        576,
+        6231
+      ],
+      [
+        1417,
+        6229
+      ],
+      [
+        2331,
+        6228
+      ],
+      [
+        3245,
+        6228
+      ],
+      [
+        4086,
+        6228
+      ],
+      [
+        4151,
+        6228
+      ]
+    ],
+    "south": [
+      [
+        436,
+        4183
+      ],
+      [
+        552,
+        4182
+      ],
+      [
+        1884,
+        4174
+      ],
+      [
+        3332,
+        4166
+      ],
+      [
+        4781,
+        4160
+      ],
+      [
+        6113,
+        4152
+      ],
+      [
+        6228,
+        4151
+      ]
+    ],
+    "west": [
+      [
+        522,
+        455
+      ],
+      [
+        594,
+        455
+      ],
+      [
+        1436,
+        447
+      ],
+      [
+        2352,
+        441
+      ],
+      [
+        3268,
+        439
+      ],
+      [
+        4110,
+        436
+      ],
+      [
+        4183,
+        436
+      ]
+    ]
+  },
+  "quality_note": "Historical-projection plus affine retains a verified central crossing residual of 15.43 source pixels; leave-one-observation-out RMS 5.71 pixels. Fourteen withheld graticule checks RMS 1.71 arcseconds. Native central-crossing-wide.jpg confirms the measured parallel; the lower 77-degree meridian is independently traced in meridian77-lower-native.jpg. Internal alignment refinement remains pending."
+}
