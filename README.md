@@ -9,7 +9,7 @@ Collection of topographic maps of India from various sources, organized by scale
 Survey of India’s historical Indian Atlas. The mosaic combines 308 editions across 121 sheet IDs. Quarter sheets overlay full sheets, and later editions take precedence within each extent.
 
 - [Demo/Compare](https://ramseraph.github.io/india_topo_maps/253k/indian_atlas/compare/) · [Browse individual sheets](https://indianopenmaps.com/stac-viewer?collection=indian-atlas-253k)
-- [Original scans](https://github.com/ramSeraph/india_topo_maps/releases/tag/253k-indian-atlas-orig) · [1902 graticule tables (PDF)](https://github.com/ramSeraph/india_topo_maps/releases/download/253k-indian-atlas-orig/graticules_indian_atlas.pdf)
+- [Original scans](https://github.com/ramSeraph/india_topo_maps/releases/tag/253k-indian-atlas-orig) · [1902 graticule tables (PDF)](https://github.com/ramSeraph/india_topo_maps/releases/download/soi-ancillary/graticules_indian_atlas.pdf)
 - [Georeferenced sheets (COGs)](https://github.com/ramSeraph/india_topo_maps/releases/tag/253k-indian-atlas-georef) · [PMTiles mosaic](https://github.com/ramSeraph/india_topo_maps/releases/tag/253k-indian-atlas-pmtiles) · [Mosaic sheet footprints (GeoJSON)](https://github.com/ramSeraph/india_topo_maps/releases/download/253k-indian-atlas-pmtiles/bounds.geojson)
 - [Automatic georeferencing and projection notes](253k/indian_atlas/)
 

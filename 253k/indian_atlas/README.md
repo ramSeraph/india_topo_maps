@@ -37,7 +37,7 @@ Check the fit decision in `work/atlas-book-edges/<edition>/status.json` before r
 
 ## How the 1902 graticule tables enter the fit
 
-Page numbers below count from the cover of the 329-page [Tables for Computing and Projecting the Graticules of the Sheets of the Indian Atlas](https://github.com/ramSeraph/india_topo_maps/releases/download/253k-indian-atlas-orig/graticules_indian_atlas.pdf), archive identifier NAIDLB00092229.
+Page numbers below count from the cover of the 329-page [Tables for Computing and Projecting the Graticules of the Sheets of the Indian Atlas](https://github.com/ramSeraph/india_topo_maps/releases/download/soi-ancillary/graticules_indian_atlas.pdf), archive identifier NAIDLB00092229.
 
 | PDF pages | Evidence in the book | Use in the code |
 |---|---|---|
