@@ -1,0 +1,12 @@
+topo-map-processor[parse]==0.1.26
+PyMuPDF==2.1
+numpy==2.5.5
+opencv-python-headless==5.1.0.95
+Pillow==13.0.0
+Shapely==2.2.0
+pyproj==3.8.0
+rasterio==1.5.2
+mercantile==1.2.1
+pmtiles-mosaic==0.2.0
+pmtiles==3.4.1
+gh-release-tools==0.1.15
