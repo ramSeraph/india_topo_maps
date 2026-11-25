@@ -4,7 +4,7 @@ Collection of topographic maps of India from various sources, organized by scale
 
 **Website**: [https://ramseraph.github.io/india_topo_maps/](https://ramseraph.github.io/india_topo_maps/)
 
-## 1:253,440 Scale - Indian Atlas
+## 1:253k Scale - Indian Atlas
 
   - **Source**: Survey of India
   - **Coverage**: 308 historical editions across 121 sheet IDs
