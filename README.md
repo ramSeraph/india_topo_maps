@@ -4,14 +4,19 @@ Collection of topographic maps of India from various sources, organized by scale
 
 **Website**: [https://ramseraph.github.io/india_topo_maps/](https://ramseraph.github.io/india_topo_maps/)
 
-## 1:253k Scale - Indian Atlas
+## 1:253,440 Scale - Indian Atlas
 
-Survey of India’s historical Indian Atlas. The mosaic combines 308 editions across 121 sheet IDs. Quarter sheets overlay full sheets, and later editions take precedence within each extent.
-
-- [Demo/Compare](https://ramseraph.github.io/india_topo_maps/253k/indian_atlas/compare/) · [Browse individual sheets](https://indianopenmaps.com/stac-viewer?collection=indian-atlas-253k)
-- [Original scans](https://github.com/ramSeraph/india_topo_maps/releases/tag/253k-indian-atlas-orig) · [1902 graticule tables (PDF)](https://github.com/ramSeraph/india_topo_maps/releases/download/soi-ancillary/graticules_indian_atlas.pdf)
-- [Georeferenced sheets (COGs)](https://github.com/ramSeraph/india_topo_maps/releases/tag/253k-indian-atlas-georef) · [PMTiles mosaic](https://github.com/ramSeraph/india_topo_maps/releases/tag/253k-indian-atlas-pmtiles) · [Mosaic sheet footprints (GeoJSON)](https://github.com/ramSeraph/india_topo_maps/releases/download/253k-indian-atlas-pmtiles/bounds.geojson)
-- [Automatic georeferencing and projection notes](253k/indian_atlas/)
+  - **Source**: Survey of India
+  - **Coverage**: 308 historical editions across 121 sheet IDs
+  - **Mosaic**: Quarter sheets overlay full sheets. Later editions take precedence within each extent.
+  - [Demo/Compare](https://ramseraph.github.io/india_topo_maps/253k/indian_atlas/compare/)
+  - [Browse Individual Sheets (STAC)](https://indianopenmaps.com/stac-viewer?collection=indian-atlas-253k)
+  - [Original Scans](https://github.com/ramSeraph/india_topo_maps/releases/tag/253k-indian-atlas-orig)
+  - [Georeferenced Sheets (GeoTIFFs)](https://github.com/ramSeraph/india_topo_maps/releases/tag/253k-indian-atlas-georef)
+  - [PMTiles](https://github.com/ramSeraph/india_topo_maps/releases/tag/253k-indian-atlas-pmtiles)
+  - [Mosaic Sheet Footprints (GeoJSON)](https://github.com/ramSeraph/india_topo_maps/releases/download/253k-indian-atlas-pmtiles/bounds.geojson)
+  - [1902 Graticule Tables (PDF)](https://github.com/ramSeraph/india_topo_maps/releases/download/soi-ancillary/graticules_indian_atlas.pdf)
+  - [Automatic Georeferencing and Projection Notes](253k/indian_atlas/)
 
 ## 1:50,000 Scale - Open Series Maps (OSM)
   - **Source**: Survey of India
@@ -39,11 +44,16 @@ Survey of India’s historical Indian Atlas. The mosaic combines 308 editions ac
   - [Sheet Index (GeoJSON)](https://github.com/ramSeraph/india_topo_maps/releases/download/soi-ancillary/index_25k.geojson)
 
 ## 1:25,000 Scale - Coastal Zone Management Plan (CZMP)
-  - **Source**: Coastal Zone Management Plan
-  - **Coverage**: Coastal areas of India
+
+  - **Source**: National Centre for Sustainable Coastal Management and state coastal zone management authorities
+  - **Coverage**: Coastal areas of India. Sheets shared by two states or union territories are clipped at their common boundary.
+  - [Demo/Compare](https://indianopenmaps.com/raster-viewer#left=%2Fczmp%2F25k%2Fncscm%2F&right=osm&map=13/16.75721/82.21619)
   - [Sheet Listing](https://ramseraph.github.io/india_topo_maps/25k/czmp/sheets)
-  - [Original Sheets (PDFs)](https://github.com/ramSeraph/india_topo_maps/releases/tag/25k-czmp-orig)
-  - **Note**: Raw PDF files only, no georeferenced data or PMTiles available
+  - [Browse Individual Sheets (STAC)](https://indianopenmaps.com/stac-viewer?collection=india-czmp-25k)
+  - [Original Sheets](https://github.com/ramSeraph/india_topo_maps/releases/tag/25k-czmp-orig)
+  - [Georeferenced Sheets (EPSG:3857 GeoTIFFs)](https://github.com/ramSeraph/india_topo_maps/releases/tag/25k-czmp-georef)
+  - [PMTiles (WebP, zooms 0–15)](https://github.com/ramSeraph/india_topo_maps/releases/tag/25k-czmp-pmtiles)
+  - [Mosaic Sheet Footprints (GeoJSON)](https://github.com/ramSeraph/india_topo_maps/releases/download/25k-czmp-pmtiles/bounds.geojson)
 
 ## 1:5,000 Scale - CMPDI
   - **Source**: Survey of India and Central Mine Planning and Design Institute
@@ -56,7 +66,7 @@ Survey of India’s historical Indian Atlas. The mosaic combines 308 editions ac
 ## Using the Data
 
 ### Downloading PMTiles as MBTiles
-For projects with PMTiles support (Indian Atlas 253k, OSM 50k and NHP 25k), you can download the data as MBTiles:
+The Indian Atlas, OSM and NHP mosaics are split across several PMTiles files. The following commands download and combine each mosaic into one MBTiles file.
 
 ```bash
 # Install uv
@@ -72,11 +82,14 @@ uvx --from pmtiles-mosaic download-mosaic -u https://github.com/ramSeraph/india_
 uvx --from pmtiles-mosaic download-mosaic -u https://github.com/ramSeraph/india_topo_maps/releases/download/25k-nhp-pmtiles/SOI-NHP-25k.mosaic.json -o soi_nhp_25k.mbtiles
 ```
 
+The CZMP mosaic is distributed as a [single PMTiles archive](https://github.com/ramSeraph/india_topo_maps/releases/download/25k-czmp-pmtiles/CZMP-25k.pmtiles).
+
 ### Tile URLs
 
 - **253k Indian Atlas** `https://indianopenmaps.com/soi/253k/indian-atlas/{z}/{x}/{y}.webp`
 - **50k OSM**: `https://indianopenmaps.com/soi/osm/{z}/{x}/{y}.webp`
 - **25k NHP**: `https://indianopenmaps.com/soi/25k/nhp/{z}/{x}/{y}.webp`
+- **25k CZMP**: `https://indianopenmaps.com/czmp/25k/ncscm/{z}/{x}/{y}.webp`
 
 ### Using with JOSM
 The tile URLs can be used with JOSM after installing:
