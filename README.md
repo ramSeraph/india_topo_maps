@@ -46,7 +46,8 @@ Collection of topographic maps of India from various sources, organized by scale
 ## 1:25,000 Scale - Coastal Zone Management Plan (CZMP)
 
   - **Source**: National Centre for Sustainable Coastal Management and state coastal zone management authorities
-  - **Coverage**: Coastal areas of India. Sheets shared by two states or union territories are clipped at their common boundary.
+  - **Coverage**: Coastal areas of India. The mosaic uses 1,007 sheets. Where editions share a grid cell, 31 pairs are clipped at state or union territory boundaries and seven pairs at Maharashtra district boundaries.
+  - The originals release contains 1,018 files. The mosaic uses West Bengal’s 71 approved CRZ 2011 sheets. Its 11 draft CRZ 2019 JPEGs are available in the originals release.
   - [Demo/Compare](https://indianopenmaps.com/raster-viewer#left=%2Fczmp%2F25k%2Fncscm%2F&right=osm&map=13/16.75721/82.21619)
   - [Sheet Listing](https://ramseraph.github.io/india_topo_maps/25k/czmp/sheets)
   - [Browse Individual Sheets (STAC)](https://indianopenmaps.com/stac-viewer?collection=india-czmp-25k)
